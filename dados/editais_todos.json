@@ -1,5 +1,119 @@
 [
   {
+    "id": 1545,
+    "torid": 146360,
+    "createdBy": "marcio.freire",
+    "title": "PNUD BRA/25/024 - Edital nº 04/2026 – Contrat. de consult. - Engenharia de Dados",
+    "startDate": "2026-09-14T03:00:00",
+    "endDate": "2026-09-22T03:00:00",
+    "local": "Brasília - DF",
+    "receivingEmail": "estatisticastrabalho@trabalho.gov.br",
+    "enabled": true,
+    "description": "Edital nº 04/2026 – Contratação de consultoria especializada (pessoa física) para estruturação de fluxos de dados, organização de consultas analíticas recorrentes e automação de processos de produção de estatísticas públicas do trabalho da Subsecretaria de Estatísticas e Estudos do Trabalho – SEET/MTE.",
+    "approver": "aline.santana,andrea.bolzon,brenda.felix,carolina.parisotto,livia.nogueira,livia.silva,rosana.tomazini",
+    "comments": "TR revisado e validado pelo PNUD.",
+    "created": "2026-09-10T11:12:33.7056743",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1546,
+    "torid": 146361,
+    "createdBy": "marcio.freire",
+    "title": "PNUD BRA/25/024 - Consultoria Especializada - Qualidade de Dados I",
+    "startDate": "2026-09-14T03:00:00",
+    "endDate": "2026-09-22T03:00:00",
+    "local": "Brasília - DF",
+    "receivingEmail": "estatisticastrabalho@trabalho.gov.br",
+    "enabled": true,
+    "description": "Edital nº 05/2026 – Contratação de consultoria especializada (pessoa física) para desenvolvimento de metodologias de auditoria, monitoramento e qualificação de dados administrativos da Subsecretaria de Estatísticas e Estudos do Trabalho – SEET/MTE.",
+    "approver": "aline.santana,andrea.bolzon,brenda.felix,carolina.parisotto,livia.nogueira,livia.silva,rosana.tomazini",
+    "comments": "TR revisado e validado pelo PNUD",
+    "created": "2026-09-10T11:18:10.8379397",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1547,
+    "torid": 146362,
+    "createdBy": "marcio.freire",
+    "title": "PNUD BRA/25/024 - Edital nº 06/2026 - Consultoria Especializada - Qualidade de Dados II",
+    "startDate": "2026-09-14T03:00:00",
+    "endDate": "2026-09-22T03:00:00",
+    "local": "Brasília - DF",
+    "receivingEmail": "estatisticastrabalho@trabalho.gov.br",
+    "enabled": true,
+    "description": "Edital nº 06/2026 – Contratação de consultoria especializada (pessoa física) para avaliação metodológica, validação e documentação técnica de produtos estatísticos derivados de bases administrativas da Subsecretaria de Estatísticas e Estudos do Trabalho – SEET/MTE.",
+    "approver": "aline.santana,andrea.bolzon,brenda.felix,carolina.parisotto,livia.nogueira,livia.silva,rosana.tomazini",
+    "comments": "TR revisado e validado pelo PNUD",
+    "created": "2026-09-10T11:20:43.0948032",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "unesco:1011b77e-9c7a-4ea9-2632-08df0e687345",
+    "title": "914BRZ1159 - Publicação Edital 39/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada em Gestão de Projetos e Processos para realizar análises e desenvolver instrumentos voltados à gestão das informações do FUNDEB.",
+    "comments": "",
+    "startDate": "2026-09-14T00:00:00",
+    "endDate": "2026-09-18T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-14T00:00:00",
+    "torid": "unesco:1011b77e-9c7a-4ea9-2632-08df0e687345",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/718ea47b-6e07-4fb0-9a6d-08df0f391488"
+    ]
+  },
+  {
+    "id": "unesco:a42aa3e1-2e33-46e6-2633-08df0e687345",
+    "title": "914BRZ1159 - Publicação Edital 38/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada em Engenharia e Análise de Dados para desenvolver estudos visando aprimorar a assistência Técnica-Financeira prestada pelo MEC às Redes de Ensino.",
+    "comments": "",
+    "startDate": "2026-09-14T00:00:00",
+    "endDate": "2026-09-18T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-14T00:00:00",
+    "torid": "unesco:a42aa3e1-2e33-46e6-2633-08df0e687345",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/983bfaa7-3cc0-453b-9a65-08df0f391488"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 13236",
+    "description": "Consultoria técnica especializada para desenvolver proposta, testar em caráter piloto, avaliar e documentar a metodologia de implantação e governança de bases de conhecimento e instrumentos de acompanhamento do desempenho e da qualidade dos conteúdos utilizados na alimentação dos agentes de Inteligência Artificial da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
+    "comments": "Não informado",
+    "startDate": "2026-09-13",
+    "endDate": "2026-09-18",
+    "local": "São Paulo - SP",
+    "receivingEmail": "ugp@educacao.sp.gov.br",
+    "statusDescription": "En presentación",
+    "created": "2026-09-13",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-13236.pdf"
+    ]
+  },
+  {
     "id": "unesco:5907e744-d46d-4c01-2eaf-08df08e94b75",
     "title": "914BRZ1159 - Publicação Edital 37/2026 - 2 vagas - Consultor Individual",
     "description": "Consultoria especializada em Educação para realizar análise das ações e proposição do eixo de formação no âmbito do Compromisso Nacional Criança Alfabetizada.",
@@ -191,7 +305,7 @@
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR13238",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR 13238",
     "description": "Contratação de 1 (um) consultor especialista em Gestão de Projetos para assessorar a execução e o monitoramento no âmbito do projeto de cooperação técnica internacional. Além de produzir relatórios técnicos e financeiros demonstrando a evolução das atividades, o consultor especialista dará apoio à OEI e à SEDUC-RS nas atividades diárias, fornecerá orientações e recomendações que serão fundamentais para decisões em diferentes etapas do projeto. Isso inclui a identificação e mitigação de riscos, bem como o alinhamento com padrões de qualidade e eficiência, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
     "comments": "Não Informado",
     "startDate": "2026-09-10",
@@ -1534,7 +1648,8 @@
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2026/08/edital-concorrencia-no-13126-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/08/link-para-concorrencia-n-13126-2026-oei-mdhc-tecnica-e-preco.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-01-13126-2026.pdf"
+      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-01-13126-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-02-13126-2026.pdf"
     ]
   },
   {

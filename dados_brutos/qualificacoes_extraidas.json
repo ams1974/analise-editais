@@ -5845,5 +5845,251 @@
     "descricao": "Consultoria especializada em Educação para realizar análise das ações e proposição do eixo de formação no âmbito do Compromisso Nacional Criança Alfabetizada.",
     "local": "",
     "data_fim": "2026-09-18"
+  },
+  {
+    "torid": "146360",
+    "graduacao": [
+      "ciência da computação",
+      "sistemas de informação",
+      "engenharia",
+      "economia",
+      "estatística",
+      "matemática",
+      "física",
+      "gestão pública",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sql",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "13.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "qualificação mínima obrigatória (eliminatória): • formação acadêmica:",
+      "graduação completa em ciência da computação, sistemas de informação, engenharia, estatística, ciência",
+      "de dados, matemática, economia ou áreas correlatas, em instituição reconhecida pelo ministério da",
+      "educação; • experiência profissional: experiência profissional mínima de 5 (cinco) anos em atividades",
+      "relacionadas à engenharia de dados, análise de dados, desenvolvimento de rotinas de processamento,",
+      "automação de processos analíticos, bancos de dados, inteligência analítica, business intelligence ou",
+      "desenvolvimento de soluções de dados; • experiência em projetos: experiência comprovada em, no",
+      "mínimo, 3 (três) projetos relacionados à integração de dados, desenvolvimento de fluxos de carga e",
+      "transformação, automação de rotinas analíticas, estruturação de bancos de dados, organização de",
+      "repositórios de consultas, desenvolvimento de painéis ou produtos de business intelligence. .2"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "PNUD BRA/25/024 - Edital nº 04/2026 – Contrat. de consult. - Engenharia de Dados",
+    "descricao": "Edital nº 04/2026 – Contratação de consultoria especializada (pessoa física) para estruturação de fluxos de dados, organização de consultas analíticas recorrentes e automação de processos de produção de estatísticas públicas do trabalho da Subsecretaria de Estatísticas e Estudos do Trabalho – SEET/MTE.",
+    "local": "Brasília - DF",
+    "data_fim": "2026-09-22"
+  },
+  {
+    "torid": "146361",
+    "graduacao": [
+      "ciência da computação",
+      "sistemas de informação",
+      "engenharia",
+      "economia",
+      "administração",
+      "estatística",
+      "ciência de dados",
+      "matemática",
+      "gestão pública",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "13.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "qualificação mínima obrigatória (eliminatória): • formação acadêmica:",
+      "graduação completa em estatística, economia, ciência de dados, matemática, ciência da computação,",
+      "engenharia, sistemas de informação, administração pública, políticas públicas ou áreas correlatas, em",
+      "instituição reconhecida pelo ministério da educação; • experiência profissional: experiência mínima de 5",
+      "(cinco) anos em atividades relacionadas à análise de dados, ciência de dados, engenharia de dados,",
+      "estatísticas públicas, auditoria de dados, inteligência analítica ou desenvolvimento de soluções analíticas; •",
+      "experiência comprovada em, no mínimo, 3 (três) projetos relacionados à análise de grandes bases de dados,",
+      "produção de indicadores, desenvolvimento metodológico, governança de dados ou desenvolvimento de",
+      "soluções analíticas. 2."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "PNUD BRA/25/024 - Consultoria Especializada - Qualidade de Dados I",
+    "descricao": "Edital nº 05/2026 – Contratação de consultoria especializada (pessoa física) para desenvolvimento de metodologias de auditoria, monitoramento e qualificação de dados administrativos da Subsecretaria de Estatísticas e Estudos do Trabalho – SEET/MTE.",
+    "local": "Brasília - DF",
+    "data_fim": "2026-09-22"
+  },
+  {
+    "torid": "146362",
+    "graduacao": [
+      "ciência da computação",
+      "sistemas de informação",
+      "engenharia",
+      "economia",
+      "administração",
+      "estatística",
+      "ciência de dados",
+      "matemática",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "13.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "qualificação mínima obrigatória (eliminatória): • formação acadêmica:",
+      "graduação completa em estatística, economia, ciência de dados, matemática, ciência da computação,",
+      "engenharia, sistemas de informação, administração pública, políticas públicas ou áreas correlatas, em",
+      "instituição reconhecida pelo ministério da educação; • experiência profissional: experiência mínima de 5",
+      "(cinco) anos em atividades relacionadas à análise de dados, estatísticas públicas, produção de indicadores,",
+      "avaliação metodológica, validação de produtos estatísticos, documentação técnica ou produção de",
+      "evidências para políticas públicas; • experiência comprovada em, no mínimo, 3 (três) projetos relacionados",
+      "à análise de bases de dados, produção de indicadores, avaliação metodológica, validação de produtos",
+      "estatísticos, documentação técnica, elaboração de notas metodológicas ou estudos técnicos. 2"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "PNUD BRA/25/024 - Edital nº 06/2026 - Consultoria Especializada - Qualidade de Dados II",
+    "descricao": "Edital nº 06/2026 – Contratação de consultoria especializada (pessoa física) para avaliação metodológica, validação e documentação técnica de produtos estatísticos derivados de bases administrativas da Subsecretaria de Estatísticas e Estudos do Trabalho – SEET/MTE.",
+    "local": "Brasília - DF",
+    "data_fim": "2026-09-22"
+  },
+  {
+    "torid": "unesco:1011b77e-9c7a-4ea9-2632-08df0e687345",
+    "graduacao": [
+      "administração",
+      "gestão pública",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 5,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1159 - Publicação Edital 39/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada em Gestão de Projetos e Processos para realizar análises e desenvolver instrumentos voltados à gestão das informações do FUNDEB.",
+    "local": "",
+    "data_fim": "2026-09-18"
+  },
+  {
+    "torid": "unesco:a42aa3e1-2e33-46e6-2633-08df0e687345",
+    "graduacao": [
+      "ciência da computação",
+      "sistemas de informação",
+      "engenharia",
+      "administração",
+      "estatística",
+      "arquitetura",
+      "ciência de dados",
+      "matemática",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 4,
+    "ferramentas": [
+      "python",
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1159 - Publicação Edital 38/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada em Engenharia e Análise de Dados para desenvolver estudos visando aprimorar a assistência Técnica-Financeira prestada pelo MEC às Redes de Ensino.",
+    "local": "",
+    "data_fim": "2026-09-18"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "direito",
+      "ciências sociais",
+      "inteligência artificial",
+      "física"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 4,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 13236",
+    "descricao": "Consultoria técnica especializada para desenvolver proposta, testar em caráter piloto, avaliar e documentar a metodologia de implantação e governança de bases de conhecimento e instrumentos de acompanhamento do desempenho e da qualidade dos conteúdos utilizados na alimentação dos agentes de Inteligência Artificial da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
+    "local": "São Paulo - SP",
+    "data_fim": "2026-09-18"
   }
 ]
