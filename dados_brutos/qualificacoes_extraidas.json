@@ -6091,5 +6091,140 @@
     "descricao": "Consultoria técnica especializada para desenvolver proposta, testar em caráter piloto, avaliar e documentar a metodologia de implantação e governança de bases de conhecimento e instrumentos de acompanhamento do desempenho e da qualidade dos conteúdos utilizados na alimentação dos agentes de Inteligência Artificial da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
     "local": "São Paulo - SP",
     "data_fim": "2026-09-18"
+  },
+  {
+    "torid": "146373",
+    "graduacao": [
+      "ciência da computação",
+      "sistemas de informação",
+      "engenharia",
+      "economia",
+      "estatística",
+      "ciência de dados",
+      "matemática"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 5,
+    "ferramentas": [
+      "power bi",
+      "power automate",
+      "python",
+      "r",
+      "sql",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "43.200,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "educação: • . • formação superior em ciência da computação, estatística,",
+      "matemática, engenharia, ciência de dados, sistemas de informação ou áreas quantitativas correlatas.",
+      "experiência: • mínimo de 5 anos de experiência atuando como cientista de dados; • experiência em etl;",
+      "• experiência no uso de python."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 26/2026 – Contratação de Consultoria Individual para aprimoramento de soluções analíticas e computacionais aplicadas ao Modelo de Mensuração de Custos da Digitalização de Serviços Públicos ",
+    "descricao": "Edital nº 26/2026 – Contratação de Consultoria Individual para aprimoramento de soluções analíticas e computacionais aplicadas ao Modelo de Mensuração de Custos da Digitalização de Serviços Públicos ",
+    "local": "Remoto",
+    "data_fim": "2026-09-30"
+  },
+  {
+    "torid": "146374",
+    "graduacao": [
+      "engenharia",
+      "direito",
+      "arquitetura",
+      "urbanismo",
+      "física",
+      "gestão pública",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic",
+      "stata",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "14.400,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "educação: - formação técnica de nível superior em arquitetura e",
+      "urbanismo, ou engenharia civil, ou geociências, ou áreas afins, reconhecida pelo mec. deverá apresentar",
+      "diploma ou certificado comprobatório. experiência: - experiência profissional comprovada de no mínimo",
+      "3 (três) anos em projetos e/ou estudos técnicos na área de urbanismo, ou gestão territorial, ou áreas afins;",
+      "ou 6 (seis) contratos distintos (experiências comprovadas) em projetos e/ou estudos técnicos na área de",
+      "urbanismo, ou gestão territorial, ou áreas afins. deverá apresentar documentos comprobatórios, tais como:",
+      "declaração de dados funcionais emitida por instituição pública ou privada, contendo, inclusive, as",
+      "atribuições do cargo. se necessário, juntar edital do concurso, grifando o trecho das atribuições do cargo.",
+      "também poderão ser apresentadas certidões ou atestados de capacidade técnica; e projetos autorais ou de",
+      "coparticipação em equipes (apresentar rrt/art ou outra comprovação de autoria)."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 27/2026 – Contratação de Consultoria Individual II - para produção de material técnico de apoio à elaboração de projetos de acessibilidade em praias – Manual de Servidões de Passagem para Orlas e Praias",
+    "descricao": "Edital nº 27/2026 – Contratação de Consultoria Individual II - para produção de material técnico de apoio à elaboração de projetos de acessibilidade em praias – Manual de Servidões de Passagem para Orlas e Praias",
+    "local": "Remoto",
+    "data_fim": "2026-09-30"
+  },
+  {
+    "torid": "146375",
+    "graduacao": [
+      "engenharia",
+      "direito",
+      "arquitetura",
+      "urbanismo",
+      "física",
+      "gestão pública",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic",
+      "stata",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "14.400,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "educação: - formação técnica de nível superior em arquitetura e",
+      "urbanismo, engenharia civil ou áreas afins, reconhecida pelo mec. deverá apresentar diploma ou",
+      "certificado comprobatório. experiência: - experiência profissional comprovada de no mínimo 3 (três)",
+      "anos em projetos e/ou estudos técnicos na área de urbanismo; ou 6 (seis) contratos distintos (experiências",
+      "comprovadas) em projetos e/ou estudos técnicos na área de urbanismo. deverá apresentar documentos",
+      "comprobatórios, tais como: declaração de dados funcionais emitida por instituição pública ou privada,",
+      "contendo, inclusive, as atribuições do cargo. se necessário, juntar edital do concurso, grifando o trecho das",
+      "atribuições do cargo. também poderão ser apresentadas certidões ou atestados de capacidade técnica; e",
+      "projetos autorais ou de coparticipação em equipes (apresentar rrt/art ou outra comprovação de autoria)."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 28/2026 - Contratação de Consultoria Individual I - para produção de material técnico de apoio à elaboração de projetos de acessibilidade em praias – Manual de Acessibilidade em Orlas e Praias",
+    "descricao": "Edital nº 28/2026 - Contratação de Consultoria Individual I - para produção de material técnico de apoio à elaboração de projetos de acessibilidade em praias – Manual de Acessibilidade em Orlas e Praias",
+    "local": "REMOTO",
+    "data_fim": "2026-09-30"
   }
 ]

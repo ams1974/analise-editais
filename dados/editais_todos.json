@@ -1,5 +1,62 @@
 [
   {
+    "id": 1544,
+    "torid": 146373,
+    "createdBy": "jainara.araujo",
+    "title": "Edital nº 26/2026 – Contratação de Consultoria Individual para aprimoramento de soluções analíticas e computacionais aplicadas ao Modelo de Mensuração de Custos da Digitalização de Serviços Públicos ",
+    "startDate": "2026-09-15T03:00:00",
+    "endDate": "2026-09-30T03:00:00",
+    "local": "Remoto",
+    "receivingEmail": "prodoc.mgi@gestao.gov.br",
+    "enabled": true,
+    "description": "Edital nº 26/2026 – Contratação de Consultoria Individual para aprimoramento de soluções analíticas e computacionais aplicadas ao Modelo de Mensuração de Custos da Digitalização de Serviços Públicos ",
+    "approver": "henrique.lacerda,hgo,karen.barros,luciana.aguiar,luciana.brant,MA,mayra.almeida,thais.pires",
+    "comments": "",
+    "created": "2026-09-10T11:06:36.4362768",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1548,
+    "torid": 146374,
+    "createdBy": "jainara.araujo",
+    "title": "Edital nº 27/2026 – Contratação de Consultoria Individual II - para produção de material técnico de apoio à elaboração de projetos de acessibilidade em praias – Manual de Servidões de Passagem para Orlas e Praias",
+    "startDate": "2026-09-15T03:00:00",
+    "endDate": "2026-09-30T03:00:00",
+    "local": "Remoto",
+    "receivingEmail": "prodoc.mgi@gestao.gov.br",
+    "enabled": true,
+    "description": "Edital nº 27/2026 – Contratação de Consultoria Individual II - para produção de material técnico de apoio à elaboração de projetos de acessibilidade em praias – Manual de Servidões de Passagem para Orlas e Praias",
+    "approver": "henrique.lacerda,hgo,karen.barros,luciana.aguiar,luciana.brant,MA,mayra.almeida,thais.pires",
+    "comments": "",
+    "created": "2026-09-10T12:52:51.8319235",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1549,
+    "torid": 146375,
+    "createdBy": "jainara.araujo",
+    "title": "Edital nº 28/2026 - Contratação de Consultoria Individual I - para produção de material técnico de apoio à elaboração de projetos de acessibilidade em praias – Manual de Acessibilidade em Orlas e Praias",
+    "startDate": "2026-09-15T03:00:00",
+    "endDate": "2026-09-30T03:00:00",
+    "local": "REMOTO",
+    "receivingEmail": "prodoc.mgi@gestao.gov.br",
+    "enabled": true,
+    "description": "Edital nº 28/2026 - Contratação de Consultoria Individual I - para produção de material técnico de apoio à elaboração de projetos de acessibilidade em praias – Manual de Acessibilidade em Orlas e Praias",
+    "approver": "henrique.lacerda,hgo,karen.barros,luciana.aguiar,luciana.brant,MA,mayra.almeida,thais.pires",
+    "comments": "",
+    "created": "2026-09-10T13:53:36.7378717",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
     "id": 1545,
     "torid": 146360,
     "createdBy": "marcio.freire",
@@ -172,7 +229,7 @@
   },
   {
     "id": "unesco:8c824e7b-7b9a-4a59-7ffc-08df082d82f3",
-    "title": "914BRZ1163 - Publicação -  Edital 68/2026 - 01 Vaga consultor Individual",
+    "title": "914BRZ1163 - Publicação -  Edital 68/2026 - 04 Vagas consultor Individual",
     "description": "Consultoria especializada em articulação comunitária com recorte de gênero para acompanhar, analisar e sistematizar a implementação de ações de aproximação entre famílias, comunidades, escolas ",
     "comments": "",
     "startDate": "2026-09-11T00:00:00",
@@ -1627,7 +1684,8 @@
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencia-no-13125-2026-oei-mdhc/",
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2026/08/edital-concorrencia-no-13125-2026-oei-mdhc.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/link-para-concorrencia-n-13125-2026-oei-mdhc.pdf"
+      "https://oei.int/wp-content/uploads/2026/08/link-para-concorrencia-n-13125-2026-oei-mdhc.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-01-13125-2025.pdf"
     ]
   },
   {
