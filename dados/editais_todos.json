@@ -1,5 +1,45 @@
 [
   {
+    "id": "unesco:7863ef0f-6e11-4770-df18-08df01dbdf45",
+    "title": "914BRZ1155 - EDITAL Nº 51/2026 - 3 vagas - Consultor Individual - REPUBLICAÇÃO",
+    "description": "Consultoria especializada para subsidiar a Coordenação-Geral da Juventude – CGJUV na realização da avaliação das ações implementadas no âmbito do Programa Nacional de Grêmios Estudantis – Participa Jo",
+    "comments": "",
+    "startDate": "2026-09-16T00:00:00",
+    "endDate": "2026-09-21T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-16T00:00:00",
+    "torid": "unesco:7863ef0f-6e11-4770-df18-08df01dbdf45",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/7625f8b5-ca49-4c2b-31cd-08df029a6aab",
+      "https://apiroster.brasilia.unesco.org/api/public/download/50d805c2-a357-46a9-31cf-08df029a6aab",
+      "https://apiroster.brasilia.unesco.org/api/public/download/05c6b2b4-ba30-48f1-ddb5-08df13170622"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13247",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MEMP/SEBRAE/2024 – TR13247",
+    "description": "Contratação de consultor individual especialista em Machine Learning/Ciência de Dados para conceber, desenvolver, testar e implantar, em versão MVP (produto mínimo viável), solução de inteligência artificial destinada a microempreendedores individuais, microempresas e empresas de pequeno porte que não atuem necessariamente como empreendedores climáticos, capaz de: receber e analisar informações sobre o negócio, sua operação, objetivos e dificuldades, apoiando o diagnóstico empresarial (operação, produtividade, custos, desperdícios, eficiência e necessidade de modernização) identificar oportunidades de melhoria e relacioná-las a soluções sustentáveis capazes de gerar benefícios econômicos e ambientais priorizar e explicar as soluções recomendadas conforme a aderência ao perfil e às necessidades do empreendimento, indicando os dados adicionais necessários identificar oportunidades de financiamento compatíveis, apresentar requisitos, documentos e nível de preparação, e apoiar a organização do projeto do investimento selecionado integrar-se à Plataforma Empreender Clima e aos demais componentes de IA do programa, permitindo acompanhamento das recomendações e coleta de feedback e operar de forma segura, escalável e estável em infraestrutura computacional dedicada para atendimento ao público geral.",
+    "comments": "R$ 110.000,00",
+    "startDate": "2026-09-16",
+    "endDate": "2026-09-21",
+    "local": "Dados Remoto",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-09-16",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13247",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13247/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13247.pdf"
+    ]
+  },
+  {
     "id": 1544,
     "torid": 146373,
     "createdBy": "jainara.araujo",
@@ -590,26 +630,6 @@
     "tor_urls": [
       "https://apiroster.brasilia.unesco.org/api/public/download/279bee14-983b-4a30-3674-08df0344ae5c",
       "https://apiroster.brasilia.unesco.org/api/public/download/509f1c98-f29f-41dd-3676-08df0344ae5c"
-    ]
-  },
-  {
-    "id": "unesco:7863ef0f-6e11-4770-df18-08df01dbdf45",
-    "title": "914BRZ1155 - EDITAL Nº 51/2026 - 3 vagas - Consultor Individual",
-    "description": "Consultoria especializada para subsidiar a Coordenação-Geral da Juventude – CGJUV na realização da avaliação das ações implementadas no âmbito do Programa Nacional de Grêmios Estudantis – Participa Jo",
-    "comments": "",
-    "startDate": "2026-09-01T00:00:00",
-    "endDate": "2026-09-09T00:00:00",
-    "local": "",
-    "receivingEmail": "",
-    "statusDescription": "Ongoing",
-    "created": "2026-09-01T00:00:00",
-    "torid": "unesco:7863ef0f-6e11-4770-df18-08df01dbdf45",
-    "fonte": "unesco",
-    "orgao_parceiro": "UNESCO",
-    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "tor_urls": [
-      "https://apiroster.brasilia.unesco.org/api/public/download/7625f8b5-ca49-4c2b-31cd-08df029a6aab",
-      "https://apiroster.brasilia.unesco.org/api/public/download/50d805c2-a357-46a9-31cf-08df029a6aab"
     ]
   },
   {
@@ -1707,7 +1727,8 @@
       "https://oei.int/wp-content/uploads/2026/08/edital-concorrencia-no-13126-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/08/link-para-concorrencia-n-13126-2026-oei-mdhc-tecnica-e-preco.pdf",
       "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-01-13126-2026.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-02-13126-2026.pdf"
+      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-02-13126-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-03-13126-2026.pdf"
     ]
   },
   {

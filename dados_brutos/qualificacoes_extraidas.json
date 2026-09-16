@@ -6226,5 +6226,73 @@
     "descricao": "Edital nº 28/2026 - Contratação de Consultoria Individual I - para produção de material técnico de apoio à elaboração de projetos de acessibilidade em praias – Manual de Acessibilidade em Orlas e Praias",
     "local": "REMOTO",
     "data_fim": "2026-09-30"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13247",
+    "graduacao": [
+      "ciência da computação",
+      "engenharia de software",
+      "sistemas de informação",
+      "engenharia",
+      "economia",
+      "administração",
+      "estatística",
+      "direito",
+      "arquitetura",
+      "ciência de dados",
+      "inteligência artificial",
+      "matemática",
+      "física"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r",
+      "sql",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Inglês",
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "110.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "curso superior completo em ciência da computação, engenharia, estatística, matemática, física,",
+      "ciência de dados, sistemas de informação ou áreas correlatas de natureza tecnológica ou",
+      "quantitativa, com diploma reconhecido pelo mec.",
+      "b. exigências específicas requisito obrigatório e pontuável máximo de 30 pontos",
+      "experiência comprovada de no mínimo 4 anos em ciência de dados, machine learning e/ou",
+      "engenharia de ml (mlops), incluindo modelagem e automação de pipelines ou desenvolvimento de",
+      "soluções baseadas em ia:",
+      "30 pontos: acima de 7 anos 20 pontos: acima de 5 até 7 anos 10 pontos: de 4 até 5 anos."
+    ],
+    "requisitos_desejaveis": [
+      "não obrigatórios e pontuáveis máximo de 40 pontos",
+      "desenvolvimento de soluções baseadas em llms, agentes, rag ou sistemas de recomendação",
+      "15 pontos: acima de 3 anos 10 pontos: acima de 1 até 3 anos 05 pontos: até 1 ano.",
+      "mlops/llmops, computação em nuvem e infraestrutura para modelos de ia",
+      "10 pontos: acima de 3 anos 06 pontos: acima de 1 até 3 anos 03 pontos: até 1 ano.",
+      "pós-graduação em ciência de dados, ia, machine learning, estatística, computação, áreas",
+      "correlatas quantitativas ou de gestão de tecnologia e inovação",
+      "10 pontos: doutorado 06 pontos: mestrado 03 pontos: especialização/mba ou equivalente.",
+      "proficiência em idiomas",
+      "05 pontos: inglês fluente ou avançado."
+    ],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MEMP/SEBRAE/2024 – TR13247",
+    "descricao": "Contratação de consultor individual especialista em Machine Learning/Ciência de Dados para conceber, desenvolver, testar e implantar, em versão MVP (produto mínimo viável), solução de inteligência artificial destinada a microempreendedores individuais, microempresas e empresas de pequeno porte que não atuem necessariamente como empreendedores climáticos, capaz de: receber e analisar informações sobre o negócio, sua operação, objetivos e dificuldades, apoiando o diagnóstico empresarial (operação, produtividade, custos, desperdícios, eficiência e necessidade de modernização) identificar oportunidades de melhoria e relacioná-las a soluções sustentáveis capazes de gerar benefícios econômicos e ambientais priorizar e explicar as soluções recomendadas conforme a aderência ao perfil e às necessidades do empreendimento, indicando os dados adicionais necessários identificar oportunidades de financiamento compatíveis, apresentar requisitos, documentos e nível de preparação, e apoiar a organização do projeto do investimento selecionado integrar-se à Plataforma Empreender Clima e aos demais componentes de IA do programa, permitindo acompanhamento das recomendações e coleta de feedback e operar de forma segura, escalável e estável em infraestrutura computacional dedicada para atendimento ao público geral.",
+    "local": "Dados Remoto",
+    "data_fim": "2026-09-21"
   }
 ]
