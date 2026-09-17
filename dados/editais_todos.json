@@ -1,5 +1,123 @@
 [
   {
+    "id": 1566,
+    "torid": 146390,
+    "createdBy": "aline.razoni",
+    "title": "BRA/24/018 - CONTRATAÇÃO DE CONSULTOR ESPECIALIZADO EM POLÍTICA DE INOVAÇÃO E DE TRANSFORMAÇÃO DIGITAL",
+    "startDate": "2026-09-17T06:00:00",
+    "endDate": "2026-10-01T06:00:00",
+    "local": "Salvador/BA",
+    "receivingEmail": "selecaopnud0326@pge.ba.gov.br",
+    "enabled": true,
+    "description": "null",
+    "approver": "aline.bacelar,gabriela.silva,kassya.fernandes,leonel.neto,livia.karkow,ticiana.sousa,vanessa.jesus,yldson.serrao@undp.org",
+    "comments": "",
+    "created": "2026-09-16T15:06:59.7780472",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1553,
+    "torid": 146386,
+    "createdBy": "marcio.freire",
+    "title": "BRA/25/024 - Edital nº 08/2026 – Contratação de 6 (seis) consultorias especializadas (pessoa física) para revisão, consolidação, simplificação e otimização de atos normativos trabalhistas infralegais no Brasil",
+    "startDate": "2026-09-17T03:00:00",
+    "endDate": "2026-09-27T03:00:00",
+    "local": "Híbrido, com eventuais reuniões presenciais em Brasília/DF",
+    "receivingEmail": "processoseletivo.sat@trabalho.gov.br",
+    "enabled": true,
+    "description": "Contratação de consultoria, com os seguintes objetivos:\r\n\r\nObjeto 1 – FGTS, REMUNERAÇÃO E CRÉDITOS\r\nObjeto 2 - SAÚDE E SEGURANÇA DO TRABALHADOR\r\nObjeto 3 – QUALIFICAÇÃO PROFISSIONAL\r\nObjeto 4 – CONTRATO DE TRABALHO\r\nObjeto 5 - DURAÇÃO DO TRABALHO\r\nObjeto 6 – IGUALDADE E COMBATE À DISCRIMINAÇÃO",
+    "approver": "aline.santana,andrea.bolzon,brenda.felix,carolina.parisotto,livia.nogueira,livia.silva,rosana.tomazini",
+    "comments": "TR revisado e validado pelo PNUD",
+    "created": "2026-09-14T19:50:41.5871654",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "unesco:c9020343-9d28-49e3-b9e3-08df0436270c",
+    "title": "914BRZ1155 - EDITAL Nº 52/2026 - 1 vaga - Consultor Individual - REPUBLICAÇÃO",
+    "description": "A presente contratação tem por finalidade à avaliação da implementação, dos resultados e das contribuições da Rede Nacional de Cursinhos Populares (CPOP) para a promoção da equidade no acesso à educaç",
+    "comments": "",
+    "startDate": "2026-09-17T00:00:00",
+    "endDate": "2026-09-21T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-17T00:00:00",
+    "torid": "unesco:c9020343-9d28-49e3-b9e3-08df0436270c",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/88f37533-ba30-4089-96a2-08df0425e2a2",
+      "https://apiroster.brasilia.unesco.org/api/public/download/532e2705-20f6-4e48-96a4-08df0425e2a2",
+      "https://apiroster.brasilia.unesco.org/api/public/download/58105f38-ff3b-4361-36ac-08df13db2bc5"
+    ]
+  },
+  {
+    "id": "unesco:6f0bebf7-7be2-4b29-17c5-08df04786cdd",
+    "title": "914BRZ1155 - EDITAL Nº 53/2026 - 1 vaga - Consultor Individual - REPUBLICAÇÃO",
+    "description": "Contratação de consultoria para realizar levantamento, análise e sistematização de normativos, programas, ações, estratégias e instrumentos de gestão relacionados à promoção da equidade",
+    "comments": "",
+    "startDate": "2026-09-17T00:00:00",
+    "endDate": "2026-09-21T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-17T00:00:00",
+    "torid": "unesco:6f0bebf7-7be2-4b29-17c5-08df04786cdd",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/b434a8b0-b435-40c8-a38e-08df04eac88f",
+      "https://apiroster.brasilia.unesco.org/api/public/download/765d1b6c-8100-4338-a390-08df04eac88f",
+      "https://apiroster.brasilia.unesco.org/api/public/download/f2d9e059-8e5b-42ed-36ae-08df13db2bc5"
+    ]
+  },
+  {
+    "id": "unesco:34a61630-55f8-4262-9489-08df0f3a2d32",
+    "title": "914BRZ1156 - edital 08/2026 - Consultor Individual",
+    "description": "Consultoria especializada em comunicação para elaborar subsídios técnicos destinados ao fortalecimento da transparência da comunicação institucional e da participação social no âmbito do FNE.",
+    "comments": "",
+    "startDate": "2026-09-17T00:00:00",
+    "endDate": "2026-09-24T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-17T00:00:00",
+    "torid": "unesco:34a61630-55f8-4262-9489-08df0f3a2d32",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/d8b381f7-0270-44a4-ddad-08df13170622"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13242",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/003 – TR13242",
+    "description": "A presente contratação tem como objetivo selecionar um(a) consultor(a) para executar as atividades estabelecidas neste Termo de Referência, com o propósito de fornecer subsídios técnicos para a articulação territorial das políticas de participação social. A atuação do profissional terá ênfase nas atividades de mobilização social e no apoio direto aos colegiados de desenvolvimento territorial, bem como às instâncias vinculadas ao Programa de Produção e Consumo de Alimentos Saudáveis nos Territórios do Nordeste (PAS Nordeste). Espera-se que o trabalho desenvolvido viabilize a promoção e o fortalecimento de processos participativos, reconhecendo as dinâmicas dos espaços urbanos e rurais como instâncias legítimas de escuta, diálogo e incidência social. Somado a isso, a consultoria permitirá uma melhor articulação das ações do Governo Federal nos territórios, em especial daquelas relacionadas ao PAS Nordeste. Essa abordagem assegurará a integração fundamental entre a escuta da sociedade, a mobilização comunitária e a sistematização técnica das demandas expressas nos colegiados de desenvolvimento local. Por fim, a execução dessas atividades resultará na produção de registros, análises e outros insumos técnicos essenciais. Esses produtos contribuirão de forma contínua para o aprimoramento e a consolidação das estratégias institucionais de territorialização da participação social conduzidas pela Secretaria Nacional de Participação Social.",
+    "comments": "R$ 30.000,00",
+    "startDate": "2026-09-17",
+    "endDate": "2026-09-21",
+    "local": "Remoto",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-09-17",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13242",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13242/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13242.pdf"
+    ]
+  },
+  {
     "id": "unesco:7863ef0f-6e11-4770-df18-08df01dbdf45",
     "title": "914BRZ1155 - EDITAL Nº 51/2026 - 3 vagas - Consultor Individual - REPUBLICAÇÃO",
     "description": "Consultoria especializada para subsidiar a Coordenação-Geral da Juventude – CGJUV na realização da avaliação das ações implementadas no âmbito do Programa Nacional de Grêmios Estudantis – Participa Jo",
@@ -633,26 +751,6 @@
     ]
   },
   {
-    "id": "unesco:c9020343-9d28-49e3-b9e3-08df0436270c",
-    "title": "914BRZ1155 - EDITAL Nº 52/2026 - 1 vaga - Consultor Individual",
-    "description": "A presente contratação tem por finalidade à avaliação da implementação, dos resultados e das contribuições da Rede Nacional de Cursinhos Populares (CPOP) para a promoção da equidade no acesso à educaç",
-    "comments": "",
-    "startDate": "2026-09-01T00:00:00",
-    "endDate": "2026-09-08T00:00:00",
-    "local": "",
-    "receivingEmail": "",
-    "statusDescription": "Ongoing",
-    "created": "2026-09-01T00:00:00",
-    "torid": "unesco:c9020343-9d28-49e3-b9e3-08df0436270c",
-    "fonte": "unesco",
-    "orgao_parceiro": "UNESCO",
-    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "tor_urls": [
-      "https://apiroster.brasilia.unesco.org/api/public/download/88f37533-ba30-4089-96a2-08df0425e2a2",
-      "https://apiroster.brasilia.unesco.org/api/public/download/532e2705-20f6-4e48-96a4-08df0425e2a2"
-    ]
-  },
-  {
     "id": "unesco:b74745df-a51d-41c1-b9e5-08df0436270c",
     "title": "914BRZ1155 - EDITAL Nº 55/2026 - 1 vaga - Consultor Individual",
     "description": "Consultoria especializada para elaborar boletins com narrativas de dados sobre as violências nas escolas, a partir da consolidação, sistematização e análise de indicadores do ObservaDH",
@@ -690,26 +788,6 @@
     "tor_urls": [
       "https://apiroster.brasilia.unesco.org/api/public/download/10c4aeef-43da-41e5-05ab-08df0469bc8a",
       "https://apiroster.brasilia.unesco.org/api/public/download/12f2a951-45bd-45e3-05ad-08df0469bc8a"
-    ]
-  },
-  {
-    "id": "unesco:6f0bebf7-7be2-4b29-17c5-08df04786cdd",
-    "title": "914BRZ1155 - EDITAL Nº 53/2026 - 1 vaga - Consultor Individual",
-    "description": "Contratação de consultoria para realizar levantamento, análise e sistematização de normativos, programas, ações, estratégias e instrumentos de gestão relacionados à promoção da equidade",
-    "comments": "",
-    "startDate": "2026-09-01T00:00:00",
-    "endDate": "2026-09-08T00:00:00",
-    "local": "",
-    "receivingEmail": "",
-    "statusDescription": "Ongoing",
-    "created": "2026-09-01T00:00:00",
-    "torid": "unesco:6f0bebf7-7be2-4b29-17c5-08df04786cdd",
-    "fonte": "unesco",
-    "orgao_parceiro": "UNESCO",
-    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "tor_urls": [
-      "https://apiroster.brasilia.unesco.org/api/public/download/b434a8b0-b435-40c8-a38e-08df04eac88f",
-      "https://apiroster.brasilia.unesco.org/api/public/download/765d1b6c-8100-4338-a390-08df04eac88f"
     ]
   },
   {

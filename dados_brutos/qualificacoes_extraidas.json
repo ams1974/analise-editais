@@ -6294,5 +6294,170 @@
     "descricao": "Contratação de consultor individual especialista em Machine Learning/Ciência de Dados para conceber, desenvolver, testar e implantar, em versão MVP (produto mínimo viável), solução de inteligência artificial destinada a microempreendedores individuais, microempresas e empresas de pequeno porte que não atuem necessariamente como empreendedores climáticos, capaz de: receber e analisar informações sobre o negócio, sua operação, objetivos e dificuldades, apoiando o diagnóstico empresarial (operação, produtividade, custos, desperdícios, eficiência e necessidade de modernização) identificar oportunidades de melhoria e relacioná-las a soluções sustentáveis capazes de gerar benefícios econômicos e ambientais priorizar e explicar as soluções recomendadas conforme a aderência ao perfil e às necessidades do empreendimento, indicando os dados adicionais necessários identificar oportunidades de financiamento compatíveis, apresentar requisitos, documentos e nível de preparação, e apoiar a organização do projeto do investimento selecionado integrar-se à Plataforma Empreender Clima e aos demais componentes de IA do programa, permitindo acompanhamento das recomendações e coleta de feedback e operar de forma segura, escalável e estável em infraestrutura computacional dedicada para atendimento ao público geral.",
     "local": "Dados Remoto",
     "data_fim": "2026-09-21"
+  },
+  {
+    "torid": "146386",
+    "graduacao": [
+      "engenharia",
+      "direito",
+      "ciências sociais",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "especialização",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "8.807,91",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "qualificação mínima obrigatória (eliminatória): para todos os objetos:",
+      "• graduação em direito, ciências sociais, políticas públicas, engenharia, ou outra área de nível superior",
+      "compatível; • experiência mínima de 3 anos relacionada à legislação trabalhista; • experiência mínima de",
+      "1 ano em revisão e consolidação, sistematização, construção normativa ou atividades correlatas; 2"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "BRA/25/024 - Edital nº 08/2026 – Contratação de 6 (seis) consultorias especializadas (pessoa física) para revisão, consolidação, simplificação e otimização de atos normativos trabalhistas infralegais no Brasil",
+    "descricao": "Contratação de consultoria, com os seguintes objetivos:\r\n\r\nObjeto 1 – FGTS, REMUNERAÇÃO E CRÉDITOS\r\nObjeto 2 - SAÚDE E SEGURANÇA DO TRABALHADOR\r\nObjeto 3 – QUALIFICAÇÃO PROFISSIONAL\r\nObjeto 4 – CONTRATO DE TRABALHO\r\nObjeto 5 - DURAÇÃO DO TRABALHO\r\nObjeto 6 – IGUALDADE E COMBATE À DISCRIMINAÇÃO",
+    "local": "Híbrido, com eventuais reuniões presenciais em Brasília/DF",
+    "data_fim": "2026-09-27"
+  },
+  {
+    "torid": "146390",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "física"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "stata",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [
+      "scrum"
+    ],
+    "valor": "49.580,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "/eliminatórios (registrados no cv):",
+      "da formação acadêmica",
+      "a) nível superior completo em qualquer área de conhecimento, em instituição reconhecida",
+      "pelo ministério da educação/instituição internacional específica, caso estrangeiro.",
+      "b) pós-graduação em gestão da inovação, gestão de desenvolvimento organizacional, gestão",
+      "de projetos, gestão de negócios disruptivos ou outras áreas correlatas.",
+      "da experiência profissional (mínima)",
+      "a) uma experiência comprovada na elaboração, planejamento, execução e/ou gestão de projetos",
+      "relacionados à inovação.",
+      "b) experiência comprovada de no mínimo 02 (dois) anos em projetos de consultoria,"
+    ],
+    "requisitos_desejaveis": [
+      "/pontuáveis (registrados no cv):",
+      "da formação acadêmica",
+      "a) nível superior: administração, direito, engenharia, economia, design, tecnologia da",
+      "informação ou áreas correlatas.",
+      "b) pós-graduação: lato sensu, mestrado, doutorado ou pós-doutorado em áreas afins ao",
+      "objeto de contratação.",
+      "da experiência profissional",
+      "a) experiência comprovada em projetos de consultoria, desenvolvimento organizacional ou",
+      "gestão da inovação, preferencialmente em instituições públicas.",
+      "b) experiência comprovada na elaboração, planejamento, execução e/ou gestão de projetos"
+    ],
+    "titulo": "BRA/24/018 - CONTRATAÇÃO DE CONSULTOR ESPECIALIZADO EM POLÍTICA DE INOVAÇÃO E DE TRANSFORMAÇÃO DIGITAL",
+    "descricao": "null",
+    "local": "Salvador/BA",
+    "data_fim": "2026-10-01"
+  },
+  {
+    "torid": "unesco:34a61630-55f8-4262-9489-08df0f3a2d32",
+    "graduacao": [
+      "administração",
+      "direito",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 7,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1156 - edital 08/2026 - Consultor Individual",
+    "descricao": "Consultoria especializada em comunicação para elaborar subsídios técnicos destinados ao fortalecimento da transparência da comunicação institucional e da participação social no âmbito do FNE.",
+    "local": "",
+    "data_fim": "2026-09-24"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13242",
+    "graduacao": [
+      "direito",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "5,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/003 – TR13242",
+    "descricao": "A presente contratação tem como objetivo selecionar um(a) consultor(a) para executar as atividades estabelecidas neste Termo de Referência, com o propósito de fornecer subsídios técnicos para a articulação territorial das políticas de participação social. A atuação do profissional terá ênfase nas atividades de mobilização social e no apoio direto aos colegiados de desenvolvimento territorial, bem como às instâncias vinculadas ao Programa de Produção e Consumo de Alimentos Saudáveis nos Territórios do Nordeste (PAS Nordeste). Espera-se que o trabalho desenvolvido viabilize a promoção e o fortalecimento de processos participativos, reconhecendo as dinâmicas dos espaços urbanos e rurais como instâncias legítimas de escuta, diálogo e incidência social. Somado a isso, a consultoria permitirá uma melhor articulação das ações do Governo Federal nos territórios, em especial daquelas relacionadas ao PAS Nordeste. Essa abordagem assegurará a integração fundamental entre a escuta da sociedade, a mobilização comunitária e a sistematização técnica das demandas expressas nos colegiados de desenvolvimento local. Por fim, a execução dessas atividades resultará na produção de registros, análises e outros insumos técnicos essenciais. Esses produtos contribuirão de forma contínua para o aprimoramento e a consolidação das estratégias institucionais de territorialização da participação social conduzidas pela Secretaria Nacional de Participação Social.",
+    "local": "Remoto",
+    "data_fim": "2026-09-21"
   }
 ]
