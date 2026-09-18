@@ -6459,5 +6459,84 @@
     "descricao": "A presente contratação tem como objetivo selecionar um(a) consultor(a) para executar as atividades estabelecidas neste Termo de Referência, com o propósito de fornecer subsídios técnicos para a articulação territorial das políticas de participação social. A atuação do profissional terá ênfase nas atividades de mobilização social e no apoio direto aos colegiados de desenvolvimento territorial, bem como às instâncias vinculadas ao Programa de Produção e Consumo de Alimentos Saudáveis nos Territórios do Nordeste (PAS Nordeste). Espera-se que o trabalho desenvolvido viabilize a promoção e o fortalecimento de processos participativos, reconhecendo as dinâmicas dos espaços urbanos e rurais como instâncias legítimas de escuta, diálogo e incidência social. Somado a isso, a consultoria permitirá uma melhor articulação das ações do Governo Federal nos territórios, em especial daquelas relacionadas ao PAS Nordeste. Essa abordagem assegurará a integração fundamental entre a escuta da sociedade, a mobilização comunitária e a sistematização técnica das demandas expressas nos colegiados de desenvolvimento local. Por fim, a execução dessas atividades resultará na produção de registros, análises e outros insumos técnicos essenciais. Esses produtos contribuirão de forma contínua para o aprimoramento e a consolidação das estratégias institucionais de territorialização da participação social conduzidas pela Secretaria Nacional de Participação Social.",
     "local": "Remoto",
     "data_fim": "2026-09-21"
+  },
+  {
+    "torid": "146384",
+    "graduacao": [
+      "direito",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": false,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "6.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "formação acadêmica: doutorado em direitos humanos ou direito em",
+      "instituição reconhecida pelo ministério da educação. experiência profissional mínima de 4 anos, em",
+      "atividades relacionadas a acompanhamento, elaboração de programas e políticas de direitos humanos.",
+      "experiência acadêmica mínima de 1 ano, comprovada em pesquisas de igualdade de gênero e/ou direito de"
+    ],
+    "requisitos_desejaveis": [
+      ": experiência em pesquisa comparada internacional,",
+      "envolvendo análise de políticas públicas, marcos normativos e práticas institucionais em diferentes países.",
+      "experiência em iniciativas de promoção, proteção e monitoramento de direitos humanos, com articulação",
+      "entre instituições governamentais, organizações da sociedade civil, academia e/ou organismos",
+      "• constituição federal brasileira/1998; • convenção sobre a eliminação de todas as formas de",
+      "discriminação contra a mulher (cedaw); • lei nº 8.069/1990 – estatuto da criança e do adolescente",
+      "(eca); • decreto nº 7.037/2009 – programa nacional de direitos humanos – pndh-3; • normas, planos,",
+      "programas, estudos e demais documentos produzidos pelo ministério dos direitos humanos e da cidadania",
+      "relacionados à promoção e proteção dos direitos humanos, à prevenção e ao enfrentamento de violações de",
+      "direitos e à qualificação de políticas públicas; • estudos, pesquisas, diagnósticos, relatórios e publicações"
+    ],
+    "titulo": "Edital 05/2026 - Estudos e análises para o fortalecimento da perspectiva de gênero nas políticas públicas de direitos humanos",
+    "descricao": "Contratação de consultoria pessoa física, na modalidade produto, para elaborar estudos e análises temáticas voltados ao fortalecimento da perspectiva de gênero nas políticas públicas de direitos humanos.\r\nA consultoria contribuirá para a produção de evidências e subsídios técnicos que apoiem o aprimoramento da formulação, implementação, monitoramento e avaliação de políticas.\r\n",
+    "local": "Território Nacional",
+    "data_fim": "2026-10-01"
+  },
+  {
+    "torid": "unesco:3622350f-775c-4cc9-9b64-08df0ff5ff21",
+    "graduacao": [
+      "administração",
+      "direito",
+      "inteligência artificial",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 6,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": " 914BRZ1166 - Edital nº 01.2026 - 01 vaga - Consultor Individual",
+    "descricao": "Especialista em Comunicação para elaborar subsídios técnicos voltados ao fortalecimento da atuação institucional da Fundação Municipal para Educação Comunitária (FUMEC) ",
+    "local": "",
+    "data_fim": "2026-09-23"
   }
 ]

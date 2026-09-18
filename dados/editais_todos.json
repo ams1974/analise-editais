@@ -1,5 +1,43 @@
 [
   {
+    "id": 1550,
+    "torid": 146384,
+    "createdBy": "maria.nery.prestador",
+    "title": "Edital 05/2026 - Estudos e análises para o fortalecimento da perspectiva de gênero nas políticas públicas de direitos humanos",
+    "startDate": "2026-09-18T03:00:00",
+    "endDate": "2026-10-01T03:00:00",
+    "local": "Território Nacional",
+    "receivingEmail": "dirp@mdh.gov.br",
+    "enabled": true,
+    "description": "Contratação de consultoria pessoa física, na modalidade produto, para elaborar estudos e análises temáticas voltados ao fortalecimento da perspectiva de gênero nas políticas públicas de direitos humanos.\r\nA consultoria contribuirá para a produção de evidências e subsídios técnicos que apoiem o aprimoramento da formulação, implementação, monitoramento e avaliação de políticas.\r\n",
+    "approver": "aline.santana,andrea.bolzon,brenda.felix,carolina.parisotto,kalyandra.leite,livia.nogueira,livia.silva,rosana.tomazini",
+    "comments": "TR revisado e validado pelo PNUD",
+    "created": "2026-09-11T12:24:13.6062271",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "unesco:3622350f-775c-4cc9-9b64-08df0ff5ff21",
+    "title": " 914BRZ1166 - Edital nº 01.2026 - 01 vaga - Consultor Individual",
+    "description": "Especialista em Comunicação para elaborar subsídios técnicos voltados ao fortalecimento da atuação institucional da Fundação Municipal para Educação Comunitária (FUMEC) ",
+    "comments": "",
+    "startDate": "2026-09-18T00:00:00",
+    "endDate": "2026-09-23T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-18T00:00:00",
+    "torid": "unesco:3622350f-775c-4cc9-9b64-08df0ff5ff21",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/331c3bcb-efd3-4788-36e5-08df13db2bc5"
+    ]
+  },
+  {
     "id": 1566,
     "torid": 146390,
     "createdBy": "aline.razoni",
