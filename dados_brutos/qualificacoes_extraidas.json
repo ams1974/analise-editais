@@ -6538,5 +6538,75 @@
     "descricao": "Especialista em Comunicação para elaborar subsídios técnicos voltados ao fortalecimento da atuação institucional da Fundação Municipal para Educação Comunitária (FUMEC) ",
     "local": "",
     "data_fim": "2026-09-23"
+  },
+  {
+    "torid": "unesco:a4685014-44a0-4ec8-9b63-08df0ff5ff21",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "sociologia",
+      "antropologia",
+      "ciência política"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "word",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Projeto 914BRZ3051 - EDITAL 11/2026 (REPUBLICAÇÃO)",
+    "descricao": "Especialista em elaborar a proposta do III Plano Decenal com visão de futuro para consolidação do SUAS como política de proteção social",
+    "local": "",
+    "data_fim": "2026-09-27"
+  },
+  {
+    "torid": "unesco:f0e2f0e3-b50c-4695-6d11-08df126138f3",
+    "graduacao": [
+      "administração",
+      "geografia",
+      "ciências sociais",
+      "sociologia",
+      "história",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": false,
+    "doutorado": true,
+    "anos_experiencia": 2,
+    "ferramentas": [
+      "r",
+      "excel",
+      "word",
+      "sei",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Projeto 914BRZ3051 - EDITAL 17/2026 (REPUBLICAÇÃO)",
+    "descricao": "Especialista em consultoria especializada para elaboração de subsídios técnicos voltados à análise do recorte racial no acesso ao Microcrédito Produtivo Orientado (MPO)",
+    "local": "",
+    "data_fim": "2026-09-27"
   }
 ]
