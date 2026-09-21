@@ -6608,5 +6608,216 @@
     "descricao": "Especialista em consultoria especializada para elaboração de subsídios técnicos voltados à análise do recorte racial no acesso ao Microcrédito Produtivo Orientado (MPO)",
     "local": "",
     "data_fim": "2026-09-27"
+  },
+  {
+    "torid": "unesco:e6096467-03ec-4c8e-0c6c-08df0dcf532b",
+    "graduacao": [
+      "administração",
+      "direito",
+      "arquitetura",
+      "urbanismo",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 1,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ3062 - Edital 01/2026 - 1 vaga - Consultor individual - Arquiteto",
+    "descricao": "Consultor",
+    "local": "",
+    "data_fim": "2026-10-21"
+  },
+  {
+    "torid": "unesco:0350dc26-be0b-42ba-0c6d-08df0dcf532b",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "antropologia",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 1,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ3062 - Edital 02/2026 - 1 vaga - Consultor individual – Antropólogo Mobilização ",
+    "descricao": "Consultor",
+    "local": "",
+    "data_fim": "2026-10-21"
+  },
+  {
+    "torid": "unesco:c61a6d5e-3069-4c1e-0c6e-08df0dcf532b",
+    "graduacao": [
+      "administração",
+      "direito",
+      "física",
+      "políticas públicas",
+      "saúde pública",
+      "medicina",
+      "enfermagem",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ3062 - Edital 03/2026 - 1 vaga - Consultor individual – Saúde",
+    "descricao": "Consultor",
+    "local": "",
+    "data_fim": "2026-10-21"
+  },
+  {
+    "torid": "unesco:8cb6b1df-8a66-4b19-0c6f-08df0dcf532b",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "antropologia",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 2,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ3062 - Edital 04/2026 - 1 vaga - Consultor individual – Antropólogo Referências",
+    "descricao": "Consultor",
+    "local": "",
+    "data_fim": "2026-10-21"
+  },
+  {
+    "torid": "unesco:26cafda1-3c3b-4854-0c70-08df0dcf532b",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "antropologia",
+      "história",
+      "física",
+      "saúde pública",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ3062 - Edital 05/2026 - 1 vaga - Consultor individual – Historiador",
+    "descricao": "Consultor",
+    "local": "",
+    "data_fim": "2026-10-21"
+  },
+  {
+    "torid": "unesco:a8acd062-b45d-401e-0c71-08df0dcf532b",
+    "graduacao": [
+      "administração",
+      "direito",
+      "antropologia",
+      "história",
+      "arquitetura",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ3062 - Edital 06/2026 - 1 vaga - Consultor individual - Sênior",
+    "descricao": "Consultor",
+    "local": "",
+    "data_fim": "2026-10-21"
   }
 ]
