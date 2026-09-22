@@ -6819,5 +6819,219 @@
     "descricao": "Consultor",
     "local": "",
     "data_fim": "2026-10-21"
+  },
+  {
+    "torid": "146380",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "arquitetura",
+      "física",
+      "políticas públicas",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "power bi",
+      "python",
+      "r",
+      "sql",
+      "tableau",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "18.975,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 138/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA A PROPOSIÇÃO DE PLATAFORMAS E DASHBOARDS DE VISUALIZAÇÃO DE DADOS PARA A AGENDA DE DESENVOLVIMENTO HUMANO",
+    "descricao": "Contratação de consultoria especializada para desenvolver e implementar plataformas digitais, dashboards, visualizações dinâmicas e outras soluções interativas destinadas à organização, integração, análise e disseminação de dados e evidências relacionados à agenda de Desenvolvimento Humano.",
+    "local": "Remoto",
+    "data_fim": "2026-10-01"
+  },
+  {
+    "torid": "146381",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "ciências sociais",
+      "física",
+      "políticas públicas",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "15.180,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 139/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA A SISTEMATIZAÇÃO E ELABORAÇÃO DO DOSSIÊ INSTITUCIONAL DA SÉRIE DIÁLOGOS NACIONAIS PARA O DESENVOLVIMENTO.",
+    "descricao": "Contratação de consultoria especializada para sistematizar, analisar e consolidar os conhecimentos, produtos e resultados produzidos no âmbito da Série Diálogos Nacionais para o Desenvolvimento, por meio da elaboração de um Dossiê Institucional.",
+    "local": "Remoto",
+    "data_fim": "2026-10-01"
+  },
+  {
+    "torid": "146383",
+    "graduacao": [
+      "ciência da computação",
+      "engenharia de software",
+      "sistemas de informação",
+      "engenharia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "arquitetura",
+      "ciência de dados",
+      "inteligência artificial",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "13.020,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 145/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA DESENVOLVIMENTO DE PROPOSTA DE ALGORITMO DE GEOCODIFICAÇÃO DE ENDEREÇOS BRASILEIROS.",
+    "descricao": "Contratação de consultoria especializada (pessoa física) em ciência de dados e geoprocessamento para o desenvolvimento e o aprimoramento de algoritmo de geocodificação de endereços brasileiros, com foco na cobertura nacional, no tratamento de endereços atípicos e na integração de funcionalidades avançadas de consulta e codificação espacial.",
+    "local": "Remoto",
+    "data_fim": "2026-10-01"
+  },
+  {
+    "torid": "146357",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "arquitetura",
+      "ciência de dados",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [
+      "Inglês"
+    ],
+    "certificacoes": [],
+    "valor": "31.625,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 141/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE METODOLOGIA DE MODELAGEM PREDITIVA PARA ANÁLISE TERRITORIAL DO DESENVOLVIMENTO HUMANO.",
+    "descricao": "Contratação de consultoria especializada para o desenvolvimento de metodologias de modelagem preditivas voltadas à análise territorial do desenvolvimento humano, com foco na integração de dados socioeconômicos com dados geoespaciais.",
+    "local": "Remoto",
+    "data_fim": "2026-10-01"
+  },
+  {
+    "torid": "146358",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "arquitetura",
+      "ciência de dados",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r",
+      "google earth engine",
+      "aws"
+    ],
+    "idiomas": [
+      "Inglês"
+    ],
+    "certificacoes": [],
+    "valor": "31.625,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 142/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE METODOLOGIA DE MODELAGEM PREDITIVA COM FOCO NO PROCESSAMENTO E INTEGRAÇÃO DE DADOS GEOESPACIAIS.",
+    "descricao": "Contratação de consultoria especializada para o desenvolvimento de metodologias de modelagem preditiva voltada à análise territorial do desenvolvimento humano, com foco no processamento e integração de dados geoespaciais, imagens de satélite e outras fontes de sensoriamento remoto.",
+    "local": "Remoto",
+    "data_fim": "2026-10-01"
+  },
+  {
+    "torid": "unesco:49fa6512-497b-43c7-9b65-08df0ff5ff21",
+    "graduacao": [
+      "administração",
+      "ciências sociais",
+      "física",
+      "políticas públicas",
+      "saúde pública",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Projeto 914BRZ1085 - Edital nº 04/2026 - 4 vagas - Consultores Individuais",
+    "descricao": "Consultoria especializada em Saúde Coletiva, Enfermagem, Medicina, Serviço Social ou Psicologia para tutoria pedagógica e mediação do Curso de Atualização em Equidade em Saúde no SUS: Teoria e Prática",
+    "local": "",
+    "data_fim": "2026-09-27"
   }
 ]
