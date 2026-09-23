@@ -1,5 +1,1746 @@
 [
   {
+    "id": 1554,
+    "torid": 146380,
+    "fonte": "pnud",
+    "titulo": "PROJETO BRA 23/023 - TR 138/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA A PROPOSIÇÃO DE PLATAFORMAS E DASHBOARDS DE VISUALIZAÇÃO DE DADOS PARA A AGENDA DE DESENVOLVIMENTO HUMANO",
+    "descricao": "Contratação de consultoria especializada para desenvolver e implementar plataformas digitais, dashboards, visualizações dinâmicas e outras soluções interativas destinadas à organização, integração, análise e disseminação de dados e evidências relacionados à agenda de Desenvolvimento Humano.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-09-22",
+    "data_fim": "2026-10-01",
+    "local": "Remoto",
+    "orgao_parceiro": "IBGE",
+    "email_submissao": "projetos.especiais@ibge.gov.br",
+    "valor_estimado": "126.500,00",
+    "valor_estimado_num": 126500.0,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-15",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1555,
+    "torid": 146381,
+    "fonte": "pnud",
+    "titulo": "PROJETO BRA 23/023 - TR 139/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA A SISTEMATIZAÇÃO E ELABORAÇÃO DO DOSSIÊ INSTITUCIONAL DA SÉRIE DIÁLOGOS NACIONAIS PARA O DESENVOLVIMENTO.",
+    "descricao": "Contratação de consultoria especializada para sistematizar, analisar e consolidar os conhecimentos, produtos e resultados produzidos no âmbito da Série Diálogos Nacionais para o Desenvolvimento, por meio da elaboração de um Dossiê Institucional.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-09-22",
+    "data_fim": "2026-10-01",
+    "local": "Remoto",
+    "orgao_parceiro": "IBGE",
+    "email_submissao": "projetos.especiais@ibge.gov.br",
+    "valor_estimado": "126.500,00",
+    "valor_estimado_num": 126500.0,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-15",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1556,
+    "torid": 146383,
+    "fonte": "pnud",
+    "titulo": "PROJETO BRA 23/023 - TR 145/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA DESENVOLVIMENTO DE PROPOSTA DE ALGORITMO DE GEOCODIFICAÇÃO DE ENDEREÇOS BRASILEIROS.",
+    "descricao": "Contratação de consultoria especializada (pessoa física) em ciência de dados e geoprocessamento para o desenvolvimento e o aprimoramento de algoritmo de geocodificação de endereços brasileiros, com foco na cobertura nacional, no tratamento de endereços atípicos e na integração de funcionalidades avançadas de consulta e codificação espacial.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados"
+    ],
+    "data_inicio": "2026-09-22",
+    "data_fim": "2026-10-01",
+    "local": "Remoto",
+    "orgao_parceiro": "IBGE",
+    "email_submissao": "projetos.especiais@ibge.gov.br",
+    "valor_estimado": "86.800,00",
+    "valor_estimado_num": 86800.0,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-15",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1558,
+    "torid": 146357,
+    "fonte": "pnud",
+    "titulo": "PROJETO BRA 23/023 - TR 141/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE METODOLOGIA DE MODELAGEM PREDITIVA PARA ANÁLISE TERRITORIAL DO DESENVOLVIMENTO HUMANO.",
+    "descricao": "Contratação de consultoria especializada para o desenvolvimento de metodologias de modelagem preditivas voltadas à análise territorial do desenvolvimento humano, com foco na integração de dados socioeconômicos com dados geoespaciais.",
+    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Meio Ambiente / Clima / Geografia"
+    ],
+    "data_inicio": "2026-09-22",
+    "data_fim": "2026-10-01",
+    "local": "Remoto",
+    "orgao_parceiro": "IBGE",
+    "email_submissao": "projetos.especiais@ibge.gov.br",
+    "valor_estimado": "126.500,00",
+    "valor_estimado_num": 126500.0,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-15",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1559,
+    "torid": 146358,
+    "fonte": "pnud",
+    "titulo": "PROJETO BRA 23/023 - TR 142/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE METODOLOGIA DE MODELAGEM PREDITIVA COM FOCO NO PROCESSAMENTO E INTEGRAÇÃO DE DADOS GEOESPACIAIS.",
+    "descricao": "Contratação de consultoria especializada para o desenvolvimento de metodologias de modelagem preditiva voltada à análise territorial do desenvolvimento humano, com foco no processamento e integração de dados geoespaciais, imagens de satélite e outras fontes de sensoriamento remoto.",
+    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Meio Ambiente / Clima / Geografia"
+    ],
+    "data_inicio": "2026-09-22",
+    "data_fim": "2026-10-01",
+    "local": "Remoto",
+    "orgao_parceiro": "IBGE",
+    "email_submissao": "projetos.especiais@ibge.gov.br",
+    "valor_estimado": "126.500,00",
+    "valor_estimado_num": 126500.0,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-15",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:49fa6512-497b-43c7-9b65-08df0ff5ff21",
+    "torid": "unesco:49fa6512-497b-43c7-9b65-08df0ff5ff21",
+    "fonte": "unesco",
+    "titulo": "Projeto 914BRZ1085 - Edital nº 04/2026 - 4 vagas - Consultores Individuais",
+    "descricao": "Consultoria especializada em Saúde Coletiva, Enfermagem, Medicina, Serviço Social ou Psicologia para tutoria pedagógica e mediação do Curso de Atualização em Equidade em Saúde no SUS: Teoria e Prática",
+    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Saúde"
+    ],
+    "data_inicio": "2026-09-22",
+    "data_fim": "2026-09-27",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-22",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:e6096467-03ec-4c8e-0c6c-08df0dcf532b",
+    "torid": "unesco:e6096467-03ec-4c8e-0c6c-08df0dcf532b",
+    "fonte": "unesco",
+    "titulo": "914BRZ3062 - Edital 01/2026 - 1 vaga - Consultor individual - Arquiteto",
+    "descricao": "Consultor",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Não classificada"
+    ],
+    "data_inicio": "2026-09-21",
+    "data_fim": "2026-10-21",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-21",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:0350dc26-be0b-42ba-0c6d-08df0dcf532b",
+    "torid": "unesco:0350dc26-be0b-42ba-0c6d-08df0dcf532b",
+    "fonte": "unesco",
+    "titulo": "914BRZ3062 - Edital 02/2026 - 1 vaga - Consultor individual – Antropólogo Mobilização ",
+    "descricao": "Consultor",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados"
+    ],
+    "data_inicio": "2026-09-21",
+    "data_fim": "2026-10-21",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-21",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:c61a6d5e-3069-4c1e-0c6e-08df0dcf532b",
+    "torid": "unesco:c61a6d5e-3069-4c1e-0c6e-08df0dcf532b",
+    "fonte": "unesco",
+    "titulo": "914BRZ3062 - Edital 03/2026 - 1 vaga - Consultor individual – Saúde",
+    "descricao": "Consultor",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Saúde"
+    ],
+    "data_inicio": "2026-09-21",
+    "data_fim": "2026-10-21",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-21",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:8cb6b1df-8a66-4b19-0c6f-08df0dcf532b",
+    "torid": "unesco:8cb6b1df-8a66-4b19-0c6f-08df0dcf532b",
+    "fonte": "unesco",
+    "titulo": "914BRZ3062 - Edital 04/2026 - 1 vaga - Consultor individual – Antropólogo Referências",
+    "descricao": "Consultor",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Não classificada"
+    ],
+    "data_inicio": "2026-09-21",
+    "data_fim": "2026-10-21",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-21",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:26cafda1-3c3b-4854-0c70-08df0dcf532b",
+    "torid": "unesco:26cafda1-3c3b-4854-0c70-08df0dcf532b",
+    "fonte": "unesco",
+    "titulo": "914BRZ3062 - Edital 05/2026 - 1 vaga - Consultor individual – Historiador",
+    "descricao": "Consultor",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Não classificada"
+    ],
+    "data_inicio": "2026-09-21",
+    "data_fim": "2026-10-21",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-21",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:a8acd062-b45d-401e-0c71-08df0dcf532b",
+    "torid": "unesco:a8acd062-b45d-401e-0c71-08df0dcf532b",
+    "fonte": "unesco",
+    "titulo": "914BRZ3062 - Edital 06/2026 - 1 vaga - Consultor individual - Sênior",
+    "descricao": "Consultor",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Não classificada"
+    ],
+    "data_inicio": "2026-09-21",
+    "data_fim": "2026-10-21",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-21",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:a4685014-44a0-4ec8-9b63-08df0ff5ff21",
+    "torid": "unesco:a4685014-44a0-4ec8-9b63-08df0ff5ff21",
+    "fonte": "unesco",
+    "titulo": "Projeto 914BRZ3051 - EDITAL 11/2026 (REPUBLICAÇÃO)",
+    "descricao": "Especialista em elaborar a proposta do III Plano Decenal com visão de futuro para consolidação do SUAS como política de proteção social",
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Não classificada"
+    ],
+    "data_inicio": "2026-09-20",
+    "data_fim": "2026-09-27",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-20",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:f0e2f0e3-b50c-4695-6d11-08df126138f3",
+    "torid": "unesco:f0e2f0e3-b50c-4695-6d11-08df126138f3",
+    "fonte": "unesco",
+    "titulo": "Projeto 914BRZ3051 - EDITAL 17/2026 (REPUBLICAÇÃO)",
+    "descricao": "Especialista em consultoria especializada para elaboração de subsídios técnicos voltados à análise do recorte racial no acesso ao Microcrédito Produtivo Orientado (MPO)",
+    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+    "areas_tematicas": [
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-09-20",
+    "data_fim": "2026-09-27",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-20",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1550,
+    "torid": 146384,
+    "fonte": "pnud",
+    "titulo": "Edital 05/2026 - Estudos e análises para o fortalecimento da perspectiva de gênero nas políticas públicas de direitos humanos",
+    "descricao": "Contratação de consultoria pessoa física, na modalidade produto, para elaborar estudos e análises temáticas voltados ao fortalecimento da perspectiva de gênero nas políticas públicas de direitos humanos.\r\nA consultoria contribuirá para a produção de evidências e subsídios técnicos que apoiem o aprimoramento da formulação, implementação, monitoramento e avaliação de políticas.\r\n",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-18",
+    "data_fim": "2026-10-01",
+    "local": "Território Nacional",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "dirp@mdh.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-11",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:3622350f-775c-4cc9-9b64-08df0ff5ff21",
+    "torid": "unesco:3622350f-775c-4cc9-9b64-08df0ff5ff21",
+    "fonte": "unesco",
+    "titulo": " 914BRZ1166 - Edital nº 01.2026 - 01 vaga - Consultor Individual",
+    "descricao": "Especialista em Comunicação para elaborar subsídios técnicos voltados ao fortalecimento da atuação institucional da Fundação Municipal para Educação Comunitária (FUMEC) ",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Não classificada"
+    ],
+    "data_inicio": "2026-09-18",
+    "data_fim": "2026-09-23",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-18",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1566,
+    "torid": 146390,
+    "fonte": "pnud",
+    "titulo": "BRA/24/018 - CONTRATAÇÃO DE CONSULTOR ESPECIALIZADO EM POLÍTICA DE INOVAÇÃO E DE TRANSFORMAÇÃO DIGITAL",
+    "descricao": "null",
+    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados"
+    ],
+    "data_inicio": "2026-09-17",
+    "data_fim": "2026-10-01",
+    "local": "Salvador/BA",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "selecaopnud0326@pge.ba.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-16",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1553,
+    "torid": 146386,
+    "fonte": "pnud",
+    "titulo": "BRA/25/024 - Edital nº 08/2026 – Contratação de 6 (seis) consultorias especializadas (pessoa física) para revisão, consolidação, simplificação e otimização de atos normativos trabalhistas infralegais no Brasil",
+    "descricao": "Contratação de consultoria, com os seguintes objetivos:\r\n\r\nObjeto 1 – FGTS, REMUNERAÇÃO E CRÉDITOS\r\nObjeto 2 - SAÚDE E SEGURANÇA DO TRABALHADOR\r\nObjeto 3 – QUALIFICAÇÃO PROFISSIONAL\r\nObjeto 4 – CONTRATO DE TRABALHO\r\nObjeto 5 - DURAÇÃO DO TRABALHO\r\nObjeto 6 – IGUALDADE E COMBATE À DISCRIMINAÇÃO",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Saúde",
+      "Direito / Jurídico"
+    ],
+    "data_inicio": "2026-09-17",
+    "data_fim": "2026-09-27",
+    "local": "Híbrido, com eventuais reuniões presenciais em Brasília/DF",
+    "orgao_parceiro": "MTE",
+    "email_submissao": "processoseletivo.sat@trabalho.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-14",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:c9020343-9d28-49e3-b9e3-08df0436270c",
+    "torid": "unesco:c9020343-9d28-49e3-b9e3-08df0436270c",
+    "fonte": "unesco",
+    "titulo": "914BRZ1155 - EDITAL Nº 52/2026 - 1 vaga - Consultor Individual - REPUBLICAÇÃO",
+    "descricao": "A presente contratação tem por finalidade à avaliação da implementação, dos resultados e das contribuições da Rede Nacional de Cursinhos Populares (CPOP) para a promoção da equidade no acesso à educaç",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-17",
+    "data_fim": "2026-09-21",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-17",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:6f0bebf7-7be2-4b29-17c5-08df04786cdd",
+    "torid": "unesco:6f0bebf7-7be2-4b29-17c5-08df04786cdd",
+    "fonte": "unesco",
+    "titulo": "914BRZ1155 - EDITAL Nº 53/2026 - 1 vaga - Consultor Individual - REPUBLICAÇÃO",
+    "descricao": "Contratação de consultoria para realizar levantamento, análise e sistematização de normativos, programas, ações, estratégias e instrumentos de gestão relacionados à promoção da equidade",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Direito / Jurídico",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-17",
+    "data_fim": "2026-09-21",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-17",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:34a61630-55f8-4262-9489-08df0f3a2d32",
+    "torid": "unesco:34a61630-55f8-4262-9489-08df0f3a2d32",
+    "fonte": "unesco",
+    "titulo": "914BRZ1156 - edital 08/2026 - Consultor Individual",
+    "descricao": "Consultoria especializada em comunicação para elaborar subsídios técnicos destinados ao fortalecimento da transparência da comunicação institucional e da participação social no âmbito do FNE.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados"
+    ],
+    "data_inicio": "2026-09-17",
+    "data_fim": "2026-09-24",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-17",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13242",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13242",
+    "fonte": "oei",
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/003 – TR13242",
+    "descricao": "A presente contratação tem como objetivo selecionar um(a) consultor(a) para executar as atividades estabelecidas neste Termo de Referência, com o propósito de fornecer subsídios técnicos para a articulação territorial das políticas de participação social. A atuação do profissional terá ênfase nas atividades de mobilização social e no apoio direto aos colegiados de desenvolvimento territorial, bem como às instâncias vinculadas ao Programa de Produção e Consumo de Alimentos Saudáveis nos Territórios do Nordeste (PAS Nordeste). Espera-se que o trabalho desenvolvido viabilize a promoção e o fortalecimento de processos participativos, reconhecendo as dinâmicas dos espaços urbanos e rurais como instâncias legítimas de escuta, diálogo e incidência social. Somado a isso, a consultoria permitirá uma melhor articulação das ações do Governo Federal nos territórios, em especial daquelas relacionadas ao PAS Nordeste. Essa abordagem assegurará a integração fundamental entre a escuta da sociedade, a mobilização comunitária e a sistematização técnica das demandas expressas nos colegiados de desenvolvimento local. Por fim, a execução dessas atividades resultará na produção de registros, análises e outros insumos técnicos essenciais. Esses produtos contribuirão de forma contínua para o aprimoramento e a consolidação das estratégias institucionais de territorialização da participação social conduzidas pela Secretaria Nacional de Participação Social.",
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Meio Ambiente / Clima / Geografia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-17",
+    "data_fim": "2026-09-21",
+    "local": "Remoto",
+    "orgao_parceiro": "OEI/BRA",
+    "email_submissao": "selecao.bra@oei.int",
+    "valor_estimado": "30.000,00",
+    "valor_estimado_num": 30000.0,
+    "status": "En evaluación",
+    "data_criacao": "2026-09-17",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13242/",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:7863ef0f-6e11-4770-df18-08df01dbdf45",
+    "torid": "unesco:7863ef0f-6e11-4770-df18-08df01dbdf45",
+    "fonte": "unesco",
+    "titulo": "914BRZ1155 - EDITAL Nº 51/2026 - 3 vagas - Consultor Individual - REPUBLICAÇÃO",
+    "descricao": "Consultoria especializada para subsidiar a Coordenação-Geral da Juventude – CGJUV na realização da avaliação das ações implementadas no âmbito do Programa Nacional de Grêmios Estudantis – Participa Jo",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-16",
+    "data_fim": "2026-09-21",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-16",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13247",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13247",
+    "fonte": "oei",
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MEMP/SEBRAE/2024 – TR13247",
+    "descricao": "Contratação de consultor individual especialista em Machine Learning/Ciência de Dados para conceber, desenvolver, testar e implantar, em versão MVP (produto mínimo viável), solução de inteligência artificial destinada a microempreendedores individuais, microempresas e empresas de pequeno porte que não atuem necessariamente como empreendedores climáticos, capaz de: receber e analisar informações sobre o negócio, sua operação, objetivos e dificuldades, apoiando o diagnóstico empresarial (operação, produtividade, custos, desperdícios, eficiência e necessidade de modernização) identificar oportunidades de melhoria e relacioná-las a soluções sustentáveis capazes de gerar benefícios econômicos e ambientais priorizar e explicar as soluções recomendadas conforme a aderência ao perfil e às necessidades do empreendimento, indicando os dados adicionais necessários identificar oportunidades de financiamento compatíveis, apresentar requisitos, documentos e nível de preparação, e apoiar a organização do projeto do investimento selecionado integrar-se à Plataforma Empreender Clima e aos demais componentes de IA do programa, permitindo acompanhamento das recomendações e coleta de feedback e operar de forma segura, escalável e estável em infraestrutura computacional dedicada para atendimento ao público geral.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Meio Ambiente / Clima / Geografia"
+    ],
+    "data_inicio": "2026-09-16",
+    "data_fim": "2026-09-21",
+    "local": "Dados Remoto",
+    "orgao_parceiro": "OEI",
+    "email_submissao": "selecao.bra@oei.int",
+    "valor_estimado": "110.000,00",
+    "valor_estimado_num": 110000.0,
+    "status": "En evaluación",
+    "data_criacao": "2026-09-16",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13247/",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1544,
+    "torid": 146373,
+    "fonte": "pnud",
+    "titulo": "Edital nº 26/2026 – Contratação de Consultoria Individual para aprimoramento de soluções analíticas e computacionais aplicadas ao Modelo de Mensuração de Custos da Digitalização de Serviços Públicos ",
+    "descricao": "Edital nº 26/2026 – Contratação de Consultoria Individual para aprimoramento de soluções analíticas e computacionais aplicadas ao Modelo de Mensuração de Custos da Digitalização de Serviços Públicos ",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados"
+    ],
+    "data_inicio": "2026-09-15",
+    "data_fim": "2026-09-30",
+    "local": "Remoto",
+    "orgao_parceiro": "MGI",
+    "email_submissao": "prodoc.mgi@gestao.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-10",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1548,
+    "torid": 146374,
+    "fonte": "pnud",
+    "titulo": "Edital nº 27/2026 – Contratação de Consultoria Individual II - para produção de material técnico de apoio à elaboração de projetos de acessibilidade em praias – Manual de Servidões de Passagem para Orlas e Praias",
+    "descricao": "Edital nº 27/2026 – Contratação de Consultoria Individual II - para produção de material técnico de apoio à elaboração de projetos de acessibilidade em praias – Manual de Servidões de Passagem para Orlas e Praias",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados"
+    ],
+    "data_inicio": "2026-09-15",
+    "data_fim": "2026-09-30",
+    "local": "Remoto",
+    "orgao_parceiro": "MGI",
+    "email_submissao": "prodoc.mgi@gestao.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-10",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1549,
+    "torid": 146375,
+    "fonte": "pnud",
+    "titulo": "Edital nº 28/2026 - Contratação de Consultoria Individual I - para produção de material técnico de apoio à elaboração de projetos de acessibilidade em praias – Manual de Acessibilidade em Orlas e Praias",
+    "descricao": "Edital nº 28/2026 - Contratação de Consultoria Individual I - para produção de material técnico de apoio à elaboração de projetos de acessibilidade em praias – Manual de Acessibilidade em Orlas e Praias",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados"
+    ],
+    "data_inicio": "2026-09-15",
+    "data_fim": "2026-09-30",
+    "local": "REMOTO",
+    "orgao_parceiro": "MGI",
+    "email_submissao": "prodoc.mgi@gestao.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-10",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1545,
+    "torid": 146360,
+    "fonte": "pnud",
+    "titulo": "PNUD BRA/25/024 - Edital nº 04/2026 – Contrat. de consult. - Engenharia de Dados",
+    "descricao": "Edital nº 04/2026 – Contratação de consultoria especializada (pessoa física) para estruturação de fluxos de dados, organização de consultas analíticas recorrentes e automação de processos de produção de estatísticas públicas do trabalho da Subsecretaria de Estatísticas e Estudos do Trabalho – SEET/MTE.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-14",
+    "data_fim": "2026-09-22",
+    "local": "Brasília - DF",
+    "orgao_parceiro": "MTE",
+    "email_submissao": "estatisticastrabalho@trabalho.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-10",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1546,
+    "torid": 146361,
+    "fonte": "pnud",
+    "titulo": "PNUD BRA/25/024 - Consultoria Especializada - Qualidade de Dados I",
+    "descricao": "Edital nº 05/2026 – Contratação de consultoria especializada (pessoa física) para desenvolvimento de metodologias de auditoria, monitoramento e qualificação de dados administrativos da Subsecretaria de Estatísticas e Estudos do Trabalho – SEET/MTE.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-14",
+    "data_fim": "2026-09-22",
+    "local": "Brasília - DF",
+    "orgao_parceiro": "MTE",
+    "email_submissao": "estatisticastrabalho@trabalho.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-10",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1547,
+    "torid": 146362,
+    "fonte": "pnud",
+    "titulo": "PNUD BRA/25/024 - Edital nº 06/2026 - Consultoria Especializada - Qualidade de Dados II",
+    "descricao": "Edital nº 06/2026 – Contratação de consultoria especializada (pessoa física) para avaliação metodológica, validação e documentação técnica de produtos estatísticos derivados de bases administrativas da Subsecretaria de Estatísticas e Estudos do Trabalho – SEET/MTE.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-14",
+    "data_fim": "2026-09-22",
+    "local": "Brasília - DF",
+    "orgao_parceiro": "MTE",
+    "email_submissao": "estatisticastrabalho@trabalho.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-10",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:1011b77e-9c7a-4ea9-2632-08df0e687345",
+    "torid": "unesco:1011b77e-9c7a-4ea9-2632-08df0e687345",
+    "fonte": "unesco",
+    "titulo": "914BRZ1159 - Publicação Edital 39/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada em Gestão de Projetos e Processos para realizar análises e desenvolver instrumentos voltados à gestão das informações do FUNDEB.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-14",
+    "data_fim": "2026-09-18",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-14",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:a42aa3e1-2e33-46e6-2633-08df0e687345",
+    "torid": "unesco:a42aa3e1-2e33-46e6-2633-08df0e687345",
+    "fonte": "unesco",
+    "titulo": "914BRZ1159 - Publicação Edital 38/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada em Engenharia e Análise de Dados para desenvolver estudos visando aprimorar a assistência Técnica-Financeira prestada pelo MEC às Redes de Ensino.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-09-14",
+    "data_fim": "2026-09-18",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-14",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
+    "fonte": "oei",
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 13236",
+    "descricao": "Consultoria técnica especializada para desenvolver proposta, testar em caráter piloto, avaliar e documentar a metodologia de implantação e governança de bases de conhecimento e instrumentos de acompanhamento do desempenho e da qualidade dos conteúdos utilizados na alimentação dos agentes de Inteligência Artificial da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-13",
+    "data_fim": "2026-09-24",
+    "local": "São Paulo - SP",
+    "orgao_parceiro": "OEI/BRA",
+    "email_submissao": "ugp@educacao.sp.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "En presentación",
+    "data_criacao": "2026-09-13",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236/",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:5907e744-d46d-4c01-2eaf-08df08e94b75",
+    "torid": "unesco:5907e744-d46d-4c01-2eaf-08df08e94b75",
+    "fonte": "unesco",
+    "titulo": "914BRZ1159 - Publicação Edital 37/2026 - 2 vagas - Consultor Individual",
+    "descricao": "Consultoria especializada em Educação para realizar análise das ações e proposição do eixo de formação no âmbito do Compromisso Nacional Criança Alfabetizada.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-09-12",
+    "data_fim": "2026-09-18",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-12",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1542,
+    "torid": 146369,
+    "fonte": "pnud",
+    "titulo": "Edital nº 29/2026 – Contratação de Consultoria Individual para o desenho institucional da Secretaria de Serviços Compartilhados (SSC/MGI)",
+    "descricao": "Edital nº 29/2026 – Contratação de Consultoria Individual para o desenho institucional da Secretaria de Serviços Compartilhados (SSC/MGI)\r\n\r\n",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Não classificada"
+    ],
+    "data_inicio": "2026-09-11",
+    "data_fim": "2026-09-25",
+    "local": "Remoto",
+    "orgao_parceiro": "MGI",
+    "email_submissao": "prodoc.mgi@gestao.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-10",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1543,
+    "torid": 146370,
+    "fonte": "pnud",
+    "titulo": "Edital nº 25/2026 – Contratação de Consultoria Individual para avaliar os efeitos de intervenções comportamentais (políticas fiscais e de arquitetura de escolha) em mercado experimental para promover escolhas alimentares mais saudáveis. ",
+    "descricao": "Edital nº 25/2026 – Contratação de Consultoria Individual para avaliar os efeitos de intervenções comportamentais (políticas fiscais e de arquitetura de escolha) em mercado experimental para promover escolhas alimentares mais saudáveis. ",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Não classificada"
+    ],
+    "data_inicio": "2026-09-11",
+    "data_fim": "2026-09-25",
+    "local": "REMOTO",
+    "orgao_parceiro": "MGI",
+    "email_submissao": "prodoc.mgi@gestao.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-10",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:8c824e7b-7b9a-4a59-7ffc-08df082d82f3",
+    "torid": "unesco:8c824e7b-7b9a-4a59-7ffc-08df082d82f3",
+    "fonte": "unesco",
+    "titulo": "914BRZ1163 - Publicação -  Edital 68/2026 - 04 Vagas consultor Individual",
+    "descricao": "Consultoria especializada em articulação comunitária com recorte de gênero para acompanhar, analisar e sistematizar a implementação de ações de aproximação entre famílias, comunidades, escolas ",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados"
+    ],
+    "data_inicio": "2026-09-11",
+    "data_fim": "2026-09-16",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-11",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1534,
+    "torid": 146368,
+    "fonte": "pnud",
+    "titulo": "Edital 6/2026- UGP-PNUD/SENAD",
+    "descricao": "Seleção de 01 (um) consultor, pessoa física, residente e domiciliado em Brasília/DF, para\r\nelaboração de diagnóstico, mapeamento de iniciativas e identificação de oportunidades de cooperação\r\ninterinstitucional voltadas à implementação do Programa \"Território Seguro, Amazônia Soberana: Proteção\r\nda Amazônia e da Faixa de Fronteira\".\r\n",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-09-10",
+    "data_fim": "2026-09-15",
+    "local": "null",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "cgep@mj.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-09",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1535,
+    "torid": 146367,
+    "fonte": "pnud",
+    "titulo": "EDITAL Nº 5/2026 - UGP-PNUD/SENAD",
+    "descricao": "Seleção de 01 (um) consultor, pessoa física, residente e domiciliado em Brasília/DF, para elaboração de estratégia de funcionamento, instrumentos de articulação e relatório de avaliação da governança do Programa “Território Seguro, Amazônia Soberana: Proteção da Amazônia e da Faixa de Fronteira”.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-10",
+    "data_fim": "2026-09-15",
+    "local": "Brasília/DF",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "cgep@mj.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-09",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1536,
+    "torid": 146365,
+    "fonte": "pnud",
+    "titulo": "EDITAL Nº 4/2026 - UGP-PNUD/SENAD",
+    "descricao": "Seleção de 01 consultor(a), pessoa física, para elaboração da metodologia de monitoramento e avaliação do Programa Território Seguro, Amazônia Soberana: Proteção da Amazônia e da Faixa de Fronteira, incluindo definição de indicadores, fluxos automatizados de coleta de dados, instrumentos e procedimentos de acompanhamento automatizado e análise de cumprimento da meta, que posteriormente poderão subsidiar a implantação do sistema previsto no art. 15 da Portaria MJSP nº 1.220/2026.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-10",
+    "data_fim": "2026-09-15",
+    "local": "null",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "dpagi@mj.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-09",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1537,
+    "torid": 146364,
+    "fonte": "pnud",
+    "titulo": "EDITAL Nº 3/2026 - UGP-PNUD/SENAD",
+    "descricao": "Contratação de 02 (dois) consultores, pessoa física, para prestação de serviços de consultoria técnica especializada, com foco no apoio técnico e metodológico à implementação, ao acompanhamento e à sistematização das atividades desenvolvidas no âmbito do Programa “Território Seguro, Amazônia Soberana: Proteção da Amazônia e da Faixa de Fronteira”, contribuindo para o fortalecimento dos processos, instrumentos e fluxos necessários ao alcance dos resultados previstos no projeto.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-10",
+    "data_fim": "2026-09-15",
+    "local": "null",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "dpagi@mj.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-09",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1538,
+    "torid": 146363,
+    "fonte": "pnud",
+    "titulo": "EDITAL Nº 2/2026 - UGP-PNUD/SENAD",
+    "descricao": "Seleção de 01 (um/a) consultor/a pessoa física, na modalidade de produtos, para a produção de material pedagógico que dará suporte à realização do curso Política sobre Drogas Além das Margens: diálogos sobre cuidado e desestigmatização na intersecção entre política, arte e psicanálise.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-09-10",
+    "data_fim": "2026-09-15",
+    "local": "null",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "senad@mj.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-09",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "oei:ontratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026",
+    "torid": "oei:ontratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026",
+    "fonte": "oei",
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13230",
+    "descricao": "Contratar profissional especializado para prestar apoio técnico na organização de informações, elaboração de instrumentos de acompanhamento e produção de subsídios técnicos relacionados às ações desenvolvidas, com foco no aprimoramento de mecanismos de monitoramento, sistematização de dados e suporte à gestão administrativa das iniciativas apoiadas.",
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-10",
+    "data_fim": "2026-09-15",
+    "local": "Brasília - DF",
+    "orgao_parceiro": "OEI",
+    "email_submissao": "selecao.bra@oei.int",
+    "valor_estimado": "50.000,00",
+    "valor_estimado_num": 50000.0,
+    "status": "En evaluación",
+    "data_criacao": "2026-09-10",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/ontratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026/",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
+    "fonte": "oei",
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR 13238",
+    "descricao": "Contratação de 1 (um) consultor especialista em Gestão de Projetos para assessorar a execução e o monitoramento no âmbito do projeto de cooperação técnica internacional. Além de produzir relatórios técnicos e financeiros demonstrando a evolução das atividades, o consultor especialista dará apoio à OEI e à SEDUC-RS nas atividades diárias, fornecerá orientações e recomendações que serão fundamentais para decisões em diferentes etapas do projeto. Isso inclui a identificação e mitigação de riscos, bem como o alinhamento com padrões de qualidade e eficiência, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-10",
+    "data_fim": "2026-09-16",
+    "local": "Porto Alegre - RS",
+    "orgao_parceiro": "OEI",
+    "email_submissao": "selecao.bra@oei.int",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "En evaluación",
+    "data_criacao": "2026-09-10",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238/",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:b0920c88-ab66-4545-2ead-08df08e94b75",
+    "torid": "unesco:b0920c88-ab66-4545-2ead-08df08e94b75",
+    "fonte": "unesco",
+    "titulo": "Projeto 914BRZ3050 - Edital N° 04/2026 - Consultor Individual PRORROGAÇÃO",
+    "descricao": "Consultoria para desenvolver um documento técnico analítico que organize e sistematize diretrizes de cooperação internacional entre a UNESCO e a Secretaria Municipal de Direitos Humanos e Cidadania de",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados"
+    ],
+    "data_inicio": "2026-09-09",
+    "data_fim": "2026-09-13",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-09",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:5c1d62c6-1efa-431c-b9e2-08df0436270c",
+    "torid": "unesco:5c1d62c6-1efa-431c-b9e2-08df0436270c",
+    "fonte": "unesco",
+    "titulo": "914BRZ1155 - EDITAL Nº 54/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para desenvolvimento de estudos subsidiários ao desenho e aperfeiçoamento da Educação Especial na Perspectiva Inclusiva",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-09-09",
+    "data_fim": "2026-09-13",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-09",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1530,
+    "torid": 146353,
+    "fonte": "pnud",
+    "titulo": "TR - Mobilização Territorial/2026 - Suporte técnico especializado para Avaliação de Efetividade e Metodologias para Mobilização Territorial e Acesso a Instrumentos de Desenvolvimento",
+    "descricao": "Os(as) candidatos(as) deverão encaminhar o Currículo Vitae obrigatoriamente no modelo anexo a este edital;\r\nCurrículos em formato diverso do modelo estabelecido serão desclassificados;\r\nO envio do currículo deverá ser realizado exclusivamente para o e-mail: prodocbra23018@sudeco.gov.br\r\nNo campo assunto do e-mail, deverá constar obrigatoriamente o código do\r\nTermo de Referência:",
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Meio Ambiente / Clima / Geografia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-08",
+    "data_fim": "2026-09-18",
+    "local": "Região Centro Oeste",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "prodocbra23018@sudeco.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-02",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:b260be61-61f9-4226-2eb0-08df08e94b75",
+    "torid": "unesco:b260be61-61f9-4226-2eb0-08df08e94b75",
+    "fonte": "unesco",
+    "titulo": "914BRZ3061 - EDITAL Nº 13/2026 - 01 VAGA - CONSULTOR INDIVIDUAL-REPUBLICACAO",
+    "descricao": "Graduação de nível superior completa em qualquer área do conhecimento, desde que o curso seja devidamente reconhecido pelo Ministério da Educação (MEC).",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Não classificada"
+    ],
+    "data_inicio": "2026-09-08",
+    "data_fim": "2026-09-13",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-08",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:83caba6b-babf-4307-dd76-08df0757caed",
+    "torid": "unesco:83caba6b-babf-4307-dd76-08df0757caed",
+    "fonte": "unesco",
+    "titulo": "914BRZ1164 - EDITAL 03/2026 - 2 VAGAS - Consultor Individual",
+    "descricao": "Consultoria especializada para sistematização e elaboração de publicação institucional sobre o FNDE Chegando Junto e sobre o Pacto Nacional pela Retomada de Obras da Educação Básica.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-09-05",
+    "data_fim": "2026-09-11",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-05",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1525,
+    "torid": 146343,
+    "fonte": "pnud",
+    "titulo": "TR 005/2026 - ASPAD - MDA - Contratação de consultoria especializada para participação social no Plano Safra da Agricultura Familiar",
+    "descricao": "OBJETIVOS DA CONSULTORIA:\r\n\r\nA consultoria tem como objetivo o desenvolvimento de metodologias que\r\naprimorem a implementação e efetividade do Plano Safra da Agricultura\r\nFamiliar, por meio do Grupo de Trabalho criado para essa finalidade, com\r\natenção especial ao mapeamento e aprimoramento dos arranjos de\r\nparticipação social e à melhoria das políticas de crédito rural. Assim, os\r\nestudos, diagnósticos e metodologias produzidos pela consultoria\r\ncontribuirão para o fortalecimento institucional do MDA, qualificando os\r\nprocessos de participação social, monitoramento e formulação do Plano\r\nSafra da Agricultura Familiar, e colaborando para o alcance das metas\r\nprevistas no projeto.   \r\n\r\nAs pessoas interessadas no presente Termo de Referência deverão enviar o Currículo (modelo Anexo) para o e-mail: cgctf.editais@mda.gov.br. ASSUNTO: PCT PNUD 25/005 - TR 005/2026 - ASPAD.\r\n\r\n",
+    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+    "areas_tematicas": [
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-03",
+    "data_fim": "2026-09-12",
+    "local": "Brasília/DF",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "cgctf.editais@mda.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-08-27",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:1d72ac67-6c7d-4a8b-dd78-08df0757caed",
+    "torid": "unesco:1d72ac67-6c7d-4a8b-dd78-08df0757caed",
+    "fonte": "unesco",
+    "titulo": "914BRZ1154 - Edital 05/2026 - 01 perfil - Consultoria Individual",
+    "descricao": "Consultoria especializada em Avaliação da Educação Superior, políticas de ciência, tecnologia e inovação e análise institucional universitária, para desenvolver estudo comparado sobre modelos instituc",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-03",
+    "data_fim": "2026-09-13",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-03",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1528,
+    "torid": 146349,
+    "fonte": "pnud",
+    "titulo": "BRA/23/006 - CONSULTORIA TÉCNICA PARA O DESENVOLVIMENTO DE TECNOLOGIA APLICADA AO OBSERVATÓRIO DO NORDESTE",
+    "descricao": "CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE TECNOLOGIA APLICADA AO OBSERVATÓRIO DO NORDESTE",
+    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados"
+    ],
+    "data_inicio": "2026-09-02",
+    "data_fim": "2026-09-13",
+    "local": "HOME OFFICE",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "curriculos@consorcionordeste.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-08-31",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1529,
+    "torid": 146350,
+    "fonte": "pnud",
+    "titulo": "Contratação de consultoria individual (pessoa física) para elaboração de estudo analítico, voltado ao mapeamento de empreendimentos vinculados à transição energética em execução ou em fase de planejamento e de seu potencial impacto sobre territórios quilombolas na Região Sudeste ",
+    "descricao": "Contratação de consultoria individual (pessoa física) para elaboração de estudo analítico, voltado ao mapeamento de empreendimentos vinculados à transição energética em execução ou em fase de planejamento e de seu potencial impacto sobre territórios quilombolas.\r\n\r\nO estudo deverá contemplar a construção de diagnóstico integrado, de natureza geográfica, antropológica, econômica e ambiental, abrangendo empreendimentos relacionados à geração de energia limpa, à exploração de minerais críticos e a outras atividades associadas à denominada transição energética, considerando seus impactos diretos e indiretos sobre os territórios quilombolas. O estudo finalizado deverá subsidiar ações institucionais, políticas e territoriais a serem adotadas pelo Ministério da Igualdade Racial (MIR), e outros entes públicos.\r\n\r\nPara fins de delimitação territorial, o estudo terá como escopo regional a Região Sudeste do Brasil, em consonância com o objetivo de análise dos impactos de empreendimentos da transição energética sobre territórios quilombolas.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Meio Ambiente / Clima / Geografia"
+    ],
+    "data_inicio": "2026-09-01",
+    "data_fim": "2026-09-07",
+    "local": "Remoto",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "dqc@igualdaderacial.gov.br",
+    "valor_estimado": "55,00",
+    "valor_estimado_num": 55.0,
+    "status": "Aprovada",
+    "data_criacao": "2026-09-01",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:5d64862a-264d-475d-5f8e-08df036d3e00",
+    "torid": "unesco:5d64862a-264d-475d-5f8e-08df036d3e00",
+    "fonte": "unesco",
+    "titulo": "4BRZ4025 - Edital 18/2026 - Consultor Individual (1 Vaga)  REPUBLICAÇÃO",
+    "descricao": "Contratação de consultor individual, técnico especializado em design editorial e comunicação visual, para desenvolver o projeto editorial, gráfico e visual de quatro materiais institucionais.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Não classificada"
+    ],
+    "data_inicio": "2026-09-01",
+    "data_fim": "2026-09-05",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-01",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:b324319d-9f96-425f-8caf-08defc5a5785",
+    "torid": "unesco:b324319d-9f96-425f-8caf-08defc5a5785",
+    "fonte": "unesco",
+    "titulo": "914BRZ1155 - EDITAL Nº 48/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para produzir estudos técnicos, protocolos, referenciais metodológicos, materiais formativos e recomendações destinados ao fortalecimento das estratégias de prevenção das vio",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-09-01",
+    "data_fim": "2026-09-09",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-01",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:b74745df-a51d-41c1-b9e5-08df0436270c",
+    "torid": "unesco:b74745df-a51d-41c1-b9e5-08df0436270c",
+    "fonte": "unesco",
+    "titulo": "914BRZ1155 - EDITAL Nº 55/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para elaborar boletins com narrativas de dados sobre as violências nas escolas, a partir da consolidação, sistematização e análise de indicadores do ObservaDH",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-09-01",
+    "data_fim": "2026-09-08",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-01",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:f4efa11a-ea51-47cf-b9e7-08df0436270c",
+    "torid": "unesco:f4efa11a-ea51-47cf-b9e7-08df0436270c",
+    "fonte": "unesco",
+    "titulo": "914BRZ1155 - EDITAL Nº 56/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para desenvolver estudos e propor estratégias voltadas ao aprimoramento da gestão e da governança do Pacto Nacional pela Superação do Analfabetismo e Qualificação da Educação",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-01",
+    "data_fim": "2026-09-08",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-01",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:11c715d6-1d36-4c54-5f8f-08df036d3e00",
+    "torid": "unesco:11c715d6-1d36-4c54-5f8f-08df036d3e00",
+    "fonte": "unesco",
+    "titulo": "914BRZ4027 - Edital 55/2026 - Ciências Sociais",
+    "descricao": "Consultor Individual - Bases para a descentralização e gestão compartilhada do PAC Patrimônio Cultural",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-01",
+    "data_fim": "2026-09-06",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-09-01",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13216",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13216",
+    "fonte": "oei",
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13216",
+    "descricao": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-09-01",
+    "data_fim": "2026-09-23",
+    "local": "São Paulo - SP",
+    "orgao_parceiro": "OEI/BRA",
+    "email_submissao": "selecao.bra@oei.int",
+    "valor_estimado": "70.000,00",
+    "valor_estimado_num": 70000.0,
+    "status": "En evaluación",
+    "data_criacao": "2026-09-01",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13216/",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:17177a8d-bde0-4a60-df1c-08df01dbdf45",
+    "torid": "unesco:17177a8d-bde0-4a60-df1c-08df01dbdf45",
+    "fonte": "unesco",
+    "titulo": "914BRZ1159 - Publicação Edital 36/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria técnica nas áreas da Saúde Mental e Educação para desenvolver estudos, análises, metodologias para gestão, avaliação e monitoramento, para subsidiar o MEC à implementar o PSE e a PNAPCE.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Saúde",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-08-31",
+    "data_fim": "2026-09-06",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-08-31",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211",
+    "fonte": "oei",
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MEMP/SEBRAE/2024 – TR13211",
+    "descricao": "Contratação de consultor individual especialista em bioeconomia para desenvolver subsídios técnicos e metodológicos que apoiem a incorporação qualificada da bioeconomia às ações do Empreender Clima, com foco na caracterização de empreendimentos e cadeias de valor, identificação de desafios e oportunidades e proposição de critérios, instrumentos e recomendações aplicáveis ao atendimento de micro e pequenos negócios.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Economia / Finanças Públicas",
+      "Meio Ambiente / Clima / Geografia"
+    ],
+    "data_inicio": "2026-08-31",
+    "data_fim": "2026-09-05",
+    "local": "Remoto",
+    "orgao_parceiro": "OEI",
+    "email_submissao": "selecao.bra@oei.int",
+    "valor_estimado": "30.000,00",
+    "valor_estimado_num": 30000.0,
+    "status": "En evaluación",
+    "data_criacao": "2026-08-31",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211/",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1526,
+    "torid": 146346,
+    "fonte": "pnud",
+    "titulo": "Contratação de consultor (a) individual para assessoramento técnico especializado à consolidação, redação técnica e estruturação dos mecanismos de governança do Plano Estadual de Educação do Piauí 2026-2036",
+    "descricao": "Contratação de consultoria pessoa física, na modalidade produto, para prestar apoio técnico especializado à Secretaria de Estado da Educação do Piauí no processo de consolidação, sistematização e redação técnica do Plano Estadual de Educação do Piauí 2026-2036, bem como na elaboração de instrumentos orientadores para governança, implementação e acompanhamento do Plano.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-08-28",
+    "data_fim": "2026-09-11",
+    "local": "Home based",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "ugest@seduc.pi.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-08-28",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1527,
+    "torid": 146347,
+    "fonte": "pnud",
+    "titulo": "Contratação de consultor (a) individual para apoiar tecnicamente a Superintendência de Ensino na realização das Olimpíadas do Conhecimento",
+    "descricao": "Contratação de consultoria pessoa física, na modalidade produto, para prestar apoio técnico especializado à Superintendência de Ensino no acompanhamento, análise técnica e validação dos produtos previstos na Consultoria para o Projeto SEDUC Olímpica, assegurando sua conformidade com os objetivos, resultados esperados, cronograma, indicadores e diretrizes do projeto de cooperação técnica internacional, bem como apoiar tecnicamente a Superintendência de Ensino na implementação e qualificação das Olimpíadas do Conhecimento.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-08-28",
+    "data_fim": "2026-09-11",
+    "local": "Home based",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "ugest@seduc.pi.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-08-28",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:4fda0c36-f1a0-41f6-3f3a-08defeb303ea",
+    "torid": "unesco:4fda0c36-f1a0-41f6-3f3a-08defeb303ea",
+    "fonte": "unesco",
+    "titulo": "914BRZ1155 - EDITAL Nº 47/2026 - 1 vaga - Consultor Individual",
+    "descricao": "consultoria técnica especializada para subsidiar a Diretoria de Educação do Campo e Educação Ambiental – DIPECEI na elaboração de estudos analíticos e subsídios técnico-metodológicos voltados ao estab",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Meio Ambiente / Clima / Geografia"
+    ],
+    "data_inicio": "2026-08-28",
+    "data_fim": "2026-09-03",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-08-28",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:4db2e20b-a2e2-4074-00dc-08deff7b5e96",
+    "torid": "unesco:4db2e20b-a2e2-4074-00dc-08deff7b5e96",
+    "fonte": "unesco",
+    "titulo": "914BRZ1155 - EDITAL Nº 49/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para elaborar instrumentos e estudos de diagnóstico sobre as violências nas escolas, contemplando diferentes níveis, redes e públicos da educação",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-08-28",
+    "data_fim": "2026-09-03",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-08-28",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:ecd2379c-2ba5-488f-00dd-08deff7b5e96",
+    "torid": "unesco:ecd2379c-2ba5-488f-00dd-08deff7b5e96",
+    "fonte": "unesco",
+    "titulo": "914BRZ1155 - EDITAL Nº 50/2026 - 2 vagas - Consultor Individual",
+    "descricao": "Consultoria especializada para elaboração de 2 (dois) materiais de educação e informação em multiformato e bilíngue (Libras/Língua Portuguesa) ",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados"
+    ],
+    "data_inicio": "2026-08-28",
+    "data_fim": "2026-09-03",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-08-28",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:eb67e949-3d0c-4334-df1b-08df01dbdf45",
+    "torid": "unesco:eb67e949-3d0c-4334-df1b-08df01dbdf45",
+    "fonte": "unesco",
+    "titulo": "586RLA2002 - Edital 002/2026 - 1 vaga",
+    "descricao": "Consultor individual: Profissional de qualquer área de formação e experiência na área de gestão de recursos hídricos",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-08-27",
+    "data_fim": "2026-09-07",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-08-27",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:9ecb033c-d905-4f6f-df1e-08df01dbdf45",
+    "torid": "unesco:9ecb033c-d905-4f6f-df1e-08df01dbdf45",
+    "fonte": "unesco",
+    "titulo": "914BRZ4027 - Edital 54/2026 - Arquitetura e Urbanismo",
+    "descricao": "Consultor Individual - Bases para descentralização e gestão compartilhada do PAC Patrimônio Cultural",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-08-27",
+    "data_fim": "2026-08-31",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-08-27",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:8a4f297f-a7f6-4db9-ebd4-08defdee4813",
+    "torid": "unesco:8a4f297f-a7f6-4db9-ebd4-08defdee4813",
+    "fonte": "unesco",
+    "titulo": "914BRZ1159 - Publicação Edital 34/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada em políticas organizacionais para realizar estudos no âmbito do Programa Educação para a Cidadania e para a Sustentabilidade e do Programa na Ponta do Lápis na EDU Básica.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-08-26",
+    "data_fim": "2026-08-30",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-08-26",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:1ade5265-d185-4752-ebd5-08defdee4813",
+    "torid": "unesco:1ade5265-d185-4752-ebd5-08defdee4813",
+    "fonte": "unesco",
+    "titulo": "914BRZ1159 - Publicação Edital 35/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada em Análise de Requisitos de Negócios para realizar levantamento, análise, documentação e gestão de requisitos referentes à implementação e evolução da plataforma do Novo PAR.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-08-26",
+    "data_fim": "2026-08-30",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-08-26",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:e6ba376a-8848-485f-3f37-08defeb303ea",
+    "torid": "unesco:e6ba376a-8848-485f-3f37-08defeb303ea",
+    "fonte": "unesco",
+    "titulo": "914BRZ1163 - Publicação -  Edital 67/2026 - 01 Vaga - Consultor Individual",
+    "descricao": "em acompanhamento e análise de políticas públicas para elaboração de documento técnico com recomendações para o aprimoramento e a sustentabilidade das ações de aproximação da comunidade escolar no âmb",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-08-26",
+    "data_fim": "2026-09-01",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-08-26",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "unesco:7155091d-98d5-4ce4-df16-08df01dbdf45",
+    "torid": "unesco:7155091d-98d5-4ce4-df16-08df01dbdf45",
+    "fonte": "unesco",
+    "titulo": "914BRZ4024 - EDITAL Nº03/2026 - Consultor Individual",
+    "descricao": "Consultoria especializada - Perfil - Arquitetura, Design e Turismo",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Não classificada"
+    ],
+    "data_inicio": "2026-08-25",
+    "data_fim": "2026-08-31",
+    "local": "",
+    "orgao_parceiro": "UNESCO",
+    "email_submissao": "",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Ongoing",
+    "data_criacao": "2026-08-25",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1518,
+    "torid": 146326,
+    "fonte": "pnud",
+    "titulo": "Edital nº 02/2026 – Metodologia para monitoramento das decisões da Corte Interamericana de Direitos Humanos",
+    "descricao": "Contratação de 1 (uma) consultoria pessoa física, na modalidade produto, para regularização de fluxos de reporte internacional, qualificação técnica das informações prestadas à Corte Interamericana de Direitos Humanos, com base em critérios de objetividade, verificabilidade e coerência jurídica; bem como por meio da institucionalização de metodologias de monitoramento e avaliação dos compromissos internacionais em direitos humanos, promovendo maior previsibilidade e continuidade das ações estatais na implementação de atos necessários ao cumprimento de decisões da Corte Interamericana de Direitos Humanos.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-08-24",
+    "data_fim": "2026-09-09",
+    "local": "Território Nacional",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "ccidh@mdh.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-08-18",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1519,
+    "torid": 146327,
+    "fonte": "pnud",
+    "titulo": "Edital nº 3/2026 – Metodologia para monitoramento de recomendações e decisões da Comissão Interamericana de Direitos Humanos",
+    "descricao": "Contratação de 1 (uma) consultoria pessoa física, na modalidade produto, para regularização de fluxos de reporte internacional, qualificação técnica das informações prestadas à Comissão Interamericana de Direitos Humanos, com base em critérios de objetividade, verificabilidade e coerência jurídica; bem como por meio da institucionalização de metodologias de monitoramento e avaliação dos compromissos internacionais em direitos humanos, promovendo maior previsibilidade e continuidade das ações estatais na implementação de atos necessários ao cumprimento de decisões e recomendações da Comissão Interamericana de Direitos Humanos.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-08-24",
+    "data_fim": "2026-09-09",
+    "local": "Território Nacional",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "ccidh@mdh.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-08-18",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1520,
+    "torid": 146332,
+    "fonte": "pnud",
+    "titulo": "Edital nº 04/2026 - Segundo Plano da Política Nacional de RCN",
+    "descricao": "Contratação de consultoria pessoa física, na modalidade produto, para elaboração de documentos técnicos destinados a subsidiar a formulação do Segundo Plano da Política Nacional de Registro Civil de Nascimento e Ampliação do Acesso à Documentação Básica.\r\nAs entregas incluem diagnóstico sintético, diretrizes, objetivos, metas, indicadores, proposta de governança, matriz de responsabilidades e estratégia de participação social, bem como a sistematização de contribuições do processo participativo e a consolidação de insumos técnicos para a versão final do Plano, seu lançamento institucional e a proposição normativa correspondente.\r\n",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-08-24",
+    "data_fim": "2026-09-09",
+    "local": "Território Nacional",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "rcn_cidadania@mdh.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-08-19",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1522,
+    "torid": 146335,
+    "fonte": "pnud",
+    "titulo": "Consultoria técnica especializada para avaliação das capacidades institucionais da Secretaria do Tesouro Nacional (STN)",
+    "descricao": null,
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-08-24",
+    "data_fim": "2026-09-06",
+    "local": "Remoto",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "ucp.codin.df.stn@tesouro.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-08-20",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
     "id": "unesco:cce39a92-3e1c-4533-6f2c-08def7ab12e1",
     "torid": "unesco:cce39a92-3e1c-4533-6f2c-08def7ab12e1",
     "fonte": "unesco",
@@ -20,8 +1761,7 @@
     "status": "Ongoing",
     "data_criacao": "2026-08-24",
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "unesco:e7ac82d3-849f-4a69-8cae-08defc5a5785",
@@ -65,8 +1805,7 @@
     "status": "Ongoing",
     "data_criacao": "2026-08-23",
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "unesco:5a9d0c82-e38a-483b-ed53-08defa0191b8",
@@ -91,6 +1830,54 @@
     "perfil_classificado": "Não classificado"
   },
   {
+    "id": 1523,
+    "torid": 146336,
+    "fonte": "pnud",
+    "titulo": "UNDP-BRA-01232 - Benchmark Internacional e Análise de Adaptabilidade de Modelos Federativos de Gestão de Pessoas ao Contexto Brasileiro",
+    "descricao": "Consultoria Pessoa Física (IC) para Benchmark Internacional e Análise de Adaptabilidade de Modelos Federativos de Gestão de Pessoas ao Contexto Brasileiro",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-08-21",
+    "data_fim": "2026-09-03",
+    "local": "Home based",
+    "orgao_parceiro": "PNUD (Direto)",
+    "email_submissao": "ic.procurement.br@undp.org",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-08-21",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": 1524,
+    "torid": 146337,
+    "fonte": "pnud",
+    "titulo": "IC UNDP-BRA-01228 - Benchmarking, modelagem federativa e análise de viabilidade institucional",
+    "descricao": "Contratação Pessoa Física (IC) para elaboração de estudos de benchmarking, modelagem federativa e análise de viabilidade institucional para implementação do Sistema Nacional de Gestão de Pessoas.",
+    "tipo": "Consultoria Pessoa Física (PF)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-08-21",
+    "data_fim": "2026-09-03",
+    "local": "Home based",
+    "orgao_parceiro": "PNUD (Direto)",
+    "email_submissao": "aquisicoes.cbo.br@undp.org",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-08-21",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
     "id": "unesco:07727145-a919-4540-98cd-08dee32d8e84",
     "torid": "unesco:07727145-a919-4540-98cd-08dee32d8e84",
     "fonte": "unesco",
@@ -111,8 +1898,7 @@
     "status": "Ongoing",
     "data_criacao": "2026-08-21",
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "unesco:902f516e-135f-4244-ed50-08defa0191b8",
@@ -137,6 +1923,28 @@
     "perfil_classificado": "Não classificado"
   },
   {
+    "id": 1512,
+    "torid": 146313,
+    "fonte": "pnud",
+    "titulo": "Consultoria técnica especializada para desenvolvimento de proposta de governança e curadoria da Base de Conhecimento destinada ao suporte de soluções de Inteligência Artificial da área de Integridade da Secretaria do Tesouro Nacional",
+    "descricao": null,
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-08-20",
+    "data_fim": "2026-09-02",
+    "local": "Remoto",
+    "orgao_parceiro": "Não identificado",
+    "email_submissao": "ucp.codin.df.stn@tesouro.gov.br",
+    "valor_estimado": null,
+    "valor_estimado_num": null,
+    "status": "Aprovada",
+    "data_criacao": "2026-08-10",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
+  },
+  {
     "id": "unesco:030ad7b8-d33f-491a-31d9-08defb16c1ac",
     "torid": "unesco:030ad7b8-d33f-491a-31d9-08defb16c1ac",
     "fonte": "unesco",
@@ -148,7 +1956,7 @@
       "Estatística / Pesquisa / Metodologia"
     ],
     "data_inicio": "2026-08-19",
-    "data_fim": "2026-09-04",
+    "data_fim": "2026-09-18",
     "local": "",
     "orgao_parceiro": "UNESCO",
     "email_submissao": "",
@@ -157,8 +1965,7 @@
     "status": "Ongoing",
     "data_criacao": "2026-08-19",
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "unesco:9e66e10f-1c70-415e-3f5a-08def87d335c",
@@ -180,8 +1987,7 @@
     "status": "Ongoing",
     "data_criacao": "2026-08-19",
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "unesco:e6db7f8c-4409-4ec8-6f2d-08def7ab12e1",
@@ -226,8 +2032,7 @@
     "status": "Ongoing",
     "data_criacao": "2026-08-18",
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "unesco:faf77c4f-3305-48e3-449b-08def79bd957",
@@ -250,8 +2055,7 @@
     "status": "Ongoing",
     "data_criacao": "2026-08-18",
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13206",
@@ -273,8 +2077,7 @@
     "status": "En evaluación",
     "data_criacao": "2026-08-18",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13206/",
-    "perfil_classificado": "engenheiro_dados",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "unesco:ede6b983-4c99-440a-4777-08def936f411",
@@ -297,8 +2100,7 @@
     "status": "Ongoing",
     "data_criacao": "2026-08-17",
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "perfil_classificado": "engenheiro_dados",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "unesco:4ad4b204-cf32-4060-4778-08def936f411",
@@ -343,8 +2145,7 @@
     "status": "Ongoing",
     "data_criacao": "2026-08-17",
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr13200",
@@ -369,8 +2170,7 @@
     "status": "En evaluación",
     "data_criacao": "2026-08-17",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr13200/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1510,
@@ -391,9 +2191,8 @@
     "valor_estimado_num": null,
     "status": "Aprovada",
     "data_criacao": "2026-08-10",
-    "url_externo": "",
-    "perfil_classificado": "engenheiro_dados",
-    "score_perfil": 0.3
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1511,
@@ -414,7 +2213,7 @@
     "valor_estimado_num": null,
     "status": "Aprovada",
     "data_criacao": "2026-08-10",
-    "url_externo": "",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
     "perfil_classificado": "Não classificado"
   },
   {
@@ -436,7 +2235,7 @@
     "valor_estimado_num": null,
     "status": "Aprovada",
     "data_criacao": "2026-08-11",
-    "url_externo": "",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
     "perfil_classificado": "Não classificado"
   },
   {
@@ -458,7 +2257,7 @@
     "valor_estimado_num": null,
     "status": "Aprovada",
     "data_criacao": "2026-08-11",
-    "url_externo": "",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
     "perfil_classificado": "Não classificado"
   },
   {
@@ -480,7 +2279,7 @@
     "valor_estimado_num": null,
     "status": "Aprovada",
     "data_criacao": "2026-08-11",
-    "url_externo": "",
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
     "perfil_classificado": "Não classificado"
   },
   {
@@ -502,9 +2301,8 @@
     "valor_estimado_num": null,
     "status": "Aprovada",
     "data_criacao": "2026-08-11",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "url_externo": "https://parceiros.undp.org.br/opportunities",
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1509,
@@ -549,8 +2347,7 @@
     "status": "En fase de apresentação",
     "data_criacao": "2026-08-12",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-fp-26-02-ciencia-inovacao-e-desenvolvimento-tr-13199/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13202",
@@ -573,8 +2370,30 @@
     "status": "En evaluación",
     "data_criacao": "2026-08-12",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13202/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13203",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13203",
+    "fonte": "oei",
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/25/001 – TR13203",
+    "descricao": "Tem-se como objetivo contratar consultor(a) técnico(a) especializado(a) para elaborar estudos e propostas técnicas voltadas ao fortalecimento das capacidades institucionais da Rede Estadual de Ensino do Rio Grande do Sul na implementação da Política de Proteção à Trajetória do Estudante, mediante o mapeamento de demandas formativas, a estruturação de plano de capacitação dos atores envolvidos e a proposição de modelo de qualificação dos Planos de Ação Individual e Territorial, com vistas ao aperfeiçoamento das estratégias de permanência escolar e redução da evasão escolar.",
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Estatística / Pesquisa / Metodologia",
+      "Meio Ambiente / Clima / Geografia"
+    ],
+    "data_inicio": "2026-08-12",
+    "data_fim": "2026-09-07",
+    "local": "Porto Alegre/RS",
+    "orgao_parceiro": "OEI/BRA",
+    "email_submissao": "selecao.bra@oei.int",
+    "valor_estimado": "54.000,00",
+    "valor_estimado_num": 54000.0,
+    "status": "En fase de apresentação",
+    "data_criacao": "2026-08-12",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13203/",
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13204",
@@ -597,32 +2416,7 @@
     "status": "En evaluación",
     "data_criacao": "2026-08-12",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13204/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13203",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13203",
-    "fonte": "oei",
-    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/25/001 – TR13203",
-    "descricao": "Tem-se como objetivo contratar consultor(a) técnico(a) especializado(a) para elaborar estudos e propostas técnicas voltadas ao fortalecimento das capacidades institucionais da Rede Estadual de Ensino do Rio Grande do Sul na implementação da Política de Proteção à Trajetória do Estudante, mediante o mapeamento de demandas formativas, a estruturação de plano de capacitação dos atores envolvidos e a proposição de modelo de qualificação dos Planos de Ação Individual e Territorial, com vistas ao aperfeiçoamento das estratégias de permanência escolar e redução da evasão escolar.",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Estatística / Pesquisa / Metodologia",
-      "Meio Ambiente / Clima / Geografia"
-    ],
-    "data_inicio": "2026-08-12",
-    "data_fim": "2026-08-23",
-    "local": "Porto Alegre/RS",
-    "orgao_parceiro": "OEI/BRA",
-    "email_submissao": "selecao.bra@oei.int",
-    "valor_estimado": "54.000,00",
-    "valor_estimado_num": 54000.0,
-    "status": "En evaluación",
-    "data_criacao": "2026-08-12",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13203/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1502,
@@ -645,8 +2439,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-08-04",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:concorrencia-no-13125-2026-oei-mdhc",
@@ -669,8 +2462,7 @@
     "status": "En fase de apresentação",
     "data_criacao": "2026-08-10",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencia-no-13125-2026-oei-mdhc/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco",
@@ -693,8 +2485,7 @@
     "status": "En fase de apresentação",
     "data_criacao": "2026-08-10",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1505,
@@ -716,58 +2507,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-08-06",
     "url_externo": "",
-    "perfil_classificado": "engenheiro_dados",
-    "score_perfil": 0.3
-  },
-  {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192",
-    "fonte": "oei",
-    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13192",
-    "descricao": "Contratar consultor(a) especialista para produzir análises técnicas, estudos aplicados e subsídios estratégicos voltados ao desenvolvimento de diagnósticos e mapeamentos no campo da economia criativa e das políticas culturais, com ênfase na sistematização de dados, construção de indicadores e apoio à qualificação das ações do programa de cooperação entre MinC e OEI.",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Economia / Finanças Públicas",
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2026-08-06",
-    "data_fim": "2026-08-11",
-    "local": "Brasília - DF",
-    "orgao_parceiro": "OEI",
-    "email_submissao": "selecao.bra@oei.int",
-    "valor_estimado": "204.000,00",
-    "valor_estimado_num": 204000.0,
-    "status": "En evaluación",
-    "data_criacao": "2026-08-06",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13196",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13196",
-    "fonte": "oei",
-    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13196",
-    "descricao": "Contratar consultoria técnica especializada para apoiar o desenvolvimento de soluções voltadas à modernização institucional dos equipamentos culturais, por meio da análise de processos, levantamento e sistematização de requisitos, elaboração de especificações técnicas, proposição de melhorias em fluxos de trabalho e acompanhamento da implementação de soluções tecnológicas, contribuindo para o fortalecimento da gestão, da eficiência operacional e da transformação digital das instituições culturais no âmbito do projeto.",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia",
-      "Gestão / Administração Pública"
-    ],
-    "data_inicio": "2026-08-06",
-    "data_fim": "2026-08-11",
-    "local": "Brasília - Df",
-    "orgao_parceiro": "OEI",
-    "email_submissao": "selecao.bra@oei.int",
-    "valor_estimado": "80.000,00",
-    "valor_estimado_num": 80000.0,
-    "status": "En evaluación",
-    "data_criacao": "2026-08-06",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13196/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13193",
@@ -791,8 +2531,31 @@
     "status": "En evaluación",
     "data_criacao": "2026-08-06",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13193/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192",
+    "fonte": "oei",
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13192",
+    "descricao": "Contratar consultor(a) especialista para produzir análises técnicas, estudos aplicados e subsídios estratégicos voltados ao desenvolvimento de diagnósticos e mapeamentos no campo da economia criativa e das políticas culturais, com ênfase na sistematização de dados, construção de indicadores e apoio à qualificação das ações do programa de cooperação entre MinC e OEI.",
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Economia / Finanças Públicas",
+      "Estatística / Pesquisa / Metodologia"
+    ],
+    "data_inicio": "2026-08-06",
+    "data_fim": "2026-08-11",
+    "local": "Brasília - DF",
+    "orgao_parceiro": "OEI",
+    "email_submissao": "selecao.bra@oei.int",
+    "valor_estimado": "204.000,00",
+    "valor_estimado_num": 204000.0,
+    "status": "En evaluación",
+    "data_criacao": "2026-08-06",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192/",
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13195",
@@ -815,8 +2578,31 @@
     "status": "En evaluación",
     "data_criacao": "2026-08-06",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13195/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13196",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13196",
+    "fonte": "oei",
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13196",
+    "descricao": "Contratar consultoria técnica especializada para apoiar o desenvolvimento de soluções voltadas à modernização institucional dos equipamentos culturais, por meio da análise de processos, levantamento e sistematização de requisitos, elaboração de especificações técnicas, proposição de melhorias em fluxos de trabalho e acompanhamento da implementação de soluções tecnológicas, contribuindo para o fortalecimento da gestão, da eficiência operacional e da transformação digital das instituições culturais no âmbito do projeto.",
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-08-06",
+    "data_fim": "2026-08-11",
+    "local": "Brasília - Df",
+    "orgao_parceiro": "OEI",
+    "email_submissao": "selecao.bra@oei.int",
+    "valor_estimado": "80.000,00",
+    "valor_estimado_num": 80000.0,
+    "status": "En evaluación",
+    "data_criacao": "2026-08-06",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13196/",
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-13194",
@@ -839,8 +2625,7 @@
     "status": "En evaluación",
     "data_criacao": "2026-08-06",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-13194/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1498,
@@ -856,7 +2641,7 @@
       "Gestão / Administração Pública"
     ],
     "data_inicio": "2026-08-05",
-    "data_fim": "2026-08-18",
+    "data_fim": "2026-08-23",
     "local": "Remoto com possibilidade de atividades presenciais",
     "orgao_parceiro": "Não identificado",
     "email_submissao": "prodoc.ssagi@seplag.niteroi.rj.gov.br",
@@ -865,8 +2650,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-31",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1499,
@@ -881,7 +2665,7 @@
       "Gestão / Administração Pública"
     ],
     "data_inicio": "2026-08-05",
-    "data_fim": "2026-08-18",
+    "data_fim": "2026-08-23",
     "local": "Remoto com possibilidade de atividades presenciais",
     "orgao_parceiro": "Não identificado",
     "email_submissao": "prodoc.ssagi@seplag.niteroi.rj.gov.br",
@@ -890,8 +2674,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-31",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1503,
@@ -913,8 +2696,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-08-05",
     "url_externo": "",
-    "perfil_classificado": "engenheiro_dados",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1504,
@@ -936,8 +2718,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-08-06",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1500,
@@ -1004,8 +2785,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-28",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1481,
@@ -1030,8 +2810,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-22",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1482,
@@ -1055,8 +2834,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-23",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1484,
@@ -1079,8 +2857,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-23",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1485,
@@ -1103,8 +2880,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-23",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1486,
@@ -1127,8 +2903,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-23",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1487,
@@ -1152,8 +2927,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-23",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1488,
@@ -1175,8 +2949,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-23",
     "url_externo": "",
-    "perfil_classificado": "engenheiro_dados",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1489,
@@ -1199,8 +2972,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-23",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1493,
@@ -1223,8 +2995,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-28",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1497,
@@ -1269,8 +3040,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-29",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1496,
@@ -1293,8 +3063,29 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-29",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13173",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13173",
+    "fonte": "oei",
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO DEMOCRACIA PARTICIPATIVA/BRA/SGPR/24 – TR13173",
+    "descricao": "Contratar consultor(a) para apoiar tecnicamente o processo de participação social proporcionado pela Mesas de Diálogo sobre Mineração no Brasil iniciada em 2023.",
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Não classificada"
+    ],
+    "data_inicio": "2026-07-29",
+    "data_fim": "2026-08-04",
+    "local": "Remoto, Brasília - DF",
+    "orgao_parceiro": "OEI",
+    "email_submissao": "selecao.bra@oei.int",
+    "valor_estimado": "30.000,00",
+    "valor_estimado_num": 30000.0,
+    "status": "En evaluación",
+    "data_criacao": "2026-07-29",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13173/",
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169",
@@ -1317,29 +3108,6 @@
     "status": "En evaluación",
     "data_criacao": "2026-07-29",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169/",
-    "perfil_classificado": "analista_powerbi",
-    "score_perfil": 0.343
-  },
-  {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13173",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13173",
-    "fonte": "oei",
-    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO DEMOCRACIA PARTICIPATIVA/BRA/SGPR/24 – TR13173",
-    "descricao": "Contratar consultor(a) para apoiar tecnicamente o processo de participação social proporcionado pela Mesas de Diálogo sobre Mineração no Brasil iniciada em 2023.",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Não classificada"
-    ],
-    "data_inicio": "2026-07-29",
-    "data_fim": "2026-08-04",
-    "local": "Remoto, Brasília - DF",
-    "orgao_parceiro": "OEI",
-    "email_submissao": "selecao.bra@oei.int",
-    "valor_estimado": "30.000,00",
-    "valor_estimado_num": 30000.0,
-    "status": "En evaluación",
-    "data_criacao": "2026-07-29",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13173/",
     "perfil_classificado": "Não classificado"
   },
   {
@@ -1366,8 +3134,7 @@
     "status": "En evaluación",
     "data_criacao": "2026-07-29",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1492,
@@ -1390,8 +3157,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-28",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": 1491,
@@ -1414,8 +3180,7 @@
     "status": "Aprovada",
     "data_criacao": "2026-07-27",
     "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-002-tr-13111",
@@ -1439,8 +3204,7 @@
     "status": "En fase de apresentação",
     "data_criacao": "2026-07-24",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-002-tr-13111/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13109",
@@ -1484,8 +3248,7 @@
     "status": "En evaluación",
     "data_criacao": "2026-07-22",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr13107/",
-    "perfil_classificado": "engenheiro_dados",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13105",
@@ -1511,8 +3274,7 @@
     "status": "En evaluación",
     "data_criacao": "2026-07-21",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13105/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-16-002-tr13077",
@@ -1536,8 +3298,7 @@
     "status": "En evaluación",
     "data_criacao": "2026-07-20",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-16-002-tr13077/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-002-tr-13098",
@@ -1561,8 +3322,7 @@
     "status": "En presentación",
     "data_criacao": "2026-07-18",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-002-tr-13098/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13015",
@@ -1586,8 +3346,7 @@
     "status": "En evaluación",
     "data_criacao": "2026-07-17",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13015/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13078",
@@ -1611,8 +3370,7 @@
     "status": "En evaluación",
     "data_criacao": "2026-07-14",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13078/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13062",
@@ -1635,8 +3393,7 @@
     "status": "En evaluación",
     "data_criacao": "2026-07-13",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13062/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-002-tr-13072",
@@ -1658,8 +3415,7 @@
     "status": "En fase de apresentação",
     "data_criacao": "2026-07-10",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-002-tr-13072/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-002-tr-13074",
@@ -1681,8 +3437,7 @@
     "status": "En fase de apresentação",
     "data_criacao": "2026-07-10",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-002-tr-13074/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-001-tr13067",
@@ -1704,8 +3459,7 @@
     "status": "En evaluación",
     "data_criacao": "2026-07-09",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-001-tr13067/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-mec-bra-24-tr-13056",
@@ -1729,8 +3483,7 @@
     "status": "En fase de apresentação",
     "data_criacao": "2026-07-06",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-mec-bra-24-tr-13056/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:concorrencia-no-13046-2026-oei-mdhc-tecnica-e-preco",
@@ -1752,8 +3505,7 @@
     "status": "En presentación",
     "data_criacao": "2026-07-05",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencia-no-13046-2026-oei-mdhc-tecnica-e-preco/",
-    "perfil_classificado": "engenheiro_dados",
-    "score_perfil": 0.4
+    "perfil_classificado": "Não classificado"
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-fp-26-03-territorios-criativos-e-educacao-tr-13051",
@@ -1776,915 +3528,6 @@
     "status": "En fase de apresentação",
     "data_criacao": "2026-07-01",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-fp-26-03-territorios-criativos-e-educacao-tr-13051/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
-  },
-  {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr-12970",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr-12970",
-    "fonte": "oei",
-    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/22/003 – TR 12970",
-    "descricao": "Contratação de 05 (cinco) consultores especializados, sendo um por Gerência Regional, para elaborar produtos técnicos de diagnóstico, análise, sistematização de evidências e proposição de melhorias nos fluxos de monitoramento administrativo-financeiro das unidades parceiras, contribuindo para a consolidação de informações qualificadas e para a tomada de decisão baseada em evidências.",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia",
-      "Gestão / Administração Pública"
-    ],
-    "data_inicio": "2026-06-10",
-    "data_fim": "2026-06-15",
-    "local": "Recife - PE",
-    "orgao_parceiro": "OEI/BRA",
-    "email_submissao": "selecao.bra@oei.int",
-    "valor_estimado": null,
-    "valor_estimado_num": null,
-    "status": "En fase de apresentação",
-    "data_criacao": "2026-06-10",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr-12970/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
-  },
-  {
-    "id": 1418,
-    "torid": 146183,
-    "fonte": "pnud",
-    "titulo": "Edital nº 02/2026 - Contratação de consultoria especializada (pessoa física) para Diagnóstico Institucional, Mapeamento de Processos e Gargalos da DGP/MTE",
-    "descricao": "Contratação de consultoria especializada (pessoa física) para Diagnóstico Institucional, Mapeamento de Processos e Gargalos da DGP/MTE",
-    "tipo": "Consultoria Pessoa Física (PF)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia",
-      "Gestão / Administração Pública"
-    ],
-    "data_inicio": "2026-05-14",
-    "data_fim": "2026-05-24",
-    "local": "Brasília - DF",
-    "orgao_parceiro": "MTE",
-    "email_submissao": "processoseletivo@trabalho.gov.br",
-    "valor_estimado": null,
-    "valor_estimado_num": null,
-    "status": "Aprovada",
-    "data_criacao": "2026-05-13",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
-  },
-  {
-    "id": 1416,
-    "torid": 146182,
-    "fonte": "pnud",
-    "titulo": "IC - UNDP-BRA-01143 - Estudo técnico para subsidiar a regulamentação, pelo CNJ, do número de varas de execução penal proporcional ao número de varas criminais e ao quantitativo de pessoas presas",
-    "descricao": null,
-    "tipo": "Edital Genérico / IC",
-    "areas_tematicas": [
-      "Estatística / Pesquisa / Metodologia",
-      "Direito / Jurídico"
-    ],
-    "data_inicio": "2026-05-12",
-    "data_fim": "2026-05-26",
-    "local": "Remoto. Notar: na data de término, a negociação se encerra às 17h de Brasília",
-    "orgao_parceiro": "PNUD (Direto)",
-    "email_submissao": "ic.procurement.br@undp.org",
-    "valor_estimado": null,
-    "valor_estimado_num": null,
-    "status": "Aprovada",
-    "data_criacao": "2026-05-12",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
-  },
-  {
-    "id": 1368,
-    "torid": 146147,
-    "fonte": "pnud",
-    "titulo": "PRODOC BRA 23/022 - TR 08-2026 - Tributação ótima no estado de bem-estar social",
-    "descricao": "Contratação de pesquisador para elaborar estudo sobre tributação ótima no estado de bem-estar social.",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Economia / Finanças Públicas",
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2026-05-11",
-    "data_fim": "2026-05-24",
-    "local": "Remoto/Brasília",
-    "orgao_parceiro": "TCU",
-    "email_submissao": "segecex-assessoria@tcu.gov.br",
-    "valor_estimado": null,
-    "valor_estimado_num": null,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-27",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
-  },
-  {
-    "id": 1367,
-    "torid": 146146,
-    "fonte": "pnud",
-    "titulo": "PRODOC BRA 23/022 - TR 07-2026 - Incidência distributiva da carga tributária no Brasil",
-    "descricao": "Contratação de pesquisador para elaboração de estudo sobre a incidência distributiva da carga tributária no Brasil. ",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Economia / Finanças Públicas",
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2026-05-11",
-    "data_fim": "2026-05-24",
-    "local": "Remoto/Brasília",
-    "orgao_parceiro": "TCU",
-    "email_submissao": "segecex-assessoria@tcu.gov.br",
-    "valor_estimado": null,
-    "valor_estimado_num": null,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-27",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
-  },
-  {
-    "id": 1412,
-    "torid": 146173,
-    "fonte": "pnud",
-    "titulo": "IC - UNDP-BRA-01130 - Consultoria para acompanhamento técnico, avaliação de progresso e análise integrada das ações desenvolvidas no âmbito das CAs UFF e UnB Finatec",
-    "descricao": "null",
-    "tipo": "Edital Genérico / IC",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia",
-      "Gestão / Administração Pública"
-    ],
-    "data_inicio": "2026-05-07",
-    "data_fim": "2026-05-20",
-    "local": "Distrito Federal (notar: na data de término, a negociação se encerra às 17h de Brasília)",
-    "orgao_parceiro": "PNUD (Direto)",
-    "email_submissao": "ic.procurement.br@undp.org",
-    "valor_estimado": null,
-    "valor_estimado_num": null,
-    "status": "Aprovada",
-    "data_criacao": "2026-05-07",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
-  },
-  {
-    "id": 1411,
-    "torid": 146172,
-    "fonte": "pnud",
-    "titulo": "IC - UNDP-BRA-01122 - Consultoria para elaboração e aplicação de metodologia de monitoramento e avaliação de progresso das ações de formação desenvolvidas no âmbito da CA UnB FUNAPE",
-    "descricao": null,
-    "tipo": "Edital Genérico / IC",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia",
-      "Gestão / Administração Pública"
-    ],
-    "data_inicio": "2026-05-07",
-    "data_fim": "2026-05-20",
-    "local": "Distrito Federal (notar: na data de término, a negociação se encerra às 17h de Brasília)",
-    "orgao_parceiro": "PNUD (Direto)",
-    "email_submissao": "ic.procurement.br@undp.org",
-    "valor_estimado": null,
-    "valor_estimado_num": null,
-    "status": "Aprovada",
-    "data_criacao": "2026-05-07",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
-  },
-  {
-    "id": 1393,
-    "torid": 146153,
-    "fonte": "pnud",
-    "titulo": "BRA20/023 - CONTRATAÇÃO DE CONSULTOR POR PRODUTO - PESSOA FÍSICA - ESTUDO PROPOSITIVO SOBRE PRIVACIDADE E PROTEÇÃO DE DADOS PESSOAIS",
-    "descricao": "Solicita os préstimos de publicar, juntamente, o edital em anexo",
-    "tipo": "Consultoria Pessoa Física (PF)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2026-05-05",
-    "data_fim": "2026-05-18",
-    "local": "Site: Oportunidades PNUD e AGU",
-    "orgao_parceiro": "AGU",
-    "email_submissao": "eagu.secretaria@agu.gov.br",
-    "valor_estimado": null,
-    "valor_estimado_num": null,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-29",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
-  },
-  {
-    "id": 1391,
-    "torid": 146152,
-    "fonte": "pnud",
-    "titulo": "Edital nº 11/2026 - Contratação de consultor pessoa física para desenvolver automações de rotinas no SEI e no SIC, e entregar solução de BI para acompanhamento dos atendimentos.",
-    "descricao": "Edital nº 11/2026 - Contratação de consultor pessoa física para desenvolver automações de rotinas no SEI e no SIC, e entregar solução de BI para acompanhamento dos atendimentos.",
-    "tipo": "Consultoria Pessoa Física (PF)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados"
-    ],
-    "data_inicio": "2026-05-05",
-    "data_fim": "2026-05-20",
-    "local": "REMOTO",
-    "orgao_parceiro": "MGI",
-    "email_submissao": "prodoc.mgi@gestao.gov.br",
-    "valor_estimado": null,
-    "valor_estimado_num": null,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-29",
-    "url_externo": "",
-    "perfil_classificado": "engenheiro_dados",
-    "score_perfil": 0.3
-  },
-  {
-    "id": 1397,
-    "torid": 146155,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA 23/023 - TR 98/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A AVALIAÇÃO DA FRAGILIDADE AMBIENTAL DE ECOSSISTEMAS COSTEIROS.",
-    "descricao": "Contratação de Consultoria especializada para o aprimoramento de mapeamento geomorfológico costeiro, com avaliação da fragilidade ambiental de ambientes costeiros e modificações ambientais, sejam elas antropogênicas ou naturais.",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia",
-      "Meio Ambiente / Clima / Geografia",
-      "Gestão / Administração Pública"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "86.800,00",
-    "valor_estimado_num": 86800.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-29",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": 1364,
-    "torid": 146136,
-    "fonte": "pnud",
-    "titulo": "PRODOC BRA 23/022 - TR 04/2026 ",
-    "descricao": "PRODOC BRA 23/022 - Contratação de Consultoria para realização de estudo de viabilidade, levantamento de requisitos e prototipação de um sistema que funcione como um repositório nacional de evidências de adequação da estrutura hospitalar.",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Saúde",
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-17",
-    "local": "Remoto/Brasília",
-    "orgao_parceiro": "TCU",
-    "email_submissao": "AudSaude@tcu.gov.br",
-    "valor_estimado": null,
-    "valor_estimado_num": null,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-24",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
-  },
-  {
-    "id": 1365,
-    "torid": 146137,
-    "fonte": "pnud",
-    "titulo": "PRODOC BRA 23/022 - TR 05/2026",
-    "descricao": "PRODOC BRA 23/022 - Contratação de consultoria para realização de estudo de levantamento de indicadores aptos a medir eficiência, eficácia e efetividade hospitalar e de redes de atenção à saúde.",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Saúde",
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-17",
-    "local": "Remoto/Brasília",
-    "orgao_parceiro": "TCU",
-    "email_submissao": "AudSaude@tcu.gov.br",
-    "valor_estimado": null,
-    "valor_estimado_num": null,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-24",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
-  },
-  {
-    "id": 1366,
-    "torid": 146138,
-    "fonte": "pnud",
-    "titulo": "PRODOC BRA 23/022 - TR 06/2026",
-    "descricao": "PRODOC BRA 23/022 - Contratação de consultoria para desenhar e estruturar o modelo de funcionamento do Serviço de Fiscalização da Eficiência na Saúde.",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Economia / Finanças Públicas",
-      "Saúde"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-17",
-    "local": "Remoto/Brasília",
-    "orgao_parceiro": "TCU",
-    "email_submissao": "AudSaude@tcu.gov.br",
-    "valor_estimado": null,
-    "valor_estimado_num": null,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-24",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
-  },
-  {
-    "id": 1371,
-    "torid": 146148,
-    "fonte": "pnud",
-    "titulo": "Edital nº 10/2026 - Contratação de Consultoria Individual para gestão do conhecimento metodologia de Dimensionamento da Força de Trabalho",
-    "descricao": "Edital nº 10/2026 - Contratação de Consultoria Individual para gestão do conhecimento metodologia de Dimensionamento da Força de Trabalho",
-    "tipo": "Consultoria Pessoa Física (PF)",
-    "areas_tematicas": [
-      "Estatística / Pesquisa / Metodologia",
-      "Gestão / Administração Pública"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-19",
-    "local": "Remoto",
-    "orgao_parceiro": "MGI",
-    "email_submissao": "prodoc.mgi@gestao.gov.br",
-    "valor_estimado": null,
-    "valor_estimado_num": null,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-28",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.3
-  },
-  {
-    "id": 1372,
-    "torid": 146097,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA - TR 89/26 - Contratação de Consultoria especializada para identificação de concentrações espaciais de segmentos de Povos e Comunidades Tradicionais e da População em Situação de Rua.",
-    "descricao": "Contratação de Consultoria especializada para identificação de concentrações espaciais de segmentos de Povos e Comunidades Tradicionais e da População em Situação de Rua.",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Meio Ambiente / Clima / Geografia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "86.800,00",
-    "valor_estimado_num": 86800.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-28",
-    "url_externo": "",
-    "perfil_classificado": "engenheiro_dados",
-    "score_perfil": 0.4
-  },
-  {
-    "id": 1373,
-    "torid": 146113,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA 23/023 - TR 114/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ELABORAÇÃO DE ESTUDO SOBRE LIÇÕES APREENDIDAS E PROPOSIÇÃO PARA A ATUALIZAÇÃO DOS PROTOCOLOS DE DISSEMINAÇÃO DE DADOS - PERÍODO DE 1964 a 1985.",
-    "descricao": "Contratação de Consultoria especializada para elaboração de roteiro de lições aprendidas e a proposição de diretrizes de atualizações institucionais aplicáveis à para a burocracia do Instituto Nacional de Estatística (INE), no que se refere aos protocolos de em relação à disseminação de dados vigentes no período de 1964 a 1985.",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "47.500,00",
-    "valor_estimado_num": 47500.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-28",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": 1374,
-    "torid": 146112,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA 23/023 - TR 113/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A CONSTRUÇÃO DE MAPEAMENTO DAS DIRETRIZES GOVERNAMENTAIS RELACIONADAS À ATUAÇÃO DO IBGE.",
-    "descricao": "Contratação de Consultoria especializada para elaboração de estudo com o mapeamento e análise das diretrizes governamentais e dos procedimentos de produção e divulgação de informações estatísticas, vigentes no período de 1964 a 1985.",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "47.500,00",
-    "valor_estimado_num": 47500.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-28",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": 1375,
-    "torid": 146110,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA 23/023 - TR 112/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A ELABORAÇÃO DE ESTUDO SOBRE O PAPEL DESEMPENHADO PELO IBGE NO PLANEJAMENTO E NA REALIZAÇÃO DOS CENSOS DE 1970 E 1980.",
-    "descricao": "Contratação de Consultoria especializada para a elaboração de estudo, com o intuito de examinar o papel institucional do IBGE; mapeamento do papel no planejamento desenvolvimentista, com ênfase em sua atuação na concepção, organização  e a realização dos Censos Demográficos de 1970 e 1980.",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "47.500,00",
-    "valor_estimado_num": 47500.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-28",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": 1376,
-    "torid": 146109,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA 23/023 - TR 111/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A ELABORAÇÃO DE ESTUDO SOBRE O PROCESSO DE ESTRUTURAÇÃO INSTITUCIONAL DO IBGE.",
-    "descricao": "Contratação de Consultoria especializada para sistematizar e organizar a bibliografia e o acervo documental da instituição, visando a elaboração de um estudo sobre as transformações institucionais ocorridas no período  de 1964 a 1985. ",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "47.500,00",
-    "valor_estimado_num": 47500.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-28",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": 1379,
-    "torid": 146101,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA 23/023 - TR 93/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O MAPEAMENTO RECORTE POPULACIONAL DA PESSOA EM SITUAÇÃO DE RUA.",
-    "descricao": "Contratação de Consultoria especializada para a realização de estudos para o mapeamento do recorte populacional da pessoa em situação de rua.",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "86.800,00",
-    "valor_estimado_num": 86800.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-28",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": 1380,
-    "torid": 146100,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA 23/023 - TR 92/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O MAPEAMENTO CENSITÁRIO DE POPULAÇÕES INDÍGENAS.",
-    "descricao": "Contratação de Consultoria especializada para a realização de estudos e análises para a identificação e mapeamento da População Indígena e da sua interseção com outros Povos e Comunidades Tradicionais.",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Estatística / Pesquisa / Metodologia",
-      "Meio Ambiente / Clima / Geografia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "86.800,00",
-    "valor_estimado_num": 86800.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-28",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": 1381,
-    "torid": 146099,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA 23/023 - TR 91/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A CONDUÇÃO DE ESTUDOS GEOGRÁFICOS E ESTATÍSTICOS SOBRE POVOS E COMUNIDADES TRADICIONAIS.",
-    "descricao": "Contratação de Consultoria especializada para a realização de estudos geoestatísticos, usando como referências as bases de dados disponibilizadas pelo Conselho Nacional de Povos e Comunidades Tradicionais e pelas lideranças dos povos e comunidades que fazem parte do Conselho. ",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia",
-      "Meio Ambiente / Clima / Geografia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "86.800,00",
-    "valor_estimado_num": 86800.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-28",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": 1387,
-    "torid": 146098,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA 23/023 - TR 90/2026 - Contratação de Consultoria especializada para análises de registros administrativos, dados geoespacializados e dados de endereços utilizando ferramentas GIS e Python.",
-    "descricao": "Contratação de Consultoria especializada para a análise de: registros administrativos, dados geoespacializadas e dados de endereços utilizando ferramentas GIS e ferramentas Python para composição de listagem de endereços e mapeamento prévio direcionado aos Povos e Comunidades Tradicionais.",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia",
-      "Meio Ambiente / Clima / Geografia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "91.500,00",
-    "valor_estimado_num": 91500.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-28",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": 1389,
-    "torid": 146151,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA 23/023 - TR 115/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA AVALIAÇÃO E ANÁLISE DO PANORAMA DA ERA DIGITAL.",
-    "descricao": "Contratação de Consultoria especializada para realização de estudos analíticos focados no debate sobre a Era Digital, com o objetivo de produzir conhecimento sobre comunicação, documentação e disseminação em ambientes digitais, tendo em vista a divulgação e comunicação de dados estatísticos.",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia",
-      "Gestão / Administração Pública"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "126.500,00",
-    "valor_estimado_num": 126500.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-29",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": 1394,
-    "torid": 146154,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA 23/023 - TR 97/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A ESTRUTURAÇÃO DO MAPEAMENTO CLIMÁTICO NACIONAL E REGIONAL.",
-    "descricao": "Contratação de Consultoria especializada para o aprimoramento de metodologia de mapeamento climático, incorporando bases de dados atualizadas e métodos contemporâneos de classificação climática , além de estruturar o mapeamento climático em escalas regionais.",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia",
-      "Meio Ambiente / Clima / Geografia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "86.800,00",
-    "valor_estimado_num": 86800.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-29",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": 1395,
-    "torid": 146107,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA 23/023 - TR 95/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE METODOLOGIA SOBRE ORDENAMENTO TERRITORIAL MUNICIPAL",
-    "descricao": "Contratação de Consultoria especializada para o desenvolvimento de metodologia de aperfeiçoamento, modernização e sistematização da base existente de documentos normativos sobre ordenamento territorial, com foco em divisões intramunicipais (bairros, regiões administrativas, regiões de planejamento, subdistritos, entre outras categorias), visando a proposição da estrutura do repositório, dos metadados e dos mecanismos de atualização contínua.",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia",
-      "Direito / Jurídico",
-      "Meio Ambiente / Clima / Geografia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "86.800,00",
-    "valor_estimado_num": 86800.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-29",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": 1396,
-    "torid": 146108,
-    "fonte": "pnud",
-    "titulo": "PROJETO BRA 23/023 - TR 96/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ELABORAÇÃO DE PROPOSTA DE METODOLOGIA PARA SISTEMATIZAÇÃO E PADRONIZAÇÃO DA BASE DE DADOS GEOESPACIAIS DE ÁREAS DE REFERÊNCIA INTRAMUNICIPAIS.",
-    "descricao": "Contratação de Consultoria especializada para elaboração de proposta de metodologia para sistematização e padronização das bases de dados geoespacial de áreas de referência intramunicipais, incluindo organização, nomenclatura e mecanismos de atualização contínua, objetivando apoiar análises geográficas e estatísticas; e a disseminação do Censo Demográfico 2030.",
-    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2026-05-04",
-    "data_fim": "2026-05-18",
-    "local": "Remoto",
-    "orgao_parceiro": "IBGE",
-    "email_submissao": "projetos.especiais@ibge.gov.br",
-    "valor_estimado": "86.800,00",
-    "valor_estimado_num": 86800.0,
-    "status": "Aprovada",
-    "data_criacao": "2026-04-29",
-    "url_externo": "",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": "oei:licitacao-no-12473-2025-oei-secult-es-tecnica-e-preco",
-    "torid": "oei:licitacao-no-12473-2025-oei-secult-es-tecnica-e-preco",
-    "fonte": "oei",
-    "titulo": "LICITAÇÃO Nº 12473/2025 – OEI/SECULT-ES TÉCNICA E PREÇO",
-    "descricao": "Contratação de serviços técnicos para a elaboração do Plano estratégico e de gestão e do Plano museológico do Cais das Artes, conforme diretrizes estabelecidas no Termo de Referência.",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Gestão / Administração Pública"
-    ],
-    "data_inicio": "2025-11-13",
-    "data_fim": "2025-12-04",
-    "local": "Remoto, com disponibilidade para viagens para Vitória ES.",
-    "orgao_parceiro": "OEI/SECULT",
-    "email_submissao": "compras.bra@oei.int",
-    "valor_estimado": "891.000,00",
-    "valor_estimado_num": 891000.0,
-    "status": "Desierta",
-    "data_criacao": "2025-11-13",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/licitacao-no-12473-2025-oei-secult-es-tecnica-e-preco/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": "oei:procedimento-simplificado-no-12246-2025-oei-cop30-menor-preco",
-    "torid": "oei:procedimento-simplificado-no-12246-2025-oei-cop30-menor-preco",
-    "fonte": "oei",
-    "titulo": "PROCEDIMENTO SIMPLIFICADO Nº 12246/2025 – OEI/COP30 MENOR PREÇO",
-    "descricao": "Contratação de pessoa jurídica para o  fornecimento de galões de água potável e de bebedouros em torre, incluindo instalação manutenção preventiva, destinados ao atendimento da 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre a Mudança do Clima (COP30).",
-    "tipo": "Consultoria Pessoa Jurídica (PJ) / Empresa",
-    "areas_tematicas": [
-      "Meio Ambiente / Clima / Geografia"
-    ],
-    "data_inicio": "2025-09-26",
-    "data_fim": "2025-10-08",
-    "local": "Belém - PA",
-    "orgao_parceiro": "OEI/COP30",
-    "email_submissao": "compras.bra@oei.int",
-    "valor_estimado": "303.446,73",
-    "valor_estimado_num": 303446.73,
-    "status": "Desierta",
-    "data_criacao": "2025-09-26",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/procedimento-simplificado-no-12246-2025-oei-cop30-menor-preco/",
-    "perfil_classificado": "engenheiro_dados",
-    "score_perfil": 0.4
-  },
-  {
-    "id": "oei:licitacao-no-12218-2025-oei-cop30-menor-preco",
-    "torid": "oei:licitacao-no-12218-2025-oei-cop30-menor-preco",
-    "fonte": "oei",
-    "titulo": "LICITAÇÃO  Nº 12218/2025 – OEI/COP30 MENOR PREÇO",
-    "descricao": "Contratação de motoristas e fornecimento de combustível a fim de complementar o serviço de transporte executivo, a ser prestado para o atendimento à Cúpula de Líderes, no  mês de novembro, bem como a contratação de serviços de limpeza de veículos para atender aos veículos disponibilizados à equipe da UNFCCC, nos meses de outubro e novembro, como parte dos preparativos e durante a realização da 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre a Mudança do Clima (COP30).",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Meio Ambiente / Clima / Geografia"
-    ],
-    "data_inicio": "2025-09-17",
-    "data_fim": "2025-10-01",
-    "local": "Belém/PA",
-    "orgao_parceiro": "OEI/COP30",
-    "email_submissao": "compras.bra@oei.int",
-    "valor_estimado": "2.314.592,57",
-    "valor_estimado_num": 2314592.57,
-    "status": "Desierta",
-    "data_criacao": "2025-09-17",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/licitacao-no-12218-2025-oei-cop30-menor-preco/",
-    "perfil_classificado": "engenheiro_dados",
-    "score_perfil": 0.4
-  },
-  {
-    "id": "oei:licitacao-no-12087-2025-oei-cop30-menor-preco",
-    "torid": "oei:licitacao-no-12087-2025-oei-cop30-menor-preco",
-    "fonte": "oei",
-    "titulo": "LICITAÇÃO Nº 12087/2025 – OEI/COP30  MELHOR TÉCNICA E MENOR PREÇO",
-    "descricao": "Contratação de pessoa jurídica especializada na prestação de serviços de interpretação, nas modalidades simultânea e consecutiva, presencial e remota, em caráter não exclusivo e sob demanda, para atender às necessidades de autoridades, de delegações e de participantes das reuniões Pré-Sessionais e da 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre a Mudança do Clima (COP30), conforme especificações e detalhamentos contidos no Anexo “A” – Termo de Referência.",
-    "tipo": "Consultoria Pessoa Jurídica (PJ) / Empresa",
-    "areas_tematicas": [
-      "Meio Ambiente / Clima / Geografia"
-    ],
-    "data_inicio": "2025-08-14",
-    "data_fim": "2025-08-28",
-    "local": "Belém/PA",
-    "orgao_parceiro": "OEI/COP30",
-    "email_submissao": "compras.bra@oei.int",
-    "valor_estimado": "10.000,00",
-    "valor_estimado_num": 10000.0,
-    "status": "Desierta",
-    "data_criacao": "2025-08-14",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/licitacao-no-12087-2025-oei-cop30-menor-preco/",
-    "perfil_classificado": "pesquisador_computacao",
-    "score_perfil": 0.312
-  },
-  {
-    "id": "oei:procedimento-simplificado-no-11924-2025-oei-secult-ssa-menor-e-preco",
-    "torid": "oei:procedimento-simplificado-no-11924-2025-oei-secult-ssa-menor-e-preco",
-    "fonte": "oei",
-    "titulo": "PROCEDIMENTO SIMPLIFICADO Nº 11924/2025 – OEI/SECULT-SSA  MENOR E PREÇO",
-    "descricao": "Contratação de empresa especializada para prestar serviço de recarga dos cilindros de gás IG-541 (Inergen) do sistema fixo de incêndio do Arquivo Público Municipal de Salvador, e serviços complementares, conforme especificações constantes do Termo de Referência, Anexo” A”, do Edital.",
-    "tipo": "Consultoria Pessoa Jurídica (PJ) / Empresa",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados"
-    ],
-    "data_inicio": "2025-07-23",
-    "data_fim": "2025-08-04",
-    "local": "Salvador/BA",
-    "orgao_parceiro": "OEI/SECULT",
-    "email_submissao": "compras.bra@oei.int",
-    "valor_estimado": "150.000,00",
-    "valor_estimado_num": 150000.0,
-    "status": "Desierta",
-    "data_criacao": "2025-07-23",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/procedimento-simplificado-no-11924-2025-oei-secult-ssa-menor-e-preco/",
-    "perfil_classificado": "engenheiro_dados",
-    "score_perfil": 0.4
-  },
-  {
-    "id": "oei:procedimento-simplificado-no-11867-2025-oei-fpos",
-    "torid": "oei:procedimento-simplificado-no-11867-2025-oei-fpos",
-    "fonte": "oei",
-    "titulo": "Procedimento Simplificado nº 11867/2025 – OEI/FPOS",
-    "descricao": "Contratação de Pessoa Jurídica para a elaboração de cartilha sobre regularização fundiária e destinação de terras nos estados da Amazônia Legal",
-    "tipo": "Consultoria Pessoa Jurídica (PJ) / Empresa",
-    "areas_tematicas": [
-      "Direito / Jurídico"
-    ],
-    "data_inicio": "2025-07-02",
-    "data_fim": "2025-07-14",
-    "local": "Remoto",
-    "orgao_parceiro": "OEI/FPOS",
-    "email_submissao": "compras.bra@oei.int",
-    "valor_estimado": "150.000,00",
-    "valor_estimado_num": 150000.0,
-    "status": "Desierta",
-    "data_criacao": "2025-07-02",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/procedimento-simplificado-no-11867-2025-oei-fpos/",
-    "perfil_classificado": "Não classificado"
-  },
-  {
-    "id": "oei:pregao-presencial-no-11455-2025-oei-tecnica-e-preco",
-    "torid": "oei:pregao-presencial-no-11455-2025-oei-tecnica-e-preco",
-    "fonte": "oei",
-    "titulo": "PREGÃO PRESENCIAL Nº 11455/2025 – OEI TÉCNICA E PREÇO",
-    "descricao": "R$ 48.391,94",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Não classificada"
-    ],
-    "data_inicio": "2025-03-27",
-    "data_fim": "2025-04-14",
-    "local": "Brasília - DF",
-    "orgao_parceiro": "OEI",
-    "email_submissao": "compras.bra@oei.int",
-    "valor_estimado": "48.391,94",
-    "valor_estimado_num": 48391.94,
-    "status": "Desierta",
-    "data_criacao": "2025-03-27",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/pregao-presencial-no-11455-2025-oei-tecnica-e-preco/",
-    "perfil_classificado": "Não classificado"
-  },
-  {
-    "id": "oei:concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco",
-    "torid": "oei:concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco",
-    "fonte": "oei",
-    "titulo": "CONCORRÊNCIA Nº 10904/2024 – OEI-ENAP TÉCNICA E PREÇO",
-    "descricao": "Contratação de serviços técnicos especializados para Sistematização do Programa Líderes que Transformam, por meio da organização e estruturação do Conhecimento do Programa, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
-    "tipo": "Consultoria (tipo não especificado)",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2024-12-17",
-    "data_fim": "2025-03-11",
-    "local": "Brasília, Brasil",
-    "orgao_parceiro": "OEI/ENAP",
-    "email_submissao": "compras.bra@oei.int",
-    "valor_estimado": "137.000,00",
-    "valor_estimado_num": 137000.0,
-    "status": "Desierta",
-    "data_criacao": "2024-12-17",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": "oei:procedimento-simplificado-no-10260-2024",
-    "torid": "oei:procedimento-simplificado-no-10260-2024",
-    "fonte": "oei",
-    "titulo": "Procedimento Simplificado nº 10260/2024 – OEI/SEBRAE-MEMP",
-    "descricao": "Contratação de pessoa jurídica objetivando a prestação de serviços de pesquisa para elaboração da Estratégia Transversal Nacional Climática para os Impactos socioeconômicos e ambientais da transição, tendo como foco principal o de fornecer uma compreensão aprofundada e abrangente das mudanças que essa transição implica para as pequenas e médias empresas (MPEs), conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
-    "tipo": "Consultoria Pessoa Jurídica (PJ) / Empresa",
-    "areas_tematicas": [
-      "Tecnologia da Informação / Dados",
-      "Estatística / Pesquisa / Metodologia"
-    ],
-    "data_inicio": "2024-08-26",
-    "data_fim": "2024-09-05",
-    "local": "Brasília/DF",
-    "orgao_parceiro": "OEI/SEBRAE",
-    "email_submissao": "compras.bra@oei.int",
-    "valor_estimado": "590.000,00",
-    "valor_estimado_num": 590000.0,
-    "status": "Desierta",
-    "data_criacao": "2024-08-26",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/procedimento-simplificado-no-10260-2024/",
-    "perfil_classificado": "economista",
-    "score_perfil": 0.4
-  },
-  {
-    "id": "oei:licitacao-no-10304-2024",
-    "torid": "oei:licitacao-no-10304-2024",
-    "fonte": "oei",
-    "titulo": "Licitação nº 10304/2024 – OEI",
-    "descricao": "Contratação de empresa especializada para a prestação de serviços organização e execução de eventos institucionais, conforme especificações constantes do Termo de Referência, Anexo\" A\", deste Edital.",
-    "tipo": "Consultoria Pessoa Jurídica (PJ) / Empresa",
-    "areas_tematicas": [
-      "Não classificada"
-    ],
-    "data_inicio": "2024-08-20",
-    "data_fim": "2024-09-20",
-    "local": "Brasília - DF",
-    "orgao_parceiro": "OEI",
-    "email_submissao": "compras.bra@oei.int",
-    "valor_estimado": "34.461.618,00",
-    "valor_estimado_num": 34461618.0,
-    "status": "Desierta",
-    "data_criacao": "2024-08-20",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/licitacao-no-10304-2024/",
-    "perfil_classificado": "Não classificado"
-  },
-  {
-    "id": "oei:10134-2024",
-    "torid": "oei:10134-2024",
-    "fonte": "oei",
-    "titulo": "REPUBLICADO Procedimento Simplificado nº 10134/2024 – OEI-SECULT",
-    "descricao": "Contratação de empresa para a prestação de serviços e fornecimento de equipe de bombeiros civis, conforme especificações constantes do item 5, do Termo de Referência, Anexo” A” , do Edital.",
-    "tipo": "Consultoria Pessoa Jurídica (PJ) / Empresa",
-    "areas_tematicas": [
-      "Não classificada"
-    ],
-    "data_inicio": "2024-07-12",
-    "data_fim": "2024-07-24",
-    "local": "Salvador/BA",
-    "orgao_parceiro": "OEI/SECULT",
-    "email_submissao": "compras.bra@oei.int",
-    "valor_estimado": "492.790,00",
-    "valor_estimado_num": 492790.0,
-    "status": "Desierta",
-    "data_criacao": "2024-07-12",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/10134-2024/",
     "perfil_classificado": "Não classificado"
   }
 ]

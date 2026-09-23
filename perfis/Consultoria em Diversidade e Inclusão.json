@@ -1,0 +1,43 @@
+{
+  "nome": "Consultoria em Diversidade e Inclusão",
+  "descricao": "Trabalhos de consultoria focados em diversidade, equidade, inclusão e pertencimento - ESG, incluindo Censo/Pesquisa, Treinamentos, Comunicação Inclusiva, Governança/Comite/Grupos de Afinidade, Revisão de Políticas e Criação de Métricas e Indicadores",
+  "graduacoes": [
+    "psicologia",
+    "administração",
+    "comunicação"
+  ],
+  "ferramentas": [
+    "censo / pesquisa",
+    "análises / relatórios / planos de ação",
+    "entrevistas qualitativas",
+    "grupos focais / workshop de planejamento",
+    "treinamento / palestra / roda de conversa / mediação",
+    "mentoria",
+    "EAD",
+    "comunicação inclusiva",
+    "grupos de afinidade",
+    "métricas e indicadores de diversidade e inclusão",
+    "política de gestão de pessoas",
+    "política de diversidade"
+  ],
+  "areas_interesse": [
+    "Diversidade",
+    "Equidade",
+    "Inclusão",
+    "Pertencimaneto",
+    "Segurança psicológica",
+    "Saúde mental",
+    "Assédio",
+    "ESG / ASG",
+    "Riscos psicossiciais",
+    "Direitos humanos",
+    "Equidade de gênero"
+  ],
+  "idiomas": ["inglês"],
+  "valor_minimo": 35000,
+  "experiencia_anos": 5,
+  "tem_pos_graduacao": true,
+  "tem_mestrado": true,
+  "tem_doutorado": false,
+  "contexto": "5+ anos de experiência em projetos e programas referentes a diversidade, equidade, inclusão e pertencimento - ESG, incluindo Censo/Pesquisa, Treinamentos, Comunicação Inclusiva, Governança/Comite/Grupos de Afinidade, Revisão de Políticas e Criação de Métricas e Indicadores."
+}

@@ -1,158 +1,49 @@
 {
   "perfis": [
     {
-      "nome": "analista_powerbi",
-      "descricao": "Analista de BI (Engenharia da Computação + Técnico em Computação), 5+ anos em Power BI/SQL, 3 anos com dados públicos, econômicos e sociais",
+      "nome": "Consultoria em Diversidade e Inclusão",
+      "descricao": "Trabalhos de consultoria focados em diversidade, equidade, inclusão e pertencimento - ESG, incluindo Censo/Pesquisa, Treinamentos, Comunicação Inclusiva, Governança/Comite/Grupos de Afinidade, Revisão de Políticas e Criação de Métricas e Indicadores",
       "graduacoes": [
-        "engenharia da computação",
-        "ciência da computação",
-        "sistemas de informação",
-        "análise e desenvolvimento de sistemas",
-        "técnico em informática",
-        "técnico em computação"
+        "psicologia",
+        "administração",
+        "comunicação"
       ],
       "ferramentas": [
-        "power bi",
-        "sql",
-        "excel",
-        "dax",
-        "power query",
-        "power automate",
-        "python"
+        "censo / pesquisa",
+        "análises / relatórios / planos de ação",
+        "entrevistas qualitativas",
+        "grupos focais / workshop de planejamento",
+        "treinamento / palestra / roda de conversa / mediação",
+        "mentoria",
+        "EAD",
+        "comunicação inclusiva",
+        "grupos de afinidade",
+        "métricas e indicadores de diversidade e inclusão",
+        "política de gestão de pessoas",
+        "política de diversidade"
       ],
       "areas_interesse": [
-        "Tecnologia da Informação / Dados",
-        "Economia / Finanças Públicas",
-        "Estatística / Pesquisa / Metodologia",
-        "Gestão / Administração Pública"
+        "Diversidade",
+        "Equidade",
+        "Inclusão",
+        "Pertencimaneto",
+        "Segurança psicológica",
+        "Saúde mental",
+        "Assédio",
+        "ESG / ASG",
+        "Riscos psicossiciais",
+        "Direitos humanos",
+        "Equidade de gênero"
       ],
       "idiomas": [
         "inglês"
       ],
       "valor_minimo": 35000,
       "experiencia_anos": 5,
-      "tem_pos_graduacao": false,
-      "tem_mestrado": false,
+      "tem_pos_graduacao": true,
+      "tem_mestrado": true,
       "tem_doutorado": false,
-      "contexto": "5+ anos de experiência geral em Power BI e SQL, com 3 anos específicos trabalhando com dados públicos, econômicos e sociais. Formação técnica em computação, sem pós-graduação."
-    },
-    {
-      "nome": "pesquisador_computacao",
-      "descricao": "Pesquisador acadêmico com foco em computação, dados e metodologia científica",
-      "graduacoes": [
-        "ciência da computação",
-        "ciência de dados",
-        "inteligência artificial",
-        "estatística",
-        "matemática",
-        "engenharia de software",
-        "sistemas de informação",
-        "geografia",
-        "economia"
-      ],
-      "ferramentas": [
-        "python",
-        "r",
-        "sql",
-        "stata",
-        "spss",
-        "sas",
-        "matlab",
-        "git",
-        "docker",
-        "qgis",
-        "power bi"
-      ],
-      "areas_interesse": [
-        "Estatística / Pesquisa / Metodologia",
-        "Tecnologia da Informação / Dados",
-        "Economia / Finanças Públicas",
-        "Meio Ambiente / Clima / Geografia"
-      ],
-      "idiomas": [
-        "inglês",
-        "espanhol"
-      ],
-      "valor_minimo": 40000
-    },
-    {
-      "nome": "economista",
-      "descricao": "Economista com stack técnica em análise de dados e políticas públicas, sem pós-graduação",
-      "graduacoes": [
-        "economia",
-        "políticas públicas",
-        "gestão pública",
-        "administração"
-      ],
-      "ferramentas": [
-        "python",
-        "excel",
-        "power bi",
-        "sql",
-        "r",
-        "stata"
-      ],
-      "areas_interesse": [
-        "Economia / Finanças Públicas",
-        "Gestão / Administração Pública",
-        "Estatística / Pesquisa / Metodologia"
-      ],
-      "idiomas": [
-        "inglês"
-      ],
-      "valor_minimo": 30000,
-      "experiencia_anos": 2,
-      "tem_pos_graduacao": false,
-      "tem_mestrado": false,
-      "tem_doutorado": false
-    },
-    {
-      "nome": "engenheiro_dados",
-      "descricao": "Engenheiro de Dados (Eng. Química + Ciência da Computação), 5 anos em pipelines ETL, Spark/Databricks/Azure e web scraping",
-      "graduacoes": [
-        "engenharia química",
-        "ciência da computação",
-        "engenharia",
-        "engenharia de software",
-        "sistemas de informação"
-      ],
-      "ferramentas": [
-        "python",
-        "sql",
-        "r",
-        "estatística",
-        "pyspark",
-        "databricks",
-        "azure data factory",
-        "airflow",
-        "azure",
-        "aws",
-        "gcp",
-        "shell script",
-        "linux",
-        "informatica powercenter",
-        "oracle",
-        "selenium",
-        "scrapy",
-        "beautiful soup",
-        "git",
-        "docker"
-      ],
-      "areas_interesse": [
-        "Tecnologia da Informação / Dados",
-        "Estatística / Pesquisa / Metodologia",
-        "Meio Ambiente / Clima / Geografia",
-        "Gestão / Administração Pública"
-      ],
-      "idiomas": [
-        "inglês"
-      ],
-      "valor_minimo": 50000,
-      "experiencia_anos": 5,
-      "tem_pos_graduacao": false,
-      "tem_mestrado": false,
-      "tem_doutorado": false,
-      "contexto": "Engenheiro de Dados com +50 pipelines de ETL/web scraping (Python, PySpark, Databricks, Azure Data Factory) em manufatura, setor público e telecom, além de projeto envolvendo privacidade diferencial (PySyft) com IBGE/PNUD. Cursos complementares em Python, R e estatística básica. Mestrado (Software Engineering) e especialização (Indústria 4.0) em andamento — ainda não concluídos, por isso continuam como gap."
+      "contexto": "5+ anos de experiência em projetos e programas referentes a diversidade, equidade, inclusão e pertencimento - ESG, incluindo Censo/Pesquisa, Treinamentos, Comunicação Inclusiva, Governança/Comite/Grupos de Afinidade, Revisão de Políticas e Criação de Métricas e Indicadores."
     }
   ]
 }
