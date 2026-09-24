@@ -1255,10 +1255,26 @@
       }
 
       grid.innerHTML = list.map(e => {
-        const s = state.perfil ? (e._score ?? null) : null;
-        const cls = matchClass(s);
+        let s = state.perfil ? (e._score ?? null) : null;
         const areas = Array.isArray(e.areas_tematicas) ? e.areas_tematicas : [e.areas_tematicas];
         const ferrs = (e.requisitos?.ferramentas || []).slice(0, 3);
+        let melhorPerfil = null;
+        let melhorScore = null;
+
+        if (!state.perfil && e.matches) {
+          Object.entries(e.matches).forEach(([nome, dados]) => {
+            const score = dados?.score;
+            if (typeof score === 'number' && (melhorScore === null || score > melhorScore)) {
+              melhorScore = score;
+              melhorPerfil = nome;
+            }
+          });
+        }
+        if (!state.perfil && melhorScore !== null) {
+          s = melhorScore;
+        }
+
+        const cls = matchClass(s);
 
         return `
     <div class="edital-card" onclick="openModal('${e.id}')">
@@ -1277,7 +1293,8 @@
           📅 ${e.data_fim || 'NI'}
         </span>
 
-        <span style="display:flex;gap:6px;align-items:center">
+        <span style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
+
           ${state.view === 'ativos' && e.data_fim ? (() => {
             const prazo = prazoInfo(e.data_fim);
             return '<span class="prazo-badge ' + prazo.classe + '">⏳ ' + prazo.texto + '</span>';
@@ -1290,8 +1307,14 @@
             : ''}
 
           ${s !== null
-            ? '<span class="match-badge ' + cls + '">' + matchEmoji(s) + ' ' + matchPct(s) + '</span>'
+            ? '<span class="match-badge ' + cls + '">' +
+            matchEmoji(s) + ' Aderência: ' + matchPct(s) +
+            (!state.perfil && melhorPerfil
+              ? ' · ' + esc(melhorPerfil)
+              : '') +
+            '</span>'
             : ''}
+
         </span>
       </div>
     </div>`;
