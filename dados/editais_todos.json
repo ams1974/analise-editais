@@ -1,5 +1,119 @@
 [
   {
+    "id": 1551,
+    "torid": 146385,
+    "createdBy": "maristela.gois",
+    "title": "Contratação de consultor para elaborar o Caderno Temático de Referência: Investigação de Crimes contra Jornalistas e Comunicadores",
+    "startDate": "2026-09-24T03:00:00",
+    "endDate": "2026-10-16T03:00:00",
+    "local": "Home-based",
+    "receivingEmail": "prodocbra016@mj.gov.br",
+    "enabled": true,
+    "description": "Contratação de 1 (um) consultor especializado, pessoa física, para elaborar o Caderno Temático de Referência: Investigação de Crimes contra Jornalistas e Comunicadores, em cumprimento ao art. 4º da Portaria MJSP nº 1.202, de 7 de abril de 2026, e em estrita correspondência com as diretrizes constantes de seu Anexo I.",
+    "approver": "aline.santana,brenda.felix,carolina.parisotto,edna.pereira@undp.org,hgo,isabella.moura,kalyandra.leite,livia.nogueira,livia.silva,rosana.tomazini",
+    "comments": "TR analisado e aprovado para publicação.",
+    "created": "2026-09-11T14:38:20.990653",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "unesco:6277cc83-3d55-4575-091b-08df172a76c5",
+    "title": "14BRZ1163 - Publicação -  Edital 69/2026 - 01 Vaga consultor Individual",
+    "description": "Consultoria especializada para desenvolver estratégias de promoção da permanência, valorização e ampliação das possibilidades de atuação das mulheres Agentes Escolares Comunitárias do Bora pra Escola",
+    "comments": "",
+    "startDate": "2026-09-24T00:00:00",
+    "endDate": "2026-09-29T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-24T00:00:00",
+    "torid": "unesco:6277cc83-3d55-4575-091b-08df172a76c5",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/182bf51d-05e9-450e-4dc2-08df18912b51"
+    ]
+  },
+  {
+    "id": "unesco:6c8e0acd-2d12-4dc7-e28e-08df14acbbca",
+    "title": "914BRZ1102- Edital nº 36/2026 - 01 vaga - Consultor Individual",
+    "description": "Consultoria especializada para o fornecimento de subsídios e apoio técnico ao Ministério da Educação (MEC) para formulação de estratégias e o acompanhamento dos Núcleos de Inovação Tecnológica (NIT).",
+    "comments": "",
+    "startDate": "2026-09-24T00:00:00",
+    "endDate": "2026-09-28T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-24T00:00:00",
+    "torid": "unesco:6c8e0acd-2d12-4dc7-e28e-08df14acbbca",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/d670c7cf-6a05-4e2d-e275-08df1814b38e"
+    ]
+  },
+  {
+    "id": "unesco:5f5ec6eb-c0e8-4e67-e28f-08df14acbbca",
+    "title": "914BRZ1102- Edital nº 37/2026 - 01 vaga - Consultor Individual",
+    "description": "Consultoria técnica para fornecer subsídios ao Ministério da Educação (MEC) para formular estratégias e desenvolvimento de ações de apoio técnico aos Núcleos de Inovação de Inovação Tecnológica (NIT)",
+    "comments": "",
+    "startDate": "2026-09-24T00:00:00",
+    "endDate": "2026-09-28T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-24T00:00:00",
+    "torid": "unesco:5f5ec6eb-c0e8-4e67-e28f-08df14acbbca",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/14999623-5893-4ee4-e27e-08df1814b38e"
+    ]
+  },
+  {
+    "id": "unesco:dceb9c82-2a2c-4ba9-e290-08df14acbbca",
+    "title": "914BRZ1102- Edital nº 38/2026 - 01 vaga - Consultor Individual",
+    "description": "Consultoria técnica especializada para fornecer subsídios ao Ministério da Educação (MEC) para a formulação de estratégias e do acompanhamento dos (Núcleos de Inovação Tecnológica (NIT).",
+    "comments": "",
+    "startDate": "2026-09-24T00:00:00",
+    "endDate": "2026-09-28T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-24T00:00:00",
+    "torid": "unesco:dceb9c82-2a2c-4ba9-e290-08df14acbbca",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/cf912482-62b5-42f7-e288-08df1814b38e"
+    ]
+  },
+  {
+    "id": "unesco:7f118a1a-eb71-48a2-e28d-08df14acbbca",
+    "title": "914BRZ1159 - Publicação Edital 40/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada em Gestão Estratégica e Monitoramento de Programas Educacionais dar apoio técnico à SEB/MEC em ações prioritárias de formação inicial e continuada de professores da Edu Básic",
+    "comments": "",
+    "startDate": "2026-09-24T00:00:00",
+    "endDate": "2026-09-30T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-24T00:00:00",
+    "torid": "unesco:7f118a1a-eb71-48a2-e28d-08df14acbbca",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/3e559177-a3bc-40b9-905c-08df157980a1"
+    ]
+  },
+  {
     "id": 1554,
     "torid": 146380,
     "createdBy": "luis.vitagliano",
@@ -2087,7 +2201,8 @@
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2026/08/edital-concorrencia-no-13125-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/08/link-para-concorrencia-n-13125-2026-oei-mdhc.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-01-13125-2025.pdf"
+      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-01-13125-2025.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/resposta-pedido-de-esclarecimento-2-js-brasil-13125-2026.pdf"
     ]
   },
   {

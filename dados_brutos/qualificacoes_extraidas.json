@@ -7033,5 +7033,204 @@
     "descricao": "Consultoria especializada em Saúde Coletiva, Enfermagem, Medicina, Serviço Social ou Psicologia para tutoria pedagógica e mediação do Curso de Atualização em Equidade em Saúde no SUS: Teoria e Prática",
     "local": "",
     "data_fim": "2026-09-27"
+  },
+  {
+    "torid": "146385",
+    "graduacao": [
+      "direito",
+      "ciências sociais",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "7.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "i. graduação concluída, reconhecida pelo ministério da educação ou",
+      "revalidada no brasil quando obtida no exterior, em direito, segurança pública, ciências sociais, ciências",
+      "humanas ou áreas correlatas aos requisitos do item 9.2.2.; ii. experiência profissional, em atividades",
+      "técnicas, pesquisas, projetos, docência ou consultorias relacionadas à segurança pública; iii. experiência",
+      "comprovada na autoria, coautoria ou coordenação de, pelo menos, um conteúdo técnico ou acadêmico de",
+      "natureza substantiva, como livro, capítulo, manual, protocolo, relatório, cartilha, material didático ou",
+      "publicação congênere."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor para elaborar o Caderno Temático de Referência: Investigação de Crimes contra Jornalistas e Comunicadores",
+    "descricao": "Contratação de 1 (um) consultor especializado, pessoa física, para elaborar o Caderno Temático de Referência: Investigação de Crimes contra Jornalistas e Comunicadores, em cumprimento ao art. 4º da Portaria MJSP nº 1.202, de 7 de abril de 2026, e em estrita correspondência com as diretrizes constantes de seu Anexo I.",
+    "local": "Home-based",
+    "data_fim": "2026-10-16"
+  },
+  {
+    "torid": "unesco:6277cc83-3d55-4575-091b-08df172a76c5",
+    "graduacao": [
+      "administração",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 1,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "14BRZ1163 - Publicação -  Edital 69/2026 - 01 Vaga consultor Individual",
+    "descricao": "Consultoria especializada para desenvolver estratégias de promoção da permanência, valorização e ampliação das possibilidades de atuação das mulheres Agentes Escolares Comunitárias do Bora pra Escola",
+    "local": "",
+    "data_fim": "2026-09-29"
+  },
+  {
+    "torid": "unesco:6c8e0acd-2d12-4dc7-e28e-08df14acbbca",
+    "graduacao": [
+      "administração",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 8,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1102- Edital nº 36/2026 - 01 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para o fornecimento de subsídios e apoio técnico ao Ministério da Educação (MEC) para formulação de estratégias e o acompanhamento dos Núcleos de Inovação Tecnológica (NIT).",
+    "local": "",
+    "data_fim": "2026-09-28"
+  },
+  {
+    "torid": "unesco:5f5ec6eb-c0e8-4e67-e28f-08df14acbbca",
+    "graduacao": [
+      "administração",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 8,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão considerados",
+      "para o processo de avaliação.",
+      "5.1. critérios obrigatórios",
+      "os candidatos que não atenderem aos critérios mínimos obrigatórios de qualificação não serão considerados",
+      "elegíveis nas etapas subsequentes deste"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1102- Edital nº 37/2026 - 01 vaga - Consultor Individual",
+    "descricao": "Consultoria técnica para fornecer subsídios ao Ministério da Educação (MEC) para formular estratégias e desenvolvimento de ações de apoio técnico aos Núcleos de Inovação de Inovação Tecnológica (NIT)",
+    "local": "",
+    "data_fim": "2026-09-28"
+  },
+  {
+    "torid": "unesco:dceb9c82-2a2c-4ba9-e290-08df14acbbca",
+    "graduacao": [
+      "administração",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 8,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1102- Edital nº 38/2026 - 01 vaga - Consultor Individual",
+    "descricao": "Consultoria técnica especializada para fornecer subsídios ao Ministério da Educação (MEC) para a formulação de estratégias e do acompanhamento dos (Núcleos de Inovação Tecnológica (NIT).",
+    "local": "",
+    "data_fim": "2026-09-28"
+  },
+  {
+    "torid": "unesco:7f118a1a-eb71-48a2-e28d-08df14acbbca",
+    "graduacao": [
+      "administração",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 4,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1159 - Publicação Edital 40/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada em Gestão Estratégica e Monitoramento de Programas Educacionais dar apoio técnico à SEB/MEC em ações prioritárias de formação inicial e continuada de professores da Edu Básic",
+    "local": "",
+    "data_fim": "2026-09-30"
   }
 ]
