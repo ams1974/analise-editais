@@ -617,6 +617,29 @@
     ]
   },
   {
+    "id": "oei:licitacao-no-12087-2025-oei-cop30-menor-preco",
+    "title": "LICITAÇÃO Nº 12087/2025 – OEI/COP30  MELHOR TÉCNICA E MENOR PREÇO",
+    "description": "Contratação de pessoa jurídica especializada na prestação de serviços de interpretação, nas modalidades simultânea e consecutiva, presencial e remota, em caráter não exclusivo e sob demanda, para atender às necessidades de autoridades, de delegações e de participantes das reuniões Pré-Sessionais e da 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre a Mudança do Clima (COP30), conforme especificações e detalhamentos contidos no Anexo “A” – Termo de Referência.",
+    "comments": "R$ 10.000,00",
+    "startDate": "2025-08-14",
+    "endDate": "2025-08-28",
+    "local": "Belém/PA",
+    "receivingEmail": "compras.bra@oei.int",
+    "statusDescription": "Desierta",
+    "created": "2025-08-14",
+    "torid": "oei:licitacao-no-12087-2025-oei-cop30-menor-preco",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/COP30",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/licitacao-no-12087-2025-oei-cop30-menor-preco/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2025/08/edital-da-licitacao-no-12087-2025-oei-cop30.pdf",
+      "https://oei.int/wp-content/uploads/2025/08/anexo-i-cop29-summary-of-operations-statistics-final-with-highlights-marked-in-yellow.pdf",
+      "https://oei.int/wp-content/uploads/2025/08/link-para-licitacao-no-120872025-oeicop30-menor-preco.pdf",
+      "https://oei.int/wp-content/uploads/2025/08/ata-recebimento-documentacao-administrativa-e-propostas-licitacao-deserta.pdf"
+    ]
+  },
+  {
     "id": "oei:licitacao-no-12218-2025-oei-cop30-menor-preco",
     "title": "LICITAÇÃO  Nº 12218/2025 – OEI/COP30 MENOR PREÇO",
     "description": "Contratação de motoristas e fornecimento de combustível a fim de complementar o serviço de transporte executivo, a ser prestado para o atendimento à Cúpula de Líderes, no  mês de novembro, bem como a contratação de serviços de limpeza de veículos para atender aos veículos disponibilizados à equipe da UNFCCC, nos meses de outubro e novembro, como parte dos preparativos e durante a realização da 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre a Mudança do Clima (COP30).",
@@ -640,26 +663,25 @@
     ]
   },
   {
-    "id": "oei:licitacao-no-12087-2025-oei-cop30-menor-preco",
-    "title": "LICITAÇÃO Nº 12087/2025 – OEI/COP30  MELHOR TÉCNICA E MENOR PREÇO",
-    "description": "Contratação de pessoa jurídica especializada na prestação de serviços de interpretação, nas modalidades simultânea e consecutiva, presencial e remota, em caráter não exclusivo e sob demanda, para atender às necessidades de autoridades, de delegações e de participantes das reuniões Pré-Sessionais e da 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre a Mudança do Clima (COP30), conforme especificações e detalhamentos contidos no Anexo “A” – Termo de Referência.",
-    "comments": "R$ 10.000,00",
-    "startDate": "2025-08-14",
-    "endDate": "2025-08-28",
-    "local": "Belém/PA",
+    "id": "oei:pregao-presencial-no-11455-2025-oei-tecnica-e-preco",
+    "title": "PREGÃO PRESENCIAL Nº 11455/2025 – OEI TÉCNICA E PREÇO",
+    "description": "R$ 48.391,94",
+    "comments": "R$ 48.391,94",
+    "startDate": "2025-03-27",
+    "endDate": "2025-04-14",
+    "local": "Brasília - DF",
     "receivingEmail": "compras.bra@oei.int",
     "statusDescription": "Desierta",
-    "created": "2025-08-14",
-    "torid": "oei:licitacao-no-12087-2025-oei-cop30-menor-preco",
+    "created": "2025-03-27",
+    "torid": "oei:pregao-presencial-no-11455-2025-oei-tecnica-e-preco",
     "fonte": "oei",
-    "orgao_parceiro": "OEI/COP30",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/licitacao-no-12087-2025-oei-cop30-menor-preco/",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/pregao-presencial-no-11455-2025-oei-tecnica-e-preco/",
     "tor_urls": [
-      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
-      "https://oei.int/wp-content/uploads/2025/08/edital-da-licitacao-no-12087-2025-oei-cop30.pdf",
-      "https://oei.int/wp-content/uploads/2025/08/anexo-i-cop29-summary-of-operations-statistics-final-with-highlights-marked-in-yellow.pdf",
-      "https://oei.int/wp-content/uploads/2025/08/link-para-licitacao-no-120872025-oeicop30-menor-preco.pdf",
-      "https://oei.int/wp-content/uploads/2025/08/ata-recebimento-documentacao-administrativa-e-propostas-licitacao-deserta.pdf"
+      "https://oei.int/wp-content/uploads/2025/01/procedimento-de-contratacao-da-oei-escritorio-no-brasil-7o-edicao.pdf",
+      "https://oei.int/wp-content/uploads/2025/03/edital-pregao-no-11455-2025-oei-publicidade-institucional.pdf",
+      "https://oei.int/wp-content/uploads/2025/03/link.pdf",
+      "https://oei.int/wp-content/uploads/2025/03/ata-pregao-presencial-1455-2025.pdf"
     ]
   },
   {
@@ -691,25 +713,24 @@
     ]
   },
   {
-    "id": "oei:pregao-presencial-no-11455-2025-oei-tecnica-e-preco",
-    "title": "PREGÃO PRESENCIAL Nº 11455/2025 – OEI TÉCNICA E PREÇO",
-    "description": "R$ 48.391,94",
-    "comments": "R$ 48.391,94",
-    "startDate": "2025-03-27",
-    "endDate": "2025-04-14",
-    "local": "Brasília - DF",
+    "id": "oei:concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco",
+    "title": "CONCORRÊNCIA Nº 10904/2024 – OEI-ENAP TÉCNICA E PREÇO",
+    "description": "Contratação de serviços técnicos especializados para Sistematização do Programa Líderes que Transformam, por meio da organização e estruturação do Conhecimento do Programa, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
+    "comments": "R$ 137.000,00",
+    "startDate": "2024-12-17",
+    "endDate": "2025-03-11",
+    "local": "Brasília, Brasil",
     "receivingEmail": "compras.bra@oei.int",
     "statusDescription": "Desierta",
-    "created": "2025-03-27",
-    "torid": "oei:pregao-presencial-no-11455-2025-oei-tecnica-e-preco",
+    "created": "2024-12-17",
+    "torid": "oei:concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco",
     "fonte": "oei",
-    "orgao_parceiro": "OEI",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/pregao-presencial-no-11455-2025-oei-tecnica-e-preco/",
+    "orgao_parceiro": "OEI/ENAP",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco/",
     "tor_urls": [
-      "https://oei.int/wp-content/uploads/2025/01/procedimento-de-contratacao-da-oei-escritorio-no-brasil-7o-edicao.pdf",
-      "https://oei.int/wp-content/uploads/2025/03/edital-pregao-no-11455-2025-oei-publicidade-institucional.pdf",
-      "https://oei.int/wp-content/uploads/2025/03/link.pdf",
-      "https://oei.int/wp-content/uploads/2025/03/ata-pregao-presencial-1455-2025.pdf"
+      "https://oei.int/wp-content/uploads/2024/12/edital-concorrencia-no-10904-2024-oei-enap-versao-final.pdf",
+      "https://oei.int/wp-content/uploads/2024/12/link-para-sala-virtual-concorrencoa-no-109042024-oei-enap.pdf",
+      "https://oei.int/wp-content/uploads/2024/12/ata-recebimento-propostas.pdf"
     ]
   },
   {
@@ -732,27 +753,6 @@
       "https://oei.int/wp-content/uploads/2025/07/edital-tr-11924.pdf",
       "https://oei.int/wp-content/uploads/2025/07/link-para-proceidimento-simplificado-no-11924-2025-oei-secult-ssa.pdf",
       "https://oei.int/wp-content/uploads/2025/07/ata-de-recebimento-da-documentacao-e-propostas.pdf"
-    ]
-  },
-  {
-    "id": "oei:concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco",
-    "title": "CONCORRÊNCIA Nº 10904/2024 – OEI-ENAP TÉCNICA E PREÇO",
-    "description": "Contratação de serviços técnicos especializados para Sistematização do Programa Líderes que Transformam, por meio da organização e estruturação do Conhecimento do Programa, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
-    "comments": "R$ 137.000,00",
-    "startDate": "2024-12-17",
-    "endDate": "2025-03-11",
-    "local": "Brasília, Brasil",
-    "receivingEmail": "compras.bra@oei.int",
-    "statusDescription": "Desierta",
-    "created": "2024-12-17",
-    "torid": "oei:concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco",
-    "fonte": "oei",
-    "orgao_parceiro": "OEI/ENAP",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco/",
-    "tor_urls": [
-      "https://oei.int/wp-content/uploads/2024/12/edital-concorrencia-no-10904-2024-oei-enap-versao-final.pdf",
-      "https://oei.int/wp-content/uploads/2024/12/link-para-sala-virtual-concorrencoa-no-109042024-oei-enap.pdf",
-      "https://oei.int/wp-content/uploads/2024/12/ata-recebimento-propostas.pdf"
     ]
   },
   {
@@ -813,44 +813,6 @@
     ]
   },
   {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13192",
-    "description": "Contratar consultor(a) especialista para produzir análises técnicas, estudos aplicados e subsídios estratégicos voltados ao desenvolvimento de diagnósticos e mapeamentos no campo da economia criativa e das políticas culturais, com ênfase na sistematização de dados, construção de indicadores e apoio à qualificação das ações do programa de cooperação entre MinC e OEI.",
-    "comments": "R$ 204.000,00",
-    "startDate": "2026-08-06",
-    "endDate": "2026-08-11",
-    "local": "Brasília - DF",
-    "receivingEmail": "selecao.bra@oei.int",
-    "statusDescription": "En evaluación",
-    "created": "2026-08-06",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192",
-    "fonte": "oei",
-    "orgao_parceiro": "OEI",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192/",
-    "tor_urls": [
-      "https://oei.int/wp-content/uploads/2026/08/termo-de-referencia-tr13192.pdf"
-    ]
-  },
-  {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13195",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13195",
-    "description": "Contratar profissional especializado para prestar consultoria técnica voltada à elaboração de estudos, diagnósticos e especificações técnicas relacionadas à aplicação de tecnologias emergentes, ferramentas digitais e metodologias de inovação no campo da cultura, com vistas a subsidiar a concepção, estruturação e implementação de iniciativas de inovação cultural no âmbito do projeto, contribuindo para o fortalecimento da transformação digital e da modernização das políticas culturais.",
-    "comments": "R$ 80.000,00",
-    "startDate": "2026-08-06",
-    "endDate": "2026-08-11",
-    "local": "Brasília - DF",
-    "receivingEmail": "selecao.bra@oei.int",
-    "statusDescription": "En evaluación",
-    "created": "2026-08-06",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13195",
-    "fonte": "oei",
-    "orgao_parceiro": "OEI",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13195/",
-    "tor_urls": [
-      "https://oei.int/wp-content/uploads/2026/08/termo-de-referencia-tr13195.pdf"
-    ]
-  },
-  {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13193",
     "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13193",
     "description": "Contratar consultor(a) especialista para desenvolver pesquisas técnicas, estudos aplicados, diagnósticos, análises de evidências e produção de conhecimento, com foco na sistematização de informações, estruturação de bases de dados, elaboração de indicadores, monitoramento de iniciativas, produção de documentos técnicos e geração de subsídios estratégicos para qualificar processos de planejamento e tomada de decisão no âmbito do programa de cooperação entre MinC e OEI.",
@@ -870,6 +832,25 @@
     ]
   },
   {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13192",
+    "description": "Contratar consultor(a) especialista para produzir análises técnicas, estudos aplicados e subsídios estratégicos voltados ao desenvolvimento de diagnósticos e mapeamentos no campo da economia criativa e das políticas culturais, com ênfase na sistematização de dados, construção de indicadores e apoio à qualificação das ações do programa de cooperação entre MinC e OEI.",
+    "comments": "R$ 204.000,00",
+    "startDate": "2026-08-06",
+    "endDate": "2026-08-11",
+    "local": "Brasília - DF",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-08-06",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/08/termo-de-referencia-tr13192.pdf"
+    ]
+  },
+  {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13196",
     "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13196",
     "description": "Contratar consultoria técnica especializada para apoiar o desenvolvimento de soluções voltadas à modernização institucional dos equipamentos culturais, por meio da análise de processos, levantamento e sistematização de requisitos, elaboração de especificações técnicas, proposição de melhorias em fluxos de trabalho e acompanhamento da implementação de soluções tecnológicas, contribuindo para o fortalecimento da gestão, da eficiência operacional e da transformação digital das instituições culturais no âmbito do projeto.",
@@ -886,6 +867,25 @@
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13196/",
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2026/08/termo-de-referencia-tr13196.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13195",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13195",
+    "description": "Contratar profissional especializado para prestar consultoria técnica voltada à elaboração de estudos, diagnósticos e especificações técnicas relacionadas à aplicação de tecnologias emergentes, ferramentas digitais e metodologias de inovação no campo da cultura, com vistas a subsidiar a concepção, estruturação e implementação de iniciativas de inovação cultural no âmbito do projeto, contribuindo para o fortalecimento da transformação digital e da modernização das políticas culturais.",
+    "comments": "R$ 80.000,00",
+    "startDate": "2026-08-06",
+    "endDate": "2026-08-11",
+    "local": "Brasília - DF",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-08-06",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13195",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13195/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/08/termo-de-referencia-tr13195.pdf"
     ]
   },
   {
@@ -946,25 +946,6 @@
     ]
   },
   {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13204",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/25/001 – TR13204",
-    "description": "Tem-se como objetivo contratar consultor(a) técnico(a) especializado(a) para apoiar o aprimoramento da interface e experiência de uso do Sistema de Proteção à Trajetória do Estudante e a especificação funcional e de interface para integração da Ficha de Registro de Ocorrência Escolar da CIPAVE ao Sistema, fortalecendo os instrumentos digitais de diagnóstico, monitoramento e gestão da permanência escolar, contribuindo para a redução da evasão escolar na Rede Estadual.",
-    "comments": "R$ 54.000,00",
-    "startDate": "2026-08-12",
-    "endDate": "2026-08-23",
-    "local": "Porto Alegre/RS",
-    "receivingEmail": "selecao.bra@oei.int",
-    "statusDescription": "En evaluación",
-    "created": "2026-08-12",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13204",
-    "fonte": "oei",
-    "orgao_parceiro": "OEI/BRA",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13204/",
-    "tor_urls": [
-      "https://oei.int/wp-content/uploads/2026/08/termo-de-referencia-tr13204.pdf"
-    ]
-  },
-  {
     "id": "oei:contratacao-de-consultor-projeto-fp-26-02-ciencia-inovacao-e-desenvolvimento-tr-13199",
     "title": "Contratação de consultor PROJETO FP-26-02 Ciência, Inovação e Desenvolvimento – TR 13199",
     "description": "Contratar profissional especialista para elaboração de diagnóstico e análise institucional de potenciais patrocinadores e de plano de ação para captação de patrocínios e desenvolvimento de ações de legado da Copa do Mundo Feminina 2027, no âmbito do projeto Ciência, Inovação e Desenvolvimento Sustentável no Brasil, com a finalidade de subsidiar tecnicamente a tomada de decisão e o aprimoramento das estratégias institucionais da OEI.",
@@ -982,6 +963,25 @@
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
       "https://oei.int/wp-content/uploads/2026/08/termo-de-referencia-13199.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13204",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/25/001 – TR13204",
+    "description": "Tem-se como objetivo contratar consultor(a) técnico(a) especializado(a) para apoiar o aprimoramento da interface e experiência de uso do Sistema de Proteção à Trajetória do Estudante e a especificação funcional e de interface para integração da Ficha de Registro de Ocorrência Escolar da CIPAVE ao Sistema, fortalecendo os instrumentos digitais de diagnóstico, monitoramento e gestão da permanência escolar, contribuindo para a redução da evasão escolar na Rede Estadual.",
+    "comments": "R$ 54.000,00",
+    "startDate": "2026-08-12",
+    "endDate": "2026-08-23",
+    "local": "Porto Alegre/RS",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-08-12",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13204",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13204/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/08/termo-de-referencia-tr13204.pdf"
     ]
   },
   {
@@ -1120,6 +1120,25 @@
     ]
   },
   {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MEMP/SEBRAE/2024 – TR13211",
+    "description": "Contratação de consultor individual especialista em bioeconomia para desenvolver subsídios técnicos e metodológicos que apoiem a incorporação qualificada da bioeconomia às ações do Empreender Clima, com foco na caracterização de empreendimentos e cadeias de valor, identificação de desafios e oportunidades e proposição de critérios, instrumentos e recomendações aplicáveis ao atendimento de micro e pequenos negócios.",
+    "comments": "R$ 30.000,00",
+    "startDate": "2026-08-31",
+    "endDate": "2026-09-05",
+    "local": "Remoto",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-08-31",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/08/termo-de-referencia-tr13211.pdf"
+    ]
+  },
+  {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13203",
     "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/25/001 – TR13203",
     "description": "Tem-se como objetivo contratar consultor(a) técnico(a) especializado(a) para elaborar estudos e propostas técnicas voltadas ao fortalecimento das capacidades institucionais da Rede Estadual de Ensino do Rio Grande do Sul na implementação da Política de Proteção à Trajetória do Estudante, mediante o mapeamento de demandas formativas, a estruturação de plano de capacitação dos atores envolvidos e a proposição de modelo de qualificação dos Planos de Ação Individual e Territorial, com vistas ao aperfeiçoamento das estratégias de permanência escolar e redução da evasão escolar.",
@@ -1138,25 +1157,6 @@
       "https://oei.int/wp-content/uploads/2026/08/termo-de-referencia-tr13203.pdf",
       "https://oei.int/wp-content/uploads/2026/08/errata-tr-13203.pdf",
       "https://oei.int/wp-content/uploads/2026/08/errata-no-2-edital-no-099-2026-tr-132023.pdf"
-    ]
-  },
-  {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MEMP/SEBRAE/2024 – TR13211",
-    "description": "Contratação de consultor individual especialista em bioeconomia para desenvolver subsídios técnicos e metodológicos que apoiem a incorporação qualificada da bioeconomia às ações do Empreender Clima, com foco na caracterização de empreendimentos e cadeias de valor, identificação de desafios e oportunidades e proposição de critérios, instrumentos e recomendações aplicáveis ao atendimento de micro e pequenos negócios.",
-    "comments": "R$ 30.000,00",
-    "startDate": "2026-08-31",
-    "endDate": "2026-09-05",
-    "local": "Remoto",
-    "receivingEmail": "selecao.bra@oei.int",
-    "statusDescription": "En evaluación",
-    "created": "2026-08-31",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211",
-    "fonte": "oei",
-    "orgao_parceiro": "OEI",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211/",
-    "tor_urls": [
-      "https://oei.int/wp-content/uploads/2026/08/termo-de-referencia-tr13211.pdf"
     ]
   },
   {
@@ -1179,25 +1179,6 @@
     ]
   },
   {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR 13238",
-    "description": "Contratação de 1 (um) consultor especialista em Gestão de Projetos para assessorar a execução e o monitoramento no âmbito do projeto de cooperação técnica internacional. Além de produzir relatórios técnicos e financeiros demonstrando a evolução das atividades, o consultor especialista dará apoio à OEI e à SEDUC-RS nas atividades diárias, fornecerá orientações e recomendações que serão fundamentais para decisões em diferentes etapas do projeto. Isso inclui a identificação e mitigação de riscos, bem como o alinhamento com padrões de qualidade e eficiência, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
-    "comments": "Não Informado",
-    "startDate": "2026-09-10",
-    "endDate": "2026-09-16",
-    "local": "Porto Alegre - RS",
-    "receivingEmail": "selecao.bra@oei.int",
-    "statusDescription": "En evaluación",
-    "created": "2026-09-10",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
-    "fonte": "oei",
-    "orgao_parceiro": "OEI",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238/",
-    "tor_urls": [
-      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13238.pdf"
-    ]
-  },
-  {
     "id": "oei:ontratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026",
     "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13230",
     "description": "Contratar profissional especializado para prestar apoio técnico na organização de informações, elaboração de instrumentos de acompanhamento e produção de subsídios técnicos relacionados às ações desenvolvidas, com foco no aprimoramento de mecanismos de monitoramento, sistematização de dados e suporte à gestão administrativa das iniciativas apoiadas.",
@@ -1217,60 +1198,22 @@
     ]
   },
   {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 13236",
-    "description": "Consultoria técnica especializada para desenvolver proposta, testar em caráter piloto, avaliar e documentar a metodologia de implantação e governança de bases de conhecimento e instrumentos de acompanhamento do desempenho e da qualidade dos conteúdos utilizados na alimentação dos agentes de Inteligência Artificial da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
-    "comments": "Não informado",
-    "startDate": "2026-09-13",
-    "endDate": "2026-09-24",
-    "local": "São Paulo - SP",
-    "receivingEmail": "ugp@educacao.sp.gov.br",
-    "statusDescription": "En presentación",
-    "created": "2026-09-13",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
-    "fonte": "oei",
-    "orgao_parceiro": "OEI/BRA",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236/",
-    "tor_urls": [
-      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-13236.pdf"
-    ]
-  },
-  {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13247",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MEMP/SEBRAE/2024 – TR13247",
-    "description": "Contratação de consultor individual especialista em Machine Learning/Ciência de Dados para conceber, desenvolver, testar e implantar, em versão MVP (produto mínimo viável), solução de inteligência artificial destinada a microempreendedores individuais, microempresas e empresas de pequeno porte que não atuem necessariamente como empreendedores climáticos, capaz de: receber e analisar informações sobre o negócio, sua operação, objetivos e dificuldades, apoiando o diagnóstico empresarial (operação, produtividade, custos, desperdícios, eficiência e necessidade de modernização) identificar oportunidades de melhoria e relacioná-las a soluções sustentáveis capazes de gerar benefícios econômicos e ambientais priorizar e explicar as soluções recomendadas conforme a aderência ao perfil e às necessidades do empreendimento, indicando os dados adicionais necessários identificar oportunidades de financiamento compatíveis, apresentar requisitos, documentos e nível de preparação, e apoiar a organização do projeto do investimento selecionado integrar-se à Plataforma Empreender Clima e aos demais componentes de IA do programa, permitindo acompanhamento das recomendações e coleta de feedback e operar de forma segura, escalável e estável em infraestrutura computacional dedicada para atendimento ao público geral.",
-    "comments": "R$ 110.000,00",
-    "startDate": "2026-09-16",
-    "endDate": "2026-09-21",
-    "local": "Dados Remoto",
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR 13238",
+    "description": "Contratação de 1 (um) consultor especialista em Gestão de Projetos para assessorar a execução e o monitoramento no âmbito do projeto de cooperação técnica internacional. Além de produzir relatórios técnicos e financeiros demonstrando a evolução das atividades, o consultor especialista dará apoio à OEI e à SEDUC-RS nas atividades diárias, fornecerá orientações e recomendações que serão fundamentais para decisões em diferentes etapas do projeto. Isso inclui a identificação e mitigação de riscos, bem como o alinhamento com padrões de qualidade e eficiência, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
+    "comments": "Não Informado",
+    "startDate": "2026-09-10",
+    "endDate": "2026-09-16",
+    "local": "Porto Alegre - RS",
     "receivingEmail": "selecao.bra@oei.int",
     "statusDescription": "En evaluación",
-    "created": "2026-09-16",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13247",
+    "created": "2026-09-10",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
     "fonte": "oei",
     "orgao_parceiro": "OEI",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13247/",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238/",
     "tor_urls": [
-      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13247.pdf"
-    ]
-  },
-  {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13242",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/003 – TR13242",
-    "description": "A presente contratação tem como objetivo selecionar um(a) consultor(a) para executar as atividades estabelecidas neste Termo de Referência, com o propósito de fornecer subsídios técnicos para a articulação territorial das políticas de participação social. A atuação do profissional terá ênfase nas atividades de mobilização social e no apoio direto aos colegiados de desenvolvimento territorial, bem como às instâncias vinculadas ao Programa de Produção e Consumo de Alimentos Saudáveis nos Territórios do Nordeste (PAS Nordeste). Espera-se que o trabalho desenvolvido viabilize a promoção e o fortalecimento de processos participativos, reconhecendo as dinâmicas dos espaços urbanos e rurais como instâncias legítimas de escuta, diálogo e incidência social. Somado a isso, a consultoria permitirá uma melhor articulação das ações do Governo Federal nos territórios, em especial daquelas relacionadas ao PAS Nordeste. Essa abordagem assegurará a integração fundamental entre a escuta da sociedade, a mobilização comunitária e a sistematização técnica das demandas expressas nos colegiados de desenvolvimento local. Por fim, a execução dessas atividades resultará na produção de registros, análises e outros insumos técnicos essenciais. Esses produtos contribuirão de forma contínua para o aprimoramento e a consolidação das estratégias institucionais de territorialização da participação social conduzidas pela Secretaria Nacional de Participação Social.",
-    "comments": "R$ 30.000,00",
-    "startDate": "2026-09-17",
-    "endDate": "2026-09-21",
-    "local": "Remoto",
-    "receivingEmail": "selecao.bra@oei.int",
-    "statusDescription": "En evaluación",
-    "created": "2026-09-17",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13242",
-    "fonte": "oei",
-    "orgao_parceiro": "OEI/BRA",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13242/",
-    "tor_urls": [
-      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13242.pdf"
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13238.pdf"
     ]
   },
   {
@@ -1295,6 +1238,63 @@
       "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-02-13126-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-03-13126-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-04-13216-2026.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13247",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MEMP/SEBRAE/2024 – TR13247",
+    "description": "Contratação de consultor individual especialista em Machine Learning/Ciência de Dados para conceber, desenvolver, testar e implantar, em versão MVP (produto mínimo viável), solução de inteligência artificial destinada a microempreendedores individuais, microempresas e empresas de pequeno porte que não atuem necessariamente como empreendedores climáticos, capaz de: receber e analisar informações sobre o negócio, sua operação, objetivos e dificuldades, apoiando o diagnóstico empresarial (operação, produtividade, custos, desperdícios, eficiência e necessidade de modernização) identificar oportunidades de melhoria e relacioná-las a soluções sustentáveis capazes de gerar benefícios econômicos e ambientais priorizar e explicar as soluções recomendadas conforme a aderência ao perfil e às necessidades do empreendimento, indicando os dados adicionais necessários identificar oportunidades de financiamento compatíveis, apresentar requisitos, documentos e nível de preparação, e apoiar a organização do projeto do investimento selecionado integrar-se à Plataforma Empreender Clima e aos demais componentes de IA do programa, permitindo acompanhamento das recomendações e coleta de feedback e operar de forma segura, escalável e estável em infraestrutura computacional dedicada para atendimento ao público geral.",
+    "comments": "R$ 110.000,00",
+    "startDate": "2026-09-16",
+    "endDate": "2026-09-21",
+    "local": "Dados Remoto",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-09-16",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13247",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13247/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13247.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 13236",
+    "description": "Consultoria técnica especializada para desenvolver proposta, testar em caráter piloto, avaliar e documentar a metodologia de implantação e governança de bases de conhecimento e instrumentos de acompanhamento do desempenho e da qualidade dos conteúdos utilizados na alimentação dos agentes de Inteligência Artificial da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
+    "comments": "Não informado",
+    "startDate": "2026-09-13",
+    "endDate": "2026-09-24",
+    "local": "São Paulo - SP",
+    "receivingEmail": "ugp@educacao.sp.gov.br",
+    "statusDescription": "En presentación",
+    "created": "2026-09-13",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-13236.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13242",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/003 – TR13242",
+    "description": "A presente contratação tem como objetivo selecionar um(a) consultor(a) para executar as atividades estabelecidas neste Termo de Referência, com o propósito de fornecer subsídios técnicos para a articulação territorial das políticas de participação social. A atuação do profissional terá ênfase nas atividades de mobilização social e no apoio direto aos colegiados de desenvolvimento territorial, bem como às instâncias vinculadas ao Programa de Produção e Consumo de Alimentos Saudáveis nos Territórios do Nordeste (PAS Nordeste). Espera-se que o trabalho desenvolvido viabilize a promoção e o fortalecimento de processos participativos, reconhecendo as dinâmicas dos espaços urbanos e rurais como instâncias legítimas de escuta, diálogo e incidência social. Somado a isso, a consultoria permitirá uma melhor articulação das ações do Governo Federal nos territórios, em especial daquelas relacionadas ao PAS Nordeste. Essa abordagem assegurará a integração fundamental entre a escuta da sociedade, a mobilização comunitária e a sistematização técnica das demandas expressas nos colegiados de desenvolvimento local. Por fim, a execução dessas atividades resultará na produção de registros, análises e outros insumos técnicos essenciais. Esses produtos contribuirão de forma contínua para o aprimoramento e a consolidação das estratégias institucionais de territorialização da participação social conduzidas pela Secretaria Nacional de Participação Social.",
+    "comments": "R$ 30.000,00",
+    "startDate": "2026-09-17",
+    "endDate": "2026-09-21",
+    "local": "Remoto",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-09-17",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13242",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13242/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13242.pdf"
     ]
   },
   {
