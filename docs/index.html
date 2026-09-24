@@ -1,279 +1,1046 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Editais PNUD · UNESCO · OEI Brasil</title>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f0f2f5;color:#1a1a2e;line-height:1.5}
-a{color:#0066cc;text-decoration:none}
-a:hover{text-decoration:underline}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editais PNUD · UNESCO · OEI Brasil</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
 
-/* Header */
-.header{background:linear-gradient(135deg,#0a1628,#1a2a4a);color:#fff;padding:20px 24px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.15)}
-.header-top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
-.header h1{font-size:1.3rem;font-weight:700;letter-spacing:-.5px}
-.header .sub{font-size:.75rem;opacity:.7;margin-top:2px}
-.header select{background:#ffffff15;border:1px solid #ffffff30;color:#fff;padding:7px 12px;border-radius:6px;font-size:.82rem;cursor:pointer;min-width:180px}
-.header select option{background:#1a2a4a;color:#fff}
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f0f2f5;
+      color: #1a1a2e;
+      line-height: 1.5
+    }
 
-/* Dashboard */
-.dashboard{max-width:1280px;margin:0 auto;padding:24px 20px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-bottom:20px}
-.card{background:#fff;border-radius:10px;padding:16px 18px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
-.card-label{font-size:.7rem;text-transform:uppercase;color:#8892a5;font-weight:600;letter-spacing:.5px}
-.card-value{font-size:1.6rem;font-weight:700;color:#1a1a2e;margin:3px 0}
-.card-sub{font-size:.72rem;color:#8892a5}
+    a {
+      color: #0066cc;
+      text-decoration: none
+    }
 
-/* Summary banner */
-.summary-banner{background:linear-gradient(135deg,#e8f0fe,#f0e6f6);border-radius:10px;padding:14px 18px;margin-bottom:16px;font-size:.82rem;color:#1a1a2e;line-height:1.5;border:1px solid #d2dff5}
-.summary-banner .sum-label{font-size:.65rem;text-transform:uppercase;color:#0066cc;font-weight:600;letter-spacing:.5px;margin-bottom:4px}
-.summary-banner .sum-mode{font-size:.65rem;color:#8892a5;margin-top:6px}
+    a:hover {
+      text-decoration: underline
+    }
 
-/* View tabs */
-.view-tabs{display:flex;gap:8px;margin-bottom:14px}
-.view-tab{padding:8px 16px;border-radius:8px;border:1px solid #dde1e8;background:#fff;color:#555;font-size:.8rem;font-weight:600;cursor:pointer}
-.view-tab.active{background:#0a1628;color:#fff;border-color:#0a1628}
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #0a1628, #1a2a4a);
+      color: #fff;
+      padding: 20px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, .15)
+    }
 
-/* Filters */
-.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
-.filters select,.filters input{padding:7px 10px;border:1px solid #dde1e8;border-radius:6px;font-size:.8rem;background:#fff;color:#333;min-width:130px}
-.filters input{flex:1;min-width:200px}
-.clear-filters-btn{padding:7px 12px;border:1px solid #dde1e8;border-radius:6px;font-size:.8rem;background:#fff;color:#555;cursor:pointer;white-space:nowrap}
-.clear-filters-btn:hover{background:#f1f3f4;border-color:#c5cdd8}
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px
+    }
 
-/* Edital cards */
-.edital-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:14px}
-.edital-card{background:#fff;border-radius:10px;padding:15px 18px;box-shadow:0 1px 4px rgba(0,0,0,.05);cursor:pointer;transition:box-shadow .15s,border-color .15s;border:1px solid #eef0f4}
-.edital-card:hover{box-shadow:0 4px 14px rgba(0,0,0,.1);border-color:#c5cdd8}
-.edital-title{font-weight:600;font-size:.9rem;color:#1a1a2e;margin-bottom:4px;line-height:1.3}
-.edital-desc{font-size:.75rem;color:#667085;margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.edital-meta{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px}
-.tag{font-size:.66rem;padding:2px 7px;border-radius:4px;font-weight:500}
-.tag-area{background:#e8f0fe;color:#1967d2}
-.tag-tipo{background:#fce8e6;color:#c5221f}
-.tag-orgao{background:#e6f4ea;color:#137333}
-.tag-valor{background:#fef7e0;color:#b06000;font-weight:600}
-.edital-footer{display:flex;justify-content:space-between;align-items:center;margin-top:6px;padding-top:8px;border-top:1px solid #f0f2f5}
-.match-badge{padding:4px 10px;border-radius:20px;font-weight:700;font-size:.73rem;display:flex;align-items:center;gap:4px}
-.match-high{background:#e6f4ea;color:#137333}
-.match-mid{background:#fef7e0;color:#b06000}
-.match-low{background:#fce8e6;color:#c5221f}
-.match-none{background:#f1f3f4;color:#8892a5}
-.date-info{font-size:.7rem;color:#8892a5}
-.status-badge{font-size:.66rem;padding:2px 8px;border-radius:10px;font-weight:600;white-space:nowrap}
-.status-aberto{background:#e6f4ea;color:#137333}
-.status-encerrado{background:#f1f3f4;color:#8892a5}
+    .header h1 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: -.5px
+    }
 
-/* Loading */
-.loading{text-align:center;padding:60px 20px;color:#8892a5;font-size:.9rem}
-.loading::after{content:'...';animation:dots 1.5s infinite}
-@keyframes dots{0%,20%{content:'.'}40%{content:'..'}60%,100%{content:'...'}}
-.empty{text-align:center;padding:60px 20px;color:#8892a5}
-.error{text-align:center;padding:40px 20px;color:#c5221f;background:#fce8e6;border-radius:8px;margin:20px}
+    .header .sub {
+      font-size: .75rem;
+      opacity: .7;
+      margin-top: 2px
+    }
 
-/* Modal */
-.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:200;display:flex;align-items:flex-start;justify-content:center;padding:30px 15px;overflow-y:auto}
-.modal{background:#fff;border-radius:12px;max-width:700px;width:100%;box-shadow:0 10px 40px rgba(0,0,0,.2);animation:slideUp .2s ease}
-@keyframes slideUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
-.modal-header{padding:18px 22px;border-bottom:1px solid #eef0f4;display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
-.modal-header h2{font-size:1.05rem;font-weight:700;line-height:1.3}
-.modal-close{background:none;border:none;font-size:1.3rem;cursor:pointer;color:#8892a5;padding:4px 8px;border-radius:4px;line-height:1}
-.modal-close:hover{background:#f1f3f4;color:#333}
-.modal-body{padding:18px 22px;max-height:65vh;overflow-y:auto}
-.modal-body h3{font-size:.85rem;font-weight:700;margin:14px 0 6px;color:#1a1a2e}
-.modal-body h3:first-of-type{margin-top:0}
-.modal-meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
-.modal-desc{font-size:.82rem;color:#555;line-height:1.6;margin-bottom:10px}
-.requirement-row{display:flex;align-items:center;gap:8px;padding:6px 0;font-size:.8rem;border-bottom:1px solid #f5f6f8}
-.requirement-row:last-child{border-bottom:none}
-.req-icon{font-size:1rem;min-width:20px;text-align:center}
-.req-ok{color:#137333}
-.req-warn{color:#b06000}
-.req-no{color:#c5221f}
-.req-label{font-weight:500;min-width:100px;color:#555}
-.req-value{color:#1a1a2e}
-.match-section{margin:12px 0;padding:10px;background:#f8f9fb;border-radius:8px}
-.match-header{display:flex;justify-content:space-between;align-items:center;font-size:.8rem;margin-bottom:6px}
-.match-header strong{color:#1a1a2e}
-.external-link{display:inline-flex;align-items:center;gap:4px;margin-top:12px;font-size:.8rem;padding:8px 14px;background:#0066cc;color:#fff;border-radius:6px}
-.external-link:hover{background:#0052a3;text-decoration:none}
+    .header select {
+      background: #ffffff15;
+      border: 1px solid #ffffff30;
+      color: #fff;
+      padding: 7px 12px;
+      border-radius: 6px;
+      font-size: .82rem;
+      cursor: pointer;
+      min-width: 180px
+    }
 
-/* Footer */
-.footer{text-align:center;padding:30px;color:#8892a5;font-size:.72rem}
-.footer a{color:#0066cc}
+    .header select option {
+      background: #1a2a4a;
+      color: #fff
+    }
 
-@media(max-width:640px){
-  .cards{grid-template-columns:repeat(2,1fr)}
-  .edital-grid{grid-template-columns:1fr}
-  .header h1{font-size:1.1rem}
-  .modal{padding:15px}
-}
+    /* Dashboard */
+    .dashboard {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 24px 20px
+    }
 
-/* Recomendações */
-.recs{display:none}
-.recs.active{display:block}
-.recs-title{font-size:.95rem;font-weight:700;color:#1a1a2e;margin-bottom:14px;display:flex;align-items:center;gap:8px}
-.recs-title .badge{font-size:.7rem;padding:2px 8px;border-radius:10px;background:#e8f0fe;color:#1967d2;font-weight:500}
-.recs-summary{display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap}
-.recs-summary .stat{background:#fff;border-radius:8px;padding:10px 14px;flex:1;min-width:140px;border:1px solid #eef0f4}
-.recs-summary .stat .num{font-size:1.1rem;font-weight:700;color:#1a1a2e}
-.recs-summary .stat .lbl{font-size:.68rem;color:#8892a5;margin-top:2px}
-.prazo-explicacao{font-size:.74rem;color:#667085;margin:2px 0 10px;line-height:1.5}
-.recs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
-.gap-card{background:#fff;border-radius:8px;padding:12px 14px;border:1px solid #eef0f4;display:flex;gap:10px;align-items:flex-start}
-.gap-priority{width:4px;height:40px;border-radius:2px;flex-shrink:0}
-.prio-alta{background:#c5221f}
-.prio-media{background:#b06000}
-.prio-baixa{background:#137333}
-.gap-body{flex:1;min-width:0}
-.gap-name{font-weight:600;font-size:.8rem;color:#1a1a2e;text-transform:capitalize}
-.gap-meta{font-size:.68rem;color:#8892a5;margin:2px 0}
-.gap-tag{display:inline-block;font-size:.64rem;padding:1px 6px;border-radius:3px;margin:3px 3px 0 0}
-.tag-ferramenta{background:#fce8e6;color:#c5221f}
-.tag-graduacao{background:#e6f4ea;color:#137333}
-.tag-idioma{background:#e8f0fe;color:#1967d2}
-.tag-formacao{background:#fef7e0;color:#b06000}
-.gap-course{font-size:.72rem;color:#0066cc;margin-top:6px;line-height:1.4}
-.gap-course a{color:#0066cc}
-.gap-course .cost{color:#8892a5;font-size:.66rem}
-.recs-cursos{margin-top:18px;background:#fff;border-radius:10px;padding:14px 18px;border:1px solid #eef0f4}
-.recs-cursos h4{font-size:.82rem;font-weight:700;margin-bottom:10px}
-.course-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #f5f6f8;font-size:.76rem}
-.course-row:last-child{border-bottom:none}
-.course-rank{font-weight:700;color:#0066cc;min-width:20px}
-.course-info{flex:1}
-.course-info strong{color:#1a1a2e}
-.course-meta{font-size:.68rem;color:#8892a5;margin-top:1px}
-.course-link{color:#0066cc;font-size:.72rem;white-space:nowrap}
-.no-recs{text-align:center;padding:30px;color:#8892a5;font-size:.82rem}
-</style>
-</head>
-<body>
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 14px;
+      margin-bottom: 20px
+    }
 
-<div class="header">
-  <div class="header-top">
-    <div>
-      <h1>📋 Editais PNUD · UNESCO · OEI Brasil</h1>
-      <div class="sub">parceiros.undp.org.br · roster.brasilia.unesco.org · oei.int</div>
-    </div>
-    <select id="profile-select">
-      <option value="">Todos os perfis</option>
-    </select>
-  </div>
-</div>
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 16px 18px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, .06)
+    }
 
-<div class="dashboard" id="dashboard">
-  <div class="loading">Carregando dados</div>
-</div>
+    .card-label {
+      font-size: .7rem;
+      text-transform: uppercase;
+      color: #8892a5;
+      font-weight: 600;
+      letter-spacing: .5px
+    }
 
-<div class="modal-overlay" id="modal-overlay" style="display:none">
-  <div class="modal" id="modal-content"></div>
-</div>
+    .card-value {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin: 3px 0
+    }
 
-<div class="footer">
-  Dados extraídos automaticamente de PNUD, UNESCO e OEI Brasil ·
-  Gerado em <span id="footer-date">--</span>
-</div>
+    .card-sub {
+      font-size: .72rem;
+      color: #8892a5
+    }
 
-<script>
-const DATA_URL = './data/analise.json';
-let state = {data:null, perfil:null, filtroArea:'', filtroTipo:'', filtroBusca:'', view:'ativos'};
+    /* Summary banner */
+    .summary-banner {
+      background: linear-gradient(135deg, #e8f0fe, #f0e6f6);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-bottom: 16px;
+      font-size: .82rem;
+      color: #1a1a2e;
+      line-height: 1.5;
+      border: 1px solid #d2dff5
+    }
 
-async function load(){
-  try{
-    const r = await fetch(DATA_URL);
-    if(!r.ok) throw new Error('HTTP '+r.status);
-    state.data = await r.json();
-    document.getElementById('footer-date').textContent =
-      new Date(state.data.gerado_em).toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
-    renderProfiles();
-    renderAll();
-  }catch(e){
-    document.getElementById('dashboard').innerHTML =
-      '<div class="error">Erro ao carregar dados.<br><small>'+e.message+'</small><br><small>Verifique se docs/data/analise.json existe.</small></div>';
-  }
-}
+    .summary-banner .sum-label {
+      font-size: .65rem;
+      text-transform: uppercase;
+      color: #0066cc;
+      font-weight: 600;
+      letter-spacing: .5px;
+      margin-bottom: 4px
+    }
 
-function renderProfiles(){
-  const sel = document.getElementById('profile-select');
-  sel.innerHTML = '<option value="">Todos os perfis</option>';
-  if(!state.data?.perfis) return;
-  state.data.perfis.forEach(p => {
-    sel.innerHTML += '<option value="'+p.nome+'">'+p.descricao+' ('+p.match_count+' editais)</option>';
-  });
-  sel.onchange = ()=> { state.perfil = sel.value || null; renderAll(); };
-}
+    .summary-banner .sum-mode {
+      font-size: .65rem;
+      color: #8892a5;
+      margin-top: 6px
+    }
 
-function getMatchScore(e,perfil){
-  if(!perfil||!e.matches||!e.matches[perfil]) return null;
-  return e.matches[perfil].score;
-}
+    /* View tabs */
+    .view-tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 14px
+    }
 
-function matchClass(s){
-  if(s===null) return 'match-none';
-  if(s>=.6) return 'match-high';
-  if(s>=.3) return 'match-mid';
-  if(s>=.15) return 'match-low';
-  return 'match-none';
-}
+    .view-tab {
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: 1px solid #dde1e8;
+      background: #fff;
+      color: #555;
+      font-size: .8rem;
+      font-weight: 600;
+      cursor: pointer
+    }
 
-function matchEmoji(s){
-  if(s===null) return '—';
-  if(s>=.6) return '✅';
-  if(s>=.3) return '⚠️';
-  if(s>=.15) return '🔸';
-  return '⚪';
-}
+    .view-tab.active {
+      background: #0a1628;
+      color: #fff;
+      border-color: #0a1628
+    }
 
-function matchPct(s){
-  if(s===null) return '—';
-  return Math.round(s*100)+'%';
-}
+    /* Filters */
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px
+    }
 
-function formatMoney(v){
-  if(!v) return 'NI';
-  return 'R$ '+v.toLocaleString('pt-BR',{minimumFractionDigits:0,maximumFractionDigits:0});
-}
+    .filters select,
+    .filters input {
+      padding: 7px 10px;
+      border: 1px solid #dde1e8;
+      border-radius: 6px;
+      font-size: .8rem;
+      background: #fff;
+      color: #333;
+      min-width: 130px
+    }
 
-function renderRecomendacoes(perfilNome){
-  const section = document.getElementById('recs-section');
-  if(!perfilNome||!state.data?.recomendacoes){
-    section.className = 'recs';
-    section.innerHTML = '';
-    return;
-  }
-  const rec = state.data.recomendacoes[perfilNome];
-  if(!rec||!rec.curto_prazo){
-    section.className = 'recs';
-    section.innerHTML = '<div class="no-recs">Nenhuma recomendação disponível para este perfil.</div>';
-    return;
-  }
-  section.className = 'recs active';
+    .filters input {
+      flex: 1;
+      min-width: 200px
+    }
 
-  const tipoClass = t=>'tag-'+t;
-  const valorStr = rec.valor_total_oportunidades > 0
-    ? formatMoney(rec.valor_total_oportunidades) : 'NI';
+    .clear-filters-btn {
+      padding: 7px 12px;
+      border: 1px solid #dde1e8;
+      border-radius: 6px;
+      font-size: .8rem;
+      background: #fff;
+      color: #555;
+      cursor: pointer;
+      white-space: nowrap
+    }
 
-  function renderPrazo(key, data, color){
-    const gaps = (data.gaps||[]).slice(0,6);
-    const plano = data.plano||[];
-    if(!gaps.length && !plano.length) return '';
+    .clear-filters-btn:hover {
+      background: #f1f3f4;
+      border-color: #c5cdd8
+    }
 
-    const gapsHTML = gaps.map(g => {
-      const cursosHTML = (g.cursos||[]).slice(0,2).map((c,i) =>
-        '<div class="gap-course">'+(g.cursos.length>1?(i+1)+'. ':'')+
-        '<a href="'+esc(c.link)+'" target="_blank">'+esc(c.curso)+'</a>'+
-        ' <span class="cost">('+esc(c.custo)+' · '+esc(c.carga)+')</span></div>'
-      ).join('');
+    /* Edital cards */
+    .edital-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 14px
+    }
 
-      let impactoHTML = '';
-      if(g.impacto_financeiro && g.impacto_financeiro > 0){
-        impactoHTML = ' · R$ '+g.impacto_financeiro.toLocaleString('pt-BR',{maximumFractionDigits:0})+' em oportunidades';
+    .edital-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 15px 18px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+      cursor: pointer;
+      transition: box-shadow .15s, border-color .15s;
+      border: 1px solid #eef0f4
+    }
+
+    .edital-card:hover {
+      box-shadow: 0 4px 14px rgba(0, 0, 0, .1);
+      border-color: #c5cdd8
+    }
+
+    .edital-title {
+      font-weight: 600;
+      font-size: .9rem;
+      color: #1a1a2e;
+      margin-bottom: 4px;
+      line-height: 1.3
+    }
+
+    .edital-desc {
+      font-size: .75rem;
+      color: #667085;
+      margin-bottom: 8px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden
+    }
+
+    .edital-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-bottom: 8px
+    }
+
+    .tag {
+      font-size: .66rem;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-weight: 500
+    }
+
+    .tag-area {
+      background: #e8f0fe;
+      color: #1967d2
+    }
+
+    .tag-tipo {
+      background: #fce8e6;
+      color: #c5221f
+    }
+
+    .tag-orgao {
+      background: #e6f4ea;
+      color: #137333
+    }
+
+    .tag-valor {
+      background: #fef7e0;
+      color: #b06000;
+      font-weight: 600
+    }
+
+    .edital-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 6px;
+      padding-top: 8px;
+      border-top: 1px solid #f0f2f5
+    }
+
+    .match-badge {
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-weight: 700;
+      font-size: .73rem;
+      display: flex;
+      align-items: center;
+      gap: 4px
+    }
+
+    .match-high {
+      background: #e6f4ea;
+      color: #137333
+    }
+
+    .match-mid {
+      background: #fef7e0;
+      color: #b06000
+    }
+
+    .match-low {
+      background: #fce8e6;
+      color: #c5221f
+    }
+
+    .match-none {
+      background: #f1f3f4;
+      color: #8892a5
+    }
+
+    .date-info {
+      font-size: .7rem;
+      color: #8892a5
+    }
+
+    .status-badge {
+      font-size: .66rem;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-weight: 600;
+      white-space: nowrap
+    }
+
+    .status-aberto {
+      background: #e6f4ea;
+      color: #137333
+    }
+
+    .status-encerrado {
+      background: #f1f3f4;
+      color: #8892a5
+    }
+
+    /* Loading */
+    .loading {
+      text-align: center;
+      padding: 60px 20px;
+      color: #8892a5;
+      font-size: .9rem
+    }
+
+    .loading::after {
+      content: '...';
+      animation: dots 1.5s infinite
+    }
+
+    @keyframes dots {
+
+      0%,
+      20% {
+        content: '.'
       }
 
-      return `
+      40% {
+        content: '..'
+      }
+
+      60%,
+      100% {
+        content: '...'
+      }
+    }
+
+    .empty {
+      text-align: center;
+      padding: 60px 20px;
+      color: #8892a5
+    }
+
+    .error {
+      text-align: center;
+      padding: 40px 20px;
+      color: #c5221f;
+      background: #fce8e6;
+      border-radius: 8px;
+      margin: 20px
+    }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, .5);
+      z-index: 200;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 30px 15px;
+      overflow-y: auto
+    }
+
+    .modal {
+      background: #fff;
+      border-radius: 12px;
+      max-width: 700px;
+      width: 100%;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, .2);
+      animation: slideUp .2s ease
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px)
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0)
+      }
+    }
+
+    .modal-header {
+      padding: 18px 22px;
+      border-bottom: 1px solid #eef0f4;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px
+    }
+
+    .modal-header h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.3
+    }
+
+    .modal-close {
+      background: none;
+      border: none;
+      font-size: 1.3rem;
+      cursor: pointer;
+      color: #8892a5;
+      padding: 4px 8px;
+      border-radius: 4px;
+      line-height: 1
+    }
+
+    .modal-close:hover {
+      background: #f1f3f4;
+      color: #333
+    }
+
+    .modal-body {
+      padding: 18px 22px;
+      max-height: 65vh;
+      overflow-y: auto
+    }
+
+    .modal-body h3 {
+      font-size: .85rem;
+      font-weight: 700;
+      margin: 14px 0 6px;
+      color: #1a1a2e
+    }
+
+    .modal-body h3:first-of-type {
+      margin-top: 0
+    }
+
+    .modal-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 12px
+    }
+
+    .modal-desc {
+      font-size: .82rem;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 10px
+    }
+
+    .requirement-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 0;
+      font-size: .8rem;
+      border-bottom: 1px solid #f5f6f8
+    }
+
+    .requirement-row:last-child {
+      border-bottom: none
+    }
+
+    .req-icon {
+      font-size: 1rem;
+      min-width: 20px;
+      text-align: center
+    }
+
+    .req-ok {
+      color: #137333
+    }
+
+    .req-warn {
+      color: #b06000
+    }
+
+    .req-no {
+      color: #c5221f
+    }
+
+    .req-label {
+      font-weight: 500;
+      min-width: 100px;
+      color: #555
+    }
+
+    .req-value {
+      color: #1a1a2e
+    }
+
+    .match-section {
+      margin: 12px 0;
+      padding: 10px;
+      background: #f8f9fb;
+      border-radius: 8px
+    }
+
+    .match-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: .8rem;
+      margin-bottom: 6px
+    }
+
+    .match-header strong {
+      color: #1a1a2e
+    }
+
+    .external-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-top: 12px;
+      font-size: .8rem;
+      padding: 8px 14px;
+      background: #0066cc;
+      color: #fff;
+      border-radius: 6px
+    }
+
+    .external-link:hover {
+      background: #0052a3;
+      text-decoration: none
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 30px;
+      color: #8892a5;
+      font-size: .72rem
+    }
+
+    .footer a {
+      color: #0066cc
+    }
+
+    @media(max-width:640px) {
+      .cards {
+        grid-template-columns: repeat(2, 1fr)
+      }
+
+      .edital-grid {
+        grid-template-columns: 1fr
+      }
+
+      .header h1 {
+        font-size: 1.1rem
+      }
+
+      .modal {
+        padding: 15px
+      }
+    }
+
+    /* Recomendações */
+    .recs {
+      display: none
+    }
+
+    .recs.active {
+      display: block
+    }
+
+    .recs-title {
+      font-size: .95rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px
+    }
+
+    .recs-title .badge {
+      font-size: .7rem;
+      padding: 2px 8px;
+      border-radius: 10px;
+      background: #e8f0fe;
+      color: #1967d2;
+      font-weight: 500
+    }
+
+    .recs-summary {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 16px;
+      flex-wrap: wrap
+    }
+
+    .recs-summary .stat {
+      background: #fff;
+      border-radius: 8px;
+      padding: 10px 14px;
+      flex: 1;
+      min-width: 140px;
+      border: 1px solid #eef0f4
+    }
+
+    .recs-summary .stat .num {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1a1a2e
+    }
+
+    .recs-summary .stat .lbl {
+      font-size: .68rem;
+      color: #8892a5;
+      margin-top: 2px
+    }
+
+    .prazo-explicacao {
+      font-size: .74rem;
+      color: #667085;
+      margin: 2px 0 10px;
+      line-height: 1.5
+    }
+
+    .recs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 10px
+    }
+
+    .gap-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 12px 14px;
+      border: 1px solid #eef0f4;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start
+    }
+
+    .gap-priority {
+      width: 4px;
+      height: 40px;
+      border-radius: 2px;
+      flex-shrink: 0
+    }
+
+    .prio-alta {
+      background: #c5221f
+    }
+
+    .prio-media {
+      background: #b06000
+    }
+
+    .prio-baixa {
+      background: #137333
+    }
+
+    .gap-body {
+      flex: 1;
+      min-width: 0
+    }
+
+    .gap-name {
+      font-weight: 600;
+      font-size: .8rem;
+      color: #1a1a2e;
+      text-transform: capitalize
+    }
+
+    .gap-meta {
+      font-size: .68rem;
+      color: #8892a5;
+      margin: 2px 0
+    }
+
+    .gap-tag {
+      display: inline-block;
+      font-size: .64rem;
+      padding: 1px 6px;
+      border-radius: 3px;
+      margin: 3px 3px 0 0
+    }
+
+    .tag-ferramenta {
+      background: #fce8e6;
+      color: #c5221f
+    }
+
+    .tag-graduacao {
+      background: #e6f4ea;
+      color: #137333
+    }
+
+    .tag-idioma {
+      background: #e8f0fe;
+      color: #1967d2
+    }
+
+    .tag-formacao {
+      background: #fef7e0;
+      color: #b06000
+    }
+
+    .gap-course {
+      font-size: .72rem;
+      color: #0066cc;
+      margin-top: 6px;
+      line-height: 1.4
+    }
+
+    .gap-course a {
+      color: #0066cc
+    }
+
+    .gap-course .cost {
+      color: #8892a5;
+      font-size: .66rem
+    }
+
+    .recs-cursos {
+      margin-top: 18px;
+      background: #fff;
+      border-radius: 10px;
+      padding: 14px 18px;
+      border: 1px solid #eef0f4
+    }
+
+    .recs-cursos h4 {
+      font-size: .82rem;
+      font-weight: 700;
+      margin-bottom: 10px
+    }
+
+    .course-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 0;
+      border-bottom: 1px solid #f5f6f8;
+      font-size: .76rem
+    }
+
+    .course-row:last-child {
+      border-bottom: none
+    }
+
+    .course-rank {
+      font-weight: 700;
+      color: #0066cc;
+      min-width: 20px
+    }
+
+    .course-info {
+      flex: 1
+    }
+
+    .course-info strong {
+      color: #1a1a2e
+    }
+
+    .course-meta {
+      font-size: .68rem;
+      color: #8892a5;
+      margin-top: 1px
+    }
+
+    .course-link {
+      color: #0066cc;
+      font-size: .72rem;
+      white-space: nowrap
+    }
+
+    .no-recs {
+      text-align: center;
+      padding: 30px;
+      color: #8892a5;
+      font-size: .82rem
+    }
+
+    .prazo-badge {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: .72rem;
+      font-weight: 600
+    }
+
+    .prazo-urgente {
+      background: #fde8e8;
+      color: #b42318
+    }
+
+    .prazo-atencao {
+      background: #fff4d6;
+      color: #9a6700
+    }
+
+    .prazo-normal {
+      background: #e8f5e9;
+      color: #137333
+    }
+
+    .prazo-encerrado {
+      background: #f1f3f4;
+      color: #5f6368
+    }
+
+    .prazo-sem-data {
+      background: #f1f3f4;
+      color: #8892a5
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="header-top">
+      <div>
+        <h1>📋 Editais PNUD · UNESCO · OEI Brasil</h1>
+        <div class="sub">parceiros.undp.org.br · roster.brasilia.unesco.org · oei.int</div>
+      </div>
+      <select id="profile-select">
+        <option value="">Todos os perfis</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="dashboard" id="dashboard">
+    <div class="loading">Carregando dados</div>
+  </div>
+
+  <div class="modal-overlay" id="modal-overlay" style="display:none">
+    <div class="modal" id="modal-content"></div>
+  </div>
+
+  <div class="footer">
+    Dados extraídos automaticamente de PNUD, UNESCO e OEI Brasil ·
+    Gerado em <span id="footer-date">--</span>
+  </div>
+
+  <script>
+    const DATA_URL = './data/analise.json';
+    let state = { data: null, perfil: null, filtroArea: '', filtroTipo: '', filtroPeazo: '', filtroBusca: '', view: 'ativos' };
+
+    async function load() {
+      try {
+        const r = await fetch(DATA_URL);
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        state.data = await r.json();
+        document.getElementById('footer-date').textContent =
+          new Date(state.data.gerado_em).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+        renderProfiles();
+        renderAll();
+      } catch (e) {
+        document.getElementById('dashboard').innerHTML =
+          '<div class="error">Erro ao carregar dados.<br><small>' + e.message + '</small><br><small>Verifique se docs/data/analise.json existe.</small></div>';
+      }
+    }
+
+    function renderProfiles() {
+      const sel = document.getElementById('profile-select');
+      sel.innerHTML = '<option value="">Todos os perfis</option>';
+      if (!state.data?.perfis) return;
+      state.data.perfis.forEach(p => {
+        sel.innerHTML += '<option value="' + p.nome + '">' + p.descricao + ' (' + p.match_count + ' editais)</option>';
+      });
+      sel.onchange = () => { state.perfil = sel.value || null; renderAll(); };
+    }
+
+    function getMatchScore(e, perfil) {
+      if (!perfil || !e.matches || !e.matches[perfil]) return null;
+      return e.matches[perfil].score;
+    }
+
+    function matchClass(s) {
+      if (s === null) return 'match-none';
+      if (s >= .6) return 'match-high';
+      if (s >= .3) return 'match-mid';
+      if (s >= .15) return 'match-low';
+      return 'match-none';
+    }
+
+    function matchEmoji(s) {
+      if (s === null) return '—';
+      if (s >= .6) return '✅';
+      if (s >= .3) return '⚠️';
+      if (s >= .15) return '🔸';
+      return '⚪';
+    }
+
+    function matchPct(s) {
+      if (s === null) return '—';
+      return Math.round(s * 100) + '%';
+    }
+
+    function formatMoney(v) {
+      if (!v) return 'NI';
+      return 'R$ ' + v.toLocaleString('pt-BR', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+    }
+
+    function diasRestantes(dataFim) {
+      if (!dataFim) return null;
+
+      const hoje = new Date();
+      hoje.setHours(0, 0, 0, 0);
+
+      const fim = new Date(dataFim + 'T00:00:00');
+      if (isNaN(fim.getTime())) return null;
+
+      return Math.ceil((fim - hoje) / (1000 * 60 * 60 * 24));
+    }
+
+    function prazoInfo(dataFim) {
+      const dias = diasRestantes(dataFim);
+
+      if (dias === null) {
+        return {
+          dias: null,
+          texto: 'Prazo não informado',
+          classe: 'prazo-sem-data'
+        };
+      }
+
+      if (dias < 0) {
+        return {
+          dias: dias,
+          texto: 'Encerrado',
+          classe: 'prazo-encerrado'
+        };
+      }
+
+      if (dias === 0) {
+        return {
+          dias: dias,
+          texto: 'Encerra hoje',
+          classe: 'prazo-urgente'
+        };
+      }
+
+      if (dias === 1) {
+        return {
+          dias: dias,
+          texto: '1 dia restante',
+          classe: 'prazo-urgente'
+        };
+      }
+
+      if (dias <= 3) {
+        return {
+          dias: dias,
+          texto: dias + ' dias restantes',
+          classe: 'prazo-urgente'
+        };
+      }
+
+      if (dias <= 7) {
+        return {
+          dias: dias,
+          texto: dias + ' dias restantes',
+          classe: 'prazo-atencao'
+        };
+      }
+
+      return {
+        dias: dias,
+        texto: dias + ' dias restantes',
+        classe: 'prazo-normal'
+      };
+    }
+
+    function renderRecomendacoes(perfilNome) {
+      const section = document.getElementById('recs-section');
+      if (!perfilNome || !state.data?.recomendacoes) {
+        section.className = 'recs';
+        section.innerHTML = '';
+        return;
+      }
+      const rec = state.data.recomendacoes[perfilNome];
+      if (!rec || !rec.curto_prazo) {
+        section.className = 'recs';
+        section.innerHTML = '<div class="no-recs">Nenhuma recomendação disponível para este perfil.</div>';
+        return;
+      }
+      section.className = 'recs active';
+
+      const tipoClass = t => 'tag-' + t;
+      const valorStr = rec.valor_total_oportunidades > 0
+        ? formatMoney(rec.valor_total_oportunidades) : 'NI';
+
+      function renderPrazo(key, data, color) {
+        const gaps = (data.gaps || []).slice(0, 6);
+        const plano = data.plano || [];
+        if (!gaps.length && !plano.length) return '';
+
+        const gapsHTML = gaps.map(g => {
+          const cursosHTML = (g.cursos || []).slice(0, 2).map((c, i) =>
+            '<div class="gap-course">' + (g.cursos.length > 1 ? (i + 1) + '. ' : '') +
+            '<a href="' + esc(c.link) + '" target="_blank">' + esc(c.curso) + '</a>' +
+            ' <span class="cost">(' + esc(c.custo) + ' · ' + esc(c.carga) + ')</span></div>'
+          ).join('');
+
+          let impactoHTML = '';
+          if (g.impacto_financeiro && g.impacto_financeiro > 0) {
+            impactoHTML = ' · R$ ' + g.impacto_financeiro.toLocaleString('pt-BR', { maximumFractionDigits: 0 }) + ' em oportunidades';
+          }
+
+          return `
       <div class="gap-card">
         <div class="gap-priority" style="background:${color}"></div>
         <div class="gap-body">
@@ -281,98 +1048,98 @@ function renderRecomendacoes(perfilNome){
             <span class="gap-tag ${tipoClass(g.tipo)}">${esc(g.tipo)}</span>
             ${esc(g.nome)}
           </div>
-          <div class="gap-meta">Exigido em ${g.editais} edital${g.editais!==1?'e is':'es'}${impactoHTML}</div>
-          ${g.nota?'<div class="gap-meta">'+esc(g.nota)+'</div>':''}
+          <div class="gap-meta">Exigido em ${g.editais} edital${g.editais !== 1 ? 'e is' : 'es'}${impactoHTML}</div>
+          ${g.nota ? '<div class="gap-meta">' + esc(g.nota) + '</div>' : ''}
           ${cursosHTML}
         </div>
       </div>`;
-    }).join('');
+        }).join('');
 
-    const planoHTML = plano.map((c,i) =>
-      `<div class="course-row">
-        <div class="course-rank" style="color:${color}">#${i+1}</div>
+        const planoHTML = plano.map((c, i) =>
+          `<div class="course-row">
+        <div class="course-rank" style="color:${color}">#${i + 1}</div>
         <div class="course-info">
           <strong>${esc(c.curso)}</strong>
           <div class="course-meta">${esc(c.custo)} · ${esc(c.carga)} · ${esc(c.nivel)} · Gap: ${esc(c.gap)}</div>
         </div>
         <a class="course-link" href="${esc(c.link)}" target="_blank">Ver →</a>
       </div>`
-    ).join('');
+        ).join('');
 
-    const label = {curto:'⚡ Curto Prazo', medio:'📈 Médio Prazo', longo:'🎓 Longo Prazo'}[key]||key;
-    const desc = {curto:'3 a 6 meses', medio:'6 a 18 meses', longo:'1 a 3 anos'}[key]||'';
-    const explicacao = {
-      curto: 'Cursos rápidos e certificações para fechar as lacunas mais recorrentes nos editais atuais — o caminho mais rápido pra aumentar sua compatibilidade agora.',
-      medio: 'Especializações que aprofundam áreas com demanda consistente ao longo do tempo, sem exigir uma formação longa.',
-      longo: 'Mestrado, doutorado ou formações extensas — investimento maior que abre editais mais exigentes e mais bem remunerados no futuro.',
-    }[key]||'';
+        const label = { curto: '⚡ Curto Prazo', medio: '📈 Médio Prazo', longo: '🎓 Longo Prazo' }[key] || key;
+        const desc = { curto: '3 a 6 meses', medio: '6 a 18 meses', longo: '1 a 3 anos' }[key] || '';
+        const explicacao = {
+          curto: 'Cursos rápidos e certificações para fechar as lacunas mais recorrentes nos editais atuais — o caminho mais rápido pra aumentar sua compatibilidade agora.',
+          medio: 'Especializações que aprofundam áreas com demanda consistente ao longo do tempo, sem exigir uma formação longa.',
+          longo: 'Mestrado, doutorado ou formações extensas — investimento maior que abre editais mais exigentes e mais bem remunerados no futuro.',
+        }[key] || '';
 
-    return `
+        return `
     <div class="recs-cursos" style="margin-bottom:14px">
       <h4 style="color:${color}">${label} <span style="font-weight:400;font-size:.72rem;color:#8892a5">${desc}</span></h4>
-      ${explicacao?('<p class="prazo-explicacao">'+esc(explicacao)+'</p>'):''}
-      <div class="recs-grid" style="margin-bottom:${planoHTML?'8px':'0'}">${gapsHTML}</div>
-      ${planoHTML?('<h4 style="font-size:.76rem;font-weight:600;margin:10px 0 6px;color:'+color+'">🎯 Cursos sugeridos</h4>'+planoHTML):''}
+      ${explicacao ? ('<p class="prazo-explicacao">' + esc(explicacao) + '</p>') : ''}
+      <div class="recs-grid" style="margin-bottom:${planoHTML ? '8px' : '0'}">${gapsHTML}</div>
+      ${planoHTML ? ('<h4 style="font-size:.76rem;font-weight:600;margin:10px 0 6px;color:' + color + '">🎯 Cursos sugeridos</h4>' + planoHTML) : ''}
     </div>`;
-  }
+      }
 
-  section.innerHTML = `
-    <div class="recs-title">📚 Recomendações de Estudo <span class="badge">${esc(perfilNome)} · base: ${esc(rec.periodo_analise||'histórico')}</span></div>
+      section.innerHTML = `
+    <div class="recs-title">📚 Recomendações de Estudo <span class="badge">${esc(perfilNome)} · base: ${esc(rec.periodo_analise || 'histórico')}</span></div>
     <div class="recs-summary">
-      <div class="stat"><div class="num">${rec.total_editais_analisados||0}</div><div class="lbl">Editais analisados (12m)</div></div>
+      <div class="stat"><div class="num">${rec.total_editais_analisados || 0}</div><div class="lbl">Editais analisados (12m)</div></div>
       <div class="stat"><div class="num">${rec.total_editais_compativeis}</div><div class="lbl">Compatíveis com perfil</div></div>
       <div class="stat"><div class="num">${valorStr}</div><div class="lbl">Valor em oportunidades</div></div>
     </div>
-    ${renderPrazo('curto', rec.curto_prazo||{}, '#137333')}
-    ${renderPrazo('medio', rec.medio_prazo||{}, '#b06000')}
-    ${renderPrazo('longo', rec.longo_prazo||{}, '#1967d2')}
+    ${renderPrazo('curto', rec.curto_prazo || {}, '#137333')}
+    ${renderPrazo('medio', rec.medio_prazo || {}, '#b06000')}
+    ${renderPrazo('longo', rec.longo_prazo || {}, '#1967d2')}
   `;
-}
+    }
 
-function renderAll(){
-  const d = state.data;
-  if(!d) return;
+    function renderAll() {
+      const d = state.data;
+      if (!d) return;
 
-  // Dashboard cards
-  const p = state.perfil;
-  let filtered = [...d.editais];
-  if(p) filtered = filtered.filter(e => {
-    const s = getMatchScore(e,p);
-    return s !== null && s >= 0.15;
-  });
+      // Dashboard cards
+      const p = state.perfil;
+      let filtered = [...d.editais];
+      if (p) filtered = filtered.filter(e => {
+        const s = getMatchScore(e, p);
+        return s !== null && s >= 0.15;
+      });
 
-  const byProfile = p ? filtered.length : d.resumo.total_editais;
-  const v = d.resumo.valores||{};
+      const byProfile = p ? filtered.length : d.resumo.total_editais;
+      const v = d.resumo.valores || {};
 
-  const areaSet = new Set(), tipoSet = new Set();
-  [...(d.editais||[]), ...(d.historico||[])].forEach(e=>{
-    const a = e.areas_tematicas||[];
-    (Array.isArray(a)?a:[a]).forEach(x=>x&&areaSet.add(x));
-    if(e.tipo) tipoSet.add(e.tipo);
-  });
-  const filterOptions = {areas:[...areaSet].sort(), tipos:[...tipoSet].sort()};
+      const areaSet = new Set(), tipoSet = new Set();
+      [...(d.editais || []), ...(d.historico || [])].forEach(e => {
+        const a = e.areas_tematicas || [];
+        (Array.isArray(a) ? a : [a]).forEach(x => x && areaSet.add(x));
+        if (e.tipo) tipoSet.add(e.tipo);
+      });
+      const filterOptions = { areas: [...areaSet].sort(), tipos: [...tipoSet].sort() };
 
-  document.getElementById('dashboard').innerHTML = `
-    ${d.resumo_ia?('<div class="summary-banner"><div class="sum-label">📋 Resumo</div>'+esc(d.resumo_ia)+'<div class="sum-mode">🤖 Gerado por DeepSeek · '+(d.modo==='ia'?'análise IA':'análise determinística')+'</div></div>'):''}
+      document.getElementById('dashboard').innerHTML = `
+    ${d.resumo_ia ? ('<div class="summary-banner"><div class="sum-label">📋 Resumo</div>' + esc(d.resumo_ia) + '<div class="sum-mode">🤖 Gerado por DeepSeek · ' + (d.modo === 'ia' ? 'análise IA' : 'análise determinística') + '</div></div>') : ''}
     <div class="cards">
       <div class="card">
         <div class="card-label">Editais ativos</div>
         <div class="card-value">${d.resumo.total_editais}</div>
-        <div class="card-sub">${byProfile} compatíveis ${p?'com seu perfil':''}</div>
+        <div class="card-sub">${byProfile} compatíveis ${p ? 'com seu perfil' : ''}</div>
       </div>
       <div class="card">
         <div class="card-label">Novos hoje</div>
-        <div class="card-value">${d.resumo.novos_hoje||0}</div>
-        <div class="card-sub">${d.resumo.encerrados_hoje||0} encerrados</div>
+        <div class="card-value">${d.resumo.novos_hoje || 0}</div>
+        <div class="card-sub">${d.resumo.encerrados_hoje || 0} encerrados</div>
       </div>
       <div class="card">
         <div class="card-label">Valor médio</div>
-        <div class="card-value">${v.medio?formatMoney(v.medio):'NI'}</div>
-        <div class="card-sub">${v.quantidade_com_valor||0} editais com valor</div>
+        <div class="card-value">${v.medio ? formatMoney(v.medio) : 'NI'}</div>
+        <div class="card-sub">${v.quantidade_com_valor || 0} editais com valor</div>
       </div>
       <div class="card">
         <div class="card-label">Perfis</div>
-        <div class="card-value">${(d.perfis||[]).length}</div>
+        <div class="card-value">${(d.perfis || []).length}</div>
         <div class="card-sub">pré-configurados</div>
       </div>
     </div>
@@ -380,200 +1147,250 @@ function renderAll(){
     <div class="recs" id="recs-section"></div>
 
     <div class="view-tabs">
-      <button class="view-tab ${state.view==='ativos'?'active':''}" id="tab-ativos" onclick="setView('ativos')">🟢 Ativos (${(d.editais||[]).length})</button>
-      <button class="view-tab ${state.view==='historico'?'active':''}" id="tab-historico" onclick="setView('historico')">🕘 Histórico · 12 meses (${(d.historico||[]).length})</button>
+      <button class="view-tab ${state.view === 'ativos' ? 'active' : ''}" id="tab-ativos" onclick="setView('ativos')">🟢 Ativos (${(d.editais || []).length})</button>
+      <button class="view-tab ${state.view === 'historico' ? 'active' : ''}" id="tab-historico" onclick="setView('historico')">🕘 Histórico · 12 meses (${(d.historico || []).length})</button>
     </div>
 
     <div class="filters">
       <select onchange="state.filtroArea=this.value;renderEditalList()">
         <option value="">Todas as áreas</option>
-        ${filterOptions.areas.map(a=>'<option value="'+esc(a)+'">'+esc(a)+'</option>').join('')}
+        ${filterOptions.areas.map(a => '<option value="' + esc(a) + '">' + esc(a) + '</option>').join('')}
       </select>
+
       <select onchange="state.filtroTipo=this.value;renderEditalList()">
         <option value="">Todos os tipos</option>
-        ${filterOptions.tipos.map(t=>'<option value="'+esc(t)+'">'+esc(t)+'</option>').join('')}
+        ${filterOptions.tipos.map(t => '<option value="' + esc(t) + '">' + esc(t) + '</option>').join('')}
       </select>
-      <input type="text" id="filtro-busca" placeholder="Buscar por título, órgão ou ferramenta..." oninput="state.filtroBusca=this.value.toLowerCase();renderEditalList()">
+
+      <select onchange="state.filtroPrazo=this.value;renderEditalList()">
+        <option value="">Todos os prazos</option>
+        <option value="3">Até 3 dias</option>
+        <option value="7">Até 7 dias</option>
+        <option value="15">Até 15 dias</option>
+        <option value="30">Até 30 dias</option>
+        <option value="mais30">Mais de 30 dias</option>
+      </select>
+
+      <input type="text" id="filtro-busca"
+        placeholder="Buscar por título, órgão ou ferramenta..."
+        oninput="state.filtroBusca=this.value.toLowerCase();renderEditalList()">
+
       <button class="clear-filters-btn" onclick="limparBusca()">✖ Limpar busca</button>
     </div>
-
     <div class="edital-grid" id="edital-grid"></div>
   `;
 
-  renderEditalList();
-  renderRecomendacoes(p);
-}
+      renderEditalList();
+      renderRecomendacoes(p);
+    }
 
-function setView(v){
-  state.view = v;
-  document.getElementById('tab-ativos')?.classList.toggle('active', v==='ativos');
-  document.getElementById('tab-historico')?.classList.toggle('active', v==='historico');
-  renderEditalList();
-}
+    function setView(v) {
+      state.view = v;
+      document.getElementById('tab-ativos')?.classList.toggle('active', v === 'ativos');
+      document.getElementById('tab-historico')?.classList.toggle('active', v === 'historico');
+      renderEditalList();
+    }
 
-function currentList(){
-  return state.view==='historico' ? (state.data?.historico||[]) : (state.data?.editais||[]);
-}
+    function currentList() {
+      return state.view === 'historico' ? (state.data?.historico || []) : (state.data?.editais || []);
+    }
 
-function limparBusca(){
-  state.filtroBusca = '';
-  const input = document.getElementById('filtro-busca');
-  if(input) input.value = '';
-  renderEditalList();
-}
+    function limparBusca() {
+      state.filtroArea = '';
+      state.filtroTipo = '';
+      state.filtroPrazo = '';
+      state.filtroBusca = '';
 
-function renderEditalList(){
-  const grid = document.getElementById('edital-grid');
-  if(!grid) return;
-  let list = [...currentList()];
+      const input = document.getElementById('filtro-busca');
+      if (input) input.value = '';
 
-  // Filters
-  if(state.filtroArea) list = list.filter(e => {
-    const a = e.areas_tematicas||[];
-    return (Array.isArray(a)?a:a.split(', ')).some(x => x===state.filtroArea);
-  });
-  if(state.filtroTipo) list = list.filter(e => e.tipo===state.filtroTipo);
-  if(state.filtroBusca){
-    const q = state.filtroBusca;
-    list = list.filter(e =>
-      (e.titulo||'').toLowerCase().includes(q)||
-      (e.orgao_parceiro||'').toLowerCase().includes(q)||
-      (e.requisitos?.ferramentas||[]).some(f=>f.includes(q))
-    );
-  }
+      document.querySelectorAll('.filters select').forEach(select => {
+        select.value = '';
+      });
 
-  // Sort by match if profile selected
-  if(state.perfil){
-    list.forEach(e => { e._score = getMatchScore(e,state.perfil)??0; });
-    list.sort((a,b)=>b._score - a._score);
-  }
+      renderEditalList();
+    }
 
-  if(!list.length){
-    grid.innerHTML = '<div class="empty">Nenhum edital encontrado com esses filtros.</div>';
-    return;
-  }
+    function renderEditalList() {
+      const grid = document.getElementById('edital-grid');
+      if (!grid) return;
+      let list = [...currentList()];
 
-  grid.innerHTML = list.map(e => {
-    const s = state.perfil ? (e._score??null) : null;
-    const cls = matchClass(s);
-    const areas = Array.isArray(e.areas_tematicas)?e.areas_tematicas:[e.areas_tematicas];
-    const ferrs = (e.requisitos?.ferramentas||[]).slice(0,3);
+      // Filters
+      if (state.filtroArea) list = list.filter(e => {
+        const a = e.areas_tematicas || [];
+        return (Array.isArray(a) ? a : a.split(', ')).some(x => x === state.filtroArea);
+      });
+      if (state.filtroTipo) list = list.filter(e => e.tipo === state.filtroTipo);
+      if (state.filtroPrazo) {
+        list = list.filter(e => {
+          const dias = diasRestantes(e.data_fim);
+          if (dias === null || dias < 0) return false;
 
-    return `
+          if (state.filtroPrazo === 'mais30') {
+            return dias > 30;
+          }
+
+          return dias <= Number(state.filtroPrazo);
+        });
+      }
+      if (state.filtroBusca) {
+        const q = state.filtroBusca;
+        list = list.filter(e =>
+          (e.titulo || '').toLowerCase().includes(q) ||
+          (e.orgao_parceiro || '').toLowerCase().includes(q) ||
+          (e.requisitos?.ferramentas || []).some(f => f.includes(q))
+        );
+      }
+
+      // Sort by match if profile selected
+      if (state.perfil) {
+        list.forEach(e => { e._score = getMatchScore(e, state.perfil) ?? 0; });
+        list.sort((a, b) => b._score - a._score);
+      }
+
+      if (!list.length) {
+        grid.innerHTML = '<div class="empty">Nenhum edital encontrado com esses filtros.</div>';
+        return;
+      }
+
+      grid.innerHTML = list.map(e => {
+        const s = state.perfil ? (e._score ?? null) : null;
+        const cls = matchClass(s);
+        const areas = Array.isArray(e.areas_tematicas) ? e.areas_tematicas : [e.areas_tematicas];
+        const ferrs = (e.requisitos?.ferramentas || []).slice(0, 3);
+
+        return `
     <div class="edital-card" onclick="openModal('${e.id}')">
-      <div class="edital-title">${esc(e.titulo||'Sem título')}</div>
-      <div class="edital-desc">${esc(e.descricao||'')}</div>
+      <div class="edital-title">${esc(e.titulo || 'Sem título')}</div>
+      <div class="edital-desc">${esc(e.descricao || '')}</div>
       <div class="edital-meta">
         <span class="tag tag-tipo">${esc(fonteLabel(e.fonte))}</span>
-        ${areas.map(a=>'<span class="tag tag-area">'+esc(a)+'</span>').join('')}
-        <span class="tag tag-tipo">${esc(e.tipo||'')}</span>
-        <span class="tag tag-orgao">${esc(e.orgao_parceiro||'')}</span>
-        ${e.valor_estimado?'<span class="tag tag-valor">'+esc('R$ '+e.valor_estimado)+'</span>':''}
-        ${ferrs.map(f=>'<span class="tag tag-area">'+esc(f)+'</span>').join('')}
+        ${areas.map(a => '<span class="tag tag-area">' + esc(a) + '</span>').join('')}
+        <span class="tag tag-tipo">${esc(e.tipo || '')}</span>
+        <span class="tag tag-orgao">${esc(e.orgao_parceiro || '')}</span>
+        ${e.valor_estimado ? '<span class="tag tag-valor">' + esc('R$ ' + e.valor_estimado) + '</span>' : ''}
+        ${ferrs.map(f => '<span class="tag tag-area">' + esc(f) + '</span>').join('')}
       </div>
       <div class="edital-footer">
-        <span class="date-info">📅 ${e.data_fim||'NI'}</span>
+        <span class="date-info">
+          📅 ${e.data_fim || 'NI'}
+        </span>
+
         <span style="display:flex;gap:6px;align-items:center">
-          ${state.view==='historico'?('<span class="status-badge '+(e.ativo?'status-aberto':'status-encerrado')+'">'+(e.ativo?'🟢 Aberto':'🔴 Encerrado')+'</span>'):''}
-          ${s!==null?('<span class="match-badge '+cls+'">'+matchEmoji(s)+' '+matchPct(s)+'</span>'):''}
+          ${state.view === 'ativos' && e.data_fim ? (() => {
+            const prazo = prazoInfo(e.data_fim);
+            return '<span class="prazo-badge ' + prazo.classe + '">⏳ ' + prazo.texto + '</span>';
+          })() : ''}
+
+          ${state.view === 'historico'
+            ? '<span class="status-badge ' + (e.ativo ? 'status-aberto' : 'status-encerrado') + '">' +
+            (e.ativo ? '🟢 Aberto' : '🔴 Encerrado') +
+            '</span>'
+            : ''}
+
+          ${s !== null
+            ? '<span class="match-badge ' + cls + '">' + matchEmoji(s) + ' ' + matchPct(s) + '</span>'
+            : ''}
         </span>
       </div>
     </div>`;
-  }).join('');
-}
+      }).join('');
+    }
 
-function openModal(id){
-  const e = currentList().find(x=>String(x.id)===String(id));
-  if(!e) return;
+    function openModal(id) {
+      const e = currentList().find(x => String(x.id) === String(id));
+      if (!e) return;
 
-  const m = e.matches||{};
-  const sel = state.perfil;
-  const matchData = sel ? (m[sel]||null) : null;
-  const req = e.requisitos||{};
-  const areas = Array.isArray(e.areas_tematicas)?e.areas_tematicas.join(', '):(e.areas_tematicas||'');
+      const m = e.matches || {};
+      const sel = state.perfil;
+      const matchData = sel ? (m[sel] || null) : null;
+      const req = e.requisitos || {};
+      const areas = Array.isArray(e.areas_tematicas) ? e.areas_tematicas.join(', ') : (e.areas_tematicas || '');
 
-  let matchHTML = '';
-  if(matchData){
-    const d = matchData.detalhes||{};
-    const grad = d.graduacao||{};
-    const ferr = d.ferramentas||{};
-    const lang = d.idiomas||{};
-    const areasD = (d.areas||{}).match;
+      let matchHTML = '';
+      if (matchData) {
+        const d = matchData.detalhes || {};
+        const grad = d.graduacao || {};
+        const ferr = d.ferramentas || {};
+        const lang = d.idiomas || {};
+        const areasD = (d.areas || {}).match;
 
-    matchHTML = `
+        matchHTML = `
       <div class="match-section">
         <div class="match-header"><strong>Match: ${matchPct(matchData.score)}</strong> <span>${matchEmoji(matchData.score)}</span></div>
         <div class="requirement-row">
-          <span class="req-icon">${areasD?'✅':'🔸'}</span>
+          <span class="req-icon">${areasD ? '✅' : '🔸'}</span>
           <span class="req-label">Áreas</span>
-          <span class="req-value">${areasD?'Compatível':'Não compatível'}</span>
+          <span class="req-value">${areasD ? 'Compatível' : 'Não compatível'}</span>
         </div>
-        ${grad.exigidas?.length?('<div class="requirement-row"><span class="req-icon '+(grad.match?.length?'req-ok':'req-no')+'">'+(grad.match?.length?'✅':'❌')+'</span><span class="req-label">Graduação</span><span class="req-value">Exigida: '+esc(grad.exigidas.join(', '))+' | Você: '+esc((grad.match||[]).join(', ')||'nenhuma')+'</span></div>'):''}
-        ${ferr.exigidas?.length?('<div class="requirement-row"><span class="req-icon '+(ferr.match?.length?'req-ok':'req-no')+'">'+(ferr.match?.length?'✅':'❌')+'</span><span class="req-label">Ferramentas</span><span class="req-value">Exigidas: '+esc(ferr.exigidas.join(', '))+' | Você: '+esc((ferr.match||[]).join(', ')||'nenhuma')+'</span></div>'):''}
-        ${lang.exigidos?.length?('<div class="requirement-row"><span class="req-icon '+(lang.match?.length?'req-ok':'req-no')+'">'+(lang.match?.length?'✅':'❌')+'</span><span class="req-label">Idiomas</span><span class="req-value">Exigidos: '+esc(lang.exigidos.join(', '))+' | Você: '+esc((lang.match||[]).join(', ')||'nenhum')+'</span></div>'):''}
-        ${d.valor?('<div class="requirement-row"><span class="req-icon '+(d.valor.acima_minimo?'req-ok':'req-warn')+'">'+(d.valor.acima_minimo?'✅':'⚠️')+'</span><span class="req-label">Valor</span><span class="req-value">Edital: '+formatMoney(d.valor.edital)+' | Mínimo: '+formatMoney(d.valor.minimo_perfil)+'</span></div>'):''}
+        ${grad.exigidas?.length ? ('<div class="requirement-row"><span class="req-icon ' + (grad.match?.length ? 'req-ok' : 'req-no') + '">' + (grad.match?.length ? '✅' : '❌') + '</span><span class="req-label">Graduação</span><span class="req-value">Exigida: ' + esc(grad.exigidas.join(', ')) + ' | Você: ' + esc((grad.match || []).join(', ') || 'nenhuma') + '</span></div>') : ''}
+        ${ferr.exigidas?.length ? ('<div class="requirement-row"><span class="req-icon ' + (ferr.match?.length ? 'req-ok' : 'req-no') + '">' + (ferr.match?.length ? '✅' : '❌') + '</span><span class="req-label">Ferramentas</span><span class="req-value">Exigidas: ' + esc(ferr.exigidas.join(', ')) + ' | Você: ' + esc((ferr.match || []).join(', ') || 'nenhuma') + '</span></div>') : ''}
+        ${lang.exigidos?.length ? ('<div class="requirement-row"><span class="req-icon ' + (lang.match?.length ? 'req-ok' : 'req-no') + '">' + (lang.match?.length ? '✅' : '❌') + '</span><span class="req-label">Idiomas</span><span class="req-value">Exigidos: ' + esc(lang.exigidos.join(', ')) + ' | Você: ' + esc((lang.match || []).join(', ') || 'nenhum') + '</span></div>') : ''}
+        ${d.valor ? ('<div class="requirement-row"><span class="req-icon ' + (d.valor.acima_minimo ? 'req-ok' : 'req-warn') + '">' + (d.valor.acima_minimo ? '✅' : '⚠️') + '</span><span class="req-label">Valor</span><span class="req-value">Edital: ' + formatMoney(d.valor.edital) + ' | Mínimo: ' + formatMoney(d.valor.minimo_perfil) + '</span></div>') : ''}
       </div>`;
-  }
+      }
 
-  document.getElementById('modal-content').innerHTML = `
+      document.getElementById('modal-content').innerHTML = `
     <div class="modal-header">
-      <h2>${esc(e.titulo||'Sem título')}</h2>
+      <h2>${esc(e.titulo || 'Sem título')}</h2>
       <button class="modal-close" onclick="closeModal()">✕</button>
     </div>
     <div class="modal-body">
       <div class="modal-meta">
-        ${e.ativo===false?'<span class="status-badge status-encerrado">🔴 Encerrado</span>':''}
+        ${e.ativo === false ? '<span class="status-badge status-encerrado">🔴 Encerrado</span>' : ''}
         <span class="tag tag-tipo">${esc(fonteLabel(e.fonte))}</span>
-        <span class="tag tag-tipo">${esc(e.tipo||'')}</span>
-        <span class="tag tag-orgao">${esc(e.orgao_parceiro||'')}</span>
-        ${e.valor_estimado?'<span class="tag tag-valor">R$ '+esc(e.valor_estimado)+'</span>':''}
+        <span class="tag tag-tipo">${esc(e.tipo || '')}</span>
+        <span class="tag tag-orgao">${esc(e.orgao_parceiro || '')}</span>
+        ${e.valor_estimado ? '<span class="tag tag-valor">R$ ' + esc(e.valor_estimado) + '</span>' : ''}
         <span class="tag tag-area">${esc(areas)}</span>
       </div>
 
       <h3>📝 Descrição</h3>
-      <div class="modal-desc">${esc(e.descricao||'Sem descrição disponível.')}</div>
+      <div class="modal-desc">${esc(e.descricao || 'Sem descrição disponível.')}</div>
 
       <h3>📍 Informações</h3>
-      <div class="requirement-row"><span class="req-label">Local</span><span class="req-value">${esc(e.local||'NI')}</span></div>
-      <div class="requirement-row"><span class="req-label">Prazo</span><span class="req-value">📅 ${e.data_fim||'NI'}</span></div>
-      <div class="requirement-row"><span class="req-label">Órgão</span><span class="req-value">${esc(e.orgao_parceiro||'NI')}</span></div>
-      <div class="requirement-row"><span class="req-label">Status</span><span class="req-value">${esc(e.status||'NI')}</span></div>
-      <div class="requirement-row"><span class="req-label">Perfil</span><span class="req-value">${esc(e.perfil_classificado||'Não classificado')}</span></div>
+      <div class="requirement-row"><span class="req-label">Local</span><span class="req-value">${esc(e.local || 'NI')}</span></div>
+      <div class="requirement-row"><span class="req-label">Prazo</span><span class="req-value">📅 ${e.data_fim || 'NI'}</span></div>
+      <div class="requirement-row"><span class="req-label">Órgão</span><span class="req-value">${esc(e.orgao_parceiro || 'NI')}</span></div>
+      <div class="requirement-row"><span class="req-label">Status</span><span class="req-value">${esc(e.status || 'NI')}</span></div>
+      <div class="requirement-row"><span class="req-label">Perfil</span><span class="req-value">${esc(e.perfil_classificado || 'Não classificado')}</span></div>
 
-      ${req.graduacao?.length?('<h3>🎓 Graduações Exigidas</h3><div class="modal-desc">'+esc((req.graduacao||[]).join(', '))+'</div>'):''}
-      ${req.ferramentas?.length?('<h3>🔧 Ferramentas</h3><div class="modal-desc">'+esc((req.ferramentas||[]).join(', '))+'</div>'):''}
-      ${req.idiomas?.length?('<h3>🌐 Idiomas</h3><div class="modal-desc">'+esc((req.idiomas||[]).join(', '))+'</div>'):''}
-      ${req.anos_experiencia?'<div class="requirement-row"><span class="req-label">Experiência</span><span class="req-value">'+esc(String(req.anos_experiencia))+' anos</span></div>':''}
-      ${req.mestrado?'<div class="requirement-row"><span class="req-label">Mestrado</span><span class="req-value">✅ Exigido ou pontuável</span></div>':''}
-      ${req.doutorado?'<div class="requirement-row"><span class="req-label">Doutorado</span><span class="req-value">✅ Exigido ou pontuável</span></div>':''}
+      ${req.graduacao?.length ? ('<h3>🎓 Graduações Exigidas</h3><div class="modal-desc">' + esc((req.graduacao || []).join(', ')) + '</div>') : ''}
+      ${req.ferramentas?.length ? ('<h3>🔧 Ferramentas</h3><div class="modal-desc">' + esc((req.ferramentas || []).join(', ')) + '</div>') : ''}
+      ${req.idiomas?.length ? ('<h3>🌐 Idiomas</h3><div class="modal-desc">' + esc((req.idiomas || []).join(', ')) + '</div>') : ''}
+      ${req.anos_experiencia ? '<div class="requirement-row"><span class="req-label">Experiência</span><span class="req-value">' + esc(String(req.anos_experiencia)) + ' anos</span></div>' : ''}
+      ${req.mestrado ? '<div class="requirement-row"><span class="req-label">Mestrado</span><span class="req-value">✅ Exigido ou pontuável</span></div>' : ''}
+      ${req.doutorado ? '<div class="requirement-row"><span class="req-label">Doutorado</span><span class="req-value">✅ Exigido ou pontuável</span></div>' : ''}
 
       ${matchHTML}
 
-      <a class="external-link" href="${e.url_externo||'https://parceiros.undp.org.br/opportunities'}" target="_blank">🔗 Ver no portal ${esc(fonteLabel(e.fonte))} →</a>
+      <a class="external-link" href="${e.url_externo || 'https://parceiros.undp.org.br/opportunities'}" target="_blank">🔗 Ver no portal ${esc(fonteLabel(e.fonte))} →</a>
     </div>`;
 
-  document.getElementById('modal-overlay').style.display = 'flex';
-}
+      document.getElementById('modal-overlay').style.display = 'flex';
+    }
 
-function closeModal(){
-  document.getElementById('modal-overlay').style.display = 'none';
-}
-document.getElementById('modal-overlay').onclick = function(ev){
-  if(ev.target===this) closeModal();
-};
-document.addEventListener('keydown', e=>{if(e.key==='Escape')closeModal();});
+    function closeModal() {
+      document.getElementById('modal-overlay').style.display = 'none';
+    }
+    document.getElementById('modal-overlay').onclick = function (ev) {
+      if (ev.target === this) closeModal();
+    };
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
-function esc(s){
-  if(!s) return '';
-  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
+    function esc(s) {
+      if (!s) return '';
+      return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
 
-const FONTE_NOMES = {pnud:'PNUD', unesco:'UNESCO', oei:'OEI'};
-function fonteLabel(fonte){
-  return FONTE_NOMES[fonte] || 'PNUD';
-}
+    const FONTE_NOMES = { pnud: 'PNUD', unesco: 'UNESCO', oei: 'OEI' };
+    function fonteLabel(fonte) {
+      return FONTE_NOMES[fonte] || 'PNUD';
+    }
 
-load();
-</script>
+    load();
+  </script>
 </body>
+
 </html>
