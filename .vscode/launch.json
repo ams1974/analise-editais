@@ -1,0 +1,65 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CLI: status",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main",
+            "args": [
+                "status"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "CLI: daily",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main",
+            "args": [
+                "daily"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "CLI: fetch",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main",
+            "args": [
+                "fetch"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "CLI: analyze",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main",
+            "args": [
+                "analyze"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "CLI: profiles",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main",
+            "args": [
+                "profiles"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        }
+    ]
+}

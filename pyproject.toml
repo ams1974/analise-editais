@@ -25,3 +25,8 @@ packages = ["core", "core.sources"]
 
 [tool.uv]
 package = true
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.8",
+]

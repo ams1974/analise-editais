@@ -3508,6 +3508,28 @@
     "perfil_classificado": "Não classificado"
   },
   {
+    "id": "oei:concorrencia-no-12-939-2026-oei-mar-maior-outorga",
+    "torid": "oei:concorrencia-no-12-939-2026-oei-mar-maior-outorga",
+    "fonte": "oei",
+    "titulo": "CONCORRÊNCIA Nº 12939/2026- OEI/MAR MAIOR OUTORGA",
+    "descricao": "A presente Concorrência tem por objeto a concessão de uso para exploração comercial de restaurante localizado no 6º pavimento do Museu de Arte do Rio – MAR, situado na Praça Mauá, nº 05, Centro, Rio de Janeiro/RJ, com atividade de loja, pelo prazo de 5 (cinco) anos, conforme especificações contidas no Termo de Referência, Anexo “B”, do Edital.",
+    "tipo": "Consultoria (tipo não especificado)",
+    "areas_tematicas": [
+      "Não classificada"
+    ],
+    "data_inicio": "2026-07-05",
+    "data_fim": "2026-07-21",
+    "local": "Rio de Janeiro/RJ.",
+    "orgao_parceiro": "OEI/MAR",
+    "email_submissao": "compras.bra@oei.int",
+    "valor_estimado": "14.000,00",
+    "valor_estimado_num": 14000.0,
+    "status": "Adjudicada",
+    "data_criacao": "2026-07-05",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencia-no-12-939-2026-oei-mar-maior-outorga/",
+    "perfil_classificado": "Não classificado"
+  },
+  {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-fp-26-03-territorios-criativos-e-educacao-tr-13051",
     "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-fp-26-03-territorios-criativos-e-educacao-tr-13051",
     "fonte": "oei",
@@ -3528,6 +3550,30 @@
     "status": "En fase de apresentação",
     "data_criacao": "2026-07-01",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-fp-26-03-territorios-criativos-e-educacao-tr-13051/",
+    "perfil_classificado": "Não classificado"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-001-tr13048",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-001-tr13048",
+    "fonte": "oei",
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/22/001 – TR13048",
+    "descricao": "Contratação de consultoria especializada para elaborar proposta de estudos técnicos, análise retrospectiva de ações de comunicação e planos de governança de marca, com foco no desenvolvimento de um estudo de posicionamento de marca, análise de campanhas históricas e diagnóstico de reputação institucional da SEED nos cenários estadual, nacional e internacional.",
+    "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+    "areas_tematicas": [
+      "Tecnologia da Informação / Dados",
+      "Estatística / Pesquisa / Metodologia",
+      "Gestão / Administração Pública"
+    ],
+    "data_inicio": "2026-07-01",
+    "data_fim": "2026-07-09",
+    "local": "Secretaria de Estado da Educação  SEED-PR",
+    "orgao_parceiro": "OEI/BRA",
+    "email_submissao": "selecao.bra@oei.int",
+    "valor_estimado": "120.000,00",
+    "valor_estimado_num": 120000.0,
+    "status": "Cancelada",
+    "data_criacao": "2026-07-01",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-001-tr13048/",
     "perfil_classificado": "Não classificado"
   }
 ]
