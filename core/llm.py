@@ -2,6 +2,7 @@ import json
 import logging
 import os
 from collections import Counter
+from datetime import date, datetime
 
 logger = logging.getLogger(__name__)
 
@@ -49,25 +50,37 @@ def _build_classify_prompt(editais: list, perfis: dict) -> str:
 
     items = []
     for e in editais:
-        comments = (e.get("comments") or "")
-        valor_match = re.search(r'R\$\s*([\d.]+,\d{2})', comments)
-        valor_pre = float(valor_match.group(1).replace(".", "").replace(",", ".")) if valor_match else None
+        comments = e.get("comments") or ""
+        valor_match = re.search(r"R\$\s*([\d.]+,\d{2})", comments)
+        valor_pre = (
+            float(valor_match.group(1).replace(".", "").replace(",", "."))
+            if valor_match
+            else None
+        )
 
-        items.append({
-            "id": e.get("id"),
-            "title": e.get("title", ""),
-            "description": (e.get("description") or "")[:250],
-            "valor_extraido": valor_pre,
-            "local": e.get("local", ""),
-            "endDate": (e.get("endDate", "") or "")[:10],
-            "receivingEmail": e.get("receivingEmail", ""),
-        })
+        items.append(
+            {
+                "id": e.get("id"),
+                "title": e.get("title", ""),
+                "description": (e.get("description") or "")[:250],
+                "valor_extraido": valor_pre,
+                "local": e.get("local", ""),
+                "endDate": (e.get("endDate", "") or "")[:10],
+                "receivingEmail": e.get("receivingEmail", ""),
+            }
+        )
 
-    return json.dumps({
-        "perfis": {nome: {k: v for k, v in p.items() if k != "nome"}
-                    for nome, p in perfis.items()},
-        "editais": items,
-    }, ensure_ascii=False, indent=2)
+    return json.dumps(
+        {
+            "perfis": {
+                nome: {k: v for k, v in p.items() if k != "nome"}
+                for nome, p in perfis.items()
+            },
+            "editais": items,
+        },
+        ensure_ascii=False,
+        indent=2,
+    )
 
 
 def _extrair_json(texto: str) -> dict | None:
@@ -88,12 +101,15 @@ def _extrair_json(texto: str) -> dict | None:
     return None
 
 
-def _call_deepseek(prompt: str, system: str, max_tokens: int = 16384, model: str = DEEPSEEK_MODEL) -> str | None:
+def _call_deepseek(
+    prompt: str, system: str, max_tokens: int = 16384, model: str = DEEPSEEK_MODEL
+) -> str | None:
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
         return None
 
     from openai import OpenAI
+
     client = OpenAI(api_key=api_key, base_url=DEEPSEEK_BASE)
 
     response = client.chat.completions.create(
@@ -116,6 +132,7 @@ def analisar_com_ia(editais: list) -> dict | None:
 
     try:
         from core.perfil import carregar_perfis
+
         perfis = carregar_perfis()
 
         prompt = _build_classify_prompt(editais, perfis)
@@ -126,7 +143,9 @@ def analisar_com_ia(editais: list) -> dict | None:
         logger.info("DeepSeek respondeu com %d caracteres", len(texto))
         resultado = _extrair_json(texto)
         if resultado is None:
-            logger.warning("DeepSeek não retornou JSON válido. Início: %s", (texto or "")[:200])
+            logger.warning(
+                "DeepSeek não retornou JSON válido. Início: %s", (texto or "")[:200]
+            )
             return None
         if isinstance(resultado, list):
             resultado = {"editais": resultado}
@@ -148,37 +167,50 @@ def _processar_resposta(resultado: dict, perfis: dict, raw_editais: list) -> dic
         raw = id_to_raw.get(eid, {})
         req = ed.get("requisitos", ed.get("requisitos_inferidos", {}))
 
-        classificados.append({
-            "id": eid,
-            "torid": raw.get("torid", ed.get("torid", "")),
-            "titulo": raw.get("title", ed.get("title", raw.get("titulo", ""))),
-            "descricao": raw.get("description", ed.get("description", "")),
-            "tipo": ed.get("tipo", "Consultoria (tipo não especificado)"),
-            "areas_tematicas": ed.get("areas_tematicas", []),
-            "data_inicio": (raw.get("startDate", "") or "")[:10],
-            "data_fim": (raw.get("endDate", "") or ed.get("endDate", "") or "")[:10],
-            "local": raw.get("local", ed.get("local", "")),
-            "orgao_parceiro": ed.get("orgao_parceiro", "Não identificado"),
-            "email_submissao": raw.get("receivingEmail", ed.get("receivingEmail", "")),
-            "valor_estimado": _format_valor(ed.get("valor_estimado_num")),
-            "valor_estimado_num": ed.get("valor_estimado_num"),
-            "status": ed.get("status", raw.get("statusDescription", "Aprovada")),
-            "data_criacao": (raw.get("created", "") or "")[:10],
-            "perfil_classificado": ed.get("perfil_classificado", "Não classificado"),
-            "requisitos": {
-                "graduacao": req.get("graduacao", []),
-                "ferramentas": req.get("ferramentas", []),
-                "idiomas": req.get("idiomas", []),
-                "anos_experiencia": req.get("anos_experiencia"),
-                "mestrado": req.get("mestrado", False),
-                "doutorado": req.get("doutorado", False),
-                "pos_graduacao": req.get("pos_graduacao", []),
-                "certificacoes": req.get("certificacoes", []),
-                "valor_tor": None,
-                "obrigatorios": req.get("obrigatorios", []),
-                "desejaveis": req.get("desejaveis", []),
-            },
-        })
+        data_fim = (raw.get("endDate", "") or ed.get("endDate", "") or "")[:10]
+        dias_restantes, prazo_classificacao = _calcular_prazo(data_fim)
+
+        classificados.append(
+            {
+                "id": eid,
+                "torid": raw.get("torid", ed.get("torid", "")),
+                "titulo": raw.get("title", ed.get("title", raw.get("titulo", ""))),
+                "descricao": raw.get("description", ed.get("description", "")),
+                "tipo": ed.get("tipo", "Consultoria (tipo não especificado)"),
+                "areas_tematicas": ed.get("areas_tematicas", []),
+                "data_inicio": (raw.get("startDate", "") or "")[:10],
+                "data_fim": (raw.get("endDate", "") or ed.get("endDate", "") or "")[
+                    :10
+                ],
+                "dias_restantes": dias_restantes,
+                "prazo_classificacao": prazo_classificacao,
+                "local": raw.get("local", ed.get("local", "")),
+                "orgao_parceiro": ed.get("orgao_parceiro", "Não identificado"),
+                "email_submissao": raw.get(
+                    "receivingEmail", ed.get("receivingEmail", "")
+                ),
+                "valor_estimado": _format_valor(ed.get("valor_estimado_num")),
+                "valor_estimado_num": ed.get("valor_estimado_num"),
+                "status": ed.get("status", raw.get("statusDescription", "Aprovada")),
+                "data_criacao": (raw.get("created", "") or "")[:10],
+                "perfil_classificado": ed.get(
+                    "perfil_classificado", "Não classificado"
+                ),
+                "requisitos": {
+                    "graduacao": req.get("graduacao", []),
+                    "ferramentas": req.get("ferramentas", []),
+                    "idiomas": req.get("idiomas", []),
+                    "anos_experiencia": req.get("anos_experiencia"),
+                    "mestrado": req.get("mestrado", False),
+                    "doutorado": req.get("doutorado", False),
+                    "pos_graduacao": req.get("pos_graduacao", []),
+                    "certificacoes": req.get("certificacoes", []),
+                    "valor_tor": None,
+                    "obrigatorios": req.get("obrigatorios", []),
+                    "desejaveis": req.get("desejaveis", []),
+                },
+            }
+        )
 
     for ec in classificados:
         matches_raw = {}
@@ -209,8 +241,11 @@ def _processar_resposta(resultado: dict, perfis: dict, raw_editais: list) -> dic
                     },
                     "valor": {
                         "edital": ec.get("valor_estimado_num"),
-                        "minimo_perfil": perfis.get(nome_perfil, {}).get("valor_minimo", 0),
-                        "acima_minimo": (ec.get("valor_estimado_num") or 0) >= perfis.get(nome_perfil, {}).get("valor_minimo", 0),
+                        "minimo_perfil": perfis.get(nome_perfil, {}).get(
+                            "valor_minimo", 0
+                        ),
+                        "acima_minimo": (ec.get("valor_estimado_num") or 0)
+                        >= perfis.get(nome_perfil, {}).get("valor_minimo", 0),
                     },
                 },
             }
@@ -224,15 +259,22 @@ def _processar_resposta(resultado: dict, perfis: dict, raw_editais: list) -> dic
 
     perfis_list = []
     for nome, perfil in perfis.items():
-        count = sum(1 for e in classificados if e["matches"].get(nome, {}).get("score", 0) >= 0.15)
-        perfis_list.append({
-            "nome": nome, "descricao": perfil.get("descricao", ""),
-            "graduacoes": perfil.get("graduacoes", []),
-            "ferramentas": perfil.get("ferramentas", []),
-            "areas_interesse": perfil.get("areas_interesse", []),
-            "idiomas": perfil.get("idiomas", []),
-            "match_count": count,
-        })
+        count = sum(
+            1
+            for e in classificados
+            if e["matches"].get(nome, {}).get("score", 0) >= 0.15
+        )
+        perfis_list.append(
+            {
+                "nome": nome,
+                "descricao": perfil.get("descricao", ""),
+                "graduacoes": perfil.get("graduacoes", []),
+                "ferramentas": perfil.get("ferramentas", []),
+                "areas_interesse": perfil.get("areas_interesse", []),
+                "idiomas": perfil.get("idiomas", []),
+                "match_count": count,
+            }
+        )
 
     contagem_tipos = Counter(e["tipo"] for e in classificados)
     contagem_orgaos = Counter(e["orgao_parceiro"] for e in classificados)
@@ -241,13 +283,16 @@ def _processar_resposta(resultado: dict, perfis: dict, raw_editais: list) -> dic
         a = e.get("areas_tematicas", [])
         areas_flat.extend(a if isinstance(a, list) else [a])
     contagem_areas = Counter(areas_flat)
-    valores = [e["valor_estimado_num"] for e in classificados if e.get("valor_estimado_num")]
+    valores = [
+        e["valor_estimado_num"] for e in classificados if e.get("valor_estimado_num")
+    ]
 
     return {
         "gerado_em": None,
         "resumo": {
             "total_editais": len(classificados),
-            "novos_hoje": 0, "encerrados_hoje": 0,
+            "novos_hoje": 0,
+            "encerrados_hoje": 0,
             "por_tipo": dict(contagem_tipos.most_common()),
             "por_area": dict(contagem_areas.most_common(10)),
             "por_orgao": dict(contagem_orgaos.most_common()),
@@ -284,19 +329,33 @@ gov.br). Se não tiver certeza absoluta da URL exata de um curso específico, us
 provedor (ex: https://www.coursera.org/, https://www.udemy.com/) em vez de inventar uma URL de curso específica."""
 
 
-def _sugerir_recomendacoes_ia(nome_perfil: str, perfil: dict, rec_base: dict) -> dict | None:
-    prompt = json.dumps({
-        "perfil": nome_perfil,
-        "descricao": perfil.get("descricao", ""),
-        "gaps_curto_prazo": [g["nome"] for g in rec_base.get("curto_prazo", {}).get("gaps", [])][:8],
-        "gaps_medio_prazo": [g["nome"] for g in rec_base.get("medio_prazo", {}).get("gaps", [])][:8],
-        "gaps_longo_prazo": [g["nome"] for g in rec_base.get("longo_prazo", {}).get("gaps", [])][:8],
-    }, ensure_ascii=False, indent=2)
+def _sugerir_recomendacoes_ia(
+    nome_perfil: str, perfil: dict, rec_base: dict
+) -> dict | None:
+    prompt = json.dumps(
+        {
+            "perfil": nome_perfil,
+            "descricao": perfil.get("descricao", ""),
+            "gaps_curto_prazo": [
+                g["nome"] for g in rec_base.get("curto_prazo", {}).get("gaps", [])
+            ][:8],
+            "gaps_medio_prazo": [
+                g["nome"] for g in rec_base.get("medio_prazo", {}).get("gaps", [])
+            ][:8],
+            "gaps_longo_prazo": [
+                g["nome"] for g in rec_base.get("longo_prazo", {}).get("gaps", [])
+            ][:8],
+        },
+        ensure_ascii=False,
+        indent=2,
+    )
 
     # deepseek-v4-pro gasta uma parte relevante do orçamento de tokens "pensando"
     # (reasoning_content) antes de escrever a resposta — precisa de bem mais
     # espaço que um modelo não-reasoning para não cortar o JSON pela metade.
-    texto = _call_deepseek(prompt, RECOMMEND_PROMPT, max_tokens=20000, model=DEEPSEEK_MODEL_RECOMENDACOES)
+    texto = _call_deepseek(
+        prompt, RECOMMEND_PROMPT, max_tokens=20000, model=DEEPSEEK_MODEL_RECOMENDACOES
+    )
     return _extrair_json(texto) if texto else None
 
 
@@ -304,11 +363,14 @@ def _link_valido(url: str, timeout: float = 4.0) -> bool:
     if not url or not url.startswith("http"):
         return False
     import requests
+
     headers = {"User-Agent": "Mozilla/5.0 (compatible; analise-editais-bot/1.0)"}
     try:
         r = requests.head(url, timeout=timeout, allow_redirects=True, headers=headers)
         if r.status_code >= 400:
-            r = requests.get(url, timeout=timeout, allow_redirects=True, headers=headers, stream=True)
+            r = requests.get(
+                url, timeout=timeout, allow_redirects=True, headers=headers, stream=True
+            )
         return r.status_code < 400
     except Exception:
         return False
@@ -327,7 +389,9 @@ def _validar_plano_ia(plano_ia: list, plano_fallback: list) -> list:
         substituto = fallback_por_gap.get((item.get("gap") or "").lower())
         if substituto:
             resultado.append(substituto)
-        logger.info("Link descartado por não responder: %s (gap=%s)", link, item.get("gap"))
+        logger.info(
+            "Link descartado por não responder: %s (gap=%s)", link, item.get("gap")
+        )
     return resultado or plano_fallback[:3]
 
 
@@ -350,7 +414,9 @@ def _gerar_recomendacoes_ia(classificados: list, perfis: dict) -> dict:
             if not plano_ia:
                 continue
             plano_fallback = rec.get(prazo_key, {}).get("plano", [])
-            rec.setdefault(prazo_key, {"gaps": [], "plano": []})["plano"] = _validar_plano_ia(plano_ia, plano_fallback)
+            rec.setdefault(prazo_key, {"gaps": [], "plano": []})["plano"] = (
+                _validar_plano_ia(plano_ia, plano_fallback)
+            )
 
         rec["periodo_analise"] = "Últimos 12 meses (DeepSeek v4 Pro)"
 
@@ -361,3 +427,28 @@ def _format_valor(v):
     if v is None:
         return None
     return f"R$ {v:,.2f}".replace(".", ",")
+
+
+def _calcular_prazo(data_fim: str) -> tuple[int | None, str]:
+    if not data_fim:
+        return None, "sem prazo"
+
+    try:
+        data = datetime.strptime(data_fim[:10], "%Y-%m-%d").date()
+    except (ValueError, TypeError):
+        return None, "sem prazo"
+
+    dias = (data - date.today()).days
+
+    if dias < 0:
+        classificacao = "encerrado"
+    elif dias <= 3:
+        classificacao = "urgente"
+    elif dias <= 7:
+        classificacao = "curto"
+    elif dias <= 15:
+        classificacao = "medio"
+    else:
+        classificacao = "longo"
+
+    return dias, classificacao

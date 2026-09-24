@@ -1,6 +1,7 @@
 import re
+from datetime import date, datetime
 
-from core.config import CLASSIFICACAO_TIPOS, AREAS_TEMATICAS, DOMINIO_ORGAO
+from core.config import AREAS_TEMATICAS, CLASSIFICACAO_TIPOS, DOMINIO_ORGAO
 
 
 def _classificar_tipo(titulo: str, descricao: str = "") -> str:
@@ -36,7 +37,7 @@ def _extrair_orgao(email: str = "") -> str:
 def _extrair_valor(comentario: str = "") -> tuple[str | None, float | None]:
     if not comentario:
         return None, None
-    match = re.search(r'R\$\s*([\d.]+,\d{2})', comentario)
+    match = re.search(r"R\$\s*([\d.]+,\d{2})", comentario)
     if match:
         texto = match.group(1)
         try:
@@ -53,7 +54,13 @@ def classificar_edital(edital: dict) -> dict:
     comentario = edital.get("comments", "")
 
     valor_texto, valor_num = _extrair_valor(comentario)
-    orgao = edital.get("orgao_parceiro") or _extrair_orgao(edital.get("receivingEmail", ""))
+    orgao = edital.get("orgao_parceiro") or _extrair_orgao(
+        edital.get("receivingEmail", "")
+    )
+
+    data_fim = edital.get("endDate", "")[:10] if edital.get("endDate") else ""
+
+    dias_restantes, prazo_classificacao = _calcular_prazo(data_fim)
 
     return {
         "id": edital["id"],
@@ -63,8 +70,12 @@ def classificar_edital(edital: dict) -> dict:
         "descricao": descricao,
         "tipo": _classificar_tipo(titulo, descricao),
         "areas_tematicas": _classificar_areas(titulo, descricao),
-        "data_inicio": edital.get("startDate", "")[:10] if edital.get("startDate") else "",
+        "data_inicio": edital.get("startDate", "")[:10]
+        if edital.get("startDate")
+        else "",
         "data_fim": edital.get("endDate", "")[:10] if edital.get("endDate") else "",
+        "dias_restantes": dias_restantes,
+        "prazo_classificacao": prazo_classificacao,
         "local": edital.get("local", ""),
         "orgao_parceiro": orgao,
         "email_submissao": edital.get("receivingEmail", ""),
@@ -74,3 +85,30 @@ def classificar_edital(edital: dict) -> dict:
         "data_criacao": edital.get("created", "")[:10] if edital.get("created") else "",
         "url_externo": edital.get("url_externo", ""),
     }
+
+
+def _calcular_prazo(data_fim: str) -> tuple[int | None, str]:
+    """Calcula dias restantes e classificação do prazo."""
+    if not data_fim:
+        return None, "sem prazo"
+
+    try:
+        data = datetime.strptime(data_fim[:10], "%Y-%m-%d").date()
+    except (ValueError, TypeError):
+        return None, "sem prazo"
+
+    hoje = date.today()
+    dias = (data - hoje).days
+
+    if dias < 0:
+        classificacao = "encerrado"
+    elif dias <= 3:
+        classificacao = "urgente"
+    elif dias <= 7:
+        classificacao = "curto"
+    elif dias <= 15:
+        classificacao = "medio"
+    else:
+        classificacao = "longo"
+
+    return dias, classificacao
