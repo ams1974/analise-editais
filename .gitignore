@@ -26,3 +26,7 @@ dados_brutos/network_requests.json
 
 # Local environment
 .env
+
+# Arquivos gerados localmente
+analise_editais_pnud.xlsx
+relatorio_editais_pnud.pdf
