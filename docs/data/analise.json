@@ -1,19 +1,19 @@
 {
-  "gerado_em": "2026-09-24T16:43:57.341780",
+  "gerado_em": "2026-09-25T17:02:24.515053",
   "resumo": {
-    "total_editais": 55,
-    "novos_hoje": 6,
+    "total_editais": 58,
+    "novos_hoje": 4,
     "encerrados_hoje": 1,
     "por_tipo": {
-      "Consultoria Pessoa Física (PF)": 26,
+      "Consultoria Pessoa Física (PF)": 29,
       "Consultoria (tipo não especificado)": 20,
       "Consultoria Especializada (não especifica PF/PJ)": 6,
       "Consultoria Pessoa Jurídica (PJ) / Empresa": 3
     },
     "por_area": {
-      "Tecnologia da Informação / Dados": 37,
-      "Estatística / Pesquisa / Metodologia": 23,
-      "Gestão / Administração Pública": 14,
+      "Tecnologia da Informação / Dados": 38,
+      "Estatística / Pesquisa / Metodologia": 26,
+      "Gestão / Administração Pública": 15,
       "Não classificada": 12,
       "Meio Ambiente / Clima / Geografia": 9,
       "Economia / Finanças Públicas": 4,
@@ -21,21 +21,21 @@
       "Direito / Jurídico": 2
     },
     "por_orgao": {
-      "UNESCO": 15,
+      "UNESCO": 16,
       "OEI": 13,
       "OEI/BRA": 10,
-      "MGI": 5,
+      "MGI": 6,
       "IBGE": 5,
       "Não identificado": 3,
       "OEI/MDHC": 3,
-      "MTE": 1
+      "MTE": 2
     },
     "valores": {
       "minimo": 30000.0,
       "maximo": 935000.0,
-      "medio": 148267.57,
+      "medio": 148329.91,
       "mediano": 108000.0,
-      "quantidade_com_valor": 37
+      "quantidade_com_valor": 39
     }
   },
   "perfis": [
@@ -77,7 +77,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 24
+      "match_count": 26
     }
   ],
   "editais": [
@@ -93,6 +93,8 @@
       ],
       "data_inicio": "2026-09-11",
       "data_fim": "2026-09-25",
+      "dias_restantes": 0,
+      "prazo_classificacao": "urgente",
       "local": "Remoto",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -202,6 +204,8 @@
       ],
       "data_inicio": "2026-09-11",
       "data_fim": "2026-09-25",
+      "dias_restantes": 0,
+      "prazo_classificacao": "urgente",
       "local": "REMOTO",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -305,6 +309,8 @@
       ],
       "data_inicio": "2026-09-15",
       "data_fim": "2026-09-30",
+      "dias_restantes": 5,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -421,6 +427,8 @@
       ],
       "data_inicio": "2026-09-15",
       "data_fim": "2026-09-30",
+      "dias_restantes": 5,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -542,6 +550,8 @@
       ],
       "data_inicio": "2026-09-15",
       "data_fim": "2026-09-30",
+      "dias_restantes": 5,
+      "prazo_classificacao": "curto",
       "local": "REMOTO",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -664,6 +674,8 @@
       ],
       "data_inicio": "2026-09-18",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Território Nacional",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "dirp@mdh.gov.br",
@@ -775,6 +787,8 @@
       ],
       "data_inicio": "2026-09-24",
       "data_fim": "2026-10-16",
+      "dias_restantes": 21,
+      "prazo_classificacao": "longo",
       "local": "Home-based",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "prodocbra016@mj.gov.br",
@@ -887,6 +901,8 @@
       ],
       "data_inicio": "2026-09-17",
       "data_fim": "2026-09-27",
+      "dias_restantes": 2,
+      "prazo_classificacao": "urgente",
       "local": "Híbrido, com eventuais reuniões presenciais em Brasília/DF",
       "orgao_parceiro": "MTE",
       "email_submissao": "processoseletivo.sat@trabalho.gov.br",
@@ -1003,6 +1019,8 @@
       ],
       "data_inicio": "2026-09-22",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -1121,6 +1139,8 @@
       ],
       "data_inicio": "2026-09-22",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -1228,6 +1248,8 @@
       ],
       "data_inicio": "2026-09-22",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -1343,6 +1365,8 @@
       ],
       "data_inicio": "2026-09-22",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -1458,6 +1482,8 @@
       ],
       "data_inicio": "2026-09-22",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -1571,6 +1597,8 @@
       ],
       "data_inicio": "2026-09-17",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Salvador/BA",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "selecaopnud0326@pge.ba.gov.br",
@@ -1696,6 +1724,222 @@
       }
     },
     {
+      "id": 1567,
+      "torid": 146394,
+      "fonte": "pnud",
+      "titulo": "Edital nº 30/2026 – Contratação de Consultoria Individual para realizar estudo de caso sobre a Secretaria de Serviços Compartilhados",
+      "descricao": "Edital nº 30/2026 – Contratação de Consultoria Individual para realizar estudo de caso sobre a Secretaria de Serviços Compartilhados",
+      "tipo": "Consultoria Pessoa Física (PF)",
+      "areas_tematicas": [
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "data_inicio": "2026-09-24",
+      "data_fim": "2026-10-09",
+      "dias_restantes": 14,
+      "prazo_classificacao": "medio",
+      "local": "Remoto",
+      "orgao_parceiro": "MGI",
+      "email_submissao": "prodoc.mgi@gestao.gov.br",
+      "valor_estimado": "R$ 90.000,00",
+      "valor_estimado_num": 90000.0,
+      "status": "Aprovada",
+      "data_criacao": "2026-09-18",
+      "url_externo": "https://parceiros.undp.org.br/opportunities",
+      "perfil_classificado": "Não classificado",
+      "requisitos": {
+        "graduacao": [
+          "administração",
+          "sociologia",
+          "gestão pública",
+          "políticas públicas",
+          "ciência política"
+        ],
+        "pos_graduacao": [],
+        "mestrado": true,
+        "doutorado": true,
+        "anos_experiencia": null,
+        "ferramentas": [
+          "r",
+          "stata",
+          "sas"
+        ],
+        "idiomas": [],
+        "certificacoes": [],
+        "valor_tor": 90000.0,
+        "obrigatorios": [
+          "educação: ▪ formação técnica em nível de mestrado em administração",
+          "pública, ciência política, sociologia, administração, políticas públicas ou áreas correlatas, reconhecido",
+          "pelo ministério da educação. experiência: ▪ experiência profissional comprovada de no mínimo 10 (dez)",
+          "anos em gestão pública. ▪ fluência em português."
+        ],
+        "desejaveis": []
+      },
+      "matches": {
+        "Consultoria em Diversidade e Inclusão": {
+          "score": 0.15,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [
+                "censo / pesquisa",
+                "análises / relatórios / planos de ação",
+                "entrevistas qualitativas",
+                "grupos focais / workshop de planejamento",
+                "treinamento / palestra / roda de conversa / mediação",
+                "mentoria",
+                "ead",
+                "comunicação inclusiva",
+                "grupos de afinidade",
+                "métricas e indicadores de diversidade e inclusão",
+                "política de gestão de pessoas",
+                "política de diversidade"
+              ],
+              "exigidas": [
+                "r",
+                "stata",
+                "sas"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "administração"
+              ],
+              "exigidas": [
+                "administração",
+                "sociologia",
+                "gestão pública",
+                "políticas públicas",
+                "ciência política"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 90000.0,
+              "minimo_perfil": 35000,
+              "acima_minimo": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 1568,
+      "torid": 146396,
+      "fonte": "pnud",
+      "titulo": "BRA/25/024 - Edital nº 013/2026 – Contratação de consultoria especializada (pessoa física) para desenvolvimento de estudo e análise sobre os efeitos econômicos e sociais dos recursos mobilizados pelo FAT e pelo FGTS",
+      "descricao": "Contratação de consultoria especializada para o desenvolvimento de estudo e análise sobre os efeitos econômicos e sociais dos recursos mobilizados pelo FAT e pelo FGTS",
+      "tipo": "Consultoria Pessoa Física (PF)",
+      "areas_tematicas": [
+        "Tecnologia da Informação / Dados",
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "data_inicio": "2026-09-25",
+      "data_fim": "2026-10-08",
+      "dias_restantes": 13,
+      "prazo_classificacao": "medio",
+      "local": "Brasília, com disponibilidade para viagens",
+      "orgao_parceiro": "MTE",
+      "email_submissao": "selecao.spt@trabalho.gov.br",
+      "valor_estimado": "R$ 208.966,53",
+      "valor_estimado_num": 208966.53,
+      "status": "Aprovada",
+      "data_criacao": "2026-09-24",
+      "url_externo": "https://parceiros.undp.org.br/opportunities",
+      "perfil_classificado": "Não classificado",
+      "requisitos": {
+        "graduacao": [
+          "administração",
+          "estatística",
+          "física",
+          "políticas públicas",
+          "comunicação"
+        ],
+        "pos_graduacao": [
+          "especialização"
+        ],
+        "mestrado": true,
+        "doutorado": false,
+        "anos_experiencia": null,
+        "ferramentas": [
+          "r",
+          "sic",
+          "sas"
+        ],
+        "idiomas": [],
+        "certificacoes": [],
+        "valor_tor": 208966.53,
+        "obrigatorios": [
+          "qualificação mínima obrigatória (eliminatória): • graduação em",
+          "ciências econômicas ou estatística; • mestrado em ciências econômicas ou estatística; • experiência",
+          "profissional e/ou acadêmica mínima de 3 anos em projetos de pesquisa relativos a políticas públicas de",
+          "trabalho, emprego e renda e/ou previdência social. 2"
+        ],
+        "desejaveis": []
+      },
+      "matches": {
+        "Consultoria em Diversidade e Inclusão": {
+          "score": 0.2,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [
+                "censo / pesquisa",
+                "análises / relatórios / planos de ação",
+                "entrevistas qualitativas",
+                "grupos focais / workshop de planejamento",
+                "treinamento / palestra / roda de conversa / mediação",
+                "mentoria",
+                "ead",
+                "comunicação inclusiva",
+                "grupos de afinidade",
+                "métricas e indicadores de diversidade e inclusão",
+                "política de gestão de pessoas",
+                "política de diversidade"
+              ],
+              "exigidas": [
+                "r",
+                "sic",
+                "sas"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "administração",
+                "comunicação"
+              ],
+              "exigidas": [
+                "administração",
+                "estatística",
+                "física",
+                "políticas públicas",
+                "comunicação"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 208966.53,
+              "minimo_perfil": 35000,
+              "acima_minimo": true
+            }
+          }
+        }
+      }
+    },
+    {
       "id": "unesco:e6096467-03ec-4c8e-0c6c-08df0dcf532b",
       "torid": "unesco:e6096467-03ec-4c8e-0c6c-08df0dcf532b",
       "fonte": "unesco",
@@ -1707,6 +1951,8 @@
       ],
       "data_inicio": "2026-09-21",
       "data_fim": "2026-10-21",
+      "dias_restantes": 26,
+      "prazo_classificacao": "longo",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -1817,6 +2063,8 @@
       ],
       "data_inicio": "2026-09-21",
       "data_fim": "2026-10-21",
+      "dias_restantes": 26,
+      "prazo_classificacao": "longo",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -1925,6 +2173,8 @@
       ],
       "data_inicio": "2026-09-21",
       "data_fim": "2026-10-21",
+      "dias_restantes": 26,
+      "prazo_classificacao": "longo",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -2037,6 +2287,8 @@
       ],
       "data_inicio": "2026-09-21",
       "data_fim": "2026-10-21",
+      "dias_restantes": 26,
+      "prazo_classificacao": "longo",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -2145,6 +2397,8 @@
       ],
       "data_inicio": "2026-09-21",
       "data_fim": "2026-10-21",
+      "dias_restantes": 26,
+      "prazo_classificacao": "longo",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -2257,6 +2511,8 @@
       ],
       "data_inicio": "2026-09-21",
       "data_fim": "2026-10-21",
+      "dias_restantes": 26,
+      "prazo_classificacao": "longo",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -2358,6 +2614,225 @@
       }
     },
     {
+      "id": "unesco:5028b251-6c79-4f6d-f98d-08df189e5e5f",
+      "torid": "unesco:5028b251-6c79-4f6d-f98d-08df189e5e5f",
+      "fonte": "unesco",
+      "titulo": "914BRZ1102- Edital nº 39/2026 - 01 vaga - Consultor Individual",
+      "descricao": "Consultoria especializada com vistas à estruturação de banco de dados, ao monitoramento do fluxo processual e à elaboração de documentos orientadores, modelos e minutas padronizadas para o FIES.",
+      "tipo": "Consultoria Pessoa Física (PF)",
+      "areas_tematicas": [
+        "Tecnologia da Informação / Dados",
+        "Gestão / Administração Pública"
+      ],
+      "data_inicio": "2026-09-25",
+      "data_fim": "2026-09-29",
+      "dias_restantes": 4,
+      "prazo_classificacao": "curto",
+      "local": "",
+      "orgao_parceiro": "UNESCO",
+      "email_submissao": "",
+      "valor_estimado": null,
+      "valor_estimado_num": null,
+      "status": "Ongoing",
+      "data_criacao": "2026-09-25",
+      "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+      "perfil_classificado": "Não classificado",
+      "requisitos": {
+        "graduacao": [
+          "administração",
+          "direito",
+          "ciências sociais",
+          "políticas públicas",
+          "comunicação"
+        ],
+        "pos_graduacao": [
+          "pós-graduação",
+          "lato sensu"
+        ],
+        "mestrado": false,
+        "doutorado": false,
+        "anos_experiencia": 5,
+        "ferramentas": [
+          "r",
+          "excel",
+          "sas"
+        ],
+        "idiomas": [],
+        "certificacoes": [],
+        "valor_tor": null,
+        "obrigatorios": [
+          "de qualificação não serão considerados",
+          "para o processo de avaliação.",
+          "5.1. critérios obrigatórios",
+          "os candidatos que não atenderem aos critérios mínimos obrigatórios de qualificação não serão considerados",
+          "elegíveis nas etapas subsequentes deste"
+        ],
+        "desejaveis": []
+      },
+      "matches": {
+        "Consultoria em Diversidade e Inclusão": {
+          "score": 0.1,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [
+                "censo / pesquisa",
+                "análises / relatórios / planos de ação",
+                "entrevistas qualitativas",
+                "grupos focais / workshop de planejamento",
+                "treinamento / palestra / roda de conversa / mediação",
+                "mentoria",
+                "ead",
+                "comunicação inclusiva",
+                "grupos de afinidade",
+                "métricas e indicadores de diversidade e inclusão",
+                "política de gestão de pessoas",
+                "política de diversidade"
+              ],
+              "exigidas": [
+                "r",
+                "excel",
+                "sas"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "administração",
+                "comunicação"
+              ],
+              "exigidas": [
+                "administração",
+                "direito",
+                "ciências sociais",
+                "políticas públicas",
+                "comunicação"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 35000,
+              "acima_minimo": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "unesco:31acdc9f-bf0b-43fe-5017-08df1966cd05",
+      "torid": "unesco:31acdc9f-bf0b-43fe-5017-08df1966cd05",
+      "fonte": "unesco",
+      "titulo": "914BRZ1161.2 - Edital nº 01/2026 - 01 vaga - Consultor Individual",
+      "descricao": "Consultoria especializada em estudo na área de educação e ações de cooperação internacional da UNESCO",
+      "tipo": "Consultoria Pessoa Física (PF)",
+      "areas_tematicas": [
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "data_inicio": "2026-09-25",
+      "data_fim": "2026-09-30",
+      "dias_restantes": 5,
+      "prazo_classificacao": "curto",
+      "local": "",
+      "orgao_parceiro": "UNESCO",
+      "email_submissao": "",
+      "valor_estimado": null,
+      "valor_estimado_num": null,
+      "status": "Ongoing",
+      "data_criacao": "2026-09-25",
+      "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+      "perfil_classificado": "Não classificado",
+      "requisitos": {
+        "graduacao": [
+          "administração",
+          "direito",
+          "arquitetura",
+          "políticas públicas",
+          "comunicação"
+        ],
+        "pos_graduacao": [
+          "especialização",
+          "mba"
+        ],
+        "mestrado": true,
+        "doutorado": true,
+        "anos_experiencia": 12,
+        "ferramentas": [
+          "r",
+          "excel",
+          "sic",
+          "sas"
+        ],
+        "idiomas": [],
+        "certificacoes": [],
+        "valor_tor": null,
+        "obrigatorios": [],
+        "desejaveis": []
+      },
+      "matches": {
+        "Consultoria em Diversidade e Inclusão": {
+          "score": 0.1,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [
+                "censo / pesquisa",
+                "análises / relatórios / planos de ação",
+                "entrevistas qualitativas",
+                "grupos focais / workshop de planejamento",
+                "treinamento / palestra / roda de conversa / mediação",
+                "mentoria",
+                "ead",
+                "comunicação inclusiva",
+                "grupos de afinidade",
+                "métricas e indicadores de diversidade e inclusão",
+                "política de gestão de pessoas",
+                "política de diversidade"
+              ],
+              "exigidas": [
+                "r",
+                "excel",
+                "sic",
+                "sas"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "administração",
+                "comunicação"
+              ],
+              "exigidas": [
+                "administração",
+                "direito",
+                "arquitetura",
+                "políticas públicas",
+                "comunicação"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 35000,
+              "acima_minimo": null
+            }
+          }
+        }
+      }
+    },
+    {
       "id": "unesco:6277cc83-3d55-4575-091b-08df172a76c5",
       "torid": "unesco:6277cc83-3d55-4575-091b-08df172a76c5",
       "fonte": "unesco",
@@ -2369,6 +2844,8 @@
       ],
       "data_inicio": "2026-09-24",
       "data_fim": "2026-09-29",
+      "dias_restantes": 4,
+      "prazo_classificacao": "curto",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -2468,6 +2945,8 @@
       ],
       "data_inicio": "2026-09-24",
       "data_fim": "2026-09-28",
+      "dias_restantes": 3,
+      "prazo_classificacao": "urgente",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -2567,6 +3046,8 @@
       ],
       "data_inicio": "2026-09-24",
       "data_fim": "2026-09-28",
+      "dias_restantes": 3,
+      "prazo_classificacao": "urgente",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -2672,6 +3153,8 @@
       ],
       "data_inicio": "2026-09-24",
       "data_fim": "2026-09-28",
+      "dias_restantes": 3,
+      "prazo_classificacao": "urgente",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -2772,6 +3255,8 @@
       ],
       "data_inicio": "2026-09-24",
       "data_fim": "2026-09-30",
+      "dias_restantes": 5,
+      "prazo_classificacao": "curto",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -2866,110 +3351,6 @@
       }
     },
     {
-      "id": "unesco:34a61630-55f8-4262-9489-08df0f3a2d32",
-      "torid": "unesco:34a61630-55f8-4262-9489-08df0f3a2d32",
-      "fonte": "unesco",
-      "titulo": "914BRZ1156 - edital 08/2026 - Consultor Individual",
-      "descricao": "Consultoria especializada em comunicação para elaborar subsídios técnicos destinados ao fortalecimento da transparência da comunicação institucional e da participação social no âmbito do FNE.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Tecnologia da Informação / Dados"
-      ],
-      "data_inicio": "2026-09-17",
-      "data_fim": "2026-09-24",
-      "local": "",
-      "orgao_parceiro": "UNESCO",
-      "email_submissao": "",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "Ongoing",
-      "data_criacao": "2026-09-17",
-      "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-      "perfil_classificado": "Não classificado",
-      "requisitos": {
-        "graduacao": [
-          "administração",
-          "direito",
-          "políticas públicas",
-          "comunicação"
-        ],
-        "pos_graduacao": [
-          "especialização"
-        ],
-        "mestrado": true,
-        "doutorado": false,
-        "anos_experiencia": 7,
-        "ferramentas": [
-          "r",
-          "excel",
-          "sic",
-          "sas",
-          "git"
-        ],
-        "idiomas": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "Consultoria em Diversidade e Inclusão": {
-          "score": 0.125,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "censo / pesquisa",
-                "análises / relatórios / planos de ação",
-                "entrevistas qualitativas",
-                "grupos focais / workshop de planejamento",
-                "treinamento / palestra / roda de conversa / mediação",
-                "mentoria",
-                "ead",
-                "comunicação inclusiva",
-                "grupos de afinidade",
-                "métricas e indicadores de diversidade e inclusão",
-                "política de gestão de pessoas",
-                "política de diversidade"
-              ],
-              "exigidas": [
-                "r",
-                "excel",
-                "sic",
-                "sas",
-                "git"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "administração",
-                "comunicação"
-              ],
-              "exigidas": [
-                "administração",
-                "direito",
-                "políticas públicas",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 0,
-              "minimo_perfil": 35000,
-              "acima_minimo": null
-            }
-          }
-        }
-      }
-    },
-    {
       "id": "unesco:a4685014-44a0-4ec8-9b63-08df0ff5ff21",
       "torid": "unesco:a4685014-44a0-4ec8-9b63-08df0ff5ff21",
       "fonte": "unesco",
@@ -2981,6 +3362,8 @@
       ],
       "data_inicio": "2026-09-20",
       "data_fim": "2026-09-27",
+      "dias_restantes": 2,
+      "prazo_classificacao": "urgente",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -3091,6 +3474,8 @@
       ],
       "data_inicio": "2026-09-22",
       "data_fim": "2026-09-27",
+      "dias_restantes": 2,
+      "prazo_classificacao": "urgente",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -3201,6 +3586,8 @@
       ],
       "data_inicio": "2026-09-20",
       "data_fim": "2026-09-27",
+      "dias_restantes": 2,
+      "prazo_classificacao": "urgente",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -3313,6 +3700,8 @@
       ],
       "data_inicio": "2026-07-21",
       "data_fim": "2026-07-30",
+      "dias_restantes": -57,
+      "prazo_classificacao": "encerrado",
       "local": "Perfil 1: Amapá  AP Amapá - AP Perfil 2: Amazonas  AM Amazonas - AM Perfil 3: Bahia  BA Bahia - BA Perfil 4: Distrito Federal  DF Distrito Federal, DF Perfil 5: Mato Grosso do Sul (MS) Mato Grosso do Sul, MS Perfil 6 - Pará (PA) Para, PA Perfil 7: Paraíba (PB) Paraíba, PB Perfil 8: Pernambuco (PE) Pernambuco, PE Perfil 9: Rio Grande do Norte (RN) Rio Grande do Norte, RN Perfil 10: Rio Grande do Sul (RS) Rio Grande do Sul, RS Perfil 11: Roraima (RR) Roraima, RR Perfil 12: Santa Catarina (SC) Santa Catarina, SC",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -3405,17 +3794,20 @@
       }
     },
     {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13173",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13173",
+      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169",
+      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169",
       "fonte": "oei",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO DEMOCRACIA PARTICIPATIVA/BRA/SGPR/24 – TR13173",
-      "descricao": "Contratar consultor(a) para apoiar tecnicamente o processo de participação social proporcionado pela Mesas de Diálogo sobre Mineração no Brasil iniciada em 2023.",
-      "tipo": "Consultoria (tipo não especificado)",
+      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO DEMOCRACIA PARTICIPATIVA/BRA/SGPR/24 – TR13169",
+      "descricao": "Contratação de consultor(a) especialista (pessoa física) para prestar apoio técnico às ações dos Acordos de Cooperação Técnica (ACTs) firmados entre Ministérios do Poder Executivo e entes do Poder Judiciário, com a finalidade de promover e fortalecer a participação social dos povos indígenas e tribais no Brasil.",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Não classificada"
+        "Tecnologia da Informação / Dados",
+        "Meio Ambiente / Clima / Geografia"
       ],
       "data_inicio": "2026-07-29",
       "data_fim": "2026-08-04",
+      "dias_restantes": -52,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto, Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -3423,7 +3815,7 @@
       "valor_estimado_num": 30000.0,
       "status": "En evaluación",
       "data_criacao": "2026-07-29",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13173/",
+      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169/",
       "perfil_classificado": "Não classificado",
       "requisitos": {
         "graduacao": [
@@ -3515,18 +3907,19 @@
       }
     },
     {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169",
+      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13173",
+      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13173",
       "fonte": "oei",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO DEMOCRACIA PARTICIPATIVA/BRA/SGPR/24 – TR13169",
-      "descricao": "Contratação de consultor(a) especialista (pessoa física) para prestar apoio técnico às ações dos Acordos de Cooperação Técnica (ACTs) firmados entre Ministérios do Poder Executivo e entes do Poder Judiciário, com a finalidade de promover e fortalecer a participação social dos povos indígenas e tribais no Brasil.",
-      "tipo": "Consultoria Pessoa Física (PF)",
+      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO DEMOCRACIA PARTICIPATIVA/BRA/SGPR/24 – TR13173",
+      "descricao": "Contratar consultor(a) para apoiar tecnicamente o processo de participação social proporcionado pela Mesas de Diálogo sobre Mineração no Brasil iniciada em 2023.",
+      "tipo": "Consultoria (tipo não especificado)",
       "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Meio Ambiente / Clima / Geografia"
+        "Não classificada"
       ],
       "data_inicio": "2026-07-29",
       "data_fim": "2026-08-04",
+      "dias_restantes": -52,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto, Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -3534,7 +3927,7 @@
       "valor_estimado_num": 30000.0,
       "status": "En evaluación",
       "data_criacao": "2026-07-29",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169/",
+      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13173/",
       "perfil_classificado": "Não classificado",
       "requisitos": {
         "graduacao": [
@@ -3641,6 +4034,8 @@
       ],
       "data_inicio": "2026-07-29",
       "data_fim": "2026-08-03",
+      "dias_restantes": -53,
+      "prazo_classificacao": "encerrado",
       "local": "Articulação Estadual - Alagoas Alagoas Articulação Estadual - Espírito Santo Espírito Santo Articulação Estadual - Goiás Goiás Articulação Estadual - Maranhão Maranhão Articulação Estadual - Minas Gerais Minas Gerais Articulação Estadual - Rondônia Rondônia Articulação Estadual - São Paulo São Paulo Articulação Estadual - Tocantins Tocantins",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -3733,6 +4128,124 @@
       }
     },
     {
+      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13193",
+      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13193",
+      "fonte": "oei",
+      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13193",
+      "descricao": "Contratar consultor(a) especialista para desenvolver pesquisas técnicas, estudos aplicados, diagnósticos, análises de evidências e produção de conhecimento, com foco na sistematização de informações, estruturação de bases de dados, elaboração de indicadores, monitoramento de iniciativas, produção de documentos técnicos e geração de subsídios estratégicos para qualificar processos de planejamento e tomada de decisão no âmbito do programa de cooperação entre MinC e OEI.",
+      "tipo": "Consultoria (tipo não especificado)",
+      "areas_tematicas": [
+        "Tecnologia da Informação / Dados",
+        "Estatística / Pesquisa / Metodologia",
+        "Gestão / Administração Pública"
+      ],
+      "data_inicio": "2026-08-06",
+      "data_fim": "2026-08-11",
+      "dias_restantes": -45,
+      "prazo_classificacao": "encerrado",
+      "local": "Brasília - DF",
+      "orgao_parceiro": "OEI",
+      "email_submissao": "selecao.bra@oei.int",
+      "valor_estimado": "204.000,00",
+      "valor_estimado_num": 204000.0,
+      "status": "En evaluación",
+      "data_criacao": "2026-08-06",
+      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13193/",
+      "perfil_classificado": "Não classificado",
+      "requisitos": {
+        "graduacao": [
+          "economia",
+          "direito",
+          "física",
+          "políticas públicas",
+          "comunicação"
+        ],
+        "pos_graduacao": [],
+        "mestrado": true,
+        "doutorado": false,
+        "anos_experiencia": null,
+        "ferramentas": [
+          "r",
+          "excel",
+          "sic",
+          "sas",
+          "git"
+        ],
+        "idiomas": [
+          "Inglês",
+          "Espanhol"
+        ],
+        "certificacoes": [],
+        "valor_tor": null,
+        "obrigatorios": [
+          "previsto neste termo de referência. descrições genéricas ou incompletas poderão ensejar não",
+          "pontuação, com possível eliminação do candidato."
+        ],
+        "desejaveis": []
+      },
+      "matches": {
+        "Consultoria em Diversidade e Inclusão": {
+          "score": 0.225,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [
+                "censo / pesquisa",
+                "análises / relatórios / planos de ação",
+                "entrevistas qualitativas",
+                "grupos focais / workshop de planejamento",
+                "treinamento / palestra / roda de conversa / mediação",
+                "mentoria",
+                "ead",
+                "comunicação inclusiva",
+                "grupos de afinidade",
+                "métricas e indicadores de diversidade e inclusão",
+                "política de gestão de pessoas",
+                "política de diversidade"
+              ],
+              "exigidas": [
+                "r",
+                "excel",
+                "sic",
+                "sas",
+                "git"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "comunicação"
+              ],
+              "exigidas": [
+                "economia",
+                "direito",
+                "física",
+                "políticas públicas",
+                "comunicação"
+              ]
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês",
+                "espanhol"
+              ]
+            },
+            "valor": {
+              "edital": 204000.0,
+              "minimo_perfil": 35000,
+              "acima_minimo": true
+            }
+          }
+        }
+      }
+    },
+    {
       "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192",
       "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13192",
       "fonte": "oei",
@@ -3746,6 +4259,8 @@
       ],
       "data_inicio": "2026-08-06",
       "data_fim": "2026-08-11",
+      "dias_restantes": -45,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -3863,6 +4378,8 @@
       ],
       "data_inicio": "2026-08-06",
       "data_fim": "2026-08-11",
+      "dias_restantes": -45,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -3976,122 +4493,6 @@
       }
     },
     {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13193",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13193",
-      "fonte": "oei",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13193",
-      "descricao": "Contratar consultor(a) especialista para desenvolver pesquisas técnicas, estudos aplicados, diagnósticos, análises de evidências e produção de conhecimento, com foco na sistematização de informações, estruturação de bases de dados, elaboração de indicadores, monitoramento de iniciativas, produção de documentos técnicos e geração de subsídios estratégicos para qualificar processos de planejamento e tomada de decisão no âmbito do programa de cooperação entre MinC e OEI.",
-      "tipo": "Consultoria (tipo não especificado)",
-      "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Estatística / Pesquisa / Metodologia",
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-08-06",
-      "data_fim": "2026-08-11",
-      "local": "Brasília - DF",
-      "orgao_parceiro": "OEI",
-      "email_submissao": "selecao.bra@oei.int",
-      "valor_estimado": "204.000,00",
-      "valor_estimado_num": 204000.0,
-      "status": "En evaluación",
-      "data_criacao": "2026-08-06",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13193/",
-      "perfil_classificado": "Não classificado",
-      "requisitos": {
-        "graduacao": [
-          "economia",
-          "direito",
-          "física",
-          "políticas públicas",
-          "comunicação"
-        ],
-        "pos_graduacao": [],
-        "mestrado": true,
-        "doutorado": false,
-        "anos_experiencia": null,
-        "ferramentas": [
-          "r",
-          "excel",
-          "sic",
-          "sas",
-          "git"
-        ],
-        "idiomas": [
-          "Inglês",
-          "Espanhol"
-        ],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [
-          "previsto neste termo de referência. descrições genéricas ou incompletas poderão ensejar não",
-          "pontuação, com possível eliminação do candidato."
-        ],
-        "desejaveis": []
-      },
-      "matches": {
-        "Consultoria em Diversidade e Inclusão": {
-          "score": 0.225,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "censo / pesquisa",
-                "análises / relatórios / planos de ação",
-                "entrevistas qualitativas",
-                "grupos focais / workshop de planejamento",
-                "treinamento / palestra / roda de conversa / mediação",
-                "mentoria",
-                "ead",
-                "comunicação inclusiva",
-                "grupos de afinidade",
-                "métricas e indicadores de diversidade e inclusão",
-                "política de gestão de pessoas",
-                "política de diversidade"
-              ],
-              "exigidas": [
-                "r",
-                "excel",
-                "sic",
-                "sas",
-                "git"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "comunicação"
-              ],
-              "exigidas": [
-                "economia",
-                "direito",
-                "física",
-                "políticas públicas",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": [
-                "inglês",
-                "espanhol"
-              ]
-            },
-            "valor": {
-              "edital": 204000.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
-            }
-          }
-        }
-      }
-    },
-    {
       "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13196",
       "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13196",
       "fonte": "oei",
@@ -4105,6 +4506,8 @@
       ],
       "data_inicio": "2026-08-06",
       "data_fim": "2026-08-11",
+      "dias_restantes": -45,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - Df",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -4233,6 +4636,8 @@
       ],
       "data_inicio": "2026-08-06",
       "data_fim": "2026-08-11",
+      "dias_restantes": -45,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -4359,6 +4764,8 @@
       ],
       "data_inicio": "2026-07-24",
       "data_fim": "2026-08-18",
+      "dias_restantes": -38,
+      "prazo_classificacao": "encerrado",
       "local": "VAGA 1 - áreas DIPES, DIISE, DIORF, DIPLIC, DICON - Consultoria Técnica Especializada em Governança do Conhecimento e Inteligência Artificial São Paulo VAGA 2 - áreas DRECID, EFAPE, SUPLAN E SUPED - Consultoria Técnica Especializada em Governança do Conhecimento e Inteligência Artificial São Paulo",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -4459,6 +4866,115 @@
       }
     },
     {
+      "id": "oei:contratacao-de-consultor-projeto-fp-26-02-ciencia-inovacao-e-desenvolvimento-tr-13199",
+      "torid": "oei:contratacao-de-consultor-projeto-fp-26-02-ciencia-inovacao-e-desenvolvimento-tr-13199",
+      "fonte": "oei",
+      "titulo": "Contratação de consultor PROJETO FP-26-02 Ciência, Inovação e Desenvolvimento – TR 13199",
+      "descricao": "Contratar profissional especialista para elaboração de diagnóstico e análise institucional de potenciais patrocinadores e de plano de ação para captação de patrocínios e desenvolvimento de ações de legado da Copa do Mundo Feminina 2027, no âmbito do projeto Ciência, Inovação e Desenvolvimento Sustentável no Brasil, com a finalidade de subsidiar tecnicamente a tomada de decisão e o aprimoramento das estratégias institucionais da OEI.",
+      "tipo": "Consultoria (tipo não especificado)",
+      "areas_tematicas": [
+        "Tecnologia da Informação / Dados",
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "data_inicio": "2026-08-12",
+      "data_fim": "2026-08-16",
+      "dias_restantes": -40,
+      "prazo_classificacao": "encerrado",
+      "local": "Brasília - DF | Híbrido",
+      "orgao_parceiro": "OEI",
+      "email_submissao": "selecao.bra@oei.int",
+      "valor_estimado": null,
+      "valor_estimado_num": null,
+      "status": "En fase de apresentação",
+      "data_criacao": "2026-08-12",
+      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-fp-26-02-ciencia-inovacao-e-desenvolvimento-tr-13199/",
+      "perfil_classificado": "Não classificado",
+      "requisitos": {
+        "graduacao": [
+          "engenharia",
+          "administração",
+          "direito",
+          "física",
+          "comunicação"
+        ],
+        "pos_graduacao": [
+          "mba"
+        ],
+        "mestrado": false,
+        "doutorado": false,
+        "anos_experiencia": null,
+        "ferramentas": [
+          "r",
+          "sei",
+          "sic",
+          "sas",
+          "git"
+        ],
+        "idiomas": [],
+        "certificacoes": [],
+        "valor_tor": "120.000,00",
+        "obrigatorios": [],
+        "desejaveis": []
+      },
+      "matches": {
+        "Consultoria em Diversidade e Inclusão": {
+          "score": 0.1,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [
+                "censo / pesquisa",
+                "análises / relatórios / planos de ação",
+                "entrevistas qualitativas",
+                "grupos focais / workshop de planejamento",
+                "treinamento / palestra / roda de conversa / mediação",
+                "mentoria",
+                "ead",
+                "comunicação inclusiva",
+                "grupos de afinidade",
+                "métricas e indicadores de diversidade e inclusão",
+                "política de gestão de pessoas",
+                "política de diversidade"
+              ],
+              "exigidas": [
+                "r",
+                "sei",
+                "sic",
+                "sas",
+                "git"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "administração",
+                "comunicação"
+              ],
+              "exigidas": [
+                "engenharia",
+                "administração",
+                "direito",
+                "física",
+                "comunicação"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 35000,
+              "acima_minimo": null
+            }
+          }
+        }
+      }
+    },
+    {
       "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13202",
       "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13202",
       "fonte": "oei",
@@ -4471,6 +4987,8 @@
       ],
       "data_inicio": "2026-08-12",
       "data_fim": "2026-08-23",
+      "dias_restantes": -33,
+      "prazo_classificacao": "encerrado",
       "local": "Porto Alegre/RS",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -4581,6 +5099,8 @@
       ],
       "data_inicio": "2026-08-12",
       "data_fim": "2026-08-23",
+      "dias_restantes": -33,
+      "prazo_classificacao": "encerrado",
       "local": "Porto Alegre/RS",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -4683,113 +5203,6 @@
       }
     },
     {
-      "id": "oei:contratacao-de-consultor-projeto-fp-26-02-ciencia-inovacao-e-desenvolvimento-tr-13199",
-      "torid": "oei:contratacao-de-consultor-projeto-fp-26-02-ciencia-inovacao-e-desenvolvimento-tr-13199",
-      "fonte": "oei",
-      "titulo": "Contratação de consultor PROJETO FP-26-02 Ciência, Inovação e Desenvolvimento – TR 13199",
-      "descricao": "Contratar profissional especialista para elaboração de diagnóstico e análise institucional de potenciais patrocinadores e de plano de ação para captação de patrocínios e desenvolvimento de ações de legado da Copa do Mundo Feminina 2027, no âmbito do projeto Ciência, Inovação e Desenvolvimento Sustentável no Brasil, com a finalidade de subsidiar tecnicamente a tomada de decisão e o aprimoramento das estratégias institucionais da OEI.",
-      "tipo": "Consultoria (tipo não especificado)",
-      "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Estatística / Pesquisa / Metodologia"
-      ],
-      "data_inicio": "2026-08-12",
-      "data_fim": "2026-08-16",
-      "local": "Brasília - DF | Híbrido",
-      "orgao_parceiro": "OEI",
-      "email_submissao": "selecao.bra@oei.int",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "En fase de apresentação",
-      "data_criacao": "2026-08-12",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-fp-26-02-ciencia-inovacao-e-desenvolvimento-tr-13199/",
-      "perfil_classificado": "Não classificado",
-      "requisitos": {
-        "graduacao": [
-          "engenharia",
-          "administração",
-          "direito",
-          "física",
-          "comunicação"
-        ],
-        "pos_graduacao": [
-          "mba"
-        ],
-        "mestrado": false,
-        "doutorado": false,
-        "anos_experiencia": null,
-        "ferramentas": [
-          "r",
-          "sei",
-          "sic",
-          "sas",
-          "git"
-        ],
-        "idiomas": [],
-        "certificacoes": [],
-        "valor_tor": "120.000,00",
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "Consultoria em Diversidade e Inclusão": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "censo / pesquisa",
-                "análises / relatórios / planos de ação",
-                "entrevistas qualitativas",
-                "grupos focais / workshop de planejamento",
-                "treinamento / palestra / roda de conversa / mediação",
-                "mentoria",
-                "ead",
-                "comunicação inclusiva",
-                "grupos de afinidade",
-                "métricas e indicadores de diversidade e inclusão",
-                "política de gestão de pessoas",
-                "política de diversidade"
-              ],
-              "exigidas": [
-                "r",
-                "sei",
-                "sic",
-                "sas",
-                "git"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "administração",
-                "comunicação"
-              ],
-              "exigidas": [
-                "engenharia",
-                "administração",
-                "direito",
-                "física",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 0,
-              "minimo_perfil": 35000,
-              "acima_minimo": null
-            }
-          }
-        }
-      }
-    },
-    {
       "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr13200",
       "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr13200",
       "fonte": "oei",
@@ -4804,6 +5217,8 @@
       ],
       "data_inicio": "2026-08-17",
       "data_fim": "2026-08-22",
+      "dias_restantes": -34,
+      "prazo_classificacao": "encerrado",
       "local": "Recife - PE",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -4911,6 +5326,8 @@
       ],
       "data_inicio": "2026-08-18",
       "data_fim": "2026-08-25",
+      "dias_restantes": -31,
+      "prazo_classificacao": "encerrado",
       "local": "São Paulo - SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -5021,6 +5438,8 @@
       ],
       "data_inicio": "2026-07-05",
       "data_fim": "2026-08-25",
+      "dias_restantes": -31,
+      "prazo_classificacao": "encerrado",
       "local": "Nacional",
       "orgao_parceiro": "OEI/MDHC",
       "email_submissao": "compras.bra@oei.int",
@@ -5140,6 +5559,8 @@
       ],
       "data_inicio": "2026-08-12",
       "data_fim": "2026-09-07",
+      "dias_restantes": -18,
+      "prazo_classificacao": "encerrado",
       "local": "Porto Alegre/RS",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -5251,6 +5672,8 @@
       ],
       "data_inicio": "2026-08-31",
       "data_fim": "2026-09-05",
+      "dias_restantes": -20,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -5366,6 +5789,8 @@
       ],
       "data_inicio": "2026-09-01",
       "data_fim": "2026-09-23",
+      "dias_restantes": -2,
+      "prazo_classificacao": "encerrado",
       "local": "São Paulo - SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -5473,71 +5898,6 @@
       }
     },
     {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
-      "fonte": "oei",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR 13238",
-      "descricao": "Contratação de 1 (um) consultor especialista em Gestão de Projetos para assessorar a execução e o monitoramento no âmbito do projeto de cooperação técnica internacional. Além de produzir relatórios técnicos e financeiros demonstrando a evolução das atividades, o consultor especialista dará apoio à OEI e à SEDUC-RS nas atividades diárias, fornecerá orientações e recomendações que serão fundamentais para decisões em diferentes etapas do projeto. Isso inclui a identificação e mitigação de riscos, bem como o alinhamento com padrões de qualidade e eficiência, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
-      "tipo": "Consultoria (tipo não especificado)",
-      "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-09-10",
-      "data_fim": "2026-09-16",
-      "local": "Porto Alegre - RS",
-      "orgao_parceiro": "OEI",
-      "email_submissao": "selecao.bra@oei.int",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "En evaluación",
-      "data_criacao": "2026-09-10",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238/",
-      "perfil_classificado": "Não classificado",
-      "requisitos": {
-        "graduacao": [],
-        "pos_graduacao": [],
-        "mestrado": false,
-        "doutorado": false,
-        "anos_experiencia": null,
-        "ferramentas": [],
-        "idiomas": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "Consultoria em Diversidade e Inclusão": {
-          "score": 0.0,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 0,
-              "minimo_perfil": 35000,
-              "acima_minimo": null
-            }
-          }
-        }
-      }
-    },
-    {
       "id": "oei:ontratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026",
       "torid": "oei:ontratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026",
       "fonte": "oei",
@@ -5551,6 +5911,8 @@
       ],
       "data_inicio": "2026-09-10",
       "data_fim": "2026-09-15",
+      "dias_restantes": -10,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -5604,53 +5966,37 @@
       }
     },
     {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
+      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
+      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
       "fonte": "oei",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 13236",
-      "descricao": "Consultoria técnica especializada para desenvolver proposta, testar em caráter piloto, avaliar e documentar a metodologia de implantação e governança de bases de conhecimento e instrumentos de acompanhamento do desempenho e da qualidade dos conteúdos utilizados na alimentação dos agentes de Inteligência Artificial da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
+      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR 13238",
+      "descricao": "Contratação de 1 (um) consultor especialista em Gestão de Projetos para assessorar a execução e o monitoramento no âmbito do projeto de cooperação técnica internacional. Além de produzir relatórios técnicos e financeiros demonstrando a evolução das atividades, o consultor especialista dará apoio à OEI e à SEDUC-RS nas atividades diárias, fornecerá orientações e recomendações que serão fundamentais para decisões em diferentes etapas do projeto. Isso inclui a identificação e mitigação de riscos, bem como o alinhamento com padrões de qualidade e eficiência, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
       "tipo": "Consultoria (tipo não especificado)",
       "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
+        "Tecnologia da Informação / Dados",
         "Gestão / Administração Pública"
       ],
-      "data_inicio": "2026-09-13",
-      "data_fim": "2026-09-24",
-      "local": "São Paulo - SP",
-      "orgao_parceiro": "OEI/BRA",
-      "email_submissao": "ugp@educacao.sp.gov.br",
+      "data_inicio": "2026-09-10",
+      "data_fim": "2026-09-16",
+      "dias_restantes": -9,
+      "prazo_classificacao": "encerrado",
+      "local": "Porto Alegre - RS",
+      "orgao_parceiro": "OEI",
+      "email_submissao": "selecao.bra@oei.int",
       "valor_estimado": null,
       "valor_estimado_num": null,
-      "status": "En presentación",
-      "data_criacao": "2026-09-13",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236/",
+      "status": "En evaluación",
+      "data_criacao": "2026-09-10",
+      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238/",
       "perfil_classificado": "Não classificado",
       "requisitos": {
-        "graduacao": [
-          "engenharia",
-          "administração",
-          "direito",
-          "ciências sociais",
-          "inteligência artificial",
-          "física"
-        ],
-        "pos_graduacao": [
-          "pós-graduação",
-          "especialização",
-          "lato sensu"
-        ],
-        "mestrado": true,
-        "doutorado": true,
-        "anos_experiencia": 4,
-        "ferramentas": [
-          "r",
-          "sic",
-          "sas",
-          "git"
-        ],
-        "idiomas": [
-          "Espanhol"
-        ],
+        "graduacao": [],
+        "pos_graduacao": [],
+        "mestrado": false,
+        "doutorado": false,
+        "anos_experiencia": null,
+        "ferramentas": [],
+        "idiomas": [],
         "certificacoes": [],
         "valor_tor": null,
         "obrigatorios": [],
@@ -5658,7 +6004,7 @@
       },
       "matches": {
         "Consultoria em Diversidade e Inclusão": {
-          "score": 0.042,
+          "score": 0.0,
           "detalhes": {
             "areas": {
               "match": false,
@@ -5666,45 +6012,16 @@
             },
             "ferramentas": {
               "match": [],
-              "faltando": [
-                "censo / pesquisa",
-                "análises / relatórios / planos de ação",
-                "entrevistas qualitativas",
-                "grupos focais / workshop de planejamento",
-                "treinamento / palestra / roda de conversa / mediação",
-                "mentoria",
-                "ead",
-                "comunicação inclusiva",
-                "grupos de afinidade",
-                "métricas e indicadores de diversidade e inclusão",
-                "política de gestão de pessoas",
-                "política de diversidade"
-              ],
-              "exigidas": [
-                "r",
-                "sic",
-                "sas",
-                "git"
-              ]
+              "faltando": [],
+              "exigidas": []
             },
             "graduacao": {
-              "match": [
-                "administração"
-              ],
-              "exigidas": [
-                "engenharia",
-                "administração",
-                "direito",
-                "ciências sociais",
-                "inteligência artificial",
-                "física"
-              ]
+              "match": [],
+              "exigidas": []
             },
             "idiomas": {
               "match": [],
-              "exigidos": [
-                "espanhol"
-              ]
+              "exigidos": []
             },
             "valor": {
               "edital": 0,
@@ -5728,6 +6045,8 @@
       ],
       "data_inicio": "2026-09-16",
       "data_fim": "2026-09-21",
+      "dias_restantes": -4,
+      "prazo_classificacao": "encerrado",
       "local": "Dados Remoto",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -5886,6 +6205,8 @@
       ],
       "data_inicio": "2026-09-17",
       "data_fim": "2026-09-21",
+      "dias_restantes": -4,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -5978,67 +6299,63 @@
       }
     },
     {
-      "id": "oei:concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco",
-      "torid": "oei:concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco",
+      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
+      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
       "fonte": "oei",
-      "titulo": "CONCORRÊNCIA Nº 13126/2026- OEI/MDHC TÉCNICA E PREÇO",
-      "descricao": "Contratação de empresa especializada para conceber metodologia, preparar materiais de apoio, facilitar/conduzir tecnicamente e sistematizar oficinas presenciais e virtuais, bem como produzir materiais técnicos e educomunicativos voltados à implementação e à disseminação do Estatuto Digital da Criança e do Adolescente (ECA Digital), com foco no fortalecimento da atuação do Sistema de Garantia dos Direitos da Criança e do Adolescente - SGDCA, do Sistema de Justiça, dos Conselhos Tutelares e da participação de adolescentes em políticas de proteção e promoção de direitos no ambiente digital, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
-      "tipo": "Consultoria Pessoa Jurídica (PJ) / Empresa",
+      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 13236",
+      "descricao": "Consultoria técnica especializada para desenvolver proposta, testar em caráter piloto, avaliar e documentar a metodologia de implantação e governança de bases de conhecimento e instrumentos de acompanhamento do desempenho e da qualidade dos conteúdos utilizados na alimentação dos agentes de Inteligência Artificial da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
+      "tipo": "Consultoria (tipo não especificado)",
       "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Estatística / Pesquisa / Metodologia"
+        "Estatística / Pesquisa / Metodologia",
+        "Gestão / Administração Pública"
       ],
-      "data_inicio": "2026-08-10",
-      "data_fim": "2026-10-05",
-      "local": "Nacional",
-      "orgao_parceiro": "OEI/MDHC",
-      "email_submissao": "compras.bra@oei.int",
-      "valor_estimado": "350.000,00",
-      "valor_estimado_num": 350000.0,
-      "status": "En fase de apresentação",
-      "data_criacao": "2026-08-10",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco/",
+      "data_inicio": "2026-09-13",
+      "data_fim": "2026-09-24",
+      "dias_restantes": -1,
+      "prazo_classificacao": "encerrado",
+      "local": "São Paulo - SP",
+      "orgao_parceiro": "OEI/BRA",
+      "email_submissao": "ugp@educacao.sp.gov.br",
+      "valor_estimado": null,
+      "valor_estimado_num": null,
+      "status": "En presentación",
+      "data_criacao": "2026-09-13",
+      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236/",
       "perfil_classificado": "Não classificado",
       "requisitos": {
         "graduacao": [
+          "engenharia",
           "administração",
           "direito",
           "ciências sociais",
           "inteligência artificial",
-          "física",
-          "gestão pública",
-          "políticas públicas",
-          "comunicação"
+          "física"
         ],
         "pos_graduacao": [
+          "pós-graduação",
           "especialização",
-          "lato sensu",
-          "mba"
+          "lato sensu"
         ],
         "mestrado": true,
         "doutorado": true,
-        "anos_experiencia": null,
+        "anos_experiencia": 4,
         "ferramentas": [
-          "teams",
           "r",
-          "excel",
-          "sei",
           "sic",
-          "stata",
           "sas",
           "git"
         ],
-        "idiomas": [],
-        "certificacoes": [
-          "pmp"
+        "idiomas": [
+          "Espanhol"
         ],
-        "valor_tor": "35.000,00",
+        "certificacoes": [],
+        "valor_tor": null,
         "obrigatorios": [],
         "desejaveis": []
       },
       "matches": {
         "Consultoria em Diversidade e Inclusão": {
-          "score": 0.163,
+          "score": 0.042,
           "detalhes": {
             "areas": {
               "match": false,
@@ -6061,40 +6378,35 @@
                 "política de diversidade"
               ],
               "exigidas": [
-                "teams",
                 "r",
-                "excel",
-                "sei",
                 "sic",
-                "stata",
                 "sas",
                 "git"
               ]
             },
             "graduacao": {
               "match": [
-                "administração",
-                "comunicação"
+                "administração"
               ],
               "exigidas": [
+                "engenharia",
                 "administração",
                 "direito",
                 "ciências sociais",
                 "inteligência artificial",
-                "física",
-                "gestão pública",
-                "políticas públicas",
-                "comunicação"
+                "física"
               ]
             },
             "idiomas": {
               "match": [],
-              "exigidos": []
+              "exigidos": [
+                "espanhol"
+              ]
             },
             "valor": {
-              "edital": 350000.0,
+              "edital": 0,
               "minimo_perfil": 35000,
-              "acima_minimo": true
+              "acima_minimo": null
             }
           }
         }
@@ -6113,6 +6425,8 @@
       ],
       "data_inicio": "2026-08-10",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Nacional",
       "orgao_parceiro": "OEI/MDHC",
       "email_submissao": "compras.bra@oei.int",
@@ -6224,13 +6538,138 @@
           }
         }
       }
+    },
+    {
+      "id": "oei:concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco",
+      "torid": "oei:concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco",
+      "fonte": "oei",
+      "titulo": "CONCORRÊNCIA Nº 13126/2026- OEI/MDHC TÉCNICA E PREÇO",
+      "descricao": "Contratação de empresa especializada para conceber metodologia, preparar materiais de apoio, facilitar/conduzir tecnicamente e sistematizar oficinas presenciais e virtuais, bem como produzir materiais técnicos e educomunicativos voltados à implementação e à disseminação do Estatuto Digital da Criança e do Adolescente (ECA Digital), com foco no fortalecimento da atuação do Sistema de Garantia dos Direitos da Criança e do Adolescente - SGDCA, do Sistema de Justiça, dos Conselhos Tutelares e da participação de adolescentes em políticas de proteção e promoção de direitos no ambiente digital, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
+      "tipo": "Consultoria Pessoa Jurídica (PJ) / Empresa",
+      "areas_tematicas": [
+        "Tecnologia da Informação / Dados",
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "data_inicio": "2026-08-10",
+      "data_fim": "2026-10-05",
+      "dias_restantes": 10,
+      "prazo_classificacao": "medio",
+      "local": "Nacional",
+      "orgao_parceiro": "OEI/MDHC",
+      "email_submissao": "compras.bra@oei.int",
+      "valor_estimado": "350.000,00",
+      "valor_estimado_num": 350000.0,
+      "status": "En fase de apresentação",
+      "data_criacao": "2026-08-10",
+      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco/",
+      "perfil_classificado": "Não classificado",
+      "requisitos": {
+        "graduacao": [
+          "administração",
+          "direito",
+          "ciências sociais",
+          "inteligência artificial",
+          "física",
+          "gestão pública",
+          "políticas públicas",
+          "comunicação"
+        ],
+        "pos_graduacao": [
+          "especialização",
+          "lato sensu",
+          "mba"
+        ],
+        "mestrado": true,
+        "doutorado": true,
+        "anos_experiencia": null,
+        "ferramentas": [
+          "teams",
+          "r",
+          "excel",
+          "sei",
+          "sic",
+          "stata",
+          "sas",
+          "git"
+        ],
+        "idiomas": [],
+        "certificacoes": [
+          "pmp"
+        ],
+        "valor_tor": "35.000,00",
+        "obrigatorios": [],
+        "desejaveis": []
+      },
+      "matches": {
+        "Consultoria em Diversidade e Inclusão": {
+          "score": 0.163,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [
+                "censo / pesquisa",
+                "análises / relatórios / planos de ação",
+                "entrevistas qualitativas",
+                "grupos focais / workshop de planejamento",
+                "treinamento / palestra / roda de conversa / mediação",
+                "mentoria",
+                "ead",
+                "comunicação inclusiva",
+                "grupos de afinidade",
+                "métricas e indicadores de diversidade e inclusão",
+                "política de gestão de pessoas",
+                "política de diversidade"
+              ],
+              "exigidas": [
+                "teams",
+                "r",
+                "excel",
+                "sei",
+                "sic",
+                "stata",
+                "sas",
+                "git"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "administração",
+                "comunicação"
+              ],
+              "exigidas": [
+                "administração",
+                "direito",
+                "ciências sociais",
+                "inteligência artificial",
+                "física",
+                "gestão pública",
+                "políticas públicas",
+                "comunicação"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 350000.0,
+              "minimo_perfil": 35000,
+              "acima_minimo": true
+            }
+          }
+        }
+      }
     }
   ],
   "recomendacoes": {
     "Consultoria em Diversidade e Inclusão": {
       "perfil": "Consultoria em Diversidade e Inclusão",
       "descricao": "Trabalhos de consultoria focados em diversidade, equidade, inclusão e pertencimento - ESG, incluindo Censo/Pesquisa, Treinamentos, Comunicação Inclusiva, Governança/Comite/Grupos de Afinidade, Revisão de Políticas e Criação de Métricas e Indicadores",
-      "total_editais_analisados": 313,
+      "total_editais_analisados": 316,
       "total_editais_compativeis": 54,
       "valor_total_oportunidades": 5369500.0,
       "periodo_analise": "Últimos 12 meses (dados históricos)",
@@ -6806,6 +7245,338 @@
   "resumo_ia": null,
   "historico": [
     {
+      "id": 1568,
+      "torid": 146396,
+      "fonte": "pnud",
+      "titulo": "BRA/25/024 - Edital nº 013/2026 – Contratação de consultoria especializada (pessoa física) para desenvolvimento de estudo e análise sobre os efeitos econômicos e sociais dos recursos mobilizados pelo FAT e pelo FGTS",
+      "descricao": "Contratação de consultoria especializada para o desenvolvimento de estudo e análise sobre os efeitos econômicos e sociais dos recursos mobilizados pelo FAT e pelo FGTS",
+      "tipo": "Consultoria Pessoa Física (PF)",
+      "areas_tematicas": [
+        "Tecnologia da Informação / Dados",
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "data_inicio": "2026-09-25",
+      "data_fim": "2026-10-08",
+      "dias_restantes": 13,
+      "prazo_classificacao": "medio",
+      "local": "Brasília, com disponibilidade para viagens",
+      "orgao_parceiro": "MTE",
+      "email_submissao": "selecao.spt@trabalho.gov.br",
+      "valor_estimado": "R$ 208.966,53",
+      "valor_estimado_num": 208966.53,
+      "status": "Aprovada",
+      "data_criacao": "2026-09-24",
+      "url_externo": "https://parceiros.undp.org.br/opportunities",
+      "requisitos": {
+        "graduacao": [
+          "administração",
+          "estatística",
+          "física",
+          "políticas públicas",
+          "comunicação"
+        ],
+        "pos_graduacao": [
+          "especialização"
+        ],
+        "mestrado": true,
+        "doutorado": false,
+        "anos_experiencia": null,
+        "ferramentas": [
+          "r",
+          "sic",
+          "sas"
+        ],
+        "idiomas": [],
+        "certificacoes": [],
+        "valor_tor": 208966.53,
+        "obrigatorios": [
+          "qualificação mínima obrigatória (eliminatória): • graduação em",
+          "ciências econômicas ou estatística; • mestrado em ciências econômicas ou estatística; • experiência",
+          "profissional e/ou acadêmica mínima de 3 anos em projetos de pesquisa relativos a políticas públicas de",
+          "trabalho, emprego e renda e/ou previdência social. 2"
+        ],
+        "desejaveis": []
+      },
+      "matches": {
+        "Consultoria em Diversidade e Inclusão": {
+          "score": 0.1,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [
+                "censo / pesquisa",
+                "análises / relatórios / planos de ação",
+                "entrevistas qualitativas",
+                "grupos focais / workshop de planejamento",
+                "treinamento / palestra / roda de conversa / mediação",
+                "mentoria",
+                "ead",
+                "comunicação inclusiva",
+                "grupos de afinidade",
+                "métricas e indicadores de diversidade e inclusão",
+                "política de gestão de pessoas",
+                "política de diversidade"
+              ],
+              "exigidas": [
+                "r",
+                "sic",
+                "sas"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "administração",
+                "comunicação"
+              ],
+              "exigidas": [
+                "administração",
+                "estatística",
+                "física",
+                "políticas públicas",
+                "comunicação"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 35000,
+              "acima_minimo": null
+            }
+          }
+        }
+      },
+      "ativo": true,
+      "perfil_classificado": "Não classificado"
+    },
+    {
+      "id": "unesco:5028b251-6c79-4f6d-f98d-08df189e5e5f",
+      "torid": "unesco:5028b251-6c79-4f6d-f98d-08df189e5e5f",
+      "fonte": "unesco",
+      "titulo": "914BRZ1102- Edital nº 39/2026 - 01 vaga - Consultor Individual",
+      "descricao": "Consultoria especializada com vistas à estruturação de banco de dados, ao monitoramento do fluxo processual e à elaboração de documentos orientadores, modelos e minutas padronizadas para o FIES.",
+      "tipo": "Consultoria Pessoa Física (PF)",
+      "areas_tematicas": [
+        "Tecnologia da Informação / Dados",
+        "Gestão / Administração Pública"
+      ],
+      "data_inicio": "2026-09-25",
+      "data_fim": "2026-09-29",
+      "dias_restantes": 4,
+      "prazo_classificacao": "curto",
+      "local": "",
+      "orgao_parceiro": "UNESCO",
+      "email_submissao": "",
+      "valor_estimado": null,
+      "valor_estimado_num": null,
+      "status": "Ongoing",
+      "data_criacao": "2026-09-25",
+      "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+      "requisitos": {
+        "graduacao": [
+          "administração",
+          "direito",
+          "ciências sociais",
+          "políticas públicas",
+          "comunicação"
+        ],
+        "pos_graduacao": [
+          "pós-graduação",
+          "lato sensu"
+        ],
+        "mestrado": false,
+        "doutorado": false,
+        "anos_experiencia": 5,
+        "ferramentas": [
+          "r",
+          "excel",
+          "sas"
+        ],
+        "idiomas": [],
+        "certificacoes": [],
+        "valor_tor": null,
+        "obrigatorios": [
+          "de qualificação não serão considerados",
+          "para o processo de avaliação.",
+          "5.1. critérios obrigatórios",
+          "os candidatos que não atenderem aos critérios mínimos obrigatórios de qualificação não serão considerados",
+          "elegíveis nas etapas subsequentes deste"
+        ],
+        "desejaveis": []
+      },
+      "matches": {
+        "Consultoria em Diversidade e Inclusão": {
+          "score": 0.1,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [
+                "censo / pesquisa",
+                "análises / relatórios / planos de ação",
+                "entrevistas qualitativas",
+                "grupos focais / workshop de planejamento",
+                "treinamento / palestra / roda de conversa / mediação",
+                "mentoria",
+                "ead",
+                "comunicação inclusiva",
+                "grupos de afinidade",
+                "métricas e indicadores de diversidade e inclusão",
+                "política de gestão de pessoas",
+                "política de diversidade"
+              ],
+              "exigidas": [
+                "r",
+                "excel",
+                "sas"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "administração",
+                "comunicação"
+              ],
+              "exigidas": [
+                "administração",
+                "direito",
+                "ciências sociais",
+                "políticas públicas",
+                "comunicação"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 35000,
+              "acima_minimo": null
+            }
+          }
+        }
+      },
+      "ativo": true,
+      "perfil_classificado": "Não classificado"
+    },
+    {
+      "id": "unesco:31acdc9f-bf0b-43fe-5017-08df1966cd05",
+      "torid": "unesco:31acdc9f-bf0b-43fe-5017-08df1966cd05",
+      "fonte": "unesco",
+      "titulo": "914BRZ1161.2 - Edital nº 01/2026 - 01 vaga - Consultor Individual",
+      "descricao": "Consultoria especializada em estudo na área de educação e ações de cooperação internacional da UNESCO",
+      "tipo": "Consultoria Pessoa Física (PF)",
+      "areas_tematicas": [
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "data_inicio": "2026-09-25",
+      "data_fim": "2026-09-30",
+      "dias_restantes": 5,
+      "prazo_classificacao": "curto",
+      "local": "",
+      "orgao_parceiro": "UNESCO",
+      "email_submissao": "",
+      "valor_estimado": null,
+      "valor_estimado_num": null,
+      "status": "Ongoing",
+      "data_criacao": "2026-09-25",
+      "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+      "requisitos": {
+        "graduacao": [
+          "administração",
+          "direito",
+          "arquitetura",
+          "políticas públicas",
+          "comunicação"
+        ],
+        "pos_graduacao": [
+          "especialização",
+          "mba"
+        ],
+        "mestrado": true,
+        "doutorado": true,
+        "anos_experiencia": 12,
+        "ferramentas": [
+          "r",
+          "excel",
+          "sic",
+          "sas"
+        ],
+        "idiomas": [],
+        "certificacoes": [],
+        "valor_tor": null,
+        "obrigatorios": [],
+        "desejaveis": []
+      },
+      "matches": {
+        "Consultoria em Diversidade e Inclusão": {
+          "score": 0.1,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [
+                "censo / pesquisa",
+                "análises / relatórios / planos de ação",
+                "entrevistas qualitativas",
+                "grupos focais / workshop de planejamento",
+                "treinamento / palestra / roda de conversa / mediação",
+                "mentoria",
+                "ead",
+                "comunicação inclusiva",
+                "grupos de afinidade",
+                "métricas e indicadores de diversidade e inclusão",
+                "política de gestão de pessoas",
+                "política de diversidade"
+              ],
+              "exigidas": [
+                "r",
+                "excel",
+                "sic",
+                "sas"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "administração",
+                "comunicação"
+              ],
+              "exigidas": [
+                "administração",
+                "direito",
+                "arquitetura",
+                "políticas públicas",
+                "comunicação"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 35000,
+              "acima_minimo": null
+            }
+          }
+        }
+      },
+      "ativo": true,
+      "perfil_classificado": "Não classificado"
+    },
+    {
       "id": 1551,
       "torid": 146385,
       "fonte": "pnud",
@@ -6817,6 +7588,8 @@
       ],
       "data_inicio": "2026-09-24",
       "data_fim": "2026-10-16",
+      "dias_restantes": 21,
+      "prazo_classificacao": "longo",
       "local": "Home-based",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "prodocbra016@mj.gov.br",
@@ -6917,6 +7690,113 @@
       "perfil_classificado": "Não classificado"
     },
     {
+      "id": 1567,
+      "torid": 146394,
+      "fonte": "pnud",
+      "titulo": "Edital nº 30/2026 – Contratação de Consultoria Individual para realizar estudo de caso sobre a Secretaria de Serviços Compartilhados",
+      "descricao": "Edital nº 30/2026 – Contratação de Consultoria Individual para realizar estudo de caso sobre a Secretaria de Serviços Compartilhados",
+      "tipo": "Consultoria Pessoa Física (PF)",
+      "areas_tematicas": [
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "data_inicio": "2026-09-24",
+      "data_fim": "2026-10-09",
+      "dias_restantes": 14,
+      "prazo_classificacao": "medio",
+      "local": "Remoto",
+      "orgao_parceiro": "MGI",
+      "email_submissao": "prodoc.mgi@gestao.gov.br",
+      "valor_estimado": "R$ 90.000,00",
+      "valor_estimado_num": 90000.0,
+      "status": "Aprovada",
+      "data_criacao": "2026-09-18",
+      "url_externo": "https://parceiros.undp.org.br/opportunities",
+      "requisitos": {
+        "graduacao": [
+          "administração",
+          "sociologia",
+          "gestão pública",
+          "políticas públicas",
+          "ciência política"
+        ],
+        "pos_graduacao": [],
+        "mestrado": true,
+        "doutorado": true,
+        "anos_experiencia": null,
+        "ferramentas": [
+          "r",
+          "stata",
+          "sas"
+        ],
+        "idiomas": [],
+        "certificacoes": [],
+        "valor_tor": 90000.0,
+        "obrigatorios": [
+          "educação: ▪ formação técnica em nível de mestrado em administração",
+          "pública, ciência política, sociologia, administração, políticas públicas ou áreas correlatas, reconhecido",
+          "pelo ministério da educação. experiência: ▪ experiência profissional comprovada de no mínimo 10 (dez)",
+          "anos em gestão pública. ▪ fluência em português."
+        ],
+        "desejaveis": []
+      },
+      "matches": {
+        "Consultoria em Diversidade e Inclusão": {
+          "score": 0.05,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [
+                "censo / pesquisa",
+                "análises / relatórios / planos de ação",
+                "entrevistas qualitativas",
+                "grupos focais / workshop de planejamento",
+                "treinamento / palestra / roda de conversa / mediação",
+                "mentoria",
+                "ead",
+                "comunicação inclusiva",
+                "grupos de afinidade",
+                "métricas e indicadores de diversidade e inclusão",
+                "política de gestão de pessoas",
+                "política de diversidade"
+              ],
+              "exigidas": [
+                "r",
+                "stata",
+                "sas"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "administração"
+              ],
+              "exigidas": [
+                "administração",
+                "sociologia",
+                "gestão pública",
+                "políticas públicas",
+                "ciência política"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 35000,
+              "acima_minimo": null
+            }
+          }
+        }
+      },
+      "ativo": true,
+      "perfil_classificado": "Não classificado"
+    },
+    {
       "id": "unesco:6277cc83-3d55-4575-091b-08df172a76c5",
       "torid": "unesco:6277cc83-3d55-4575-091b-08df172a76c5",
       "fonte": "unesco",
@@ -6928,6 +7808,8 @@
       ],
       "data_inicio": "2026-09-24",
       "data_fim": "2026-09-29",
+      "dias_restantes": 4,
+      "prazo_classificacao": "curto",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -7028,6 +7910,8 @@
       ],
       "data_inicio": "2026-09-24",
       "data_fim": "2026-09-28",
+      "dias_restantes": 3,
+      "prazo_classificacao": "urgente",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -7128,6 +8012,8 @@
       ],
       "data_inicio": "2026-09-24",
       "data_fim": "2026-09-28",
+      "dias_restantes": 3,
+      "prazo_classificacao": "urgente",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -7234,6 +8120,8 @@
       ],
       "data_inicio": "2026-09-24",
       "data_fim": "2026-09-28",
+      "dias_restantes": 3,
+      "prazo_classificacao": "urgente",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -7335,6 +8223,8 @@
       ],
       "data_inicio": "2026-09-24",
       "data_fim": "2026-09-30",
+      "dias_restantes": 5,
+      "prazo_classificacao": "curto",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -7442,6 +8332,8 @@
       ],
       "data_inicio": "2026-09-22",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -7561,6 +8453,8 @@
       ],
       "data_inicio": "2026-09-22",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -7669,6 +8563,8 @@
       ],
       "data_inicio": "2026-09-22",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -7785,6 +8681,8 @@
       ],
       "data_inicio": "2026-09-22",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -7901,6 +8799,8 @@
       ],
       "data_inicio": "2026-09-22",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -8016,6 +8916,8 @@
       ],
       "data_inicio": "2026-09-22",
       "data_fim": "2026-09-27",
+      "dias_restantes": 2,
+      "prazo_classificacao": "urgente",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -8127,6 +9029,8 @@
       ],
       "data_inicio": "2026-09-21",
       "data_fim": "2026-10-21",
+      "dias_restantes": 26,
+      "prazo_classificacao": "longo",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -8238,6 +9142,8 @@
       ],
       "data_inicio": "2026-09-21",
       "data_fim": "2026-10-21",
+      "dias_restantes": 26,
+      "prazo_classificacao": "longo",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -8347,6 +9253,8 @@
       ],
       "data_inicio": "2026-09-21",
       "data_fim": "2026-10-21",
+      "dias_restantes": 26,
+      "prazo_classificacao": "longo",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -8460,6 +9368,8 @@
       ],
       "data_inicio": "2026-09-21",
       "data_fim": "2026-10-21",
+      "dias_restantes": 26,
+      "prazo_classificacao": "longo",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -8569,6 +9479,8 @@
       ],
       "data_inicio": "2026-09-21",
       "data_fim": "2026-10-21",
+      "dias_restantes": 26,
+      "prazo_classificacao": "longo",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -8682,6 +9594,8 @@
       ],
       "data_inicio": "2026-09-21",
       "data_fim": "2026-10-21",
+      "dias_restantes": 26,
+      "prazo_classificacao": "longo",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -8795,6 +9709,8 @@
       ],
       "data_inicio": "2026-09-20",
       "data_fim": "2026-09-27",
+      "dias_restantes": 2,
+      "prazo_classificacao": "urgente",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -8905,6 +9821,8 @@
       ],
       "data_inicio": "2026-09-20",
       "data_fim": "2026-09-27",
+      "dias_restantes": 2,
+      "prazo_classificacao": "urgente",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -9016,6 +9934,8 @@
       ],
       "data_inicio": "2026-09-18",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Território Nacional",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "dirp@mdh.gov.br",
@@ -9128,6 +10048,8 @@
       ],
       "data_inicio": "2026-09-18",
       "data_fim": "2026-09-23",
+      "dias_restantes": -2,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -9236,6 +10158,8 @@
       ],
       "data_inicio": "2026-09-17",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Salvador/BA",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "selecaopnud0326@pge.ba.gov.br",
@@ -9375,6 +10299,8 @@
       ],
       "data_inicio": "2026-09-17",
       "data_fim": "2026-09-27",
+      "dias_restantes": 2,
+      "prazo_classificacao": "urgente",
       "local": "Híbrido, com eventuais reuniões presenciais em Brasília/DF",
       "orgao_parceiro": "MTE",
       "email_submissao": "processoseletivo.sat@trabalho.gov.br",
@@ -9491,6 +10417,8 @@
       ],
       "data_inicio": "2026-09-17",
       "data_fim": "2026-09-21",
+      "dias_restantes": -4,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -9609,6 +10537,8 @@
       ],
       "data_inicio": "2026-09-17",
       "data_fim": "2026-09-21",
+      "dias_restantes": -4,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -9722,6 +10652,8 @@
       ],
       "data_inicio": "2026-09-17",
       "data_fim": "2026-09-24",
+      "dias_restantes": -1,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -9812,7 +10744,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "Não classificado"
     },
     {
@@ -9830,6 +10762,8 @@
       ],
       "data_inicio": "2026-09-17",
       "data_fim": "2026-09-21",
+      "dias_restantes": -4,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -9935,6 +10869,8 @@
       ],
       "data_inicio": "2026-09-16",
       "data_fim": "2026-09-21",
+      "dias_restantes": -4,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -10052,6 +10988,8 @@
       ],
       "data_inicio": "2026-09-16",
       "data_fim": "2026-09-21",
+      "dias_restantes": -4,
+      "prazo_classificacao": "encerrado",
       "local": "Dados Remoto",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -10208,6 +11146,8 @@
       ],
       "data_inicio": "2026-09-15",
       "data_fim": "2026-09-30",
+      "dias_restantes": 5,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -10325,6 +11265,8 @@
       ],
       "data_inicio": "2026-09-15",
       "data_fim": "2026-09-30",
+      "dias_restantes": 5,
+      "prazo_classificacao": "curto",
       "local": "Remoto",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -10447,6 +11389,8 @@
       ],
       "data_inicio": "2026-09-15",
       "data_fim": "2026-09-30",
+      "dias_restantes": 5,
+      "prazo_classificacao": "curto",
       "local": "REMOTO",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -10570,6 +11514,8 @@
       ],
       "data_inicio": "2026-09-14",
       "data_fim": "2026-09-22",
+      "dias_restantes": -3,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "MTE",
       "email_submissao": "estatisticastrabalho@trabalho.gov.br",
@@ -10693,6 +11639,8 @@
       ],
       "data_inicio": "2026-09-14",
       "data_fim": "2026-09-22",
+      "dias_restantes": -3,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "MTE",
       "email_submissao": "estatisticastrabalho@trabalho.gov.br",
@@ -10815,6 +11763,8 @@
       ],
       "data_inicio": "2026-09-14",
       "data_fim": "2026-09-22",
+      "dias_restantes": -3,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "MTE",
       "email_submissao": "estatisticastrabalho@trabalho.gov.br",
@@ -10943,6 +11893,8 @@
       ],
       "data_inicio": "2026-09-14",
       "data_fim": "2026-09-18",
+      "dias_restantes": -7,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -11048,6 +12000,8 @@
       ],
       "data_inicio": "2026-09-14",
       "data_fim": "2026-09-18",
+      "dias_restantes": -7,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -11169,6 +12123,8 @@
       ],
       "data_inicio": "2026-09-13",
       "data_fim": "2026-09-24",
+      "dias_restantes": -1,
+      "prazo_classificacao": "encerrado",
       "local": "São Paulo - SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "ugp@educacao.sp.gov.br",
@@ -11282,6 +12238,8 @@
       ],
       "data_inicio": "2026-09-12",
       "data_fim": "2026-09-18",
+      "dias_restantes": -7,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -11389,6 +12347,8 @@
       ],
       "data_inicio": "2026-09-11",
       "data_fim": "2026-09-25",
+      "dias_restantes": 0,
+      "prazo_classificacao": "urgente",
       "local": "Remoto",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -11499,6 +12459,8 @@
       ],
       "data_inicio": "2026-09-11",
       "data_fim": "2026-09-25",
+      "dias_restantes": 0,
+      "prazo_classificacao": "urgente",
       "local": "REMOTO",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -11603,6 +12565,8 @@
       ],
       "data_inicio": "2026-09-11",
       "data_fim": "2026-09-16",
+      "dias_restantes": -9,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -11701,6 +12665,8 @@
       ],
       "data_inicio": "2026-09-10",
       "data_fim": "2026-09-15",
+      "dias_restantes": -10,
+      "prazo_classificacao": "encerrado",
       "local": "null",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "cgep@mj.gov.br",
@@ -11819,6 +12785,8 @@
       ],
       "data_inicio": "2026-09-10",
       "data_fim": "2026-09-15",
+      "dias_restantes": -10,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília/DF",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "cgep@mj.gov.br",
@@ -11936,6 +12904,8 @@
       ],
       "data_inicio": "2026-09-10",
       "data_fim": "2026-09-15",
+      "dias_restantes": -10,
+      "prazo_classificacao": "encerrado",
       "local": "null",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "dpagi@mj.gov.br",
@@ -12058,6 +13028,8 @@
       ],
       "data_inicio": "2026-09-10",
       "data_fim": "2026-09-15",
+      "dias_restantes": -10,
+      "prazo_classificacao": "encerrado",
       "local": "null",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "dpagi@mj.gov.br",
@@ -12171,6 +13143,8 @@
       ],
       "data_inicio": "2026-09-10",
       "data_fim": "2026-09-15",
+      "dias_restantes": -10,
+      "prazo_classificacao": "encerrado",
       "local": "null",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "senad@mj.gov.br",
@@ -12285,6 +13259,8 @@
       ],
       "data_inicio": "2026-09-10",
       "data_fim": "2026-09-15",
+      "dias_restantes": -10,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -12351,6 +13327,8 @@
       ],
       "data_inicio": "2026-09-10",
       "data_fim": "2026-09-16",
+      "dias_restantes": -9,
+      "prazo_classificacao": "encerrado",
       "local": "Porto Alegre - RS",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -12416,6 +13394,8 @@
       ],
       "data_inicio": "2026-09-09",
       "data_fim": "2026-09-13",
+      "dias_restantes": -12,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -12524,6 +13504,8 @@
       ],
       "data_inicio": "2026-09-09",
       "data_fim": "2026-09-13",
+      "dias_restantes": -12,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -12640,6 +13622,8 @@
       ],
       "data_inicio": "2026-09-08",
       "data_fim": "2026-09-18",
+      "dias_restantes": -7,
+      "prazo_classificacao": "encerrado",
       "local": "Região Centro Oeste",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "prodocbra23018@sudeco.gov.br",
@@ -12738,6 +13722,8 @@
       ],
       "data_inicio": "2026-09-08",
       "data_fim": "2026-09-13",
+      "dias_restantes": -12,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -12846,6 +13832,8 @@
       ],
       "data_inicio": "2026-09-05",
       "data_fim": "2026-09-11",
+      "dias_restantes": -14,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -12968,6 +13956,8 @@
       ],
       "data_inicio": "2026-09-03",
       "data_fim": "2026-09-12",
+      "dias_restantes": -13,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília/DF",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "cgctf.editais@mda.gov.br",
@@ -13070,6 +14060,8 @@
       ],
       "data_inicio": "2026-09-03",
       "data_fim": "2026-09-13",
+      "dias_restantes": -12,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -13171,6 +14163,8 @@
       ],
       "data_inicio": "2026-09-02",
       "data_fim": "2026-09-13",
+      "dias_restantes": -12,
+      "prazo_classificacao": "encerrado",
       "local": "HOME OFFICE",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "curriculos@consorcionordeste.gov.br",
@@ -13313,6 +14307,8 @@
       ],
       "data_inicio": "2026-09-01",
       "data_fim": "2026-09-07",
+      "dias_restantes": -18,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "dqc@igualdaderacial.gov.br",
@@ -13417,6 +14413,8 @@
       ],
       "data_inicio": "2026-09-01",
       "data_fim": "2026-09-05",
+      "dias_restantes": -20,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -13535,6 +14533,8 @@
       ],
       "data_inicio": "2026-09-01",
       "data_fim": "2026-09-09",
+      "dias_restantes": -16,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -13652,6 +14652,8 @@
       ],
       "data_inicio": "2026-09-01",
       "data_fim": "2026-09-08",
+      "dias_restantes": -17,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -13775,6 +14777,8 @@
       ],
       "data_inicio": "2026-09-01",
       "data_fim": "2026-09-08",
+      "dias_restantes": -17,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -13895,6 +14899,8 @@
       ],
       "data_inicio": "2026-09-01",
       "data_fim": "2026-09-06",
+      "dias_restantes": -19,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -14011,6 +15017,8 @@
       ],
       "data_inicio": "2026-09-01",
       "data_fim": "2026-09-23",
+      "dias_restantes": -2,
+      "prazo_classificacao": "encerrado",
       "local": "São Paulo - SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -14132,6 +15140,8 @@
       ],
       "data_inicio": "2026-08-31",
       "data_fim": "2026-09-06",
+      "dias_restantes": -19,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -14253,6 +15263,8 @@
       ],
       "data_inicio": "2026-08-31",
       "data_fim": "2026-09-05",
+      "dias_restantes": -20,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -14370,6 +15382,8 @@
       ],
       "data_inicio": "2026-08-28",
       "data_fim": "2026-09-11",
+      "dias_restantes": -14,
+      "prazo_classificacao": "encerrado",
       "local": "Home based",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "ugest@seduc.pi.gov.br",
@@ -14475,6 +15489,8 @@
       ],
       "data_inicio": "2026-08-28",
       "data_fim": "2026-09-11",
+      "dias_restantes": -14,
+      "prazo_classificacao": "encerrado",
       "local": "Home based",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "ugest@seduc.pi.gov.br",
@@ -14580,6 +15596,8 @@
       ],
       "data_inicio": "2026-08-28",
       "data_fim": "2026-09-03",
+      "dias_restantes": -22,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -14696,6 +15714,8 @@
       ],
       "data_inicio": "2026-08-28",
       "data_fim": "2026-09-03",
+      "dias_restantes": -22,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -14809,6 +15829,8 @@
       ],
       "data_inicio": "2026-08-28",
       "data_fim": "2026-09-03",
+      "dias_restantes": -22,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -14928,6 +15950,8 @@
       ],
       "data_inicio": "2026-08-27",
       "data_fim": "2026-09-07",
+      "dias_restantes": -18,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -15052,6 +16076,8 @@
       ],
       "data_inicio": "2026-08-27",
       "data_fim": "2026-08-31",
+      "dias_restantes": -25,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -15172,6 +16198,8 @@
       ],
       "data_inicio": "2026-08-26",
       "data_fim": "2026-08-30",
+      "dias_restantes": -26,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -15295,6 +16323,8 @@
       ],
       "data_inicio": "2026-08-26",
       "data_fim": "2026-08-30",
+      "dias_restantes": -26,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -15436,6 +16466,8 @@
       ],
       "data_inicio": "2026-08-26",
       "data_fim": "2026-09-01",
+      "dias_restantes": -24,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -15557,6 +16589,8 @@
       ],
       "data_inicio": "2026-08-25",
       "data_fim": "2026-08-31",
+      "dias_restantes": -25,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -15699,6 +16733,8 @@
       ],
       "data_inicio": "2026-08-24",
       "data_fim": "2026-09-09",
+      "dias_restantes": -16,
+      "prazo_classificacao": "encerrado",
       "local": "Território Nacional",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "ccidh@mdh.gov.br",
@@ -15819,6 +16855,8 @@
       ],
       "data_inicio": "2026-08-24",
       "data_fim": "2026-09-09",
+      "dias_restantes": -16,
+      "prazo_classificacao": "encerrado",
       "local": "Território Nacional",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "ccidh@mdh.gov.br",
@@ -15939,6 +16977,8 @@
       ],
       "data_inicio": "2026-08-24",
       "data_fim": "2026-09-09",
+      "dias_restantes": -16,
+      "prazo_classificacao": "encerrado",
       "local": "Território Nacional",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "rcn_cidadania@mdh.gov.br",
@@ -16053,6 +17093,8 @@
       ],
       "data_inicio": "2026-08-24",
       "data_fim": "2026-09-06",
+      "dias_restantes": -19,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "ucp.codin.df.stn@tesouro.gov.br",
@@ -16160,6 +17202,8 @@
       ],
       "data_inicio": "2026-08-24",
       "data_fim": "2026-08-28",
+      "dias_restantes": -28,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -16293,6 +17337,8 @@
       ],
       "data_inicio": "2026-08-24",
       "data_fim": "2026-08-30",
+      "dias_restantes": -26,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -16431,6 +17477,8 @@
       ],
       "data_inicio": "2026-08-23",
       "data_fim": "2026-08-30",
+      "dias_restantes": -26,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -16551,6 +17599,8 @@
       ],
       "data_inicio": "2026-08-23",
       "data_fim": "2026-08-30",
+      "dias_restantes": -26,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -16667,6 +17717,8 @@
       ],
       "data_inicio": "2026-08-21",
       "data_fim": "2026-09-03",
+      "dias_restantes": -22,
+      "prazo_classificacao": "encerrado",
       "local": "Home based",
       "orgao_parceiro": "PNUD (Direto)",
       "email_submissao": "ic.procurement.br@undp.org",
@@ -16734,6 +17786,8 @@
       ],
       "data_inicio": "2026-08-21",
       "data_fim": "2026-09-03",
+      "dias_restantes": -22,
+      "prazo_classificacao": "encerrado",
       "local": "Home based",
       "orgao_parceiro": "PNUD (Direto)",
       "email_submissao": "aquisicoes.cbo.br@undp.org",
@@ -16800,6 +17854,8 @@
       ],
       "data_inicio": "2026-08-21",
       "data_fim": "2026-08-31",
+      "dias_restantes": -25,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -16913,6 +17969,8 @@
       ],
       "data_inicio": "2026-08-21",
       "data_fim": "2026-08-26",
+      "dias_restantes": -30,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -17033,6 +18091,8 @@
       ],
       "data_inicio": "2026-08-20",
       "data_fim": "2026-09-02",
+      "dias_restantes": -23,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "ucp.codin.df.stn@tesouro.gov.br",
@@ -17150,6 +18210,8 @@
       ],
       "data_inicio": "2026-08-19",
       "data_fim": "2026-09-18",
+      "dias_restantes": -7,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -17280,6 +18342,8 @@
       ],
       "data_inicio": "2026-08-19",
       "data_fim": "2026-08-24",
+      "dias_restantes": -32,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -17345,6 +18409,8 @@
       ],
       "data_inicio": "2026-08-19",
       "data_fim": "2026-08-24",
+      "dias_restantes": -32,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -17411,6 +18477,8 @@
       ],
       "data_inicio": "2026-08-18",
       "data_fim": "2026-08-24",
+      "dias_restantes": -32,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -17477,6 +18545,8 @@
       ],
       "data_inicio": "2026-08-18",
       "data_fim": "2026-08-24",
+      "dias_restantes": -32,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -17542,6 +18612,8 @@
       ],
       "data_inicio": "2026-08-18",
       "data_fim": "2026-08-25",
+      "dias_restantes": -31,
+      "prazo_classificacao": "encerrado",
       "local": "São Paulo - SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -17654,6 +18726,8 @@
       ],
       "data_inicio": "2026-08-17",
       "data_fim": "2026-08-30",
+      "dias_restantes": -26,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -17784,6 +18858,8 @@
       ],
       "data_inicio": "2026-08-17",
       "data_fim": "2026-08-30",
+      "dias_restantes": -26,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -17916,6 +18992,8 @@
       ],
       "data_inicio": "2026-08-17",
       "data_fim": "2026-08-26",
+      "dias_restantes": -30,
+      "prazo_classificacao": "encerrado",
       "local": "",
       "orgao_parceiro": "UNESCO",
       "email_submissao": "",
@@ -18057,6 +19135,8 @@
       ],
       "data_inicio": "2026-08-17",
       "data_fim": "2026-08-22",
+      "dias_restantes": -34,
+      "prazo_classificacao": "encerrado",
       "local": "Recife - PE",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -18165,6 +19245,8 @@
       ],
       "data_inicio": "2026-08-14",
       "data_fim": "2026-09-01",
+      "dias_restantes": -24,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -18271,6 +19353,8 @@
       ],
       "data_inicio": "2026-08-14",
       "data_fim": "2026-09-01",
+      "dias_restantes": -24,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -18378,6 +19462,8 @@
       ],
       "data_inicio": "2026-08-14",
       "data_fim": "2026-09-01",
+      "dias_restantes": -24,
+      "prazo_classificacao": "encerrado",
       "local": "REMOTO",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -18480,6 +19566,8 @@
       ],
       "data_inicio": "2026-08-14",
       "data_fim": "2026-09-01",
+      "dias_restantes": -24,
+      "prazo_classificacao": "encerrado",
       "local": "REMOTO",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -18582,6 +19670,8 @@
       ],
       "data_inicio": "2026-08-14",
       "data_fim": "2026-09-01",
+      "dias_restantes": -24,
+      "prazo_classificacao": "encerrado",
       "local": "remoto",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -18682,6 +19772,8 @@
       ],
       "data_inicio": "2026-08-14",
       "data_fim": "2026-09-01",
+      "dias_restantes": -24,
+      "prazo_classificacao": "encerrado",
       "local": "remoto",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -18747,6 +19839,8 @@
       ],
       "data_inicio": "2026-08-12",
       "data_fim": "2026-08-23",
+      "dias_restantes": -33,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "ucp.codin.df.stn@tesouro.gov.br",
@@ -18866,6 +19960,8 @@
       ],
       "data_inicio": "2026-08-12",
       "data_fim": "2026-08-16",
+      "dias_restantes": -40,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF | Híbrido",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -18974,6 +20070,8 @@
       ],
       "data_inicio": "2026-08-12",
       "data_fim": "2026-08-23",
+      "dias_restantes": -33,
+      "prazo_classificacao": "encerrado",
       "local": "Porto Alegre/RS",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -19085,6 +20183,8 @@
       ],
       "data_inicio": "2026-08-12",
       "data_fim": "2026-09-07",
+      "dias_restantes": -18,
+      "prazo_classificacao": "encerrado",
       "local": "Porto Alegre/RS",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -19196,6 +20296,8 @@
       ],
       "data_inicio": "2026-08-12",
       "data_fim": "2026-08-23",
+      "dias_restantes": -33,
+      "prazo_classificacao": "encerrado",
       "local": "Porto Alegre/RS",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -19311,6 +20413,8 @@
       ],
       "data_inicio": "2026-08-11",
       "data_fim": "2026-08-17",
+      "dias_restantes": -39,
+      "prazo_classificacao": "encerrado",
       "local": " Remoto",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "prodoc@cade.gov.br",
@@ -19419,6 +20523,8 @@
       ],
       "data_inicio": "2026-08-10",
       "data_fim": "2026-10-01",
+      "dias_restantes": 6,
+      "prazo_classificacao": "curto",
       "local": "Nacional",
       "orgao_parceiro": "OEI/MDHC",
       "email_submissao": "compras.bra@oei.int",
@@ -19545,6 +20651,8 @@
       ],
       "data_inicio": "2026-08-10",
       "data_fim": "2026-10-05",
+      "dias_restantes": 10,
+      "prazo_classificacao": "medio",
       "local": "Nacional",
       "orgao_parceiro": "OEI/MDHC",
       "email_submissao": "compras.bra@oei.int",
@@ -19668,6 +20776,8 @@
       ],
       "data_inicio": "2026-08-06",
       "data_fim": "2026-08-10",
+      "dias_restantes": -46,
+      "prazo_classificacao": "encerrado",
       "local": "Território Nacional",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "cgsimore@mdh.gov.br",
@@ -19790,6 +20900,8 @@
       ],
       "data_inicio": "2026-08-06",
       "data_fim": "2026-08-11",
+      "dias_restantes": -45,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -19907,6 +21019,8 @@
       ],
       "data_inicio": "2026-08-06",
       "data_fim": "2026-08-11",
+      "dias_restantes": -45,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -20025,6 +21139,8 @@
       ],
       "data_inicio": "2026-08-06",
       "data_fim": "2026-08-11",
+      "dias_restantes": -45,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -20152,6 +21268,8 @@
       ],
       "data_inicio": "2026-08-06",
       "data_fim": "2026-08-11",
+      "dias_restantes": -45,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - Df",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -20281,6 +21399,8 @@
       ],
       "data_inicio": "2026-08-06",
       "data_fim": "2026-08-11",
+      "dias_restantes": -45,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -20411,6 +21531,8 @@
       ],
       "data_inicio": "2026-08-05",
       "data_fim": "2026-08-23",
+      "dias_restantes": -33,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto com possibilidade de atividades presenciais",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "prodoc.ssagi@seplag.niteroi.rj.gov.br",
@@ -20539,6 +21661,8 @@
       ],
       "data_inicio": "2026-08-05",
       "data_fim": "2026-08-23",
+      "dias_restantes": -33,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto com possibilidade de atividades presenciais",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "prodoc.ssagi@seplag.niteroi.rj.gov.br",
@@ -20658,6 +21782,8 @@
       ],
       "data_inicio": "2026-08-05",
       "data_fim": "2026-08-19",
+      "dias_restantes": -37,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto. (Notar: na data de término, o edital se encerra às 17h de Brasília)",
       "orgao_parceiro": "PNUD (Direto)",
       "email_submissao": "ic.procurement.br@undp.org",
@@ -20723,6 +21849,8 @@
       ],
       "data_inicio": "2026-08-05",
       "data_fim": "2026-08-19",
+      "dias_restantes": -37,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto (notar: na data de término, a negociação se encerra às 17h)",
       "orgao_parceiro": "PNUD (Direto)",
       "email_submissao": "ic.procurement.br@undp.org",
@@ -20871,6 +21999,8 @@
       ],
       "data_inicio": "2026-08-04",
       "data_fim": "2026-08-14",
+      "dias_restantes": -42,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília",
       "orgao_parceiro": "Não identificado",
       "email_submissao": "prodocbra23018@sudeco.gov.br",
@@ -20969,6 +22099,8 @@
       ],
       "data_inicio": "2026-08-04",
       "data_fim": "2026-08-13",
+      "dias_restantes": -43,
+      "prazo_classificacao": "encerrado",
       "local": "Trabalho remoto, com possibilidade de viagens",
       "orgao_parceiro": "PNUD (Direto)",
       "email_submissao": "ic.procurement.br@undp.org",
@@ -21060,6 +22192,8 @@
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
+      "dias_restantes": -38,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -21167,6 +22301,8 @@
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-16",
+      "dias_restantes": -40,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - Remoto",
       "orgao_parceiro": "TCU",
       "email_submissao": "auddefesa@tcu.gov.br",
@@ -21290,6 +22426,8 @@
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
+      "dias_restantes": -38,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -21400,6 +22538,8 @@
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
+      "dias_restantes": -38,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -21506,6 +22646,8 @@
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
+      "dias_restantes": -38,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -21616,6 +22758,8 @@
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
+      "dias_restantes": -38,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -21723,6 +22867,8 @@
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
+      "dias_restantes": -38,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -21834,6 +22980,8 @@
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
+      "dias_restantes": -38,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -21940,6 +23088,8 @@
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
+      "dias_restantes": -38,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -22053,6 +23203,8 @@
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
+      "dias_restantes": -38,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -22169,6 +23321,8 @@
       ],
       "data_inicio": "2026-07-31",
       "data_fim": "2026-08-14",
+      "dias_restantes": -42,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto. (Notar: na data de término, o edital se encerra às 17h de Brasília)",
       "orgao_parceiro": "PNUD (Direto)",
       "email_submissao": "ic.procurement.br@undp.org",
@@ -22284,6 +23438,8 @@
       ],
       "data_inicio": "2026-07-29",
       "data_fim": "2026-08-11",
+      "dias_restantes": -45,
+      "prazo_classificacao": "encerrado",
       "local": null,
       "orgao_parceiro": "PNUD (Direto)",
       "email_submissao": "ic.procurement.br@undp.org",
@@ -22389,6 +23545,8 @@
       ],
       "data_inicio": "2026-07-29",
       "data_fim": "2026-08-11",
+      "dias_restantes": -45,
+      "prazo_classificacao": "encerrado",
       "local": "João Pessoa. (Notar: na data de término, o edital se encerra às 17h de Brasília)",
       "orgao_parceiro": "PNUD (Direto)",
       "email_submissao": "ic.procurement.br@undp.org",
@@ -22520,6 +23678,8 @@
       ],
       "data_inicio": "2026-07-29",
       "data_fim": "2026-08-04",
+      "dias_restantes": -52,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto, Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -22632,6 +23792,8 @@
       ],
       "data_inicio": "2026-07-29",
       "data_fim": "2026-08-04",
+      "dias_restantes": -52,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto, Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -22747,6 +23909,8 @@
       ],
       "data_inicio": "2026-07-29",
       "data_fim": "2026-08-03",
+      "dias_restantes": -53,
+      "prazo_classificacao": "encerrado",
       "local": "Articulação Estadual - Alagoas Alagoas Articulação Estadual - Espírito Santo Espírito Santo Articulação Estadual - Goiás Goiás Articulação Estadual - Maranhão Maranhão Articulação Estadual - Minas Gerais Minas Gerais Articulação Estadual - Rondônia Rondônia Articulação Estadual - São Paulo São Paulo Articulação Estadual - Tocantins Tocantins",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -22852,6 +24016,8 @@
       ],
       "data_inicio": "2026-07-28",
       "data_fim": "2026-08-11",
+      "dias_restantes": -45,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília. (Notar: na data de término, o edital se encerra às 17h de Brasília)",
       "orgao_parceiro": "PNUD (Direto)",
       "email_submissao": "ic.procurement.br@undp.org",
@@ -22964,6 +24130,8 @@
       ],
       "data_inicio": "2026-07-27",
       "data_fim": "2026-08-06",
+      "dias_restantes": -50,
+      "prazo_classificacao": "encerrado",
       "local": "Trabalho remoto, com possibilidade de viagens",
       "orgao_parceiro": "PNUD (Direto)",
       "email_submissao": "ic.procurement.br@undp.org",
@@ -23056,6 +24224,8 @@
       ],
       "data_inicio": "2026-07-24",
       "data_fim": "2026-07-28",
+      "dias_restantes": -59,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -23121,6 +24291,8 @@
       ],
       "data_inicio": "2026-07-24",
       "data_fim": "2026-08-18",
+      "dias_restantes": -38,
+      "prazo_classificacao": "encerrado",
       "local": "VAGA 1 - áreas DIPES, DIISE, DIORF, DIPLIC, DICON - Consultoria Técnica Especializada em Governança do Conhecimento e Inteligência Artificial São Paulo VAGA 2 - áreas DRECID, EFAPE, SUPLAN E SUPED - Consultoria Técnica Especializada em Governança do Conhecimento e Inteligência Artificial São Paulo",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -23233,6 +24405,8 @@
       ],
       "data_inicio": "2026-07-22",
       "data_fim": "2026-07-26",
+      "dias_restantes": -61,
+      "prazo_classificacao": "encerrado",
       "local": "Recife - PE",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -23344,6 +24518,8 @@
       ],
       "data_inicio": "2026-07-21",
       "data_fim": "2026-07-30",
+      "dias_restantes": -57,
+      "prazo_classificacao": "encerrado",
       "local": "Perfil 1: Amapá  AP Amapá - AP Perfil 2: Amazonas  AM Amazonas - AM Perfil 3: Bahia  BA Bahia - BA Perfil 4: Distrito Federal  DF Distrito Federal, DF Perfil 5: Mato Grosso do Sul (MS) Mato Grosso do Sul, MS Perfil 6 - Pará (PA) Para, PA Perfil 7: Paraíba (PB) Paraíba, PB Perfil 8: Pernambuco (PE) Pernambuco, PE Perfil 9: Rio Grande do Norte (RN) Rio Grande do Norte, RN Perfil 10: Rio Grande do Sul (RS) Rio Grande do Sul, RS Perfil 11: Roraima (RR) Roraima, RR Perfil 12: Santa Catarina (SC) Santa Catarina, SC",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -23450,6 +24626,8 @@
       ],
       "data_inicio": "2026-07-20",
       "data_fim": "2026-08-04",
+      "dias_restantes": -52,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -23569,6 +24747,8 @@
       ],
       "data_inicio": "2026-07-18",
       "data_fim": "2026-07-21",
+      "dias_restantes": -66,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -23691,6 +24871,8 @@
       ],
       "data_inicio": "2026-07-17",
       "data_fim": "2026-07-22",
+      "dias_restantes": -65,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -23802,6 +24984,8 @@
       ],
       "data_inicio": "2026-07-14",
       "data_fim": "2026-07-19",
+      "dias_restantes": -68,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -23914,6 +25098,8 @@
       ],
       "data_inicio": "2026-07-13",
       "data_fim": "2026-07-20",
+      "dias_restantes": -67,
+      "prazo_classificacao": "encerrado",
       "local": "São Paulo - SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -24038,6 +25224,8 @@
       ],
       "data_inicio": "2026-07-10",
       "data_fim": "2026-07-14",
+      "dias_restantes": -73,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -24158,6 +25346,8 @@
       ],
       "data_inicio": "2026-07-10",
       "data_fim": "2026-07-17",
+      "dias_restantes": -70,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -24273,6 +25463,8 @@
       ],
       "data_inicio": "2026-07-09",
       "data_fim": "2026-07-21",
+      "dias_restantes": -66,
+      "prazo_classificacao": "encerrado",
       "local": "Secretaria de Estado da Educação  SEED-PR",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -24409,6 +25601,8 @@
       ],
       "data_inicio": "2026-07-06",
       "data_fim": "2026-07-11",
+      "dias_restantes": -76,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -24521,6 +25715,8 @@
       ],
       "data_inicio": "2026-07-05",
       "data_fim": "2026-08-25",
+      "dias_restantes": -31,
+      "prazo_classificacao": "encerrado",
       "local": "Nacional",
       "orgao_parceiro": "OEI/MDHC",
       "email_submissao": "compras.bra@oei.int",
@@ -24640,6 +25836,8 @@
       ],
       "data_inicio": "2026-07-05",
       "data_fim": "2026-07-21",
+      "dias_restantes": -66,
+      "prazo_classificacao": "encerrado",
       "local": "Rio de Janeiro/RJ.",
       "orgao_parceiro": "OEI/MAR",
       "email_submissao": "compras.bra@oei.int",
@@ -24706,6 +25904,8 @@
       ],
       "data_inicio": "2026-07-01",
       "data_fim": "2026-07-06",
+      "dias_restantes": -81,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -24819,6 +26019,8 @@
       ],
       "data_inicio": "2026-07-01",
       "data_fim": "2026-07-09",
+      "dias_restantes": -78,
+      "prazo_classificacao": "encerrado",
       "local": "Secretaria de Estado da Educação  SEED-PR",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -24888,6 +26090,8 @@
       ],
       "data_inicio": "2026-06-25",
       "data_fim": "2026-06-29",
+      "dias_restantes": -88,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -24957,6 +26161,8 @@
       ],
       "data_inicio": "2026-06-25",
       "data_fim": "2026-06-30",
+      "dias_restantes": -87,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -25022,6 +26228,8 @@
       ],
       "data_inicio": "2026-06-25",
       "data_fim": "2026-07-02",
+      "dias_restantes": -85,
+      "prazo_classificacao": "encerrado",
       "local": "Curitiba - PR",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -25087,6 +26295,8 @@
       ],
       "data_inicio": "2026-06-23",
       "data_fim": "2026-07-13",
+      "dias_restantes": -74,
+      "prazo_classificacao": "encerrado",
       "local": "Vitória/ES",
       "orgao_parceiro": "OEI/SECULT",
       "email_submissao": "compras.bra@oei.int",
@@ -25155,6 +26365,8 @@
       ],
       "data_inicio": "2026-06-18",
       "data_fim": "2026-06-23",
+      "dias_restantes": -94,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -25224,6 +26436,8 @@
       ],
       "data_inicio": "2026-06-17",
       "data_fim": "2026-06-21",
+      "dias_restantes": -96,
+      "prazo_classificacao": "encerrado",
       "local": "Articulação Estadual: AL,ES,MA,MG,SP,TO",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -25289,6 +26503,8 @@
       ],
       "data_inicio": "2026-06-15",
       "data_fim": "2026-06-26",
+      "dias_restantes": -91,
+      "prazo_classificacao": "encerrado",
       "local": "São Paulo",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -25356,6 +26572,8 @@
       ],
       "data_inicio": "2026-06-12",
       "data_fim": "2026-06-16",
+      "dias_restantes": -101,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -25421,6 +26639,8 @@
       ],
       "data_inicio": "2026-06-12",
       "data_fim": "2026-06-16",
+      "dias_restantes": -101,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília/DF, com disponibilidade de viagens.",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -25488,6 +26708,8 @@
       ],
       "data_inicio": "2026-06-12",
       "data_fim": "2026-06-16",
+      "dias_restantes": -101,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília/DF, com disponibilidade de viagens.",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -25556,6 +26778,8 @@
       ],
       "data_inicio": "2026-06-12",
       "data_fim": "2026-06-17",
+      "dias_restantes": -100,
+      "prazo_classificacao": "encerrado",
       "local": "Especialista em Regulação de Serviços de Saneamento Básico Secretaria de saneamento ambiental/Mcid/DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -25623,6 +26847,8 @@
       ],
       "data_inicio": "2026-06-10",
       "data_fim": "2026-06-15",
+      "dias_restantes": -102,
+      "prazo_classificacao": "encerrado",
       "local": "Recife - PE",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -25730,6 +26956,8 @@
       ],
       "data_inicio": "2026-06-10",
       "data_fim": "2026-06-14",
+      "dias_restantes": -103,
+      "prazo_classificacao": "encerrado",
       "local": "Consultor Especialista Brasília  DF, com possibilidade de eventuais viagens nacionais",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -25795,6 +27023,8 @@
       ],
       "data_inicio": "2026-06-10",
       "data_fim": "2026-06-14",
+      "dias_restantes": -103,
+      "prazo_classificacao": "encerrado",
       "local": "Consultor Especialista Brasília  DF, com possibilidade de eventuais viagens nacionais",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -25861,6 +27091,8 @@
       ],
       "data_inicio": "2026-06-08",
       "data_fim": "2026-06-22",
+      "dias_restantes": -95,
+      "prazo_classificacao": "encerrado",
       "local": "Porto Alegre - RS",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -25927,6 +27159,8 @@
       ],
       "data_inicio": "2026-06-08",
       "data_fim": "2026-06-12",
+      "dias_restantes": -105,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -25992,6 +27226,8 @@
       ],
       "data_inicio": "2026-06-08",
       "data_fim": "2026-06-22",
+      "dias_restantes": -95,
+      "prazo_classificacao": "encerrado",
       "local": "Porto Alegre - RS",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -26057,6 +27293,8 @@
       ],
       "data_inicio": "2026-06-03",
       "data_fim": "2026-06-22",
+      "dias_restantes": -95,
+      "prazo_classificacao": "encerrado",
       "local": "Porto Alegre - RS",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -26122,6 +27360,8 @@
       ],
       "data_inicio": "2026-06-03",
       "data_fim": "2026-06-08",
+      "dias_restantes": -109,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília/DF, com disponibilidade de viagens.",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -26187,6 +27427,8 @@
       ],
       "data_inicio": "2026-06-02",
       "data_fim": "2026-06-06",
+      "dias_restantes": -111,
+      "prazo_classificacao": "encerrado",
       "local": "Vitória - ES",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -26252,6 +27494,8 @@
       ],
       "data_inicio": "2026-06-02",
       "data_fim": "2026-07-02",
+      "dias_restantes": -85,
+      "prazo_classificacao": "encerrado",
       "local": "Rio de Janeiro/RJ",
       "orgao_parceiro": "OEI/MAR",
       "email_submissao": "compras.bra@oei.int",
@@ -26317,6 +27561,8 @@
       ],
       "data_inicio": "2026-06-02",
       "data_fim": "2026-07-02",
+      "dias_restantes": -85,
+      "prazo_classificacao": "encerrado",
       "local": "Rio de Janeiro/RJ",
       "orgao_parceiro": "OEI/MAR",
       "email_submissao": "compras.bra@oei.int",
@@ -26383,6 +27629,8 @@
       ],
       "data_inicio": "2026-05-29",
       "data_fim": "2026-06-02",
+      "dias_restantes": -115,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -26450,6 +27698,8 @@
       ],
       "data_inicio": "2026-05-29",
       "data_fim": "2026-06-02",
+      "dias_restantes": -115,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -26515,6 +27765,8 @@
       ],
       "data_inicio": "2026-05-29",
       "data_fim": "2026-06-03",
+      "dias_restantes": -114,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -26581,6 +27833,8 @@
       ],
       "data_inicio": "2026-05-29",
       "data_fim": "2026-06-03",
+      "dias_restantes": -114,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -26646,6 +27900,8 @@
       ],
       "data_inicio": "2026-05-28",
       "data_fim": "2026-06-18",
+      "dias_restantes": -99,
+      "prazo_classificacao": "encerrado",
       "local": "Vitória/ES",
       "orgao_parceiro": "OEI/SECULT",
       "email_submissao": "compras.bra@oei.int",
@@ -26713,6 +27969,8 @@
       ],
       "data_inicio": "2026-05-27",
       "data_fim": "2026-05-31",
+      "dias_restantes": -117,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília/DF, com disponibilidade de viagens.",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -26780,6 +28038,8 @@
       ],
       "data_inicio": "2026-05-22",
       "data_fim": "2026-05-27",
+      "dias_restantes": -121,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -26845,6 +28105,8 @@
       ],
       "data_inicio": "2026-05-22",
       "data_fim": "2026-06-12",
+      "dias_restantes": -105,
+      "prazo_classificacao": "encerrado",
       "local": "São Paulo - SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -26910,6 +28172,8 @@
       ],
       "data_inicio": "2026-05-15",
       "data_fim": "2026-05-22",
+      "dias_restantes": -126,
+      "prazo_classificacao": "encerrado",
       "local": "SEDUC RECIFE",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -26977,6 +28241,8 @@
       ],
       "data_inicio": "2026-05-14",
       "data_fim": "2026-05-24",
+      "dias_restantes": -124,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "MTE",
       "email_submissao": "processoseletivo@trabalho.gov.br",
@@ -27092,6 +28358,8 @@
       ],
       "data_inicio": "2026-05-12",
       "data_fim": "2026-05-26",
+      "dias_restantes": -122,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto. Notar: na data de término, a negociação se encerra às 17h de Brasília",
       "orgao_parceiro": "PNUD (Direto)",
       "email_submissao": "ic.procurement.br@undp.org",
@@ -27233,6 +28501,8 @@
       ],
       "data_inicio": "2026-05-12",
       "data_fim": "2026-05-17",
+      "dias_restantes": -131,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília-DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "seleocao.bra@oei.int",
@@ -27300,6 +28570,8 @@
       ],
       "data_inicio": "2026-05-12",
       "data_fim": "2026-05-17",
+      "dias_restantes": -131,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -27366,6 +28638,8 @@
       ],
       "data_inicio": "2026-05-11",
       "data_fim": "2026-05-24",
+      "dias_restantes": -124,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto/Brasília",
       "orgao_parceiro": "TCU",
       "email_submissao": "segecex-assessoria@tcu.gov.br",
@@ -27459,6 +28733,8 @@
       ],
       "data_inicio": "2026-05-11",
       "data_fim": "2026-05-24",
+      "dias_restantes": -124,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto/Brasília",
       "orgao_parceiro": "TCU",
       "email_submissao": "segecex-assessoria@tcu.gov.br",
@@ -27551,6 +28827,8 @@
       ],
       "data_inicio": "2026-05-07",
       "data_fim": "2026-05-20",
+      "dias_restantes": -128,
+      "prazo_classificacao": "encerrado",
       "local": "Distrito Federal (notar: na data de término, a negociação se encerra às 17h de Brasília)",
       "orgao_parceiro": "PNUD (Direto)",
       "email_submissao": "ic.procurement.br@undp.org",
@@ -27683,6 +28961,8 @@
       ],
       "data_inicio": "2026-05-07",
       "data_fim": "2026-05-20",
+      "dias_restantes": -128,
+      "prazo_classificacao": "encerrado",
       "local": "Distrito Federal (notar: na data de término, a negociação se encerra às 17h de Brasília)",
       "orgao_parceiro": "PNUD (Direto)",
       "email_submissao": "ic.procurement.br@undp.org",
@@ -27816,6 +29096,8 @@
       ],
       "data_inicio": "2026-05-05",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Site: Oportunidades PNUD e AGU",
       "orgao_parceiro": "AGU",
       "email_submissao": "eagu.secretaria@agu.gov.br",
@@ -27914,6 +29196,8 @@
       ],
       "data_inicio": "2026-05-05",
       "data_fim": "2026-05-20",
+      "dias_restantes": -128,
+      "prazo_classificacao": "encerrado",
       "local": "REMOTO",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -28058,6 +29342,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -28163,6 +29449,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-17",
+      "dias_restantes": -131,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto/Brasília",
       "orgao_parceiro": "TCU",
       "email_submissao": "AudSaude@tcu.gov.br",
@@ -28275,6 +29563,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-17",
+      "dias_restantes": -131,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto/Brasília",
       "orgao_parceiro": "TCU",
       "email_submissao": "AudSaude@tcu.gov.br",
@@ -28384,6 +29674,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-17",
+      "dias_restantes": -131,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto/Brasília",
       "orgao_parceiro": "TCU",
       "email_submissao": "AudSaude@tcu.gov.br",
@@ -28490,6 +29782,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-19",
+      "dias_restantes": -129,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "MGI",
       "email_submissao": "prodoc.mgi@gestao.gov.br",
@@ -28616,6 +29910,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -28711,6 +30007,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -28813,6 +30111,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -28915,6 +30215,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -29018,6 +30320,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -29121,6 +30425,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -29226,6 +30532,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -29326,6 +30634,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -29424,6 +30734,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -29526,6 +30838,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -29643,6 +30957,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -29747,6 +31063,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -29854,6 +31172,8 @@
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
+      "dias_restantes": -130,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
@@ -29959,6 +31279,8 @@
       ],
       "data_inicio": "2026-04-30",
       "data_fim": "2026-05-04",
+      "dias_restantes": -144,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -30024,6 +31346,8 @@
       ],
       "data_inicio": "2026-04-29",
       "data_fim": "2026-04-04",
+      "dias_restantes": -174,
+      "prazo_classificacao": "encerrado",
       "local": "Recife - PE",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -30093,6 +31417,8 @@
       ],
       "data_inicio": "2026-04-28",
       "data_fim": "2026-05-06",
+      "dias_restantes": -142,
+      "prazo_classificacao": "encerrado",
       "local": "Nos estados - AC, CE, MT, PR, PI, RJ, SE",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -30160,6 +31486,8 @@
       ],
       "data_inicio": "2026-04-24",
       "data_fim": "2026-04-29",
+      "dias_restantes": -149,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -30225,6 +31553,8 @@
       ],
       "data_inicio": "2026-04-24",
       "data_fim": "2026-04-29",
+      "dias_restantes": -149,
+      "prazo_classificacao": "encerrado",
       "local": "Vitória - ES",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -30290,6 +31620,8 @@
       ],
       "data_inicio": "2026-04-24",
       "data_fim": "2026-04-29",
+      "dias_restantes": -149,
+      "prazo_classificacao": "encerrado",
       "local": "Vitória - ES",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -30357,6 +31689,8 @@
       ],
       "data_inicio": "2026-04-22",
       "data_fim": "2026-04-27",
+      "dias_restantes": -151,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -30424,6 +31758,8 @@
       ],
       "data_inicio": "2026-04-22",
       "data_fim": "2026-04-27",
+      "dias_restantes": -151,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -30491,6 +31827,8 @@
       ],
       "data_inicio": "2026-04-22",
       "data_fim": "2026-04-26",
+      "dias_restantes": -152,
+      "prazo_classificacao": "encerrado",
       "local": "Pernambuco - PE",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -30558,6 +31896,8 @@
       ],
       "data_inicio": "2026-04-22",
       "data_fim": "2026-04-27",
+      "dias_restantes": -151,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -30624,6 +31964,8 @@
       ],
       "data_inicio": "2026-04-22",
       "data_fim": "2026-04-27",
+      "dias_restantes": -151,
+      "prazo_classificacao": "encerrado",
       "local": "Recife - PE",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -30692,6 +32034,8 @@
       ],
       "data_inicio": "2026-04-17",
       "data_fim": "2026-04-21",
+      "dias_restantes": -157,
+      "prazo_classificacao": "encerrado",
       "local": "Consultor(a) em Governança Institucional Remoto",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -30758,6 +32102,8 @@
       ],
       "data_inicio": "2026-04-17",
       "data_fim": "2026-04-22",
+      "dias_restantes": -156,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF | Híbrido",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -30825,6 +32171,8 @@
       ],
       "data_inicio": "2026-04-17",
       "data_fim": "2026-04-26",
+      "dias_restantes": -152,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF | Híbrido",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -30892,6 +32240,8 @@
       ],
       "data_inicio": "2026-04-14",
       "data_fim": "2026-04-23",
+      "dias_restantes": -155,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -30957,6 +32307,8 @@
       ],
       "data_inicio": "2026-04-13",
       "data_fim": "2026-04-17",
+      "dias_restantes": -161,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -31022,6 +32374,8 @@
       ],
       "data_inicio": "2026-04-13",
       "data_fim": "2026-04-17",
+      "dias_restantes": -161,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -31088,6 +32442,8 @@
       ],
       "data_inicio": "2026-04-09",
       "data_fim": "2026-04-13",
+      "dias_restantes": -165,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília-DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -31153,6 +32509,8 @@
       ],
       "data_inicio": "2026-04-09",
       "data_fim": "2026-04-22",
+      "dias_restantes": -156,
+      "prazo_classificacao": "encerrado",
       "local": "Consultor 1 - Região metropolitana do Estado de São Paulo - URE Sul 3, Sul 1 e Centro Sul São Paulo | Consultor 2 - Região litorânea do Estado de São Paulo - URE Santos, São Vicente e Caraguatatuba São Paulo | Consultor 3 - Região do interior do Estado de São Paulo - URE São José do Rio Preto e José Bonifácio São Paulo",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -31220,6 +32578,8 @@
       ],
       "data_inicio": "2026-04-08",
       "data_fim": "2026-04-13",
+      "dias_restantes": -165,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -31287,6 +32647,8 @@
       ],
       "data_inicio": "2026-04-06",
       "data_fim": "2026-04-11",
+      "dias_restantes": -167,
+      "prazo_classificacao": "encerrado",
       "local": "Recife - PE",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -31354,6 +32716,8 @@
       ],
       "data_inicio": "2026-04-01",
       "data_fim": "2026-04-06",
+      "dias_restantes": -172,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -31421,6 +32785,8 @@
       ],
       "data_inicio": "2026-04-01",
       "data_fim": "2026-04-06",
+      "dias_restantes": -172,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -31488,6 +32854,8 @@
       ],
       "data_inicio": "2026-04-01",
       "data_fim": "2026-04-06",
+      "dias_restantes": -172,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -31555,6 +32923,8 @@
       ],
       "data_inicio": "2026-04-01",
       "data_fim": "2026-04-06",
+      "dias_restantes": -172,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -31623,6 +32993,8 @@
       ],
       "data_inicio": "2026-04-01",
       "data_fim": "2026-04-06",
+      "dias_restantes": -172,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -31690,6 +33062,8 @@
       ],
       "data_inicio": "2026-04-01",
       "data_fim": "2026-04-06",
+      "dias_restantes": -172,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -31756,6 +33130,8 @@
       ],
       "data_inicio": "2026-04-01",
       "data_fim": "2026-04-06",
+      "dias_restantes": -172,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -31821,6 +33197,8 @@
       ],
       "data_inicio": "2026-03-27",
       "data_fim": "2026-03-31",
+      "dias_restantes": -178,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -31888,6 +33266,8 @@
       ],
       "data_inicio": "2026-03-24",
       "data_fim": "2026-03-29",
+      "dias_restantes": -180,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -31955,6 +33335,8 @@
       ],
       "data_inicio": "2026-03-24",
       "data_fim": "2026-03-29",
+      "dias_restantes": -180,
+      "prazo_classificacao": "encerrado",
       "local": "Recife - PE",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -32020,6 +33402,8 @@
       ],
       "data_inicio": "2026-03-23",
       "data_fim": "2026-03-28",
+      "dias_restantes": -181,
+      "prazo_classificacao": "encerrado",
       "local": "Recife - PE",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -32087,6 +33471,8 @@
       ],
       "data_inicio": "2026-03-23",
       "data_fim": "2026-03-28",
+      "dias_restantes": -181,
+      "prazo_classificacao": "encerrado",
       "local": "BA; CE; DF; PA; PE; MG; RJ; RS; SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -32152,6 +33538,8 @@
       ],
       "data_inicio": "2026-03-20",
       "data_fim": "2026-04-05",
+      "dias_restantes": -173,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -32218,6 +33606,8 @@
       ],
       "data_inicio": "2026-03-18",
       "data_fim": "2026-03-25",
+      "dias_restantes": -184,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -32284,6 +33674,8 @@
       ],
       "data_inicio": "2026-03-18",
       "data_fim": "2026-03-25",
+      "dias_restantes": -184,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -32350,6 +33742,8 @@
       ],
       "data_inicio": "2026-03-18",
       "data_fim": "2026-03-25",
+      "dias_restantes": -184,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -32417,6 +33811,8 @@
       ],
       "data_inicio": "2026-03-18",
       "data_fim": "2026-03-25",
+      "dias_restantes": -184,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -32485,6 +33881,8 @@
       ],
       "data_inicio": "2026-03-17",
       "data_fim": "2026-04-05",
+      "dias_restantes": -173,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -32550,6 +33948,8 @@
       ],
       "data_inicio": "2026-03-17",
       "data_fim": "2026-05-12",
+      "dias_restantes": -136,
+      "prazo_classificacao": "encerrado",
       "local": "Nacional",
       "orgao_parceiro": "OEI/MDHC",
       "email_submissao": "compras.bra@oei.int",
@@ -32615,6 +34015,8 @@
       ],
       "data_inicio": "2026-03-13",
       "data_fim": "2026-03-17",
+      "dias_restantes": -192,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -32682,6 +34084,8 @@
       ],
       "data_inicio": "2026-03-04",
       "data_fim": "2026-03-15",
+      "dias_restantes": -194,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -32749,6 +34153,8 @@
       ],
       "data_inicio": "2026-03-03",
       "data_fim": "2026-03-09",
+      "dias_restantes": -200,
+      "prazo_classificacao": "encerrado",
       "local": "São paulo - SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "ugp@educacao.sp.gov.br",
@@ -32814,6 +34220,8 @@
       ],
       "data_inicio": "2026-03-03",
       "data_fim": "2026-03-20",
+      "dias_restantes": -189,
+      "prazo_classificacao": "encerrado",
       "local": "Vitória/ES.",
       "orgao_parceiro": "OEI/SECULT",
       "email_submissao": "compras.bra@oei.int",
@@ -32879,6 +34287,8 @@
       ],
       "data_inicio": "2026-02-24",
       "data_fim": "2026-03-01",
+      "dias_restantes": -208,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "Selecao.bra@oei.int",
@@ -32944,6 +34354,8 @@
       ],
       "data_inicio": "2026-02-13",
       "data_fim": "2026-03-10",
+      "dias_restantes": -199,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto",
       "orgao_parceiro": "OEI/FPOS",
       "email_submissao": "compras.bra@oei.int",
@@ -33011,6 +34423,8 @@
       ],
       "data_inicio": "2026-02-12",
       "data_fim": "2026-02-17",
+      "dias_restantes": -220,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -33076,6 +34490,8 @@
       ],
       "data_inicio": "2026-02-11",
       "data_fim": "2026-02-11",
+      "dias_restantes": -226,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -33141,6 +34557,8 @@
       ],
       "data_inicio": "2026-02-09",
       "data_fim": "2026-02-18",
+      "dias_restantes": -219,
+      "prazo_classificacao": "encerrado",
       "local": "Vitória, ES",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -33206,6 +34624,8 @@
       ],
       "data_inicio": "2026-02-09",
       "data_fim": "2026-02-13",
+      "dias_restantes": -224,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -33273,6 +34693,8 @@
       ],
       "data_inicio": "2026-02-06",
       "data_fim": "2026-02-11",
+      "dias_restantes": -226,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -33338,6 +34760,8 @@
       ],
       "data_inicio": "2026-02-02",
       "data_fim": "2026-02-24",
+      "dias_restantes": -213,
+      "prazo_classificacao": "encerrado",
       "local": "Vitória/ES.",
       "orgao_parceiro": "OEI/SECULT",
       "email_submissao": "compras.bra@oei.int",
@@ -33403,6 +34827,8 @@
       ],
       "data_inicio": "2026-02-02",
       "data_fim": "2026-02-19",
+      "dias_restantes": -218,
+      "prazo_classificacao": "encerrado",
       "local": "Vitória/ES",
       "orgao_parceiro": "OEI/SECULT",
       "email_submissao": "compras.bra@oei.int",
@@ -33468,6 +34894,8 @@
       ],
       "data_inicio": "2026-02-02",
       "data_fim": "2026-02-06",
+      "dias_restantes": -231,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -33533,6 +34961,8 @@
       ],
       "data_inicio": "2026-01-30",
       "data_fim": "2026-02-23",
+      "dias_restantes": -214,
+      "prazo_classificacao": "encerrado",
       "local": "Vitória/ES",
       "orgao_parceiro": "OEI/SECULT",
       "email_submissao": "compras.bra@oei.int",
@@ -33599,6 +35029,8 @@
       ],
       "data_inicio": "2026-01-26",
       "data_fim": "2026-01-31",
+      "dias_restantes": -237,
+      "prazo_classificacao": "encerrado",
       "local": "Brasíia - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -33664,6 +35096,8 @@
       ],
       "data_inicio": "2026-01-23",
       "data_fim": "2026-02-11",
+      "dias_restantes": -226,
+      "prazo_classificacao": "encerrado",
       "local": "Vitória/ES",
       "orgao_parceiro": "OEI/SECULT",
       "email_submissao": "compras.bra@oei.int",
@@ -33729,6 +35163,8 @@
       ],
       "data_inicio": "2026-01-21",
       "data_fim": "2026-01-26",
+      "dias_restantes": -242,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -33795,6 +35231,8 @@
       ],
       "data_inicio": "2026-01-20",
       "data_fim": "2026-01-25",
+      "dias_restantes": -243,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -33860,6 +35298,8 @@
       ],
       "data_inicio": "2025-12-23",
       "data_fim": "2026-01-14",
+      "dias_restantes": -254,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília/DF",
       "orgao_parceiro": "OEI/COP30",
       "email_submissao": "compras.bra@oei.int",
@@ -33925,6 +35365,8 @@
       ],
       "data_inicio": "2025-12-04",
       "data_fim": "2025-12-08",
+      "dias_restantes": -291,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -33991,6 +35433,8 @@
       ],
       "data_inicio": "2025-12-04",
       "data_fim": "2025-12-08",
+      "dias_restantes": -291,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -34058,6 +35502,8 @@
       ],
       "data_inicio": "2025-12-04",
       "data_fim": "2025-12-08",
+      "dias_restantes": -291,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -34125,6 +35571,8 @@
       ],
       "data_inicio": "2025-12-02",
       "data_fim": "2025-12-07",
+      "dias_restantes": -292,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -34192,6 +35640,8 @@
       ],
       "data_inicio": "2025-12-02",
       "data_fim": "2025-12-07",
+      "dias_restantes": -292,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -34257,6 +35707,8 @@
       ],
       "data_inicio": "2025-11-27",
       "data_fim": "2025-12-03",
+      "dias_restantes": -296,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília-DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -34322,6 +35774,8 @@
       ],
       "data_inicio": "2025-11-20",
       "data_fim": "2025-11-23",
+      "dias_restantes": -306,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília/DF, Remoto",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -34387,6 +35841,8 @@
       ],
       "data_inicio": "2025-11-20",
       "data_fim": "2025-11-23",
+      "dias_restantes": -306,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília/DF, Remoto",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -34454,6 +35910,8 @@
       ],
       "data_inicio": "2025-11-18",
       "data_fim": "2025-11-29",
+      "dias_restantes": -300,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -34519,6 +35977,8 @@
       ],
       "data_inicio": "2025-11-17",
       "data_fim": "2025-12-02",
+      "dias_restantes": -297,
+      "prazo_classificacao": "encerrado",
       "local": "Vitória - ES",
       "orgao_parceiro": "OEI/SECULT",
       "email_submissao": "compras.bra@oei.int",
@@ -34584,6 +36044,8 @@
       ],
       "data_inicio": "2025-11-13",
       "data_fim": "2025-12-04",
+      "dias_restantes": -295,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto, com disponibilidade para viagens para Vitória ES.",
       "orgao_parceiro": "OEI/SECULT",
       "email_submissao": "compras.bra@oei.int",
@@ -34717,6 +36179,8 @@
       ],
       "data_inicio": "2025-11-03",
       "data_fim": "2025-11-08",
+      "dias_restantes": -321,
+      "prazo_classificacao": "encerrado",
       "local": "Vitória - ES",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -34782,6 +36246,8 @@
       ],
       "data_inicio": "2025-11-03",
       "data_fim": "2025-11-08",
+      "dias_restantes": -321,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -34849,6 +36315,8 @@
       ],
       "data_inicio": "2025-10-29",
       "data_fim": "2025-11-06",
+      "dias_restantes": -323,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -34916,6 +36384,8 @@
       ],
       "data_inicio": "2025-10-21",
       "data_fim": "2025-10-28",
+      "dias_restantes": -332,
+      "prazo_classificacao": "encerrado",
       "local": "São Paulo - SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -34982,6 +36452,8 @@
       ],
       "data_inicio": "2025-10-21",
       "data_fim": "2025-10-26",
+      "dias_restantes": -334,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -35047,6 +36519,8 @@
       ],
       "data_inicio": "2025-10-21",
       "data_fim": "2025-10-26",
+      "dias_restantes": -334,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -35112,6 +36586,8 @@
       ],
       "data_inicio": "2025-10-21",
       "data_fim": "2025-11-05",
+      "dias_restantes": -324,
+      "prazo_classificacao": "encerrado",
       "local": "São paulo - SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -35179,6 +36655,8 @@
       ],
       "data_inicio": "2025-10-21",
       "data_fim": "2025-10-26",
+      "dias_restantes": -334,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -35245,6 +36723,8 @@
       ],
       "data_inicio": "2025-10-17",
       "data_fim": "2025-10-22",
+      "dias_restantes": -338,
+      "prazo_classificacao": "encerrado",
       "local": "Recife - PE",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -35310,6 +36790,8 @@
       ],
       "data_inicio": "2025-10-17",
       "data_fim": "2025-10-21",
+      "dias_restantes": -339,
+      "prazo_classificacao": "encerrado",
       "local": "Remoto, com disponibilidade para viagens.",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -35375,6 +36857,8 @@
       ],
       "data_inicio": "2025-10-16",
       "data_fim": "2025-10-21",
+      "dias_restantes": -339,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -35440,6 +36924,8 @@
       ],
       "data_inicio": "2025-10-14",
       "data_fim": "2025-10-24",
+      "dias_restantes": -336,
+      "prazo_classificacao": "encerrado",
       "local": "São Paulo - SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "ugp@educacao.sp.gov.br",
@@ -35507,6 +36993,8 @@
       ],
       "data_inicio": "2025-10-13",
       "data_fim": "2025-10-22",
+      "dias_restantes": -338,
+      "prazo_classificacao": "encerrado",
       "local": "Minas Gerais - MG, Espirito Santos - ES, Brasília - DF",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -35572,6 +37060,8 @@
       ],
       "data_inicio": "2025-10-03",
       "data_fim": "2025-10-10",
+      "dias_restantes": -350,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -35637,6 +37127,8 @@
       ],
       "data_inicio": "2025-10-03",
       "data_fim": "2025-10-07",
+      "dias_restantes": -353,
+      "prazo_classificacao": "encerrado",
       "local": "Belém - PA",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -35702,6 +37194,8 @@
       ],
       "data_inicio": "2025-10-03",
       "data_fim": "2025-10-10",
+      "dias_restantes": -350,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília - DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -35767,6 +37261,8 @@
       ],
       "data_inicio": "2025-10-03",
       "data_fim": "2025-10-07",
+      "dias_restantes": -353,
+      "prazo_classificacao": "encerrado",
       "local": "Belém - PA",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -35833,6 +37329,8 @@
       ],
       "data_inicio": "2025-10-02",
       "data_fim": "2025-10-06",
+      "dias_restantes": -354,
+      "prazo_classificacao": "encerrado",
       "local": "Brasília-DF",
       "orgao_parceiro": "OEI",
       "email_submissao": "selecao.bra@oei.int",
@@ -35900,6 +37398,8 @@
       ],
       "data_inicio": "2025-09-30",
       "data_fim": "2025-10-07",
+      "dias_restantes": -353,
+      "prazo_classificacao": "encerrado",
       "local": "São Paulo - SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "selecao.bra@oei.int",
@@ -35966,6 +37466,8 @@
       ],
       "data_inicio": "2025-09-30",
       "data_fim": "2025-10-13",
+      "dias_restantes": -347,
+      "prazo_classificacao": "encerrado",
       "local": "São Paulo-SP",
       "orgao_parceiro": "OEI/BRA",
       "email_submissao": "ugp@educacao.sp.gov.br",
@@ -36012,71 +37514,6 @@
               "edital": 0,
               "minimo_perfil": 35000,
               "acima_minimo": null
-            }
-          }
-        }
-      },
-      "ativo": false,
-      "perfil_classificado": "Não classificado"
-    },
-    {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-14-002-tr12266",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-14-002-tr12266",
-      "fonte": "oei",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/14/002 – TR12266",
-      "descricao": "Contratação de 5 (cinco) consultores especializados para desenvolver produtos que subsidiem à ampliação da oferta e do acesso ao trabalho pelas pessoas privadas de liberdade",
-      "tipo": "Consultoria (tipo não especificado)",
-      "areas_tematicas": [
-        "Não classificada"
-      ],
-      "data_inicio": "2025-09-29",
-      "data_fim": "2025-10-31",
-      "local": "Brasília - DF",
-      "orgao_parceiro": "OEI/BRA",
-      "email_submissao": "selecao.bra@oei.int",
-      "valor_estimado": "196.600,00",
-      "valor_estimado_num": 196600.0,
-      "status": "En evaluación",
-      "data_criacao": "2025-09-29",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-14-002-tr12266/",
-      "requisitos": {
-        "graduacao": [],
-        "pos_graduacao": [],
-        "mestrado": false,
-        "doutorado": false,
-        "anos_experiencia": null,
-        "ferramentas": [],
-        "idiomas": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "Consultoria em Diversidade e Inclusão": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 196600.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
             }
           }
         }
