@@ -1,12 +1,15 @@
 from collections import Counter
 from datetime import datetime, timedelta
 
+from core.bridge import (
+    calcular_match_detalhado,
+    carregar_qualificacoes,
+    enriquecer_edital,
+)
 from core.classifier import classificar_edital
 from core.perfil import (
     carregar_perfis,
-    classificar_perfil_do_edital,
     filtrar_por_perfil,
-    pontuar_edital_para_perfil,
 )
 
 
@@ -37,21 +40,49 @@ def analisar_editais(
     if periodo_meses and not todos:
         corte = datetime.now() - timedelta(days=periodo_meses * 30)
         classificados = [
-            e for e in classificados
+            e
+            for e in classificados
             if e.get("data_inicio") and e["data_inicio"] >= corte.strftime("%Y-%m-%d")
         ]
 
     perfis_disponiveis = carregar_perfis()
-    for edital in classificados:
-        nome = classificar_perfil_do_edital(edital)
-        edital["perfil_classificado"] = nome
-        if nome in perfis_disponiveis:
-            edital["score_perfil"] = pontuar_edital_para_perfil(edital, perfis_disponiveis[nome])
+    qualificacoes = carregar_qualificacoes()
+
+    for i, edital in enumerate(classificados):
+        enriquecido = enriquecer_edital(edital, qualificacoes)
+
+        melhor_perfil = None
+        melhor_score = 0.0
+
+        for nome, perfil in perfis_disponiveis.items():
+            match = calcular_match_detalhado(enriquecido, perfil)
+            score = match["score"]
+
+            if score > melhor_score:
+                melhor_score = score
+                melhor_perfil = nome
+
+        enriquecido["perfil_classificado"] = (
+            melhor_perfil if melhor_score >= 0.15 else "Não classificado"
+        )
+        enriquecido["score_perfil"] = melhor_score
+
+        classificados[i] = enriquecido
 
     if perfil_nome:
-        classificados = filtrar_por_perfil(classificados, perfil_nome)
+        perfil = perfis_disponiveis.get(perfil_nome)
 
-    return _gerar_estatisticas(classificados, perfis_disponiveis, periodo_meses, perfil_nome, todos, fonte_nome)
+        if not perfil:
+            classificados = []
+        else:
+            classificados = [
+                e
+                for e in classificados
+                if calcular_match_detalhado(e, perfil)["score"] >= 0.15
+            ]
+    return _gerar_estatisticas(
+        classificados, perfis_disponiveis, periodo_meses, perfil_nome, todos, fonte_nome
+    )
 
 
 def _gerar_estatisticas(
@@ -94,7 +125,14 @@ def _gerar_estatisticas(
             por_perfil[nome_perfil] = {
                 "quantidade": len(matched),
                 "descricao": perfis_disponiveis[nome_perfil].get("descricao", ""),
-                "editais": [{"id": e["id"], "titulo": e["titulo"], "score": e.get("score_perfil", 0)} for e in matched[:5]],
+                "editais": [
+                    {
+                        "id": e["id"],
+                        "titulo": e["titulo"],
+                        "score": e.get("score_perfil", 0),
+                    }
+                    for e in matched[:5]
+                ],
             }
 
     return {

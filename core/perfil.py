@@ -1,6 +1,5 @@
 import json
 import logging
-from pathlib import Path
 
 from core.config import PERFIS_DIR
 
@@ -30,51 +29,131 @@ def pontuar_edital_para_perfil(edital: dict, perfil: dict) -> float:
     score = 0.0
     peso_maximo = 0.0
 
-    areas_edital = edital.get("areas_tematicas", "")
-    if areas_edital:
-        areas_interesse = set(perfil.get("areas_interesse", []))
-        areas_str = areas_edital if isinstance(areas_edital, str) else ", ".join(areas_edital)
-        for area in areas_interesse:
-            if area.lower() in areas_str.lower():
-                score += 0.30
-                break
+    requisitos = edital.get("requisitos", {})
+
+    # =========================================================
+    # ÁREAS TEMÁTICAS
+    # =========================================================
+    areas_edital = edital.get("areas_tematicas", [])
+    areas_interesse = set(perfil.get("areas_interesse", []))
+
+    if isinstance(areas_edital, str):
+        areas_str = areas_edital
+    else:
+        areas_str = ", ".join(areas_edital)
+
+    if areas_interesse:
+        matches = [
+            area for area in areas_interesse if area.lower() in areas_str.lower()
+        ]
+
+        if matches:
+            score += 0.30 * (len(matches) / len(areas_interesse))
+
     peso_maximo += 0.30
 
-    ferramentas_edital = [f.lower() for f in edital.get("ferramentas", [])]
+    # =========================================================
+    # FERRAMENTAS
+    # =========================================================
+    ferramentas_edital = [
+        f.lower()
+        for f in requisitos.get(
+            "ferramentas",
+            edital.get("ferramentas", []) or [],
+        )
+    ]
+
     ferramentas_perfil = [f.lower() for f in perfil.get("ferramentas", [])]
+
     if ferramentas_edital and ferramentas_perfil:
         matches = set(ferramentas_edital) & set(ferramentas_perfil)
+
         if matches:
-            score += 0.25 * (len(matches) / max(len(ferramentas_perfil), 1))
+            score += 0.25 * (len(matches) / len(ferramentas_perfil))
+
     peso_maximo += 0.25
 
-    graduacoes_edital = [g.lower() for g in edital.get("graduacao", [])]
+    # =========================================================
+    # GRADUAÇÃO
+    # =========================================================
+    graduacoes_edital = [
+        g.lower()
+        for g in requisitos.get(
+            "graduacao",
+            edital.get("graduacao", []) or [],
+        )
+    ]
+
     graduacoes_perfil = [g.lower() for g in perfil.get("graduacoes", [])]
+
     if graduacoes_edital and graduacoes_perfil:
-        matches = set(graduacoes_edital) & set(graduacoes_perfil)
+        matches = set()
+
+        for graduacao_perfil in graduacoes_perfil:
+            for graduacao_edital in graduacoes_edital:
+                if (
+                    graduacao_perfil in graduacao_edital
+                    or graduacao_edital in graduacao_perfil
+                ):
+                    matches.add(graduacao_perfil)
+                    break
+
         if matches:
-            score += 0.25 * (len(matches) / max(len(graduacoes_perfil), 1))
+            score += 0.25 * (len(matches) / len(graduacoes_perfil))
+
     peso_maximo += 0.25
 
-    idiomas_edital = [i.lower() for i in edital.get("idiomas", [])]
+    # =========================================================
+    # IDIOMAS
+    # =========================================================
+    idiomas_edital = [
+        i.lower()
+        for i in requisitos.get(
+            "idiomas",
+            edital.get("idiomas", []) or [],
+        )
+    ]
+
     idiomas_perfil = [i.lower() for i in perfil.get("idiomas", [])]
+
     if idiomas_edital and idiomas_perfil:
         matches = set(idiomas_edital) & set(idiomas_perfil)
+
         if matches:
             score += 0.10 * (len(matches) / len(idiomas_edital))
+
     peso_maximo += 0.10
 
-    valor_edital = edital.get("valor_estimado_num", 0)
+    # =========================================================
+    # VALOR
+    # =========================================================
+    valor_edital = edital.get("valor_estimado_num") or 0
     valor_minimo = perfil.get("valor_minimo", 0)
+
+    # Caso o valor ainda não tenha sido colocado no edital
+    # mas esteja disponível no ToR, usar o valor do ToR.
+    if not valor_edital:
+        valor_tor = requisitos.get("valor_tor")
+
+        if valor_tor:
+            try:
+                valor_edital = float(str(valor_tor).replace(".", "").replace(",", "."))
+            except (ValueError, TypeError):
+                valor_edital = 0
+
     if valor_edital and valor_minimo:
         if valor_edital >= valor_minimo:
             score += 0.10
         else:
             score += 0.05 * (valor_edital / valor_minimo)
+
     peso_maximo += 0.10
 
+    # =========================================================
+    # SCORE FINAL
+    # =========================================================
     if peso_maximo > 0:
-        score = score / peso_maximo
+        score /= peso_maximo
 
     return round(score, 3)
 
@@ -84,7 +163,7 @@ def classificar_perfil_do_edital(edital: dict) -> str:
     if not perfis:
         return "Não classificado"
 
-    melhor_perfil = None
+    melhor_perfil = "Não classificado"
     melhor_pontuacao = 0.0
 
     for nome, perfil in perfis.items():

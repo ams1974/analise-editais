@@ -301,6 +301,50 @@
       gap: 4px
     }
 
+    .match-explanation {
+      margin-top: 10px;
+    }
+
+    .match-criterion {
+      padding: 10px 0;
+      border-top: 1px solid #eef1f4;
+    }
+
+    .match-criterion:first-child {
+      border-top: none;
+    }
+
+    .criterion-title {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: .88rem;
+      color: #263238;
+    }
+
+    .criterion-text {
+      margin: 4px 0 4px 26px;
+      color: #4f5b66;
+      font-size: .82rem;
+    }
+
+    .criterion-detail {
+      margin: 3px 0 0 26px;
+      color: #68737d;
+      font-size: .78rem;
+    }
+
+    .criterion-missing {
+      color: #c5221f;
+    }
+
+    .criterion-percent {
+      margin-left: auto;
+      font-size: .75rem;
+      font-weight: 700;
+      color: #68737d;
+    }
+
     .match-high {
       background: #e6f4ea;
       color: #137333
@@ -1327,7 +1371,32 @@
 
       const m = e.matches || {};
       const sel = state.perfil;
-      const matchData = sel ? (m[sel] || null) : null;
+
+      let matchData = null;
+      let perfilMatchNome = null;
+
+      if (sel) {
+        matchData = m[sel] || null;
+        perfilMatchNome = sel;
+      } else {
+        let melhorScore = null;
+
+        Object.entries(m).forEach(([nome, dados]) => {
+          const score = dados?.score;
+
+          if (
+            typeof score === 'number' &&
+            (melhorScore === null || score > melhorScore)
+          ) {
+            melhorScore = score;
+            matchData = dados;
+            perfilMatchNome = nome;
+          }
+        });
+      }
+      console.log('DEBUG matchData:', matchData);
+      console.log('DEBUG detalhes:', matchData?.detalhes);
+
       const req = e.requisitos || {};
       const areas = Array.isArray(e.areas_tematicas) ? e.areas_tematicas.join(', ') : (e.areas_tematicas || '');
 
@@ -1339,21 +1408,131 @@
         const lang = d.idiomas || {};
         const areasD = (d.areas || {}).match;
 
-        matchHTML = `
-      <div class="match-section">
-        <div class="match-header"><strong>Match: ${matchPct(matchData.score)}</strong> <span>${matchEmoji(matchData.score)}</span></div>
-        <div class="requirement-row">
-          <span class="req-icon">${areasD ? '✅' : '🔸'}</span>
-          <span class="req-label">Áreas</span>
-          <span class="req-value">${areasD ? 'Compatível' : 'Não compatível'}</span>
-        </div>
-        ${grad.exigidas?.length ? ('<div class="requirement-row"><span class="req-icon ' + (grad.match?.length ? 'req-ok' : 'req-no') + '">' + (grad.match?.length ? '✅' : '❌') + '</span><span class="req-label">Graduação</span><span class="req-value">Exigida: ' + esc(grad.exigidas.join(', ')) + ' | Você: ' + esc((grad.match || []).join(', ') || 'nenhuma') + '</span></div>') : ''}
-        ${ferr.exigidas?.length ? ('<div class="requirement-row"><span class="req-icon ' + (ferr.match?.length ? 'req-ok' : 'req-no') + '">' + (ferr.match?.length ? '✅' : '❌') + '</span><span class="req-label">Ferramentas</span><span class="req-value">Exigidas: ' + esc(ferr.exigidas.join(', ')) + ' | Você: ' + esc((ferr.match || []).join(', ') || 'nenhuma') + '</span></div>') : ''}
-        ${lang.exigidos?.length ? ('<div class="requirement-row"><span class="req-icon ' + (lang.match?.length ? 'req-ok' : 'req-no') + '">' + (lang.match?.length ? '✅' : '❌') + '</span><span class="req-label">Idiomas</span><span class="req-value">Exigidos: ' + esc(lang.exigidos.join(', ')) + ' | Você: ' + esc((lang.match || []).join(', ') || 'nenhum') + '</span></div>') : ''}
-        ${d.valor ? ('<div class="requirement-row"><span class="req-icon ' + (d.valor.acima_minimo ? 'req-ok' : 'req-warn') + '">' + (d.valor.acima_minimo ? '✅' : '⚠️') + '</span><span class="req-label">Valor</span><span class="req-value">Edital: ' + formatMoney(d.valor.edital) + ' | Mínimo: ' + formatMoney(d.valor.minimo_perfil) + '</span></div>') : ''}
-      </div>`;
-      }
+        const gradMatch = grad.match || [];
+        const gradExigidas = grad.exigidas || [];
 
+        const ferrMatch = ferr.match || [];
+        const ferrFaltando = ferr.faltando || [];
+        const ferrExigidas = ferr.exigidas || [];
+
+        const langMatch = lang.match || [];
+        const langExigidos = lang.exigidos || [];
+
+        const ferramentasAtendidas = ferrExigidas.length
+          ? Math.round((ferrMatch.length / ferrExigidas.length) * 100)
+          : 100;
+
+        const areasTexto = areasD
+          ? 'A área temática do edital é compatível com o perfil.'
+          : 'Não foi identificada compatibilidade entre as áreas temáticas.';
+
+        const gradTexto = gradMatch.length
+          ? 'Há pelo menos uma formação compatível com a exigência.'
+          : 'Nenhuma formação compatível foi identificada.';
+
+        const ferrTexto = !ferrExigidas.length
+          ? 'Não foram identificadas ferramentas específicas exigidas.'
+          : ferrFaltando.length
+            ? `${ferrMatch.length} de ${ferrExigidas.length} ferramentas encontradas.`
+            : 'Todas as ferramentas exigidas foram encontradas.';
+
+        const langTexto = !langExigidos.length
+          ? 'Não foram identificados idiomas específicos exigidos.'
+          : langMatch.length
+            ? 'Há correspondência entre os idiomas exigidos e o perfil.'
+            : 'Nenhum idioma exigido foi encontrado no perfil.';
+
+        matchHTML = `
+            <div class="match-header">
+              <strong>Aderência: ${matchPct(matchData.score)}</strong>
+              <span>${matchEmoji(matchData.score)}</span>
+            </div>
+            ${perfilMatchNome
+            ? '<div class="match-profile">Perfil analisado: <strong>' +
+            esc(perfilMatchNome) +
+            '</strong></div>'
+            : ''}
+              <div class="match-explanation">
+                <div class="match-criterion">
+                  <div class="criterion-title">
+                    <span class="req-icon">${areasD ? '✅' : '❌'}</span>
+                    <strong>Áreas temáticas</strong>
+                  </div>
+                  <div class="criterion-text">${areasTexto}</div>
+                </div>
+
+                ${gradExigidas.length ? `
+                <div class="match-criterion">
+                  <div class="criterion-title">
+                    <span class="req-icon">${gradMatch.length ? '✅' : '❌'}</span>
+                    <strong>Graduação</strong>
+                  </div>
+                  <div class="criterion-text">${gradTexto}</div>
+                  <div class="criterion-detail">
+                    <strong>Exigidas:</strong> ${esc(gradExigidas.join(', '))}
+                  </div>
+                  <div class="criterion-detail">
+                    <strong>Compatíveis:</strong> ${esc(gradMatch.join(', ') || 'nenhuma')}
+                  </div>
+                </div>
+                ` : ''}
+
+                ${ferrExigidas.length ? `
+                <div class="match-criterion">
+                  <div class="criterion-title">
+                    <span class="req-icon">${ferrFaltando.length ? '⚠️' : '✅'}</span>
+                    <strong>Ferramentas</strong>
+                    <span class="criterion-percent">${ferramentasAtendidas}%</span>
+                  </div>
+                  <div class="criterion-text">${ferrTexto}</div>
+                  <div class="criterion-detail">
+                    <strong>Encontradas:</strong> ${esc(ferrMatch.join(', ') || 'nenhuma')}
+                  </div>
+                  ${ferrFaltando.length ? `
+                  <div class="criterion-detail criterion-missing">
+                    <strong>Faltando:</strong> ${esc(ferrFaltando.join(', '))}
+                  </div>
+                  ` : ''}
+                </div>
+                ` : ''}
+
+                ${langExigidos.length ? `
+                <div class="match-criterion">
+                  <div class="criterion-title">
+                    <span class="req-icon">${langMatch.length ? '✅' : '❌'}</span>
+                    <strong>Idiomas</strong>
+                  </div>
+                  <div class="criterion-text">${langTexto}</div>
+                  <div class="criterion-detail">
+                    <strong>Exigidos:</strong> ${esc(langExigidos.join(', '))}
+                  </div>
+                  <div class="criterion-detail">
+                    <strong>Compatíveis:</strong> ${esc(langMatch.join(', ') || 'nenhum')}
+                  </div>
+                </div>
+                ` : ''}
+
+                ${d.valor ? `
+                <div class="match-criterion">
+                  <div class="criterion-title">
+                    <span class="req-icon">${d.valor.acima_minimo ? '✅' : '⚠️'}</span>
+                    <strong>Valor</strong>
+                  </div>
+                  <div class="criterion-text">
+                    ${d.valor.acima_minimo
+              ? 'O valor do edital está acima do mínimo definido para o perfil.'
+              : 'O valor do edital está abaixo do mínimo definido para o perfil.'}
+                  </div>
+                  <div class="criterion-detail">
+                    <strong>Edital:</strong> ${formatMoney(d.valor.edital)}
+                    &nbsp;|&nbsp;
+                    <strong>Mínimo:</strong> ${formatMoney(d.valor.minimo_perfil)}
+                  </div>
+                </div>
+                ` : ''}
+              </div>
+            </div>`;
+      }
       document.getElementById('modal-content').innerHTML = `
     <div class="modal-header">
       <h2>${esc(e.titulo || 'Sem título')}</h2>

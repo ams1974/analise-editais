@@ -1,5 +1,4 @@
 import json
-from pathlib import Path
 
 from core.config import DADOS_BRUTOS_DIR
 
@@ -32,7 +31,8 @@ def enriquecer_edital(edital: dict, qualificacoes: dict[str, dict]) -> dict:
             "valor_tor": qual.get("valor"),
             "obrigatorios": qual.get("requisitos_obrigatorios", []),
             "desejaveis": qual.get("requisitos_desejaveis", []),
-        }
+            "entregaveis": qual.get("entregaveis", []),
+        },
     }
 
 
@@ -44,7 +44,9 @@ def calcular_match_detalhado(edital: dict, perfil: dict) -> dict:
 
     requisitos = edital.get("requisitos", {})
     areas_edital = edital.get("areas_tematicas", [])
-    areas_str = areas_edital if isinstance(areas_edital, str) else ", ".join(areas_edital)
+    areas_str = (
+        areas_edital if isinstance(areas_edital, str) else ", ".join(areas_edital)
+    )
 
     areas_interesse = set(perfil.get("areas_interesse", []))
     match_areas = [a for a in areas_interesse if a.lower() in areas_str.lower()]
@@ -56,7 +58,11 @@ def calcular_match_detalhado(edital: dict, perfil: dict) -> dict:
     ferramentas_edital = [f.lower() for f in requisitos.get("ferramentas", [])]
     ferramentas_perfil = [f.lower() for f in perfil.get("ferramentas", [])]
     match_ferr = [f for f in ferramentas_perfil if f in ferramentas_edital]
-    missing_ferr = [f for f in ferramentas_perfil if f not in ferramentas_edital and ferramentas_edital]
+    missing_ferr = [
+        f
+        for f in ferramentas_perfil
+        if f not in ferramentas_edital and ferramentas_edital
+    ]
     detalhes["ferramentas"] = {
         "match": match_ferr,
         "faltando": missing_ferr,
@@ -68,7 +74,11 @@ def calcular_match_detalhado(edital: dict, perfil: dict) -> dict:
 
     graduacoes_edital = [g.lower() for g in requisitos.get("graduacao", [])]
     graduacoes_perfil = [g.lower() for g in perfil.get("graduacoes", [])]
-    match_grad = [g for g in graduacoes_perfil if any(ge in g or g in ge for ge in graduacoes_edital)]
+    match_grad = [
+        g
+        for g in graduacoes_perfil
+        if any(ge in g or g in ge for ge in graduacoes_edital)
+    ]
     detalhes["graduacao"] = {
         "match": match_grad,
         "exigidas": graduacoes_edital,
@@ -94,7 +104,9 @@ def calcular_match_detalhado(edital: dict, perfil: dict) -> dict:
     detalhes["valor"] = {
         "edital": valor_edital,
         "minimo_perfil": valor_minimo,
-        "acima_minimo": valor_edital >= valor_minimo if valor_edital and valor_minimo else None,
+        "acima_minimo": valor_edital >= valor_minimo
+        if valor_edital and valor_minimo
+        else None,
     }
     if valor_edital and valor_minimo:
         score += 0.10 * min(valor_edital / valor_minimo, 1.0)
