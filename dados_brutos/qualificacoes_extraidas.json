@@ -7373,5 +7373,51 @@
     "descricao": "Consultoria especializada em estudo na área de educação e ações de cooperação internacional da UNESCO",
     "local": "",
     "data_fim": "2026-09-30"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13272",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "física"
+    ],
+    "pos_graduacao": [
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "e aos critérios de pontuação previstos neste termo de referência. descrições genéricas",
+      "ou incompletas poderão ensejar a não consideração da experiência apresentada ou a não atribuição",
+      "da pontuação correspondente.",
+      "não serão consideradas candidaturas submetidas fora do prazo previsto, incompletas ou em",
+      "desacordo com as exigências estabelecidas neste termo de referência. a comissão de seleção",
+      "realizará a análise e classificação dos candidatos habilitados e definirá aqueles que serão",
+      "convocados para a etapa de entrevista.",
+      "os comprovantes de formação e experiência profissional deverão ser anexados ao currículo",
+      "cadastrado na plataforma de currículos da oei até o encerramento do período de inscrições previsto"
+    ],
+    "requisitos_desejaveis": [],
+    "entregaveis": [],
+    "competencias": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR13272",
+    "descricao": "Contratação de 1 (um) consultor especializado em Normas Jurídicas, Conformidade Normativa e Desenvolvimento de Instrumentos Jurídico-Administrativos para assessorar a execução e o acompanhamento do ACTI e do Plano de Trabalho. Além de realizar análises de conformidade normativa e elaborar estudos, notas técnicas e instrumentos jurídico-administrativos, o consultor prestará apoio à OEI e à SEDUC-RS nas demandas relacionadas às contratações, à execução contratual, à formalização de parcerias e às demais atividades do Acordo. Isso inclui a identificação e mitigação de riscos normativos, administrativos, contratuais e de integridade, bem como o fortalecimento da governança, da transparência e da segurança jurídica dos procedimentos, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
+    "local": "Porto Alegre - RS",
+    "data_fim": "2026-09-29"
   }
 ]

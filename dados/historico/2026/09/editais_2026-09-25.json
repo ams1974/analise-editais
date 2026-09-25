@@ -674,25 +674,26 @@
     ]
   },
   {
-    "id": "oei:pregao-presencial-no-11455-2025-oei-tecnica-e-preco",
-    "title": "PREGÃO PRESENCIAL Nº 11455/2025 – OEI TÉCNICA E PREÇO",
-    "description": "R$ 48.391,94",
-    "comments": "R$ 48.391,94",
-    "startDate": "2025-03-27",
-    "endDate": "2025-04-14",
-    "local": "Brasília - DF",
+    "id": "oei:licitacao-no-12087-2025-oei-cop30-menor-preco",
+    "title": "LICITAÇÃO Nº 12087/2025 – OEI/COP30  MELHOR TÉCNICA E MENOR PREÇO",
+    "description": "Contratação de pessoa jurídica especializada na prestação de serviços de interpretação, nas modalidades simultânea e consecutiva, presencial e remota, em caráter não exclusivo e sob demanda, para atender às necessidades de autoridades, de delegações e de participantes das reuniões Pré-Sessionais e da 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre a Mudança do Clima (COP30), conforme especificações e detalhamentos contidos no Anexo “A” – Termo de Referência.",
+    "comments": "R$ 10.000,00",
+    "startDate": "2025-08-14",
+    "endDate": "2025-08-28",
+    "local": "Belém/PA",
     "receivingEmail": "compras.bra@oei.int",
     "statusDescription": "Desierta",
-    "created": "2025-03-27",
-    "torid": "oei:pregao-presencial-no-11455-2025-oei-tecnica-e-preco",
+    "created": "2025-08-14",
+    "torid": "oei:licitacao-no-12087-2025-oei-cop30-menor-preco",
     "fonte": "oei",
-    "orgao_parceiro": "OEI",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/pregao-presencial-no-11455-2025-oei-tecnica-e-preco/",
+    "orgao_parceiro": "OEI/COP30",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/licitacao-no-12087-2025-oei-cop30-menor-preco/",
     "tor_urls": [
-      "https://oei.int/wp-content/uploads/2025/01/procedimento-de-contratacao-da-oei-escritorio-no-brasil-7o-edicao.pdf",
-      "https://oei.int/wp-content/uploads/2025/03/edital-pregao-no-11455-2025-oei-publicidade-institucional.pdf",
-      "https://oei.int/wp-content/uploads/2025/03/link.pdf",
-      "https://oei.int/wp-content/uploads/2025/03/ata-pregao-presencial-1455-2025.pdf"
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2025/08/edital-da-licitacao-no-12087-2025-oei-cop30.pdf",
+      "https://oei.int/wp-content/uploads/2025/08/anexo-i-cop29-summary-of-operations-statistics-final-with-highlights-marked-in-yellow.pdf",
+      "https://oei.int/wp-content/uploads/2025/08/link-para-licitacao-no-120872025-oeicop30-menor-preco.pdf",
+      "https://oei.int/wp-content/uploads/2025/08/ata-recebimento-documentacao-administrativa-e-propostas-licitacao-deserta.pdf"
     ]
   },
   {
@@ -716,29 +717,6 @@
       "https://oei.int/wp-content/uploads/2025/09/anexo-edital-no-12218-2025.pdf",
       "https://oei.int/wp-content/uploads/2025/09/link-para-12218-2025.pdf",
       "https://oei.int/wp-content/uploads/2025/09/ata-da-sessao-de-recebimento-da-documentacao-e-propostas-12218-2025.pdf"
-    ]
-  },
-  {
-    "id": "oei:licitacao-no-12087-2025-oei-cop30-menor-preco",
-    "title": "LICITAÇÃO Nº 12087/2025 – OEI/COP30  MELHOR TÉCNICA E MENOR PREÇO",
-    "description": "Contratação de pessoa jurídica especializada na prestação de serviços de interpretação, nas modalidades simultânea e consecutiva, presencial e remota, em caráter não exclusivo e sob demanda, para atender às necessidades de autoridades, de delegações e de participantes das reuniões Pré-Sessionais e da 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre a Mudança do Clima (COP30), conforme especificações e detalhamentos contidos no Anexo “A” – Termo de Referência.",
-    "comments": "R$ 10.000,00",
-    "startDate": "2025-08-14",
-    "endDate": "2025-08-28",
-    "local": "Belém/PA",
-    "receivingEmail": "compras.bra@oei.int",
-    "statusDescription": "Desierta",
-    "created": "2025-08-14",
-    "torid": "oei:licitacao-no-12087-2025-oei-cop30-menor-preco",
-    "fonte": "oei",
-    "orgao_parceiro": "OEI/COP30",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/licitacao-no-12087-2025-oei-cop30-menor-preco/",
-    "tor_urls": [
-      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
-      "https://oei.int/wp-content/uploads/2025/08/edital-da-licitacao-no-12087-2025-oei-cop30.pdf",
-      "https://oei.int/wp-content/uploads/2025/08/anexo-i-cop29-summary-of-operations-statistics-final-with-highlights-marked-in-yellow.pdf",
-      "https://oei.int/wp-content/uploads/2025/08/link-para-licitacao-no-120872025-oeicop30-menor-preco.pdf",
-      "https://oei.int/wp-content/uploads/2025/08/ata-recebimento-documentacao-administrativa-e-propostas-licitacao-deserta.pdf"
     ]
   },
   {
@@ -770,22 +748,46 @@
     ]
   },
   {
-    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO DEMOCRACIA PARTICIPATIVA/BRA/SGPR/24 – TR13169",
-    "description": "Contratação de consultor(a) especialista (pessoa física) para prestar apoio técnico às ações dos Acordos de Cooperação Técnica (ACTs) firmados entre Ministérios do Poder Executivo e entes do Poder Judiciário, com a finalidade de promover e fortalecer a participação social dos povos indígenas e tribais no Brasil.",
-    "comments": "R$ 30.000,00",
-    "startDate": "2026-07-29",
-    "endDate": "2026-08-04",
-    "local": "Remoto, Brasília - DF",
-    "receivingEmail": "selecao.bra@oei.int",
-    "statusDescription": "En evaluación",
-    "created": "2026-07-29",
-    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169",
+    "id": "oei:pregao-presencial-no-11455-2025-oei-tecnica-e-preco",
+    "title": "PREGÃO PRESENCIAL Nº 11455/2025 – OEI TÉCNICA E PREÇO",
+    "description": "R$ 48.391,94",
+    "comments": "R$ 48.391,94",
+    "startDate": "2025-03-27",
+    "endDate": "2025-04-14",
+    "local": "Brasília - DF",
+    "receivingEmail": "compras.bra@oei.int",
+    "statusDescription": "Desierta",
+    "created": "2025-03-27",
+    "torid": "oei:pregao-presencial-no-11455-2025-oei-tecnica-e-preco",
     "fonte": "oei",
     "orgao_parceiro": "OEI",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169/",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/pregao-presencial-no-11455-2025-oei-tecnica-e-preco/",
     "tor_urls": [
-      "https://oei.int/wp-content/uploads/2026/07/termo-de-referencia-tr13169.pdf"
+      "https://oei.int/wp-content/uploads/2025/01/procedimento-de-contratacao-da-oei-escritorio-no-brasil-7o-edicao.pdf",
+      "https://oei.int/wp-content/uploads/2025/03/edital-pregao-no-11455-2025-oei-publicidade-institucional.pdf",
+      "https://oei.int/wp-content/uploads/2025/03/link.pdf",
+      "https://oei.int/wp-content/uploads/2025/03/ata-pregao-presencial-1455-2025.pdf"
+    ]
+  },
+  {
+    "id": "oei:concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco",
+    "title": "CONCORRÊNCIA Nº 10904/2024 – OEI-ENAP TÉCNICA E PREÇO",
+    "description": "Contratação de serviços técnicos especializados para Sistematização do Programa Líderes que Transformam, por meio da organização e estruturação do Conhecimento do Programa, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
+    "comments": "R$ 137.000,00",
+    "startDate": "2024-12-17",
+    "endDate": "2025-03-11",
+    "local": "Brasília, Brasil",
+    "receivingEmail": "compras.bra@oei.int",
+    "statusDescription": "Desierta",
+    "created": "2024-12-17",
+    "torid": "oei:concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/ENAP",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/12/edital-concorrencia-no-10904-2024-oei-enap-versao-final.pdf",
+      "https://oei.int/wp-content/uploads/2024/12/link-para-sala-virtual-concorrencoa-no-109042024-oei-enap.pdf",
+      "https://oei.int/wp-content/uploads/2024/12/ata-recebimento-propostas.pdf"
     ]
   },
   {
@@ -811,24 +813,22 @@
     ]
   },
   {
-    "id": "oei:concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco",
-    "title": "CONCORRÊNCIA Nº 10904/2024 – OEI-ENAP TÉCNICA E PREÇO",
-    "description": "Contratação de serviços técnicos especializados para Sistematização do Programa Líderes que Transformam, por meio da organização e estruturação do Conhecimento do Programa, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
-    "comments": "R$ 137.000,00",
-    "startDate": "2024-12-17",
-    "endDate": "2025-03-11",
-    "local": "Brasília, Brasil",
-    "receivingEmail": "compras.bra@oei.int",
-    "statusDescription": "Desierta",
-    "created": "2024-12-17",
-    "torid": "oei:concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco",
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO DEMOCRACIA PARTICIPATIVA/BRA/SGPR/24 – TR13169",
+    "description": "Contratação de consultor(a) especialista (pessoa física) para prestar apoio técnico às ações dos Acordos de Cooperação Técnica (ACTs) firmados entre Ministérios do Poder Executivo e entes do Poder Judiciário, com a finalidade de promover e fortalecer a participação social dos povos indígenas e tribais no Brasil.",
+    "comments": "R$ 30.000,00",
+    "startDate": "2026-07-29",
+    "endDate": "2026-08-04",
+    "local": "Remoto, Brasília - DF",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-07-29",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169",
     "fonte": "oei",
-    "orgao_parceiro": "OEI/ENAP",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencoa-no-10904-2024-oei-enap-tecnica-e-preco/",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-democracia-participativa-bra-sgpr-24-tr13169/",
     "tor_urls": [
-      "https://oei.int/wp-content/uploads/2024/12/edital-concorrencia-no-10904-2024-oei-enap-versao-final.pdf",
-      "https://oei.int/wp-content/uploads/2024/12/link-para-sala-virtual-concorrencoa-no-109042024-oei-enap.pdf",
-      "https://oei.int/wp-content/uploads/2024/12/ata-recebimento-propostas.pdf"
+      "https://oei.int/wp-content/uploads/2026/07/termo-de-referencia-tr13169.pdf"
     ]
   },
   {
@@ -1133,6 +1133,27 @@
     ]
   },
   {
+    "id": "oei:procedimento-simplificado-no-10260-2024",
+    "title": "Procedimento Simplificado nº 10260/2024 – OEI/SEBRAE-MEMP",
+    "description": "Contratação de pessoa jurídica objetivando a prestação de serviços de pesquisa para elaboração da Estratégia Transversal Nacional Climática para os Impactos socioeconômicos e ambientais da transição, tendo como foco principal o de fornecer uma compreensão aprofundada e abrangente das mudanças que essa transição implica para as pequenas e médias empresas (MPEs), conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
+    "comments": "R$ 590.000,00",
+    "startDate": "2024-08-26",
+    "endDate": "2024-09-05",
+    "local": "Brasília/DF",
+    "receivingEmail": "compras.bra@oei.int",
+    "statusDescription": "Desierta",
+    "created": "2024-08-26",
+    "torid": "oei:procedimento-simplificado-no-10260-2024",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/SEBRAE",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/procedimento-simplificado-no-10260-2024/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/08/edital-procedimento-simplificado-no-10260-2024-oei-memp-empreeendedorismo-climatico-n-braeil.pdf",
+      "https://oei.int/wp-content/uploads/2024/08/procedimento-de-contratacao-da-oei-escritorio-no-brasil-7o-edicao.pdf",
+      "https://oei.int/wp-content/uploads/2024/08/ata-recebimento-propostas-procedimento-simplificado-no-10260-2024-oei-memp.pdf"
+    ]
+  },
+  {
     "id": "oei:concorrencia-no-13046-2026-oei-mdhc-tecnica-e-preco",
     "title": "CONCORRÊNCIA Nº 13046/2026- OEI/MDHC TÉCNICA E PREÇO",
     "description": "Contratação de empresa especializada para a prestação de serviços de desenvolvimento de subsídios técnicos voltados ao fortalecimento do Sistema de Garantia de Direitos na proteção integral de crianças e adolescentes em situação de rua, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
@@ -1153,27 +1174,6 @@
       "https://oei.int/wp-content/uploads/2026/07/resposta-a-pedido-de-esclarecimento-no-01-concorrencia-no-13046-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/07/errata-a-pedido-de-esclarecimento-concorrencia-n-13046-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/07/ata-da-sessao-de-recebimento-das-prpostas-e-abertura-envelope-proposta-tecnica-13046-2026.pdf"
-    ]
-  },
-  {
-    "id": "oei:procedimento-simplificado-no-10260-2024",
-    "title": "Procedimento Simplificado nº 10260/2024 – OEI/SEBRAE-MEMP",
-    "description": "Contratação de pessoa jurídica objetivando a prestação de serviços de pesquisa para elaboração da Estratégia Transversal Nacional Climática para os Impactos socioeconômicos e ambientais da transição, tendo como foco principal o de fornecer uma compreensão aprofundada e abrangente das mudanças que essa transição implica para as pequenas e médias empresas (MPEs), conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
-    "comments": "R$ 590.000,00",
-    "startDate": "2024-08-26",
-    "endDate": "2024-09-05",
-    "local": "Brasília/DF",
-    "receivingEmail": "compras.bra@oei.int",
-    "statusDescription": "Desierta",
-    "created": "2024-08-26",
-    "torid": "oei:procedimento-simplificado-no-10260-2024",
-    "fonte": "oei",
-    "orgao_parceiro": "OEI/SEBRAE",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/procedimento-simplificado-no-10260-2024/",
-    "tor_urls": [
-      "https://oei.int/wp-content/uploads/2024/08/edital-procedimento-simplificado-no-10260-2024-oei-memp-empreeendedorismo-climatico-n-braeil.pdf",
-      "https://oei.int/wp-content/uploads/2024/08/procedimento-de-contratacao-da-oei-escritorio-no-brasil-7o-edicao.pdf",
-      "https://oei.int/wp-content/uploads/2024/08/ata-recebimento-propostas-procedimento-simplificado-no-10260-2024-oei-memp.pdf"
     ]
   },
   {
@@ -1312,6 +1312,30 @@
     ]
   },
   {
+    "id": "oei:concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco",
+    "title": "CONCORRÊNCIA Nº 13126/2026- OEI/MDHC TÉCNICA E PREÇO",
+    "description": "Contratação de empresa especializada para conceber metodologia, preparar materiais de apoio, facilitar/conduzir tecnicamente e sistematizar oficinas presenciais e virtuais, bem como produzir materiais técnicos e educomunicativos voltados à implementação e à disseminação do Estatuto Digital da Criança e do Adolescente (ECA Digital), com foco no fortalecimento da atuação do Sistema de Garantia dos Direitos da Criança e do Adolescente - SGDCA, do Sistema de Justiça, dos Conselhos Tutelares e da participação de adolescentes em políticas de proteção e promoção de direitos no ambiente digital, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
+    "comments": "R$ 350.000,00",
+    "startDate": "2026-08-10",
+    "endDate": "2026-10-05",
+    "local": "Nacional",
+    "receivingEmail": "compras.bra@oei.int",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-08-10",
+    "torid": "oei:concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/MDHC",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/08/edital-concorrencia-no-13126-2026-oei-mdhc.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/link-para-concorrencia-n-13126-2026-oei-mdhc-tecnica-e-preco.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-01-13126-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-02-13126-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-03-13126-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-04-13216-2026.pdf"
+    ]
+  },
+  {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
     "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 13236",
     "description": "Consultoria técnica especializada para desenvolver proposta, testar em caráter piloto, avaliar e documentar a metodologia de implantação e governança de bases de conhecimento e instrumentos de acompanhamento do desempenho e da qualidade dos conteúdos utilizados na alimentação dos agentes de Inteligência Artificial da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
@@ -1353,27 +1377,22 @@
     ]
   },
   {
-    "id": "oei:concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco",
-    "title": "CONCORRÊNCIA Nº 13126/2026- OEI/MDHC TÉCNICA E PREÇO",
-    "description": "Contratação de empresa especializada para conceber metodologia, preparar materiais de apoio, facilitar/conduzir tecnicamente e sistematizar oficinas presenciais e virtuais, bem como produzir materiais técnicos e educomunicativos voltados à implementação e à disseminação do Estatuto Digital da Criança e do Adolescente (ECA Digital), com foco no fortalecimento da atuação do Sistema de Garantia dos Direitos da Criança e do Adolescente - SGDCA, do Sistema de Justiça, dos Conselhos Tutelares e da participação de adolescentes em políticas de proteção e promoção de direitos no ambiente digital, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
-    "comments": "R$ 350.000,00",
-    "startDate": "2026-08-10",
-    "endDate": "2026-10-05",
-    "local": "Nacional",
-    "receivingEmail": "compras.bra@oei.int",
-    "statusDescription": "En fase de apresentação",
-    "created": "2026-08-10",
-    "torid": "oei:concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco",
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13272",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR13272",
+    "description": "Contratação de 1 (um) consultor especializado em Normas Jurídicas, Conformidade Normativa e Desenvolvimento de Instrumentos Jurídico-Administrativos para assessorar a execução e o acompanhamento do ACTI e do Plano de Trabalho. Além de realizar análises de conformidade normativa e elaborar estudos, notas técnicas e instrumentos jurídico-administrativos, o consultor prestará apoio à OEI e à SEDUC-RS nas demandas relacionadas às contratações, à execução contratual, à formalização de parcerias e às demais atividades do Acordo. Isso inclui a identificação e mitigação de riscos normativos, administrativos, contratuais e de integridade, bem como o fortalecimento da governança, da transparência e da segurança jurídica dos procedimentos, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
+    "comments": "Não informado",
+    "startDate": "2026-09-25",
+    "endDate": "2026-09-29",
+    "local": "Porto Alegre - RS",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-09-25",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13272",
     "fonte": "oei",
-    "orgao_parceiro": "OEI/MDHC",
-    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencia-no-13126-2026-oei-mdhc-tecnica-e-preco/",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13272/",
     "tor_urls": [
-      "https://oei.int/wp-content/uploads/2026/08/edital-concorrencia-no-13126-2026-oei-mdhc.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/link-para-concorrencia-n-13126-2026-oei-mdhc-tecnica-e-preco.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-01-13126-2026.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-02-13126-2026.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-03-13126-2026.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-04-13216-2026.pdf"
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13272.pdf"
     ]
   }
 ]
