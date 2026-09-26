@@ -1,12 +1,15 @@
 import json
-from datetime import datetime, date
+from datetime import date, datetime
 from pathlib import Path
-from typing import Optional
 
-from core.config import HISTORICO_DIR, EDITAIS_TODOS_FILE, EDITAIS_PROCESSADOS_FILE
+from core.config import (
+    EDITAIS_PROCESSADOS_FILE,
+    EDITAIS_TODOS_FILE,
+    HISTORICO_DIR,
+)
 
 
-def snapshot_path(data: Optional[date] = None) -> Path:
+def snapshot_path(data: date | None = None) -> Path:
     d = data or date.today()
     diretorio = HISTORICO_DIR / str(d.year) / f"{d.month:02d}"
     diretorio.mkdir(parents=True, exist_ok=True)
@@ -25,7 +28,7 @@ def carregar_editais_processados() -> list:
     return []
 
 
-def salvar_snapshot(editais: list, data: Optional[date] = None) -> Path:
+def salvar_snapshot(editais: list, data: date | None = None) -> Path:
     caminho = snapshot_path(data)
     caminho.write_text(json.dumps(editais, indent=2, ensure_ascii=False))
     return caminho
@@ -48,7 +51,9 @@ def atualizar_editais_todos(novos_editais: list) -> tuple[int, int]:
             existentes[eid] = edital
             novos += 1
 
-    todos = sorted(existentes.values(), key=lambda e: e.get("startDate", ""), reverse=True)
+    todos = sorted(
+        existentes.values(), key=lambda e: e.get("startDate", ""), reverse=True
+    )
     EDITAIS_TODOS_FILE.write_text(json.dumps(todos, indent=2, ensure_ascii=False))
     return novos, atualizados
 
@@ -74,11 +79,13 @@ def detectar_novidades(atuais: list, anteriores: list) -> dict:
 
 
 def salvar_processados(editais: list) -> Path:
-    EDITAIS_PROCESSADOS_FILE.write_text(json.dumps(editais, indent=2, ensure_ascii=False))
+    EDITAIS_PROCESSADOS_FILE.write_text(
+        json.dumps(editais, indent=2, ensure_ascii=False)
+    )
     return EDITAIS_PROCESSADOS_FILE
 
 
-def ultimo_snapshot() -> Optional[Path]:
+def ultimo_snapshot() -> Path | None:
     """Retorna o caminho do snapshot mais recente."""
     snaps = sorted(HISTORICO_DIR.glob("*/*/editais_*.json"))
     return snaps[-1] if snaps else None
@@ -92,7 +99,8 @@ def carregar_ultimo_snapshot() -> list:
 
 
 def carregar_editais_historico(meses: int = 12) -> list:
-    from datetime import datetime, timedelta
+    from datetime import timedelta
+
     corte = (datetime.now() - timedelta(days=meses * 30)).strftime("%Y-%m-%d")
     todos = carregar_editais_todos()
     return [e for e in todos if e.get("startDate", "")[:10] >= corte]

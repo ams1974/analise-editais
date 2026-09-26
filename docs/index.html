@@ -207,6 +207,21 @@
       border-color: #c5cdd8
     }
 
+    .historico-stats {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      margin: 12px 0;
+      padding: 10px 14px;
+      border-radius: 8px;
+      background: #f8f9fa;
+      font-size: 14px;
+    }
+
+    .historico-stats span {
+      white-space: nowrap;
+    }
+
     /* Edital cards */
     .edital-grid {
       display: grid;
@@ -921,7 +936,32 @@
 
   <script>
     const DATA_URL = './data/analise.json';
-    let state = { data: null, perfil: null, filtroArea: '', filtroTipo: '', filtroPeazo: '', filtroBusca: '', view: 'ativos' };
+    let state = { data: null, perfil: null, filtroArea: '', filtroTipo: '', filtroPrazo: '', filtroStatus: '', filtroBusca: '', view: 'ativos' };
+    const STATUS_CONFIG = {
+      ativo: {
+        label: 'Ativo',
+        icon: '🟢',
+        classe: 'status-aberto'
+      },
+      encerrado: {
+        label: 'Encerrado',
+        icon: '🔴',
+        classe: 'status-encerrado'
+      },
+      inativo: {
+        label: 'Não disponível',
+        icon: '⚪',
+        classe: 'status-inativo'
+      }
+    };
+
+    function statusInfo(status) {
+      return STATUS_CONFIG[status] || {
+        label: 'Desconhecido',
+        icon: '⚪',
+        classe: 'status-inativo'
+      };
+    }
 
     async function load() {
       try {
@@ -1156,9 +1196,10 @@
       const d = state.data;
       if (!d) return;
 
+
       // Dashboard cards
       const p = state.perfil;
-      let filtered = [...d.editais];
+      let filtered = (d.editais || []).filter(e => e.status_sistema === 'ativo');
       if (p) filtered = filtered.filter(e => {
         const s = getMatchScore(e, p);
         return s !== null && s >= 0.15;
@@ -1180,18 +1221,18 @@
     <div class="cards">
       <div class="card">
         <div class="card-label">Editais ativos</div>
-        <div class="card-value">${d.resumo.total_editais}</div>
-        <div class="card-sub">${byProfile} compatíveis ${p ? 'com seu perfil' : ''}</div>
+        <div class="card-value">${filtered.length}</div>
+        <div class="card-sub">${byProfile} compatíveis ${p ? 'com seu perfil' : 'na consulta atual'}</div>
       </div>
       <div class="card">
         <div class="card-label">Novos hoje</div>
         <div class="card-value">${d.resumo.novos_hoje || 0}</div>
-        <div class="card-sub">${d.resumo.encerrados_hoje || 0} encerrados</div>
+        <div class="card-sub">${d.resumo.encerrados_hoje || 0} encerrados hoje</div>
       </div>
       <div class="card">
         <div class="card-label">Valor médio</div>
         <div class="card-value">${v.medio ? formatMoney(v.medio) : 'NI'}</div>
-        <div class="card-sub">${v.quantidade_com_valor || 0} editais com valor</div>
+        <div class="card-sub">${v.quantidade_com_valor || 0} editais ativos com valor</div>
       </div>
       <div class="card">
         <div class="card-label">Perfis</div>
@@ -1203,32 +1244,68 @@
     <div class="recs" id="recs-section"></div>
 
     <div class="view-tabs">
-      <button class="view-tab ${state.view === 'ativos' ? 'active' : ''}" id="tab-ativos" onclick="setView('ativos')">🟢 Ativos (${(d.editais || []).length})</button>
-      <button class="view-tab ${state.view === 'historico' ? 'active' : ''}" id="tab-historico" onclick="setView('historico')">🕘 Histórico · 12 meses (${(d.historico || []).length})</button>
+      <button class="view-tab ${state.view === 'ativos' ? 'active' : ''}"
+              id="tab-ativos"
+              onclick="setView('ativos')">
+        🟢 Ativos (${d.resumo.editais_ativos})
+      </button>
+
+      <button class="view-tab ${state.view === 'historico' ? 'active' : ''}"
+              id="tab-historico"
+              onclick="setView('historico')">
+        🕘 Histórico · ${d.historico_meses || 12} meses (${d.resumo.historico_total})
+      </button>
+
+      ${state.view === 'historico' ? `
+        <span class="historico-status">
+          🟢 ${d.resumo.historico_ativos} Ativos
+          &nbsp; · &nbsp;
+          🔴 ${d.resumo.historico_encerrados} Encerrados
+          &nbsp; · &nbsp;
+          ⚪ ${d.resumo.historico_inativos} Não disponíveis
+        </span>
+      ` : ''}
     </div>
 
     <div class="filters">
       <select onchange="state.filtroArea=this.value;renderEditalList()">
         <option value="">Todas as áreas</option>
-        ${filterOptions.areas.map(a => '<option value="' + esc(a) + '">' + esc(a) + '</option>').join('')}
+        ${filterOptions.areas.map(a =>
+        '<option value="' + esc(a) + '"' +
+        (a === state.filtroArea ? ' selected' : '') +
+        '>' + esc(a) + '</option>'
+      ).join('')}
       </select>
 
       <select onchange="state.filtroTipo=this.value;renderEditalList()">
         <option value="">Todos os tipos</option>
-        ${filterOptions.tipos.map(t => '<option value="' + esc(t) + '">' + esc(t) + '</option>').join('')}
+        ${filterOptions.tipos.map(t =>
+        '<option value="' + esc(t) + '"' +
+        (t === state.filtroTipo ? ' selected' : '') +
+        '>' + esc(t) + '</option>'
+      ).join('')}
       </select>
 
       <select onchange="state.filtroPrazo=this.value;renderEditalList()">
         <option value="">Todos os prazos</option>
-        <option value="3">Até 3 dias</option>
-        <option value="7">Até 7 dias</option>
-        <option value="15">Até 15 dias</option>
-        <option value="30">Até 30 dias</option>
-        <option value="mais30">Mais de 30 dias</option>
+        <option value="3" ${state.filtroPrazo === '3' ? 'selected' : ''}>Até 3 dias</option>
+        <option value="7" ${state.filtroPrazo === '7' ? 'selected' : ''}>Até 7 dias</option>
+        <option value="15" ${state.filtroPrazo === '15' ? 'selected' : ''}>Até 15 dias</option>
+        <option value="30" ${state.filtroPrazo === '30' ? 'selected' : ''}>Até 30 dias</option>
+        <option value="mais30" ${state.filtroPrazo === 'mais30' ? 'selected' : ''}>Mais de 30 dias</option>
       </select>
 
+      ${state.view === 'historico' ? `
+        <select onchange="state.filtroStatus=this.value;renderEditalList()">
+          <option value="">Todos os status</option>
+          <option value="ativo" ${state.filtroStatus === 'ativo' ? 'selected' : ''}>🟢 Ativos</option>
+          <option value="encerrado" ${state.filtroStatus === 'encerrado' ? 'selected' : ''}>🔴 Encerrados</option>
+          <option value="inativo" ${state.filtroStatus === 'inativo' ? 'selected' : ''}>⚪ Não disponíveis</option>
+        </select>
+      ` : ''}
       <input type="text" id="filtro-busca"
         placeholder="Buscar por título, órgão ou ferramenta..."
+        value="${esc(state.filtroBusca)}"
         oninput="state.filtroBusca=this.value.toLowerCase();renderEditalList()">
 
       <button class="clear-filters-btn" onclick="limparBusca()">✖ Limpar busca</button>
@@ -1244,17 +1321,24 @@
       state.view = v;
       document.getElementById('tab-ativos')?.classList.toggle('active', v === 'ativos');
       document.getElementById('tab-historico')?.classList.toggle('active', v === 'historico');
-      renderEditalList();
+      renderAll();
     }
 
     function currentList() {
-      return state.view === 'historico' ? (state.data?.historico || []) : (state.data?.editais || []);
+      if (state.view === 'historico') {
+        return state.data?.historico || [];
+      }
+
+      return (state.data?.editais || []).filter(
+        e => e.status_sistema === 'ativo'
+      );
     }
 
     function limparBusca() {
       state.filtroArea = '';
       state.filtroTipo = '';
       state.filtroPrazo = '';
+      state.filtroStatus = '';
       state.filtroBusca = '';
 
       const input = document.getElementById('filtro-busca');
@@ -1278,9 +1362,12 @@
         return (Array.isArray(a) ? a : a.split(', ')).some(x => x === state.filtroArea);
       });
       if (state.filtroTipo) list = list.filter(e => e.tipo === state.filtroTipo);
+      if (state.filtroStatus && state.view === 'historico') list = list.filter(e => e.status_sistema === state.filtroStatus);
       if (state.filtroPrazo) {
         list = list.filter(e => {
-          const dias = diasRestantes(e.data_fim);
+          const prazo = prazoInfo(e.data_fim);
+          const dias = prazo.dias;
+
           if (dias === null || dias < 0) return false;
 
           if (state.filtroPrazo === 'mais30') {
@@ -1292,11 +1379,7 @@
       }
       if (state.filtroBusca) {
         const q = state.filtroBusca;
-        list = list.filter(e =>
-          (e.titulo || '').toLowerCase().includes(q) ||
-          (e.orgao_parceiro || '').toLowerCase().includes(q) ||
-          (e.requisitos?.ferramentas || []).some(f => f.includes(q))
-        );
+        list = list.filter(e => textoBuscaEdital(e).includes(q));
       }
 
       // Sort by match if profile selected
@@ -1356,10 +1439,13 @@
             return '<span class="prazo-badge ' + prazo.classe + '">⏳ ' + prazo.texto + '</span>';
           })() : ''}
 
-          ${state.view === 'historico'
-            ? '<span class="status-badge ' + (e.ativo ? 'status-aberto' : 'status-encerrado') + '">' +
-            (e.ativo ? '🟢 Aberto' : '🔴 Encerrado') +
-            '</span>'
+          ${state.view === 'historico' && e.status_sistema
+            ? (() => {
+              const status = statusInfo(e.status_sistema);
+              return '<span class="status-badge ' + status.classe + '">' +
+                status.icon + ' ' + status.label +
+                '</span>';
+            })()
             : ''}
 
           ${s !== null
@@ -1552,7 +1638,14 @@
     </div>
     <div class="modal-body">
       <div class="modal-meta">
-        ${e.ativo === false ? '<span class="status-badge status-encerrado">🔴 Encerrado</span>' : ''}
+        ${e.status_sistema
+          ? (() => {
+            const status = statusInfo(e.status_sistema);
+            return '<span class="status-badge ' + status.classe + '">' +
+              status.icon + ' ' + status.label +
+              '</span>';
+          })()
+          : ''}
         <span class="tag tag-tipo">${esc(fonteLabel(e.fonte))}</span>
         <span class="tag tag-tipo">${esc(e.tipo || '')}</span>
         <span class="tag tag-orgao">${esc(e.orgao_parceiro || '')}</span>
@@ -1596,6 +1689,24 @@
     function esc(s) {
       if (!s) return '';
       return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function textoBuscaEdital(e) {
+      const r = e.requisitos || {};
+
+      return [
+        e.titulo,
+        e.descricao,
+        e.orgao_parceiro,
+        ...(r.graduacao || []),
+        ...(r.pos_graduacao || []),
+        ...(r.ferramentas || []),
+        ...(r.idiomas || []),
+        ...(r.certificacoes || [])
+      ]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase();
     }
 
     const FONTE_NOMES = { pnud: 'PNUD', unesco: 'UNESCO', oei: 'OEI' };

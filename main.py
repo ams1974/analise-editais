@@ -80,7 +80,7 @@ def daily(periodo, perfil, todos, force, fonte):
     click.echo(f"\n✅ Execução diária concluída!")
     click.echo(f"   📊 Excel: {excel_path}")
     click.echo(f"   📄 PDF: {pdf_path}")
-    click.echo(f"   🌐 Site: https://jorgel-mendes.github.io/analise-editais/")
+    click.echo(f"   🌐 Site: https://ams1974.github.io/analise-editais/")
 
 
 @cli.command()

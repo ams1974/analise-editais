@@ -25,6 +25,8 @@ OEI_PORTAL_URL = "https://oei.int/licitaciones-y-convocatorias/"
 
 FONTES_DISPONIVEIS = ["pnud", "unesco", "oei"]
 
+HISTORICO_MESES = 12
+
 CLASSIFICACAO_TIPOS = {
     "Consultoria Pessoa Física (PF)": [
         "pessoa física",
