@@ -7,10 +7,7 @@ from core.bridge import (
     enriquecer_edital,
 )
 from core.classifier import classificar_edital
-from core.perfil import (
-    carregar_perfis,
-    filtrar_por_perfil,
-)
+from core.perfil import carregar_perfis
 
 
 def analisar_editais(
@@ -53,10 +50,13 @@ def analisar_editais(
 
         melhor_perfil = None
         melhor_score = 0.0
+        matches = {}
 
         for nome, perfil in perfis_disponiveis.items():
             match = calcular_match_detalhado(enriquecido, perfil)
             score = match["score"]
+
+            matches[nome] = match
 
             if score > melhor_score:
                 melhor_score = score
@@ -66,6 +66,7 @@ def analisar_editais(
             melhor_perfil if melhor_score >= 0.15 else "Não classificado"
         )
         enriquecido["score_perfil"] = melhor_score
+        enriquecido["matches"] = matches
 
         classificados[i] = enriquecido
 
@@ -119,12 +120,27 @@ def _gerar_estatisticas(
 
     # Distribuição por perfil
     por_perfil = {}
-    for nome_perfil in perfis_disponiveis:
-        matched = filtrar_por_perfil(classificados, nome_perfil)
+    for nome_perfil, perfil in perfis_disponiveis.items():
+        matched = []
+
+        for e in classificados:
+            match = calcular_match_detalhado(e, perfil)
+            score = match["score"]
+
+            if score >= 0.15:
+                matched.append(
+                    {
+                        **e,
+                        "score_perfil": score,
+                    }
+                )
+
+        matched.sort(key=lambda e: e["score_perfil"], reverse=True)
+
         if matched:
             por_perfil[nome_perfil] = {
                 "quantidade": len(matched),
-                "descricao": perfis_disponiveis[nome_perfil].get("descricao", ""),
+                "descricao": perfil.get("descricao", ""),
                 "editais": [
                     {
                         "id": e["id"],

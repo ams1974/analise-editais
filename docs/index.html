@@ -239,9 +239,23 @@
       border: 1px solid #eef0f4
     }
 
+    .edital-card-alerta {
+      background: #fff8e8;
+      border-color: #f0c36d;
+    }
+
     .edital-card:hover {
       box-shadow: 0 4px 14px rgba(0, 0, 0, .1);
       border-color: #c5cdd8
+    }
+
+    .edital-card.obrigatorio-faltante {
+      background: #fff5f5;
+      border-color: #e8a0a0;
+    }
+
+    .edital-card.obrigatorio-faltante:hover {
+      border-color: #d66;
     }
 
     .edital-title {
@@ -1241,8 +1255,6 @@
       </div>
     </div>
 
-    <div class="recs" id="recs-section"></div>
-
     <div class="view-tabs">
       <button class="view-tab ${state.view === 'ativos' ? 'active' : ''}"
               id="tab-ativos"
@@ -1311,6 +1323,7 @@
       <button class="clear-filters-btn" onclick="limparBusca()">✖ Limpar busca</button>
     </div>
     <div class="edital-grid" id="edital-grid"></div>
+    <div class="recs" id="recs-section"></div>
   `;
 
       renderEditalList();
@@ -1414,6 +1427,15 @@
         }
 
         const cls = matchClass(s);
+
+        const matchSelecionado = state.perfil
+          ? e.matches?.[state.perfil]
+          : melhorPerfil
+            ? e.matches?.[melhorPerfil]
+            : null;
+
+        const obrigatorioFaltante =
+          matchSelecionado?.detalhes?.obrigatorios?.atendidos === false;
 
         return `
     <div class="edital-card" onclick="openModal('${e.id}')">

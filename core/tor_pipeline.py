@@ -21,110 +21,346 @@ logger = logging.getLogger(__name__)
 QUALIFICACOES_FILE = DADOS_BRUTOS_DIR / "qualificacoes_extraidas.json"
 
 GRAD_PATTERNS = [
+    # Computação / TI
     "ciência da computação",
-    "engenharia de software",
-    "sistemas de informação",
-    "tecnologia da informação",
-    "análise de sistemas",
     "engenharia da computação",
-    "engenharia",
-    "economia",
-    "administração",
+    "sistemas de informação",
+    "análise e desenvolvimento de sistemas",
+    "tecnologia da informação",
+    "engenharia de software",
+    "engenharia de sistemas",
+    "informática",
+    # Dados / Matemática / Estatística
     "estatística",
+    "matemática",
+    "matemática aplicada",
+    "ciência de dados",
+    # Engenharias
+    "engenharia",
+    "engenharia de produção",
+    "engenharia cartográfica",
+    "engenharia cartográfica e de agrimensura",
+    # Geografia / território
     "geografia",
-    "geologia",
-    "biologia",
-    "ecologia",
-    "engenharia química",
-    "engenharia ambiental",
-    "direito",
+    "geoprocessamento",
+    "cartografia",
+    "sensoriamento remoto",
+    "meteorologia",
+    # Ciências sociais / humanas
     "ciências sociais",
     "sociologia",
     "antropologia",
-    "história",
-    "arquitetura",
-    "urbanismo",
-    "ciência de dados",
-    "inteligência artificial",
-    "matemática",
-    "física",
-    "química",
-    "ciências contábeis",
-    "gestão pública",
+    "ciência política",
     "políticas públicas",
-    "saúde pública",
-    "medicina",
-    "enfermagem",
-    "comunicação",
+    "administração pública",
+    "gestão pública",
+    "administração",
+    "economia",
+    "ciências econômicas",
+    "direito",
+    # Meio ambiente
+    "ciências ambientais",
+    "gestão ambiental",
+    "engenharia ambiental",
+    "engenharia florestal",
+    # Comunicação / documentação
+    "comunicação social",
+    "jornalismo",
     "biblioteconomia",
     "arquivologia",
-    "ciência política",
-    "relações internacionais",
 ]
 
 FERRAMENTAS_LIST = [
+    # BI / Microsoft
     "power bi",
     "power automate",
     "power query",
-    "dax",
     "power platform",
+    "dax",
     "sharepoint",
     "microsoft 365",
+    "office 365",
     "outlook",
     "teams",
     "planner",
+    "project online",
+    "dataverse",
+    # Dados / programação
     "python",
     "r",
     "sql",
+    "sas",
+    "spss",
+    "stata",
+    "matlab",
+    # Planilhas / produtividade
     "excel",
-    "tableau",
-    "qgis",
-    "arcgis",
+    "access",
     "powerpoint",
     "word",
-    "access",
-    "sei",
-    "sic",
-    "dataverse",
+    # BI / visualização
+    "tableau",
+    # GIS / geoprocessamento
+    "gis",
+    "qgis",
+    "arcgis",
+    "fme",
+    "geopandas",
     "google earth engine",
-    "stata",
-    "spss",
-    "sas",
-    "matlab",
+    # Desenvolvimento / infraestrutura
     "git",
     "docker",
+    # Cloud
     "azure",
     "aws",
     "google cloud",
-    "office 365",
-    "project online",
+    # Sistemas governamentais
+    "sei",
+    "sic",
 ]
 
 CERT_PATTERNS = [
+    # Gestão de projetos
     "pmp",
+    "project management professional",
+    "prince2",
+    # Métodos ágeis
     "scrum",
+    "scrum master",
+    "product owner",
+    "safe",
+    # IT Service Management
     "itil",
+    # Governança / segurança
     "cobit",
     "cissp",
     "comptia",
-    "microsoft certified",
+    # Cloud
     "aws certified",
+    "microsoft certified",
+    "azure certification",
     "google certified",
-    "bsafe",
+    # Dados / BI
+    "microsoft power bi data analyst",
+    "power bi data analyst",
+    # Outras
     "security clearance",
+    "bsafe",
 ]
 
 
 def _extract_pdf_text(pdf_path: Path) -> str:
+    """
+    Extrai texto de um PDF.
+
+    Estratégia:
+    1. Tenta extração textual direta com pdfplumber.
+    2. Se o texto extraído for insuficiente, tenta OCR.
+    3. O OCR renderiza as páginas com pdftoppm e utiliza Tesseract
+       com o idioma português.
+
+    PDFs que já possuem texto utilizável não passam pelo OCR.
+    PDFs essencialmente compostos por imagens são processados via OCR.
+    """
+
+    import shutil
+    import subprocess
+    import tempfile
+
     import pdfplumber
+
+    # ---------------------------------------------------------
+    # 1. EXTRAÇÃO TEXTUAL NORMAL
+    # ---------------------------------------------------------
+
+    texto = ""
 
     try:
         with pdfplumber.open(pdf_path) as pdf:
-            texts = [t for page in pdf.pages if (t := page.extract_text())]
-            return "\n".join(texts)
+            textos = []
+
+            for page in pdf.pages:
+                try:
+                    page_text = page.extract_text()
+
+                    if page_text:
+                        textos.append(page_text)
+                except Exception as e:
+                    logger.warning(
+                        "Falha ao extrair uma página de %s: %s",
+                        pdf_path,
+                        e,
+                    )
+
+            texto = "\n".join(textos).strip()
+
     except Exception as e:
-        logger.warning("Falha ao extrair texto de %s: %s", pdf_path, e)
-        return ""
+        logger.warning(
+            "Falha ao extrair texto de %s: %s",
+            pdf_path,
+            e,
+        )
+
+    # ---------------------------------------------------------
+    # 2. VERIFICAR SE A EXTRAÇÃO É SUFICIENTE
+    # ---------------------------------------------------------
+
+    # PDFs escaneados/impressos como imagem podem retornar apenas
+    # alguns caracteres, mesmo contendo várias páginas.
+    #
+    # Um limite baixo evita OCR desnecessário em PDFs textuais
+    # normais.
+    if len(texto) >= 500:
+        return texto
+
+    logger.info(
+        "Texto insuficiente em %s (%d caracteres); tentando OCR.",
+        pdf_path,
+        len(texto),
+    )
+
+    # ---------------------------------------------------------
+    # 3. VERIFICAR DEPENDÊNCIAS DO OCR
+    # ---------------------------------------------------------
+
+    pdftoppm = shutil.which("pdftoppm")
+    tesseract = shutil.which("tesseract")
+
+    if not pdftoppm:
+        logger.warning(
+            "pdftoppm não encontrado; não foi possível executar OCR em %s.",
+            pdf_path,
+        )
+        return texto
+
+    if not tesseract:
+        logger.warning(
+            "tesseract não encontrado; não foi possível executar OCR em %s.",
+            pdf_path,
+        )
+        return texto
+
+    # ---------------------------------------------------------
+    # 4. OCR
+    # ---------------------------------------------------------
+
+    try:
+        with tempfile.TemporaryDirectory(prefix="analise_editais_ocr_") as tmp:
+            tmp_dir = Path(tmp)
+
+            prefixo = tmp_dir / "pagina"
+
+            # Renderiza todas as páginas em PNG.
+            #
+            # 250 DPI foi escolhido como compromisso entre:
+            # - qualidade suficiente para OCR;
+            # - tempo de processamento;
+            # - consumo de memória/disco.
+            resultado = subprocess.run(
+                [
+                    pdftoppm,
+                    "-r",
+                    "250",
+                    "-png",
+                    str(pdf_path),
+                    str(prefixo),
+                ],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+
+            if resultado.returncode != 0:
+                logger.warning(
+                    "Falha ao renderizar PDF para OCR: %s: %s",
+                    pdf_path,
+                    resultado.stderr.strip(),
+                )
+                return texto
+
+            imagens = sorted(tmp_dir.glob("pagina-*.png"))
+
+            if not imagens:
+                logger.warning(
+                    "Nenhuma página foi renderizada para OCR: %s",
+                    pdf_path,
+                )
+                return texto
+
+            textos_ocr = []
+
+            for imagem in imagens:
+                arquivo_saida = tmp_dir / imagem.stem
+
+                resultado = subprocess.run(
+                    [
+                        tesseract,
+                        str(imagem),
+                        str(arquivo_saida),
+                        "-l",
+                        "por",
+                    ],
+                    capture_output=True,
+                    text=True,
+                    check=False,
+                )
+
+                if resultado.returncode != 0:
+                    logger.warning(
+                        "Falha no OCR da página %s de %s: %s",
+                        imagem.name,
+                        pdf_path,
+                        resultado.stderr.strip(),
+                    )
+                    continue
+
+                arquivo_txt = arquivo_saida.with_suffix(".txt")
+
+                if not arquivo_txt.exists():
+                    continue
+
+                try:
+                    texto_pagina = arquivo_txt.read_text(
+                        encoding="utf-8",
+                        errors="replace",
+                    ).strip()
+                except Exception as e:
+                    logger.warning(
+                        "Falha ao ler resultado OCR %s: %s",
+                        arquivo_txt,
+                        e,
+                    )
+                    continue
+
+                if texto_pagina:
+                    textos_ocr.append(texto_pagina)
+
+            texto_ocr = "\n\n".join(textos_ocr).strip()
+
+            if texto_ocr:
+                logger.info(
+                    "OCR concluído para %s: %d caracteres em %d páginas.",
+                    pdf_path,
+                    len(texto_ocr),
+                    len(imagens),
+                )
+
+                return texto_ocr
+
+    except Exception as e:
+        logger.warning(
+            "Falha ao executar OCR em %s: %s",
+            pdf_path,
+            e,
+        )
+
+    # ---------------------------------------------------------
+    # 5. ÚLTIMO RECURSO
+    # ---------------------------------------------------------
+
+    # Se havia algum texto parcial obtido pelo pdfplumber,
+    # preservamos esse resultado.
+    return texto
 
 
 def _extract_entregaveis(text: str) -> list[str]:
@@ -620,18 +856,774 @@ def _extract_entregaveis(text: str) -> list[str]:
     return resultado
 
 
+def _extrair_secoes_requisitos(text: str) -> tuple[str, str]:
+    """
+    Extrai requisitos obrigatórios e desejáveis de um Termo de Referência.
+
+    Trata principalmente:
+
+    1. Seções separadas:
+        REQUISITOS OBRIGATÓRIOS
+        ...
+        REQUISITOS DESEJÁVEIS
+        ...
+
+    2. Seção de qualificações:
+        QUALIFICAÇÕES PROFISSIONAIS
+        Qualificações obrigatórias - ...
+        Qualificações desejáveis e pontuáveis - ...
+
+    3. Formato:
+        QUALIFICAÇÕES OBRIGATÓRIAS:
+        ...
+        QUALIFICAÇÕES DESEJÁVEIS E PONTUÁVEIS:
+        ...
+
+    4. Seção única:
+        REQUISITOS MÍNIMOS DE QUALIFICAÇÃO
+        ...
+
+    5. Casos em que "desejável" aparece no meio do bloco.
+
+    Retorna:
+        (texto_obrigatorio, texto_desejavel)
+    """
+
+    if not text:
+        return "", ""
+
+    # =========================================================
+    # 1. NORMALIZAÇÃO
+    # =========================================================
+
+    linhas = text.splitlines()
+
+    linhas_norm = []
+
+    for linha in linhas:
+        linha = re.sub(r"[ \t]+", " ", linha).strip()
+
+        if linha:
+            linhas_norm.append(linha)
+
+    if not linhas_norm:
+        return "", ""
+
+    # =========================================================
+    # 2. PADRÕES
+    # =========================================================
+
+    # Seção que contém qualificações/requisitos.
+    #
+    # Inclui:
+    #   Qualificações profissionais
+    #   Qualificações profissionais:
+    #   Requisitos mínimos de qualificação
+    #   Requisitos obrigatórios
+    #   Requisitos mínimos
+
+    padrao_inicio_qualificacao = re.compile(
+        r"^\s*"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"(?:"
+        r"qualifica[cç][õo]es?\s+"
+        r"(?:"
+        r"profissionais?"
+        r"|m[ií]nimas?"
+        r"|obrigat[óo]rias?"
+        r"|desej[áa]veis?"
+        r"|preferenciais?"
+        r")"
+        r"|"
+        r"requisitos?\s+"
+        r"(?:"
+        r"m[ií]nimos?"
+        r"|obrigat[óo]rios?"
+        r"|desej[áa]veis?"
+        r"|preferenciais?"
+        r")"
+        r")"
+        r"(?:\s*\([^)]*\))?"
+        r"\s*[:\-–—]?\s*$",
+        re.IGNORECASE,
+    )
+
+    # Marcador de obrigatório.
+    padrao_obrigatorio = re.compile(
+        r"^\s*"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"(?:"
+        r"requisitos?\s+obrigat[óo]rios?"
+        r"|qualifica[cç][õo]es?\s+obrigat[óo]rias?"
+        r"|qualifica[cç][ãa]o\s+obrigat[óo]ria"
+        r"|crit[ée]rios?\s+obrigat[óo]rios?"
+        r"|requisitos?\s+m[ií]nimos?"
+        r"|qualifica[cç][õo]es?\s+m[ií]nimas?"
+        r")"
+        r"(?:\s*\([^)]*\))?"
+        r"\s*[:\-–—]?"
+        r"(?:\s*$|\s+)",
+        re.IGNORECASE,
+    )
+
+    # Marcador de desejável.
+    padrao_desejavel = re.compile(
+        r"^\s*"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"(?:"
+        r"requisitos?\s+desej[áa]veis?"
+        r"|qualifica[cç][õo]es?\s+desej[áa]veis?"
+        r"|qualifica[cç][ãa]o\s+desej[áa]vel"
+        r"|crit[ée]rios?\s+desej[áa]veis?"
+        r"|requisitos?\s+preferenciais?"
+        r"|qualifica[cç][õo]es?\s+preferenciais?"
+        r"|qualifica[cç][ãa]o\s+preferencial"
+        r")"
+        # Algumas fontes usam:
+        # "Requisitos Desejáveis/Pontuáveis"
+        # ou
+        # "Qualificações desejáveis e pontuáveis".
+        r"(?:\s*/\s*pontu[áa]veis?)?"
+        r"(?:\s*\([^)]*\))?"
+        r"\s*[:\-–—]?"
+        r"(?:\s*$|\s+)",
+        re.IGNORECASE,
+    )
+
+    # Marcadores inline.
+    #
+    # Exemplos:
+    #
+    # Qualificações obrigatórias - Nível superior...
+    # Qualificações desejáveis e pontuáveis - Experiência...
+    #
+    padrao_inline_qualificacao = re.compile(
+        r"\b"
+        r"(?:"
+        r"qualifica[cç][õo]es?"
+        r"|requisitos?"
+        r")"
+        r"\s+"
+        r"(obrigat[óo]rias?|desej[áa]veis?|preferenciais?)"
+        r"(?:"
+        r"\s*(?:e\s+|/)\s*"
+        r"pontu[áa]veis?"
+        r")?"
+        r"(?:"
+        r"\s*\([^)]*\)"
+        r")?"
+        r"(?:"
+        r"\s+(?:educa[cç][aã]o|experi[eê]ncia|habilidades?|compet[eê]ncias?|idiomas?)"
+        r")?"
+        r"\s*"
+        r"[*•]?"
+        r"\s*"
+        r"[:\-–—]"
+        r"\s*",
+        re.IGNORECASE,
+    )
+
+    # =========================================================
+    # 3. EXPANDIR MARCADORES INLINE
+    # =========================================================
+    #
+    # Transformamos:
+    #
+    # Qualificações obrigatórias - A. Qualificações desejáveis - B
+    #
+    # em:
+    #
+    # Qualificações obrigatórias
+    # A.
+    # Qualificações desejáveis
+    # B
+    #
+    # Isso facilita muito a separação posterior.
+    # =========================================================
+
+    linhas_expandidas = []
+
+    padrao_desejavel_inline = re.compile(
+        r"(?<=\.)\s+(Desej[aá]vel|Desej[aá]veis)(?=\s|$)",
+        re.IGNORECASE,
+    )
+
+    for linha in linhas_norm:
+        encontrados = list(padrao_inline_qualificacao.finditer(linha))
+
+        match_desejavel = padrao_desejavel_inline.search(linha)
+
+        if match_desejavel:
+            antes = linha[: match_desejavel.start()].strip()
+            depois = linha[match_desejavel.end() :].strip()
+
+            if antes:
+                linhas_expandidas.append(antes)
+
+            linhas_expandidas.append("Qualificações desejáveis")
+
+            if depois:
+                linhas_expandidas.append(depois)
+
+            continue
+
+        if not encontrados:
+            linhas_expandidas.append(linha)
+            continue
+
+        posicao = 0
+
+        for match in encontrados:
+            antes = linha[posicao : match.start()].strip()
+
+            if antes:
+                linhas_expandidas.append(antes)
+
+            tipo = match.group(1).lower()
+
+            if tipo.startswith("obrig"):
+                linhas_expandidas.append("Qualificações obrigatórias")
+            else:
+                linhas_expandidas.append("Qualificações desejáveis")
+
+            posicao = match.end()
+
+        restante = linha[posicao:].strip()
+
+        if restante:
+            linhas_expandidas.append(restante)
+
+    linhas_norm = linhas_expandidas
+
+    # =========================================================
+    # 4. LOCALIZAR INÍCIO DA SEÇÃO DE QUALIFICAÇÕES
+    # =========================================================
+
+    # 4. LOCALIZAR INÍCIO DA SEÇÃO DE QUALIFICAÇÕES
+
+    indice_inicio = None
+
+    for i, linha in enumerate(linhas_norm):
+        # "Qualificações desejáveis" pode ter sido criado
+        # artificialmente durante a expansão de marcadores inline.
+        # Nunca deve ser considerado o início da seção.
+        if linha.strip().lower() == "qualificações desejáveis":
+            continue
+
+        if padrao_inicio_qualificacao.match(linha):
+            indice_inicio = i
+            break
+
+    # Se não encontrou seção explícita, procurar diretamente
+    # pelos marcadores de obrigatório/desejável.
+    if indice_inicio is None:
+        for i, linha in enumerate(linhas_norm):
+            if padrao_obrigatorio.match(linha):
+                indice_inicio = i
+                break
+
+            if padrao_desejavel.match(linha):
+                # Se o primeiro marcador encontrado for apenas
+                # "desejável", pode existir um requisito obrigatório
+                # imediatamente antes dele sem marcador próprio.
+                #
+                # Exemplo do 146182:
+                #
+                # Mestrado em Estatística...
+                # OBSERVAÇÃO: ...
+                # Qualificações desejáveis
+                # - Doutorado...
+                #
+                # Nesse caso, não podemos começar a seção no
+                # marcador desejável, pois perderíamos o Mestrado.
+                #
+                # Procuramos para trás o início do bloco de
+                # qualificação, usando a última linha claramente
+                # estrutural como limite.
+                indice_inicio = i
+
+                j = i - 1
+
+                while j >= 0:
+                    linha_anterior = linhas_norm[j]
+
+                    # Limites claros de uma seção anterior.
+                    if re.match(
+                        r"^\s*"
+                        r"(?:"
+                        r"\d+(?:\.\d+)*[\s.)-]*"
+                        r"(?:"
+                        r"objetivo|contexto|atividades|atribui[cç][õo]es?|"
+                        r"produtos?|entreg[aá]veis?|insumos?|"
+                        r"local|prazo|remunera[cç][aã]o|"
+                        r"cronograma|processo\s+seletivo"
+                        r")"
+                        r")\b",
+                        linha_anterior,
+                        re.IGNORECASE,
+                    ):
+                        break
+
+                    # Se encontrarmos uma linha vazia, não atravessar
+                    # grandes blocos anteriores.
+                    if not linha_anterior.strip():
+                        break
+
+                    indice_inicio = j
+                    j -= 1
+
+                break
+
+    if indice_inicio is None:
+        return "", ""
+
+    # =========================================================
+    # 5. DEFINIR FIM DA SEÇÃO
+    # =========================================================
+    #
+    # A seção normalmente termina antes de:
+    #
+    #   Insumos
+    #   Produtos
+    #   Nome do supervisor
+    #   Localidade
+    #   Data de início
+    #   Critérios de avaliação
+    #   Processo seletivo
+    #   Produtos x Honorários
+    #
+    # Não usamos "qualificações" aqui porque a própria seção
+    # pode conter vários subtítulos desse tipo.
+    # =========================================================
+
+    padrao_fim = re.compile(
+        r"^\s*"
+        r"(?:"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"insumos?"
+        r"|"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"produtos?(?:\s+esperados?)?"
+        r"|"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"nome\s+do\s+supervisor"
+        r"|"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"cargo\s+do\s+supervisor"
+        r"|"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"local(?:idade)?\s+(?:de|do)\s+trabalho"
+        r"|"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"data\s+de\s+(?:in[ií]cio|t[eé]rmino)"
+        r"|"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"crit[ée]rios?\s+de\s+(?:avalia[cç][ãa]o|pontua[cç][ãa]o)"
+        r"|"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"tabela\s+de\s+critérios?\s+(?:pontuáveis?|avaliação|pontuação)"
+        r"|"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"processo\s+(?:seletivo|de\s+sele[cç][ãa]o)"
+        r"|"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"atividades(?:\s+previstas|\s+a\s+serem\s+desenvolvidas)?"
+        r"|"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"termo\s+de\s+refer[eê]ncia"
+        r"(?:\s+(?:n[ºo°]|número|no\.?)\s*\d+)?"
+        r"|"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"produtos?\s+(?:ou\s+)?resultados?\s+previstos?"
+        r"|"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"descri[cç][ãa]o\s+das\s+atividades"
+        r"|"
+        r"(?:\d+(?:\.\d+)*[\s.)-]*)?"
+        r"produtos?\s+x\s+honor[aá]rios"
+        r")"
+        r"\s*[:\-–—]?\s*$",
+        re.IGNORECASE,
+    )
+
+    bloco = []
+
+    for linha in linhas_norm[indice_inicio + 1 :]:
+        if padrao_fim.match(linha):
+            break
+
+        bloco.append(linha)
+
+    # =========================================================
+    # 6. CASO EM QUE O PRÓPRIO TÍTULO JÁ É OBRIGATÓRIO
+    # =========================================================
+
+    if padrao_obrigatorio.match(linhas_norm[indice_inicio]) and not bloco:
+        bloco = []
+
+    # =========================================================
+    # 7. SEPARAR O BLOCO
+    # =========================================================
+
+    obrigatorio = []
+    desejavel = []
+
+    modo = None
+
+    for linha in bloco:
+        if re.match(
+            r"^\s*[A-Z]\.\s+(?:"
+            r"forma[cç][aã]o|"
+            r"exig[eê]ncias?|"
+            r"requisitos?"
+            r")\b",
+            linha,
+            re.IGNORECASE,
+        ):
+            modo = "obrigatorio"
+            obrigatorio.append(linha)
+            continue
+
+        if re.match(
+            r"^\s*[A-Z]\.\d+\s+(?:"
+            r"forma[cç][aã]o|"
+            r"exig[eê]ncias?|"
+            r"requisitos?"
+            r")\b",
+            linha,
+            re.IGNORECASE,
+        ):
+            modo = "obrigatorio"
+            obrigatorio.append(linha)
+            continue
+
+        # -----------------------------------------------------
+        # Marcador explícito de obrigatório
+        # -----------------------------------------------------
+
+        if padrao_obrigatorio.match(linha):
+            modo = "obrigatorio"
+
+            restante = padrao_obrigatorio.sub(
+                "",
+                linha,
+                count=1,
+            ).strip()
+
+            if restante:
+                obrigatorio.append(restante)
+
+            continue
+
+        if re.match(
+            r"^\s*Requisito\s+m[ií]nimo\b",
+            linha,
+            re.IGNORECASE,
+        ):
+            modo = "obrigatorio"
+            obrigatorio.append(linha)
+            continue
+
+        # -----------------------------------------------------
+        # Marcador explícito de desejável
+        # -----------------------------------------------------
+
+        if padrao_desejavel.match(linha):
+            modo = "desejavel"
+
+            restante = padrao_desejavel.sub(
+                "",
+                linha,
+                count=1,
+            ).strip()
+
+            if restante:
+                desejavel.append(restante)
+
+            continue
+
+        # -----------------------------------------------------
+        # Linhas normais
+        # -----------------------------------------------------
+
+        if modo == "desejavel":
+            desejavel.append(linha)
+
+        else:
+            obrigatorio.append(linha)
+            modo = "obrigatorio"
+
+    # =========================================================
+    # 8. CASO EM QUE A SEÇÃO COMEÇA DIRETAMENTE COM
+    # "QUALIFICAÇÕES PROFISSIONAIS"
+    #
+    # Exemplo do 146097:
+    #
+    # Qualificações profissionais
+    # Qualificações obrigatórias - Nível superior...
+    # ...
+    # Qualificações desejáveis e pontuáveis - Experiência...
+    #
+    # O tratamento acima já deve funcionar, mas fazemos uma
+    # segunda proteção para marcadores que tenham permanecido
+    # dentro de uma linha.
+    # =========================================================
+
+    if obrigatorio and not desejavel:
+        texto = " ".join(obrigatorio)
+
+        match = re.search(
+            r"\b"
+            r"(?:qualifica[cç][õo]es?|requisitos?)"
+            r"\s+desej[áa]veis?"
+            r"(?:\s+e\s+pontu[áa]veis?)?"
+            r"\s*"
+            r"[:\-–—]\s*",
+            texto,
+            flags=re.IGNORECASE,
+        )
+
+        if match:
+            parte_obrigatoria = texto[: match.start()].strip()
+            parte_desejavel = texto[match.end() :].strip()
+
+            obrigatorio = [parte_obrigatoria] if parte_obrigatoria else []
+
+            desejavel = [parte_desejavel] if parte_desejavel else []
+
+    # =========================================================
+    # 9. CASO "SERÁ CONSIDERADA DESEJÁVEL"
+    # =========================================================
+    #
+    # Alguns documentos dizem:
+    #
+    # Especialização, mestrado ou doutorado será considerada
+    # desejável.
+    #
+    # Nesse caso o item foi inicialmente classificado como
+    # obrigatório, mas precisa ser transferido.
+    # =========================================================
+
+    padrao_fim_desejavel = re.compile(
+        r"\b"
+        r"(?:"
+        r"ser[aá]\s+considerad[oa]"
+        r"(?:\s+como)?"
+        r"|considerad[oa]"
+        r")"
+        r"\s+desej[áa]vel"
+        r"\b",
+        re.IGNORECASE,
+    )
+
+    if obrigatorio:
+        novo_obrigatorio = []
+        novo_desejavel = []
+
+        acumulado = []
+
+        for linha in obrigatorio:
+            acumulado.append(linha)
+
+            if padrao_fim_desejavel.search(linha):
+                texto_item = " ".join(acumulado).strip()
+
+                if texto_item:
+                    novo_desejavel.append(texto_item)
+
+                acumulado = []
+
+        novo_obrigatorio.extend(acumulado)
+
+        if novo_desejavel:
+            obrigatorio = novo_obrigatorio
+            desejavel = novo_desejavel + desejavel
+
+    # =========================================================
+    # 10. LIMPEZA
+    # =========================================================
+
+    def limpar(itens: list[str]) -> str:
+
+        resultado = []
+
+        for item in itens:
+            item = re.sub(
+                r"\s+",
+                " ",
+                item,
+            ).strip()
+
+            if not item:
+                continue
+
+            resultado.append(item)
+
+        return "\n".join(resultado).strip()
+
+    return (
+        limpar(obrigatorio),
+        limpar(desejavel),
+    )
+
+
+def _extrair_graduacoes_contextuais(texto: str) -> list[str]:
+    """Extrai graduações somente quando aparecem em contexto de formação."""
+
+    resultados = []
+
+    termos_genericos = {
+        "engenharia",
+    }
+
+    texto = re.sub(r"\s+", " ", texto)
+
+    # ---------------------------------------------------------
+    # Contextos explícitos de formação.
+    #
+    # Capturamos apenas o trecho imediatamente associado ao
+    # marcador de formação.
+    # ---------------------------------------------------------
+
+    padroes_contexto = [
+        re.compile(
+            r"""
+            \bgraduac[aã]o\b
+            (?:
+                \s+(?:completa|conclu[ií]da|em\s+n[ií]vel\s+superior
+                |em\s+curso|conclu[ií]da\s+ou\s+em\s+andamento)
+            )*
+            \s*
+            (?:em|nas?\s+areas?\s+de|na\s+area\s+de)
+            \s*
+            (.{0,250}?)
+            (?=;|•|\.|$)
+            """,
+            flags=re.IGNORECASE | re.VERBOSE,
+        ),
+        re.compile(
+            r"""
+            \bn[ií]vel\s+superior\b
+            \s*
+            (?:completo|completa|conclu[ií]do|conclu[ií]da)?
+            \s*
+            (?:em|nas?\s+areas?\s+de|na\s+area\s+de)
+            \s*
+            (.{0,250}?)
+            (?=;|•|\.|$)
+            """,
+            flags=re.IGNORECASE | re.VERBOSE,
+        ),
+        re.compile(
+            r"""
+            \b(?:bacharelado|licenciatura)\b
+            \s*
+            (?:em|nas?\s+areas?\s+de|na\s+area\s+de)
+            \s*
+            (.{0,200}?)
+            (?=;|•|\.|$)
+            """,
+            flags=re.IGNORECASE | re.VERBOSE,
+        ),
+        re.compile(
+            r"""
+            \bforma[cç][aã]o\s+(?:superior|acad[eê]mica)\b
+            \s*
+            (?:em|nas?\s+areas?\s+de|na\s+area\s+de)
+            \s*
+            (.{0,200}?)
+            (?=;|•|\.|$)
+            """,
+            flags=re.IGNORECASE | re.VERBOSE,
+        ),
+    ]
+
+    # ---------------------------------------------------------
+    # Procurar os contextos de formação.
+    # ---------------------------------------------------------
+
+    trechos = []
+
+    for padrao_contexto in padroes_contexto:
+        for match in padrao_contexto.finditer(texto):
+            trecho = match.group(1).strip()
+
+            if trecho:
+                trechos.append(trecho)
+
+    # ---------------------------------------------------------
+    # Procurar os cursos conhecidos dentro de cada contexto.
+    #
+    # GRAD_PATTERNS continua sendo a fonte de cursos válidos.
+    # Assim evitamos considerar qualquer palavra como graduação.
+    # ---------------------------------------------------------
+
+    for trecho in trechos:
+        for curso in GRAD_PATTERNS:
+            padrao_curso = re.compile(
+                rf"(?<!\w){re.escape(curso)}(?!\w)",
+                flags=re.IGNORECASE,
+            )
+
+            if padrao_curso.search(trecho):
+                if curso not in resultados:
+                    resultados.append(curso)
+
+    # ---------------------------------------------------------
+    # Remover termos genéricos quando houver formação específica.
+    #
+    # Exemplo:
+    #
+    # engenharia
+    # engenharia da computação
+    #
+    # Resultado:
+    #
+    # engenharia da computação
+    # ---------------------------------------------------------
+
+    resultados_filtrados = [
+        curso
+        for curso in resultados
+        if not (
+            curso in termos_genericos
+            and any(
+                outro != curso and outro.startswith(curso + " ") for outro in resultados
+            )
+        )
+    ]
+
+    return resultados_filtrados
+
+
 def _find_qualifications(text: str, torid: str) -> dict:
     """Extrai qualificações estruturadas do texto do ToR (regex, sem IA)."""
+
     result = {
         "torid": torid,
+        # Formação
         "graduacao": [],
+        "graduacao_desejavel": [],
         "pos_graduacao": [],
+        "pos_graduacao_desejavel": [],
         "mestrado": False,
+        "mestrado_desejavel": False,
         "doutorado": False,
+        "doutorado_desejavel": False,
+        # Experiência
+        "experiencia_exigida": False,
         "anos_experiencia": None,
+        "experiencia_outro_criterio": None,
+        "anos_experiencia_desejavel": None,
+        # Conhecimentos
         "ferramentas": [],
+        "ferramentas_desejaveis": [],
         "idiomas": [],
+        "idiomas_desejaveis": [],
+        # Certificações
         "certificacoes": [],
+        "certificacoes_desejaveis": [],
+        # Outros
         "valor": None,
         "area_principal": "",
         "requisitos_obrigatorios": [],
@@ -640,76 +1632,363 @@ def _find_qualifications(text: str, torid: str) -> dict:
         "competencias": [],
     }
 
-    text_lower = text.lower()
+    # ---------------------------------------------------------
+    # 1. Separar requisitos obrigatórios e desejáveis
+    # ---------------------------------------------------------
 
-    for p in GRAD_PATTERNS:
-        if p in text_lower:
-            result["graduacao"].append(p)
+    texto_obrigatorio, texto_desejavel = _extrair_secoes_requisitos(text)
 
-    for term in ["pós-graduação", "especialização", "lato sensu", "mba"]:
-        if term in text_lower:
-            result["pos_graduacao"].append(term)
+    texto_obrigatorio = texto_obrigatorio.lower()
+    texto_desejavel = texto_desejavel.lower()
 
-    if any(t in text_lower for t in ["mestrado", "mestre", "stricto sensu"]):
-        result["mestrado"] = True
-    if any(t in text_lower for t in ["doutorado", "doutor", "phd"]):
-        result["doutorado"] = True
+    # ---------------------------------------------------------
+    # 2. Guardar as linhas brutas das duas seções
+    # ---------------------------------------------------------
 
-    exp_match = re.search(
-        r"(\d+)\s*(?:\(.*?\))?\s*anos?\s*(?:de\s*)?experi[êe]ncia", text_lower
+    result["requisitos_obrigatorios"] = [
+        linha.strip()
+        for linha in texto_obrigatorio.splitlines()
+        if linha.strip() and len(linha.strip()) > 20
+    ][:10]
+
+    result["requisitos_desejaveis"] = [
+        linha.strip()
+        for linha in texto_desejavel.splitlines()
+        if linha.strip() and len(linha.strip()) > 20
+    ][:10]
+
+    # ---------------------------------------------------------
+    # 3. Graduação
+    # ---------------------------------------------------------
+    #
+    # A graduação precisa ser identificada em contexto de formação.
+    #
+    # Não procuramos simplesmente cada curso em toda a seção,
+    # porque termos como "políticas públicas" podem aparecer em
+    # experiência, objeto da consultoria ou área de atuação.
+    # ---------------------------------------------------------
+
+    result["graduacao"] = _extrair_graduacoes_contextuais(texto_obrigatorio)
+
+    result["graduacao_desejavel"] = _extrair_graduacoes_contextuais(texto_desejavel)
+
+    # ---------------------------------------------------------
+    # 4. Pós-graduação
+    # ---------------------------------------------------------
+    #
+    # Não extraímos a área/curso da pós-graduação.
+    #
+    # Neste momento interessa apenas saber se o edital exige
+    # algum tipo de pós-graduação, ou se isso aparece como
+    # requisito desejável.
+    #
+    # A área específica poderá ser consultada pelo usuário
+    # diretamente no edital.
+    # ---------------------------------------------------------
+
+    POS_GRADUACAO_PATTERNS = [
+        "pós-graduação",
+        "pos-graduação",
+        "especialização",
+        "lato sensu",
+        "mba",
+    ]
+
+    result["pos_graduacao"] = any(
+        term in texto_obrigatorio for term in POS_GRADUACAO_PATTERNS
     )
-    if exp_match:
-        result["anos_experiencia"] = int(exp_match.group(1))
 
-    for f in FERRAMENTAS_LIST:
-        if f in text_lower:
-            result["ferramentas"].append(f)
+    result["pos_graduacao_desejavel"] = any(
+        term in texto_desejavel for term in POS_GRADUACAO_PATTERNS
+    )
 
-    if "inglês" in text_lower or "english" in text_lower:
+    # ---------------------------------------------------------
+    # 5. Mestrado
+    # ---------------------------------------------------------
+    #
+    # "stricto sensu" NÃO significa necessariamente mestrado.
+    # Pode representar mestrado ou doutorado. Portanto, só
+    # reconhecemos mestrado quando ele é explicitamente citado.
+    # ---------------------------------------------------------
+
+    result["mestrado"] = any(
+        termo in texto_obrigatorio
+        for termo in [
+            "mestrado",
+            "mestre",
+        ]
+    )
+
+    result["mestrado_desejavel"] = any(
+        termo in texto_desejavel
+        for termo in [
+            "mestrado",
+            "mestre",
+        ]
+    )
+
+    # ---------------------------------------------------------
+    # 6. Doutorado
+    # ---------------------------------------------------------
+    #
+    # Assim como no mestrado, não inferimos doutorado a partir
+    # de "stricto sensu".
+    # ---------------------------------------------------------
+
+    result["doutorado"] = any(
+        termo in texto_obrigatorio
+        for termo in [
+            "doutorado",
+            "doutor",
+            "phd",
+        ]
+    )
+
+    result["doutorado_desejavel"] = any(
+        termo in texto_desejavel
+        for termo in [
+            "doutorado",
+            "doutor",
+            "phd",
+        ]
+    )
+
+    # ---------------------------------------------------------
+    # 7. Experiência
+    # ---------------------------------------------------------
+    #
+    # Regra:
+    #
+    # - experiencia_exigida = True quando há experiência na seção
+    #   obrigatória.
+    #
+    # - anos_experiencia recebe o número quando o requisito é
+    #   expresso em anos ou meses.
+    #
+    # - Aceita formatos como:
+    #
+    #       3 anos
+    #       03 anos
+    #       3 (três) anos
+    #       03 (três) anos
+    #       6 meses
+    #       6 (seis) meses
+    #
+    # - experiencia_outro_criterio recebe o texto quando existe
+    #   exigência de experiência, mas ela é expressa por outro
+    #   critério, como:
+    #
+    #       "mínimo de 3 projetos"
+    #       "mínimo de 3 projetos/consultorias"
+    #       "6 contratos distintos"
+    #
+    # - Experiência mencionada apenas nos requisitos desejáveis
+    #   não torna experiencia_exigida verdadeira.
+    # ---------------------------------------------------------
+
+    experiencia_exigida = False
+    anos_experiencia = None
+    experiencia_outro_criterio = None
+
+    texto_experiencia = texto_obrigatorio or ""
+
+    # ---------------------------------------------------------
+    # 7.1. Verificar se experiência é obrigatória
+    # ---------------------------------------------------------
+
+    padrao_experiencia_obrigatoria = re.compile(
+        r"\bexperi[eê]ncia\b",
+        re.IGNORECASE,
+    )
+
+    if padrao_experiencia_obrigatoria.search(texto_experiencia):
+        experiencia_exigida = True
+
+    # ---------------------------------------------------------
+    # 7.2. Extrair anos/meses de experiência
+    # ---------------------------------------------------------
+
+    padrao_experiencia = re.compile(
+        r"""
+        (?:
+            experiência
+            .*?
+            (?:
+                mínima?
+                |
+                mínimo
+                |
+                no\s+mínimo
+            )
+            \s*(?:de\s*)?
+            (\d+)
+            (?:\s*\([^)]*\))?
+            \s*
+            (anos?|meses?)
+        )
+        |
+        (?:
+            mínima?
+            |
+            mínimo
+            |
+            no\s+mínimo
+        )
+        \s*(?:de\s*)?
+        (\d+)
+        (?:\s*\([^)]*\))?
+        \s*
+        (anos?|meses?)
+        \s+de\s+experiência
+        """,
+        re.IGNORECASE | re.VERBOSE | re.DOTALL,
+    )
+
+    match_experiencia = padrao_experiencia.search(texto_experiencia)
+
+    if match_experiencia:
+        valor_texto = match_experiencia.group(1) or match_experiencia.group(3)
+
+        unidade = match_experiencia.group(2) or match_experiencia.group(4)
+
+        valor = int(valor_texto)
+
+        if unidade.lower().startswith("mes"):
+            anos_experiencia = valor / 12
+        else:
+            anos_experiencia = valor
+
+    # ---------------------------------------------------------
+    # 7.3. Caso haja experiência obrigatória sem quantidade
+    # ---------------------------------------------------------
+    #
+    # Exemplos:
+    #
+    #   "experiência em monitoramento..."
+    #   "experiência comprovada em projetos..."
+    #   "mínimo de 3 projetos/consultorias..."
+    #   "6 contratos distintos..."
+    #
+    # Nesse caso não inventamos uma quantidade de anos.
+    # Preservamos apenas o critério relacionado à experiência.
+    # ---------------------------------------------------------
+
+    if experiencia_exigida and anos_experiencia is None:
+        padroes_outro_criterio = [
+            re.compile(
+                r"(?i)"
+                r"(?:experiência|experiência profissional)"
+                r".{0,200}?"
+                r"(?:mínim[oa]|no mínimo|pelo menos)"
+                r".{0,100}?"
+                r"\d+"
+                r".{0,80}?"
+                r"(?:projetos?|consultorias?|contratos?|experiências?)"
+                r"[^.;\n]*"
+            ),
+            re.compile(
+                r"(?i)"
+                r"(?:mínim[oa]|no mínimo|pelo menos)"
+                r".{0,50}?"
+                r"\d+"
+                r".{0,80}?"
+                r"(?:projetos?|consultorias?|contratos?|experiências?)"
+                r"[^.;\n]*"
+            ),
+        ]
+
+        for padrao in padroes_outro_criterio:
+            match_outro = padrao.search(texto_experiencia)
+
+            if match_outro:
+                experiencia_outro_criterio = re.sub(
+                    r"\s+",
+                    " ",
+                    match_outro.group(0),
+                ).strip(" :-–—")
+                break
+
+        # Caso exista experiência obrigatória, mas não seja possível
+        # identificar uma quantidade ou outro critério estruturado,
+        # preservamos uma indicação genérica.
+        if experiencia_outro_criterio is None:
+            experiencia_outro_criterio = "experiência profissional"
+
+    result["experiencia_exigida"] = experiencia_exigida
+    result["anos_experiencia"] = anos_experiencia
+    result["experiencia_outro_criterio"] = experiencia_outro_criterio
+
+    # ---------------------------------------------------------
+    # 8. Ferramentas
+    # ---------------------------------------------------------
+
+    for ferramenta in FERRAMENTAS_LIST:
+        padrao = re.compile(
+            rf"(?<!\w){re.escape(ferramenta)}(?!\w)",
+            flags=re.IGNORECASE,
+        )
+
+        if padrao.search(texto_obrigatorio):
+            result["ferramentas"].append(ferramenta)
+
+        if padrao.search(texto_desejavel):
+            result["ferramentas_desejaveis"].append(ferramenta)
+
+    # ---------------------------------------------------------
+    # 9. Idiomas
+    # ---------------------------------------------------------
+
+    if "inglês" in texto_obrigatorio or "english" in texto_obrigatorio:
         result["idiomas"].append("Inglês")
-    if "espanhol" in text_lower or "spanish" in text_lower:
+
+    if "espanhol" in texto_obrigatorio or "spanish" in texto_obrigatorio:
         result["idiomas"].append("Espanhol")
 
-    for c in CERT_PATTERNS:
-        if c in text_lower:
-            result["certificacoes"].append(c)
+    if "inglês" in texto_desejavel or "english" in texto_desejavel:
+        result["idiomas_desejaveis"].append("Inglês")
 
-    valor_match = re.search(r"R\$\s*([\d.]+,\d{2})", text)
+    if "espanhol" in texto_desejavel or "spanish" in texto_desejavel:
+        result["idiomas_desejaveis"].append("Espanhol")
+
+    # ---------------------------------------------------------
+    # 10. Certificações
+    # ---------------------------------------------------------
+
+    for certificacao in CERT_PATTERNS:
+        if certificacao in texto_obrigatorio:
+            result["certificacoes"].append(certificacao)
+
+        if certificacao in texto_desejavel:
+            result["certificacoes_desejaveis"].append(certificacao)
+
+    # ---------------------------------------------------------
+    # 11. Valor da contratação
+    #
+    # Valor não depende da seção de requisitos.
+    # Portanto continua sendo procurado no documento inteiro.
+    # ---------------------------------------------------------
+
+    valor_match = re.search(
+        r"R\$\s*([\d.]+,\d{2})",
+        text,
+    )
+
     if not valor_match:
         valor_match = re.search(
-            r"valor\s*(?:total\s*)?(?:da\s*contratação\s*)?:?\s*R\$\s*([\d.]+,\d{2})",
-            text_lower,
+            r"valor\s*"
+            r"(?:total\s*)?"
+            r"(?:da\s*contratação\s*)?"
+            r":?\s*"
+            r"R\$\s*([\d.]+,\d{2})",
+            text.lower(),
         )
+
     if valor_match:
         result["valor"] = valor_match.group(1)
 
-    req_match = re.search(
-        r"(?:requisitos?\s*obrigat[óo]rios?\s*:?|qualifica[cç][ãa]o\s*obrigat[óo]ria)(.*?)"
-        r"(?:requisitos?\s*desej[áa]veis|crit[ée]rios\s*de\s*avalia[cç][ãa]o|processo\s*seletivo|"
-        r"qualifica[cç][ãa]o\s*desej[áa]vel|\d+\.\s*entrega|\d+\.\s*cronograma)",
-        text_lower,
-        re.DOTALL,
-    )
-    if req_match:
-        result["requisitos_obrigatorios"] = [
-            l.strip()
-            for l in req_match.group(1).split("\n")
-            if l.strip() and len(l.strip()) > 20
-        ][:10]
-
-    req_desej_match = re.search(
-        r"(?:requisitos?\s*desej[áa]veis|qualifica[cç][ãa]o\s*desej[áa]vel)(.*?)"
-        r"(?:processo\s*seletivo|crit[ée]rios\s*de\s*pontua[cç][ãa]o|entrega\s*dos\s*produtos|"
-        r"\d+\.\s*entrega|\d+\.\s*cronograma)",
-        text_lower,
-        re.DOTALL,
-    )
-    if req_desej_match:
-        result["requisitos_desejaveis"] = [
-            l.strip()
-            for l in req_desej_match.group(1).split("\n")
-            if l.strip() and len(l.strip()) > 20
-        ][:10]
+    # ---------------------------------------------------------
+    # 12. Entregáveis
+    # ---------------------------------------------------------
 
     result["entregaveis"] = _extract_entregaveis(text)
 

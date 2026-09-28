@@ -7377,10 +7377,10 @@
   {
     "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13272",
     "graduacao": [
-      "administração",
-      "direito",
       "ciências sociais",
-      "física"
+      "administração pública",
+      "administração",
+      "direito"
     ],
     "pos_graduacao": [
       "especialização"
@@ -7388,13 +7388,7 @@
     "mestrado": true,
     "doutorado": true,
     "anos_experiencia": 3,
-    "ferramentas": [
-      "r",
-      "excel",
-      "sei",
-      "sic",
-      "sas"
-    ],
+    "ferramentas": [],
     "idiomas": [
       "Espanhol"
     ],
@@ -7418,6 +7412,18 @@
     "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR13272",
     "descricao": "Contratação de 1 (um) consultor especializado em Normas Jurídicas, Conformidade Normativa e Desenvolvimento de Instrumentos Jurídico-Administrativos para assessorar a execução e o acompanhamento do ACTI e do Plano de Trabalho. Além de realizar análises de conformidade normativa e elaborar estudos, notas técnicas e instrumentos jurídico-administrativos, o consultor prestará apoio à OEI e à SEDUC-RS nas demandas relacionadas às contratações, à execução contratual, à formalização de parcerias e às demais atividades do Acordo. Isso inclui a identificação e mitigação de riscos normativos, administrativos, contratuais e de integridade, bem como o fortalecimento da governança, da transparência e da segurança jurídica dos procedimentos, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
     "local": "Porto Alegre - RS",
-    "data_fim": "2026-09-29"
+    "data_fim": "2026-09-29",
+    "graduacao_desejavel": [
+      "ciências sociais",
+      "administração pública",
+      "administração",
+      "direito"
+    ],
+    "pos_graduacao_desejavel": [
+      "especialização"
+    ],
+    "mestrado_desejavel": true,
+    "doutorado_desejavel": true,
+    "experiencia_exigida": true
   }
 ]
