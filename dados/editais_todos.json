@@ -24,7 +24,7 @@
     "description": "Consultoria técnica especializada para mapeamento, sistematização e análise das demandas administrativas das Unidades Regionais de Ensino (URE) da Rede Estadual de Ensino de São Paulo, visando à consolidação de um diagnóstico comparativo e estruturado e à formulação de recomendações técnicas para o aperfeiçoamento dos fluxos e serviços administrativos.",
     "comments": "R$ 60.000,00",
     "startDate": "2026-09-29",
-    "endDate": "2026-10-10",
+    "endDate": "2026-10-07",
     "local": "São Paulo - SP",
     "receivingEmail": "selecao.bra@oei.int",
     "statusDescription": "En evaluación",
@@ -35,6 +35,25 @@
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13271/",
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13271.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-002-tr13290",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/22/002 – TR13290",
+    "description": "A consultoria tem por objetivo reunir e categorizar os materiais a serem disponibilizados no repositório digital da Escult, bem como apresentar protótipo do sítio e do funcionamento do repositório digital da Escul",
+    "comments": "R$ 55.000,00",
+    "startDate": "2026-09-29",
+    "endDate": "2026-10-05",
+    "local": "Remoto",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-09-29",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-002-tr13290",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-002-tr13290/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13290.pdf"
     ]
   },
   {

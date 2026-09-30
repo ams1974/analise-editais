@@ -8062,5 +8062,50 @@
     "descricao": "Consultoria técnica especializada para mapeamento, sistematização e análise das demandas administrativas das Unidades Regionais de Ensino (URE) da Rede Estadual de Ensino de São Paulo, visando à consolidação de um diagnóstico comparativo e estruturado e à formulação de recomendações técnicas para o aperfeiçoamento dos fluxos e serviços administrativos.",
     "local": "São Paulo - SP",
     "data_fim": "2026-10-10"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-002-tr13290",
+    "graduacao": [
+      "biblioteconomia"
+    ],
+    "graduacao_desejavel": [],
+    "pos_graduacao": false,
+    "pos_graduacao_desejavel": false,
+    "mestrado": false,
+    "mestrado_desejavel": false,
+    "doutorado": false,
+    "doutorado_desejavel": false,
+    "experiencia_exigida": true,
+    "anos_experiencia": null,
+    "experiencia_outro_criterio": "experiência profissional",
+    "anos_experiencia_desejavel": null,
+    "ferramentas": [],
+    "ferramentas_desejaveis": [],
+    "idiomas": [],
+    "idiomas_desejaveis": [],
+    "certificacoes": [],
+    "certificacoes_desejaveis": [],
+    "valor": "55.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "a. formação acadêmica",
+      "a.1 formação acadêmica (consultoria especializada: elaboração de protótipo da midiateca",
+      "graduação em curso de nível superior em biblioteconomia, devidamente concluído e reconhecido",
+      "pelo ministério da educação (mec).",
+      "b. exigências específicas",
+      "é obrigatório comprovar experiência profissional de, no mínimo, 05 (cinco) anos com atuação direta",
+      "em organização de acervo bibliográfico"
+    ],
+    "requisitos_desejaveis": [],
+    "entregaveis": [
+      "Documento técnico contendo carta de serviços, com a sistematização de possibilidades de implementação do repositório digital da Escult. Atividade 1.1 Apresentar possibilidades de plataforma e suas especificações, possibilidades de obtenção de licenciamento e suas especificações e possibilidades de empréstimo ou de disponibilização dos distintos formatos dos materiais a serem disponibilizados (textos, vídeos, áudios, etc). Atividade 1.2 Apresentar documento de Carta de Serviços do repositório digital consolidado, com a validação das possibilidades e alternativas de preferência da equipe da Escult",
+      "Documento técnico contendo o estudo sobre os materiais para a consolidação dos tesauros. Atividade 2.1 Reunir, explorar e apresentar proposta de tesauros para o material a ser disponibilizado no repositório digital da Escult. Atividade 2.2 Apresentar documento consolidado dos tesauros. Atividade 2.3 Realizar curadoria de materiais de autoria externa e apresentar documento com categorização do conjunto de materiais a ser disponibilizado no repositório digital da Escult",
+      "Documento técnico contendo o desenho institucional da Midiateca da Escult, abrangendo aspectos do layout e do funcionamento da ação. Atividade 3.1 Apresentar documento contendo proposta de desenho institucional, abrangendo aspectos do layout e do funcionamento da ação, da Midiateca da Escult. Atividade 3.2 Realizar reuniões de alinhamento técnico com a equipe responsável, visando a validação do documento. Atividade 3.3 Apresentar documento contendo o desenho institucional, abrangendo aspectos do layout e do funcionamento da ação, da Midiateca da Escult consolidado"
+    ],
+    "competencias": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/22/002 – TR13290",
+    "descricao": "A consultoria tem por objetivo reunir e categorizar os materiais a serem disponibilizados no repositório digital da Escult, bem como apresentar protótipo do sítio e do funcionamento do repositório digital da Escul",
+    "local": "Remoto",
+    "data_fim": "2026-10-05"
   }
 ]
