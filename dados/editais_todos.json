@@ -1,5 +1,119 @@
 [
   {
+    "id": "unesco:ec486dce-4c41-4830-4e64-08df1817d7a0",
+    "title": "Projeto 914BRZ1085 - Edital nº 05/2026 - 02 vagas - Consultores Individuais",
+    "description": "Consultores especializados em Ciências da Saúde, Humanas ou Sociais Aplicadas para realizar pesquisa e análise abrangente das condições sóciossanitárias e culturais dos Povos Ciganos no RN.",
+    "comments": "",
+    "startDate": "2026-10-01T00:00:00",
+    "endDate": "2026-10-08T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-01T00:00:00",
+    "torid": "unesco:ec486dce-4c41-4830-4e64-08df1817d7a0",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/b212267e-44c1-4f4f-33a5-08df1e06383b"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13275",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13275",
+    "description": "Contratar consultor(a) técnico(a) especializado(a) para elaboração de análises jurídicas e institucionais aplicadas à estruturação, qualificação e aprimoramento de instrumentos de cooperação e arranjos de governança em políticas culturais, com foco na integração entre entes federativos e na consolidação de modelos jurídicos e estratégicos que assegurem segurança normativa, eficiência na execução e coerência com as diretrizes do Programa de Cooperação OEI-MinC.",
+    "comments": "R$ 60.000,00",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-05",
+    "local": "Brasília - DF",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-10-01",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13275",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13275/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-tr13275.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13269",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/003 – TR13269",
+    "description": "Contratação de 1 (um/uma) pesquisador(a) para atuar na produção de subsídios e elaboração de propostas voltadas ao aperfeiçoamento das políticas públicas territorializadas, da participação social e do desenvolvimento territorial no âmbito do Governo Federal brasileiro. São objetivos da consultoria: - Coordenar o levantamento, a sistematização e a análise de políticas públicas territorializadas executadas pelo Governo Federal, elaborando subsídios técnicos para seu aperfeiçoamento, integração, avaliação e monitoramento, com ênfase nas iniciativas voltadas ao fortalecimento da participação social, do trabalho sociocomunitário e do desenvolvimento territorial. - Desenvolver análises comparadas entre as experiências brasileiras e as políticas territorializadas e de agentes comunitários estudadas em países da América Latina, identificando convergências, potencialidades, desafios e possibilidades de adaptação ao contexto brasileiro. - Elaborar propostas técnicas para o fortalecimento da coordenação intersetorial e da integração entre políticas públicas territorializadas, contribuindo para a construção de uma estratégia nacional de participação social e desenvolvimento territorial. - Elaborar relatórios técnicos parciais e final contendo diagnóstico, análises, recomendações e propostas de aperfeiçoamento das políticas públicas estudadas.",
+    "comments": "R$ 60.000,00",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-05",
+    "local": "Remoto",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-10-01",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13269",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13269/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-tr13269.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13300",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO CAIS DAS ARTES/ES – TR13300",
+    "description": "Contratação de 2 (dois) profissionais Designers Gráficos para atuar no desenvolvimento de peças e materiais de comunicação visual, identidade gráfica e conteúdos digitais do Cais das Artes, incluindo criação, adaptação e diagramação de materiais para divulgação das ações, projetos, eventos e programação do equipamento, em apoio à Gerência de Comunicação e em consonância com as diretrizes institucionais da OEI e da SECULT/ES.",
+    "comments": "R$ 33.000,00",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-05",
+    "local": "Vitória - ES",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-10-01",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13300",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13300/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-tr13300.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13296",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO CAIS DAS ARTES/ES – TR13296",
+    "description": "Contratação de 02 (dois) profissionais para exercer a função de Analista de Comunicação e Redes Sociais do Cais das Artes, responsáveis pela produção, gestão e monitoramento de conteúdos para redes sociais e demais canais digitais do equipamento, apoiando a Gerência de Comunicação na execução das estratégias de comunicação digital, divulgação institucional e relacionamento com os diversos públicos do Cais das Artes.",
+    "comments": "R$ 36.000,00",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-05",
+    "local": "Vitória - ES",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-10-01",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13296",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13296/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-tr13298-1.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13298",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO CAIS DAS ARTES/ES – TR13298",
+    "description": "Contratação de profissional para exercer a função de Assessor de Imprensa / Analista de Comunicação (Imprensa) do Cais das Artes, responsável pela produção de conteúdo jornalístico, relacionamento com veículos de comunicação e jornalistas, assessoria de imprensa, divulgação institucional das ações do equipamento cultural e apoio à Gerência de Comunicação na execução das estratégias de comunicação e posicionamento institucional do Cais das Artes.",
+    "comments": "R$ 21.000,00",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-05",
+    "local": "Vitória - ES",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-10-01",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13298",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13298/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-tr13298.pdf"
+    ]
+  },
+  {
     "id": "oei:contratacao-de-consultor-projeto-abdi-tr-13260",
     "title": "Contratação de consultor PROJETO ABDI – TR 13260",
     "description": "Contratação de consultoria técnica individual, especializada em engenharia de plataformas e infraestrutura de nuvem, para prestação de serviços técnicos de apoio à ABDI no âmbito do Projeto Nuvem Brasileira, compreendendo a sistematização da Escuta de Mercado, o diagnóstico da capacidade de oferta do ecossistema nacional, o aprimoramento metodológico do Gradiente de Soberania e a produção de subsídios técnicos para a modelagem da solução e do futuro instrumento convocatório.",
@@ -2582,7 +2696,8 @@
       "https://oei.int/wp-content/uploads/2026/08/edital-concorrencia-no-13125-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/08/link-para-concorrencia-n-13125-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-01-13125-2025.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/resposta-pedido-de-esclarecimento-2-js-brasil-13125-2026.pdf"
+      "https://oei.int/wp-content/uploads/2026/08/resposta-pedido-de-esclarecimento-2-js-brasil-13125-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/ata-de-recebimento-propostas-13125-2026.pdf"
     ]
   },
   {
