@@ -1716,15 +1716,17 @@
     function textoBuscaEdital(e) {
       const r = e.requisitos || {};
 
+      const lista = valor => Array.isArray(valor) ? valor : [];
+
       return [
         e.titulo,
         e.descricao,
         e.orgao_parceiro,
-        ...(r.graduacao || []),
-        ...(r.pos_graduacao || []),
-        ...(r.ferramentas || []),
-        ...(r.idiomas || []),
-        ...(r.certificacoes || [])
+        ...lista(r.graduacao),
+        ...lista(r.pos_graduacao),
+        ...lista(r.ferramentas),
+        ...lista(r.idiomas),
+        ...lista(r.certificacoes)
       ]
         .filter(Boolean)
         .join(' ')
