@@ -1,5 +1,43 @@
 [
   {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13304",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13304",
+    "description": "Consultoria técnica especializada para mapeamento, análise e melhoria de processos de gestão da Secretaria da Educação do Estado de São Paulo (Seduc-SP), com utilização da plataforma ARPO como ferramenta institucional de modelagem e gestão de processos.",
+    "comments": "R$ 90.000,00",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-16",
+    "local": "São Paulo - SP",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-10-02",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13304",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13304/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-tr13304.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13221",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13221",
+    "description": "Consultoria técnica para elaboração de especificação funcional e definição de requisitos e critérios técnicos necessários à futura aplicação de soluções de automação inteligente e inteligência artificial às rotinas de gestão de contratos, convênios e procedimentos sancionatórios no âmbito da Diretoria de Contratos e Convênios DICON e de suas coordenadorias.",
+    "comments": "R$ 70.000,00",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-16",
+    "local": "São Paulo - SP",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-10-02",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13221",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13221/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-tr13221.pdf"
+    ]
+  },
+  {
     "id": "unesco:ec486dce-4c41-4830-4e64-08df1817d7a0",
     "title": "Projeto 914BRZ1085 - Edital nº 05/2026 - 02 vagas - Consultores Individuais",
     "description": "Consultores especializados em Ciências da Saúde, Humanas ou Sociais Aplicadas para realizar pesquisa e análise abrangente das condições sóciossanitárias e culturais dos Povos Ciganos no RN.",
