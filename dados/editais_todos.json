@@ -1,5 +1,83 @@
 [
   {
+    "id": 1571,
+    "torid": 146401,
+    "createdBy": "maria.nery.prestador",
+    "title": "Edital 06/2026 - Programa de Privacidade e Segurança da Informação",
+    "startDate": "2026-10-06T03:00:00",
+    "endDate": "2026-10-21T03:00:00",
+    "local": "Território Nacional",
+    "receivingEmail": "cgti@mdh.gov.br",
+    "enabled": true,
+    "description": "Contratação de consultor pessoa física, na modalidade produto, para elaborar subsídios técnicos destinados à implementação das ações previstas no Programa de Privacidade e Segurança da Informação (PPSI) versão 2.0 e ao atendimento das obrigações estabelecidas pela Lei nº 13.709/2018 – Lei Geral de Proteção de Dados Pessoais (LGPD).",
+    "approver": "aline.santana,andrea.bolzon,brenda.felix,carolina.parisotto,kalyandra.leite,livia.nogueira,livia.silva,rosana.tomazini",
+    "comments": "TR revisado e validado pelo PNUD",
+    "created": "2026-10-05T14:06:47.2883964",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "oei:procedimento-simplificado-no-13307-2026-oei-secult-es",
+    "title": "Procedimento Simplificado nº 13307/2026 – OEI/SECULT-ES",
+    "description": "Contratação de empresa especializada para o fornecimento e a instalação de mobiliário essencial destinado ao Cais das Artes, localizado em Vitória/ES, contemplando itens necessários à estruturação e ao funcionamento inicial dos ambientes administrativos, das áreas de apoio operacional e dos demais espaços indispensáveis ao desenvolvimento das atividades institucionais do equipamento, visando garantir condições adequadas de funcionalidade, organização e utilização dos espaços, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
+    "comments": "R$ 461.461,46",
+    "startDate": "2026-10-06",
+    "endDate": "2026-10-20",
+    "local": "Vitória/ES",
+    "receivingEmail": "compras.bra@oei.int",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-10-06",
+    "torid": "oei:procedimento-simplificado-no-13307-2026-oei-secult-es",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/SECULT",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/procedimento-simplificado-no-13307-2026-oei-secult-es/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/edital-procedimento-simplificado-no-13307-2026-oei-secult-es.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/link-para-acesso-a-sala-virtual-13307-2026-oei-secult-es.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13303",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MEMP/SEBRAE/2024 – TR13303",
+    "description": "Contratação de consultor individual especialista em Comunicação para planejar, produzir e acompanhar as ações de comunicação da Plataforma Empreender Clima e das soluções de inteligência artificial do projeto, destinadas a microempreendedores individuais, microempresas e empresas de pequeno porte, com o objetivo de: traduzir em linguagem acessível os benefícios econômicos e ambientais de soluções sustentáveis e as possibilidades de financiamento orientar o uso da Plataforma e de suas ferramentas elaborar o plano de comunicação, as peças e os criativos do projeto e planejar e acompanhar campanhas de mobilização e adesão de empreendedores nas fases de piloto e lançamento ao público, com monitoramento de resultados por métricas",
+    "comments": "R$ 62.500,00",
+    "startDate": "2026-10-06",
+    "endDate": "2026-10-10",
+    "local": "Remoto, com deslocamentos pontuais para reuniões e eventos",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-10-06",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13303",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13303/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-tr13303.pdf"
+    ]
+  },
+  {
+    "id": "unesco:375ed309-bb72-44ae-7d86-08df1d6278dd",
+    "title": "914BRZ1159 - Publicação Edital 41/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada em Gestão Pública ou Educação para realizar o tratamento e a análise de dados e informações educacionais relacionados aos programas prioritários da SEB/MEC.",
+    "comments": "",
+    "startDate": "2026-10-05T00:00:00",
+    "endDate": "2026-10-09T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-05T00:00:00",
+    "torid": "unesco:375ed309-bb72-44ae-7d86-08df1d6278dd",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/b6f7cce2-db16-4401-70bf-08df1d465a14"
+    ]
+  },
+  {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13304",
     "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13304",
     "description": "Consultoria técnica especializada para mapeamento, análise e melhoria de processos de gestão da Secretaria da Educação do Estado de São Paulo (Seduc-SP), com utilização da plataforma ARPO como ferramenta institucional de modelagem e gestão de processos.",
@@ -8,7 +86,7 @@
     "endDate": "2026-10-16",
     "local": "São Paulo - SP",
     "receivingEmail": "selecao.bra@oei.int",
-    "statusDescription": "En evaluación",
+    "statusDescription": "Suspendida",
     "created": "2026-10-02",
     "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13304",
     "fonte": "oei",
@@ -2760,7 +2838,8 @@
       "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-02-13126-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-03-13126-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-04-13216-2026.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-05-13126-2026.pdf"
+      "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-05-13126-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/ata-recebimento-das-propostas-13126-2026-oei-mdhc.pdf"
     ]
   },
   {
