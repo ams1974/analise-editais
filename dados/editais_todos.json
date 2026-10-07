@@ -1,5 +1,24 @@
 [
   {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-001-tr13288",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/22/001 – TR13288",
+    "description": "Contratar consultoria especializada em gestão de processos para diagnosticar, mapear e propor redesenho de processos, elaborar manual de diretrizes para Acordos de Cooperação Técnica Internacional, propor soluções inovadoras e capacitar a equipe técnica, visando à modernização e ao fortalecimento da gestão.",
+    "comments": "R$ 140.000,00",
+    "startDate": "2026-10-07",
+    "endDate": "2026-10-12",
+    "local": "Consultor especialista em Gestão de Processos Secretaria de Estado da Educação  SEED-PR",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-10-07",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-001-tr13288",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-001-tr13288/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-tr13288.pdf"
+    ]
+  },
+  {
     "id": 1571,
     "torid": 146401,
     "createdBy": "maria.nery.prestador",

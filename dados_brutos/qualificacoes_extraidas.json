@@ -8647,5 +8647,49 @@
     "descricao": "Contratação de consultor individual especialista em Comunicação para planejar, produzir e acompanhar as ações de comunicação da Plataforma Empreender Clima e das soluções de inteligência artificial do projeto, destinadas a microempreendedores individuais, microempresas e empresas de pequeno porte, com o objetivo de: traduzir em linguagem acessível os benefícios econômicos e ambientais de soluções sustentáveis e as possibilidades de financiamento orientar o uso da Plataforma e de suas ferramentas elaborar o plano de comunicação, as peças e os criativos do projeto e planejar e acompanhar campanhas de mobilização e adesão de empreendedores nas fases de piloto e lançamento ao público, com monitoramento de resultados por métricas",
     "local": "Remoto, com deslocamentos pontuais para reuniões e eventos",
     "data_fim": "2026-10-10"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-001-tr13288",
+    "graduacao": [],
+    "graduacao_desejavel": [],
+    "pos_graduacao": true,
+    "pos_graduacao_desejavel": false,
+    "mestrado": false,
+    "mestrado_desejavel": false,
+    "doutorado": false,
+    "doutorado_desejavel": false,
+    "experiencia_exigida": true,
+    "anos_experiencia": null,
+    "experiencia_outro_criterio": "experiência profissional",
+    "anos_experiencia_desejavel": null,
+    "ferramentas": [
+      "sharepoint"
+    ],
+    "ferramentas_desejaveis": [],
+    "idiomas": [],
+    "idiomas_desejaveis": [],
+    "certificacoes": [],
+    "certificacoes_desejaveis": [],
+    "valor": "140.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "a. formação acadêmica",
+      "pós-graduação (stricto ou lato sensu) na área de gestão de processos, engenharia de processos,",
+      "gestão pública ou gestão de projetos.",
+      "b. experiências desejáveis",
+      "b.1 experiência profissional comprovada de, no mínimo, 01 (um) ano com o uso de ferramentas de",
+      "modelagem de processos ou plataformas digitais de gestão e dados (ex microsoft sharepoint, power",
+      "b.2 é desejável possuir cursos de formação, aperfeiçoamento ou extensão profissional em",
+      "ferramentas de modelagem e gestão de processos e/ou em soluções de inteligência artificial e",
+      "automação aplicadas à gestão, com carga horária somada mínima de 40 (quarenta) horas,",
+      "devidamente comprovada(s) por meio de certificado(s) ou declaração(ões) de conclusão emitido(s)"
+    ],
+    "requisitos_desejaveis": [],
+    "entregaveis": [],
+    "competencias": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/22/001 – TR13288",
+    "descricao": "Contratar consultoria especializada em gestão de processos para diagnosticar, mapear e propor redesenho de processos, elaborar manual de diretrizes para Acordos de Cooperação Técnica Internacional, propor soluções inovadoras e capacitar a equipe técnica, visando à modernização e ao fortalecimento da gestão.",
+    "local": "Consultor especialista em Gestão de Processos Secretaria de Estado da Educação  SEED-PR",
+    "data_fim": "2026-10-12"
   }
 ]
