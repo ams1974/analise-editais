@@ -1,5 +1,43 @@
 [
   {
+    "id": "unesco:048a1d3b-843f-4613-60de-08df20839863",
+    "title": "914BRZ1159 - Publicação Edital 42/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada para subsidiar o aprimoramento da organização, da gestão do conhecimento e da comunicação institucional da DIMAM/SEB/MEC.",
+    "comments": "",
+    "startDate": "2026-10-14T00:00:00",
+    "endDate": "2026-10-19T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-14T00:00:00",
+    "torid": "unesco:048a1d3b-843f-4613-60de-08df20839863",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/b46d332c-7482-43fb-c8d9-08df2906e90f"
+    ]
+  },
+  {
+    "id": "unesco:28aedd59-87d7-4b85-60e5-08df20839863",
+    "title": "914BRZ1162 - Edital 07/2026 - 01 vaga - Consultor Individual",
+    "description": "Consultoria técnica especializada em pesquisa, sistematização e análise de dados e documentação educacional para subsidiar a formulação do novo Plano Municipal de Educação de Leme.",
+    "comments": "",
+    "startDate": "2026-10-14T00:00:00",
+    "endDate": "2026-10-20T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-14T00:00:00",
+    "torid": "unesco:28aedd59-87d7-4b85-60e5-08df20839863",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/efaddc19-77b7-4a75-c903-08df2906e90f"
+    ]
+  },
+  {
     "id": 1579,
     "torid": 146428,
     "createdBy": "gabriella.almeida",
