@@ -1,5 +1,62 @@
 [
   {
+    "id": 1521,
+    "torid": 146334,
+    "createdBy": "francis.flores",
+    "title": "Consultoria individual para estudo sobre os impactos regulatórios da Reforma Tributária no setor de saneamento básico",
+    "startDate": "2026-10-15T03:00:00",
+    "endDate": "2026-10-25T03:00:00",
+    "local": "brasília",
+    "receivingEmail": "cotar@ssb.gov.br",
+    "enabled": true,
+    "description": "null",
+    "approver": "astrava,henrique.lacerda,ligia.araujo,luciana.brant,manuela.lima,melissa.silva,MTF,thais.pires",
+    "comments": "",
+    "created": "2026-08-20T10:27:12.6892255",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "unesco:5e9b99bd-04d4-46aa-60df-08df20839863",
+    "title": "A2101B5102 | Edital 01/2026 – 01 vaga - Consultor individual",
+    "description": "Consultoria especializada em Educação para o Desenvolvimento Sustentável (EDS), educação ambiental e ação climática.",
+    "comments": "",
+    "startDate": "2026-10-15T00:00:00",
+    "endDate": "2026-10-22T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-15T00:00:00",
+    "torid": "unesco:5e9b99bd-04d4-46aa-60df-08df20839863",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/3bbc150c-79fb-42f0-c8fa-08df2906e90f"
+    ]
+  },
+  {
+    "id": "unesco:4e03075d-fa9c-444b-bf96-08df23ad085e",
+    "title": "570BRZ2005 - Edital 01/2026 - Consultor individual",
+    "description": "Profissional da área de Engenharia Elétrica",
+    "comments": "",
+    "startDate": "2026-10-15T00:00:00",
+    "endDate": "2026-10-20T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-15T00:00:00",
+    "torid": "unesco:4e03075d-fa9c-444b-bf96-08df23ad085e",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/e09b3995-d694-4cf1-967a-08df26197bef"
+    ]
+  },
+  {
     "id": "unesco:048a1d3b-843f-4613-60de-08df20839863",
     "title": "914BRZ1159 - Publicação Edital 42/2026 - 1 vaga - Consultor Individual",
     "description": "Consultoria especializada para subsidiar o aprimoramento da organização, da gestão do conhecimento e da comunicação institucional da DIMAM/SEB/MEC.",
@@ -308,11 +365,11 @@
   },
   {
     "id": "oei:contratacao-de-consultor-projeto-abdi-tr-13312",
-    "title": "Contratação de consultor PROJETO ABDI – TR 13312",
+    "title": "Contratação de consultor PROJETO ABDI – TR 13312 REPUBLICADO",
     "description": "Contratar consultoria técnica especializada, na modalidade individual, para apoiar a ABDI na estruturação, condução e execução de iniciativas estratégicas da agenda BIM e Construção Industrializada, com foco no acompanhamento técnico da Pesquisa de Maturidade BIM em Habitação de Interesse Social, realizada em parceria com o Ministério das Cidades, e no suporte às frentes do Projeto Construção 4.0.",
     "comments": "R$ 141.000,00",
     "startDate": "2026-10-08",
-    "endDate": "2026-10-12",
+    "endDate": "2026-10-16",
     "local": "Remoto",
     "receivingEmail": "selecao.bra@oei.int",
     "statusDescription": "En presentación",
@@ -323,7 +380,9 @@
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-abdi-tr-13312/",
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-13312.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-13312.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-13312-1.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/errata-13312-2026.pdf"
     ]
   },
   {
@@ -617,11 +676,11 @@
   },
   {
     "id": "oei:contratacao-de-consultor-projeto-abdi-tr-13260",
-    "title": "Contratação de consultor PROJETO ABDI – TR 13260",
+    "title": "Contratação de consultor PROJETO ABDI – TR 13260 REPUBLICADO",
     "description": "Contratação de consultoria técnica individual, especializada em engenharia de plataformas e infraestrutura de nuvem, para prestação de serviços técnicos de apoio à ABDI no âmbito do Projeto Nuvem Brasileira, compreendendo a sistematização da Escuta de Mercado, o diagnóstico da capacidade de oferta do ecossistema nacional, o aprimoramento metodológico do Gradiente de Soberania e a produção de subsídios técnicos para a modelagem da solução e do futuro instrumento convocatório.",
     "comments": "R$ 96.840,00",
     "startDate": "2026-09-29",
-    "endDate": "2026-10-02",
+    "endDate": "2026-10-16",
     "local": "Remota e/ou presencial em Brasília - DF",
     "receivingEmail": "selecao.bra@oei.int",
     "statusDescription": "En fase de apresentação",
@@ -631,7 +690,9 @@
     "orgao_parceiro": "OEI",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-abdi-tr-13260/",
     "tor_urls": [
-      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf"
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-13260-republicado.pdf",
+      "https://oei.int/wp-content/uploads/2026/09/errata-13260.pdf"
     ]
   },
   {
