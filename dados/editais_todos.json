@@ -38,6 +38,25 @@
     "url_externo": "https://parceiros.undp.org.br/opportunities"
   },
   {
+    "id": "unesco:0f405e12-70d9-40e9-ff3b-08df246fb477",
+    "title": "914BRZ1156 - Edital 09/2026 - Consultor Individual - 01 vaga",
+    "description": "Consultoria especializada em design editorial, diagramação e projeto gráfico para desenvolvimento de dois e-books institucionais sobre intersetorialidade com a educação.",
+    "comments": "",
+    "startDate": "2026-10-16T00:00:00",
+    "endDate": "2026-10-25T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-16T00:00:00",
+    "torid": "unesco:0f405e12-70d9-40e9-ff3b-08df246fb477",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/4aa5966b-8e5f-4de8-be33-08df2b8201a1"
+    ]
+  },
+  {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-secult-sa-tr-13326",
     "title": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC SECULT SA – TR 13326",
     "description": "Contratação de Consultoria Técnica em Gestão Operacional nos equipamentos do Complexo Cultural de Salvador sob gestão da OEI.",

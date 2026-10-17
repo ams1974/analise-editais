@@ -9899,5 +9899,62 @@
     "descricao": "Contratação de Consultoria Técnica em Planejamento e Gestão de Projetos e Parcerias nos equipamentos do Complexo Cultural de Salvador sob gestão da OEI. (01 vaga)",
     "local": "Salvador/BA",
     "data_fim": "2026-10-20"
+  },
+  {
+    "torid": "unesco:0f405e12-70d9-40e9-ff3b-08df246fb477",
+    "graduacao": [],
+    "graduacao_desejavel": [],
+    "pos_graduacao": false,
+    "pos_graduacao_desejavel": false,
+    "mestrado": false,
+    "mestrado_desejavel": false,
+    "doutorado": false,
+    "doutorado_desejavel": false,
+    "experiencia_exigida": true,
+    "anos_experiencia": 3,
+    "experiencia_outro_criterio": null,
+    "anos_experiencia_desejavel": null,
+    "ferramentas": [],
+    "ferramentas_desejaveis": [],
+    "idiomas": [],
+    "idiomas_desejaveis": [],
+    "certificacoes": [],
+    "certificacoes_desejaveis": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "o presente processo seletivo será realizado em fase única de análise curricular, de caráter eliminatório e",
+      "classificatório. a avaliação será conduzida com base nas informações registradas pelo(a) candidato(a) no currículo",
+      "submetido à plataforma roster da unesco, considerando os requisitos obrigatórios e os critérios pontuáveis",
+      "definidos neste termo de referência.",
+      "os candidatos que não atenderem aos critérios mínimos obrigatórios de qualificação não serão considerados",
+      "elegíveis nas etapas subsequentes deste processo seletivo.",
+      "5.1.1. formação acadêmica – é obrigatório que possua graduação em design gráfico, design,",
+      "comunicação social, publicidade e propaganda, produção editorial ou área correlata.",
+      "5.1.2. experiência profissional comprovada – é obrigatório que possua experiência mínima de 03 (três)",
+      "anos em design gráfico, design editorial ou diagramação de publicações digitais ou impressas. é obrigatório"
+    ],
+    "requisitos_desejaveis": [
+      "os candidatos que atenderem aos critérios mínimos obrigatórios serão elegíveis para a avaliação do atendimento",
+      "aos critérios desejáveis.",
+      "embora não sejam eliminatórios, os critérios desejáveis serão importantes para contribuir para uma melhor",
+      "colocação do candidato no cômputo de pontuação no processo seletivo, conforme estabelecido no item 6, tabela",
+      "de critérios pontuáveis.",
+      "5.2.1. é desejável que possua experiência em design editorial de publicações para órgãos públicos,",
+      "organismos internacionais, instituições de ensino ou organizações da sociedade civil.",
+      "5.2.2. é desejável que possua experiência na apresentação visual de conteúdos relacionados à educação,",
+      "políticas públicas, extensão universitária ou intersetorialidade.",
+      "* as comprovações das qualificações declaradas poderão ser solicitadas a qualquer momento do processo"
+    ],
+    "entregaveis": [
+      "Documento técnico contendo capa, folha de rosto, expediente, sumário, o projeto gráfico e a versão diagramada abertura de seções e demais elementos do e-book “Guia Prático para Elaboração pré-textuais e pós-textuais definidos pela de Projetos de Intersetorialidade com a equipe técnica do projeto. Educação”, desenvolvidos e finalizados Atividade 1.2: Diagramar o conteúdo do com estimativa de 150 páginas (o",
+      "Documento técnico contendo Atividade 2.1: Analisar os processos de o projeto gráfico e a versão diagramada elaborar proposta de projeto gráfico, 50 dias, contados a do e-book de relatos de experiências da incluindo formato, grid, tipografia, paleta partir da data de Rede Interset-CE, desenvolvidos e de cores, estilos de títulos e subtítulos, assinatura do finalizados com estimativa de 800 páginas padrões de abertura de capítulos, contrato (o produto deverá apresentar solução cabeçalhos, rodapés, paginação e recursos editorial completa para a publicação de navegação com criação de capa, folha dedicada às experiências dos projetos de rosto, expediente, sumário, abertura de integrantes da Rede Interset-CE, com seções e demais elementos pré-textuais e unidade visual, legibilidade, organização pós-textuais definidos pela equipe técnica dos conteúdos e valorização das do projeto. especificidades territoriais e Atividade 2.2: Diagramar os relatos de institucionais). experiências, assegurando tratamento coerente para textos, destaques, depoimentos, fichas de projetos, quadros, tabelas, gráficos, mapas, fotografias, legendas e referências e com observância aos requisitos de acessibilidade editorial e digital, incluindo hierarquia visual, contraste, legibilidade, ordem lógica dos conteúdos e preparação de PDF acessível. Atividade 2.3: Entregar arquivo final em PDF para publicação digital, PDF de alta resolução e arquivos editáveis, com fontes, vínculos e demais recursos necessários à reedição, observadas as licenças aplicáveis",
+      "dias, contados a guia, com tratamento visual diferenciado deverá apresentar solução editorial partir da data de para etapas, conceitos, alertas, completa para uma publicação de caráter assinatura do recomendações, perguntas orientadoras, prático e orientador, destinada a apoiar contrato exemplos, roteiros, checklists, fluxos, gestores públicos na estruturação de quadros e tabelas, e com observância aos projetos intersetoriais com a educação, requisitos de acessibilidade editorial e com navegação simples e destaque para digital, incluindo hierarquia visual, etapas, ferramentas, exemplos e contraste, legibilidade, ordem lógica dos recomendações). conteúdos e preparação de PDF acessível. Atividade 1.3: Entregar arquivo final em PDF para publicação digital, PDF de alta resolução e arquivos editáveis, com fontes, vínculos e demais recursos necessários à reedição, observadas as licenças aplicáveis"
+    ],
+    "competencias": [],
+    "titulo": "914BRZ1156 - Edital 09/2026 - Consultor Individual - 01 vaga",
+    "descricao": "Consultoria especializada em design editorial, diagramação e projeto gráfico para desenvolvimento de dois e-books institucionais sobre intersetorialidade com a educação.",
+    "local": "",
+    "data_fim": "2026-10-25"
   }
 ]
