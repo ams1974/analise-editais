@@ -1,5 +1,100 @@
 [
   {
+    "id": 1580,
+    "torid": 146434,
+    "createdBy": "maria.nery.prestador",
+    "title": "Edital 07/2026 - Curso “Direito à Identidade, Cidadania e Documentação\" para a Plataforma EV.G/Enap.",
+    "startDate": "2026-10-19T03:00:00",
+    "endDate": "2026-11-04T03:00:00",
+    "local": "Brasília",
+    "receivingEmail": "rcn_cidadania@mdh.gov.br",
+    "enabled": true,
+    "description": "Contratação de consultor pessoa física, na modalidade produto, para elaboração de novo curso da Enap “Direito à Identidade, Cidadania e Documentação”, em formato online, autoinstrucional e assíncrono, com carga horária de 30 horas, abrangendo a concepção pedagógica e instrucional, a produção de conteúdo técnico e atividades educacionais e a implementação do curso no AVA da Enap/EV.G, em plataforma Moodle. assíncrono, com carga horária de 30 horas, e utilizará materiais diversificados (ebooks, vídeos, textos, atividades interativas).",
+    "approver": "aline.santana,andrea.bolzon,brenda.felix,carolina.parisotto,kalyandra.leite,livia.nogueira,livia.silva,rosana.tomazini",
+    "comments": "Observações do(a) PA: O TR 146434 refletido na RC UNDP-BRA-1011865. O valor é R$ 40.000,00.  O TR foi analisado, previamente, pela gerente e pela assistente, e atende ao tempo de vigência do projeto.",
+    "created": "2026-10-13T12:08:20.4692374",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "unesco:8e0c9386-3ad1-41de-cc73-08df25fc88d5",
+    "title": "UNESCO 914BRZ3051 - EDITAL 18/2026 (REPUBLICAÇÃO)",
+    "description": "Realização de análise técnica especializada sobre barreiras e conflitos no acesso e usufruto do Microcrédito Produtivo Orientado por Microempreendedores Individuais e pessoas inscritas no CadÚnico.",
+    "comments": "",
+    "startDate": "2026-10-19T00:00:00",
+    "endDate": "2026-10-25T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-19T00:00:00",
+    "torid": "unesco:8e0c9386-3ad1-41de-cc73-08df25fc88d5",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/a386ea5e-86d5-4f7d-ebc3-08df2dd83e01"
+    ]
+  },
+  {
+    "id": "unesco:bb750b64-4229-4e0c-7b7f-08df26180ec9",
+    "title": "570BRZ3012 - Edital 01/2026 - Consultor individual",
+    "description": "Profissional da área de Administração, Ciências Sociais Aplicadas, Relações Internacionais, Comunicação, Políticas Públicas",
+    "comments": "",
+    "startDate": "2026-10-19T00:00:00",
+    "endDate": "2026-10-23T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-19T00:00:00",
+    "torid": "unesco:bb750b64-4229-4e0c-7b7f-08df26180ec9",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/86388306-6d7f-43b4-7377-08df29cccdd6"
+    ]
+  },
+  {
+    "id": "unesco:27856fe5-63c2-4c4c-7b80-08df26180ec9",
+    "title": "914BRZ4027 - Edital 58/2026 - Arquitetura e Urbanismo - Iphan-PB",
+    "description": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
+    "comments": "",
+    "startDate": "2026-10-19T00:00:00",
+    "endDate": "2026-10-23T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-19T00:00:00",
+    "torid": "unesco:27856fe5-63c2-4c4c-7b80-08df26180ec9",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/58e5ba7b-f14d-4e42-967c-08df26197bef"
+    ]
+  },
+  {
+    "id": "unesco:006fb387-0b8e-43ce-7b81-08df26180ec9",
+    "title": "914BRZ4027 - Edital 59/2026 - Fotografia - Iphan-Sede",
+    "description": "Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
+    "comments": "",
+    "startDate": "2026-10-19T00:00:00",
+    "endDate": "2026-10-23T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-19T00:00:00",
+    "torid": "unesco:006fb387-0b8e-43ce-7b81-08df26180ec9",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/a2306f39-2596-4fc9-9683-08df26197bef"
+    ]
+  },
+  {
     "id": 1581,
     "torid": 146419,
     "createdBy": "marcio.freire",
