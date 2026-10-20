@@ -1,5 +1,62 @@
 [
   {
+    "id": 1585,
+    "torid": 146438,
+    "createdBy": "lucas.pinto",
+    "title": " Contratação de 1 (um) Consultor para elaborar estudo técnico especializado para projeção de oferta e demanda de combustíveis, conforme produtos descritos no item 6 deste Termo de Referência. A contratação está vinculada ao Projeto BRA/26/002 e ao fortalecimento institucional da Infra S.A., com foco na elaboração de estudos técnicos estratégicos",
+    "startDate": "2026-10-20T03:00:00",
+    "endDate": "2026-10-26T03:00:00",
+    "local": "BRASÍLIA DF",
+    "receivingEmail": "processoseletivo.pnud@infrasa.gov.br",
+    "enabled": true,
+    "description": "Consultor(a), na modalidade produto, com experiência em modelagem quantitativa, econométrica e/ou estatística aplicada; elaboração de estudos e projeções de oferta e demanda; análise, tratamento e integração de bases de dados; desenvolvimento e análise de cenários econômicos, energéticos e/ou setoriais; planejamento e análise nos setores de energia, combustíveis, transportes e/ou infraestrutura; desenvolvimento de modelos e ferramentas para análise, simulação e projeção de dados.",
+    "approver": "henrique.lacerda,luciana.brant,MA",
+    "comments": "",
+    "created": "2026-10-15T11:59:41.5751976",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "unesco:bcb9ad69-010a-48cb-2c80-08df29fb4e16",
+    "title": "914BRZ3061 - EDITAL Nº 16/2026 - 01 VAGA - CONSULTOR INDIVIDUAL",
+    "description": "Graduação de nível superior completa em Administração, Economia, Políticas Públicas, Gestão Pública, Ciência da Informação, Ciência de Dados, Ciências Sociais, Estatística reconhecida pelo MEC.  ",
+    "comments": "",
+    "startDate": "2026-10-20T00:00:00",
+    "endDate": "2026-10-30T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-20T00:00:00",
+    "torid": "unesco:bcb9ad69-010a-48cb-2c80-08df29fb4e16",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/4f0ad4cf-3aa1-435a-4893-08df2aa96073"
+    ]
+  },
+  {
+    "id": "unesco:1c199ce7-1aec-45f2-2c7f-08df29fb4e16",
+    "title": "914BRZ3061 - EDITAL Nº 14/2026-REPUBLICAÇÃO - 01 VAGA - CONSULTOR INDIVIDUAL",
+    "description": "Graduação de nível superior completa em qualquer área do conhecimento, desde que o curso seja devidamente reconhecido pelo Ministério da Educação (MEC).",
+    "comments": "",
+    "startDate": "2026-10-20T00:00:00",
+    "endDate": "2026-10-25T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-20T00:00:00",
+    "torid": "unesco:1c199ce7-1aec-45f2-2c7f-08df29fb4e16",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/d1d0e5c4-3010-4bea-858e-08df2e9222a4"
+    ]
+  },
+  {
     "id": 1580,
     "torid": 146434,
     "createdBy": "maria.nery.prestador",
@@ -673,7 +730,8 @@
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
       "https://oei.int/wp-content/uploads/2026/10/edital-procedimento-simplificado-no-13307-2026-oei-secult-es.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/link-para-acesso-a-sala-virtual-13307-2026-oei-secult-es.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/link-para-acesso-a-sala-virtual-13307-2026-oei-secult-es.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/ata-da-sessao-de-recebimento-da-documentacao-e-proposta-13307-2026-oei-secult-es.pdf"
     ]
   },
   {
