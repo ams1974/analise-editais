@@ -1,5 +1,43 @@
 [
   {
+    "id": "unesco:883aa849-19ab-496a-2c7d-08df29fb4e16",
+    "title": "914BRZ1155 - EDITAL Nº 58/2026 - 1 vaga - Consultor Individual ",
+    "description": "Contratação de consultoria especializada para realizar estudos e análises técnicas sobre as desigualdades de aprendizagem na educação básica, produzindo evidências que subsidiem o monitoramento e o ap",
+    "comments": "",
+    "startDate": "2026-10-21T00:00:00",
+    "endDate": "2026-10-27T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-21T00:00:00",
+    "torid": "unesco:883aa849-19ab-496a-2c7d-08df29fb4e16",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/b189ad07-4e49-4297-736d-08df29cccdd6"
+    ]
+  },
+  {
+    "id": "unesco:f23c483d-4d31-4b0e-0606-08df2ea2a444",
+    "title": "914BRZ4024 - EDITAL Nº04/2026 - Consultor Individual",
+    "description": "Consultoría especializada - Perfil  - Turismo e Áreas Correlatas  - Metodologias",
+    "comments": "",
+    "startDate": "2026-10-21T00:00:00",
+    "endDate": "2026-10-25T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-21T00:00:00",
+    "torid": "unesco:f23c483d-4d31-4b0e-0606-08df2ea2a444",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/4486be17-bdb0-423c-85b6-08df2e9222a4"
+    ]
+  },
+  {
     "id": 1585,
     "torid": 146438,
     "createdBy": "lucas.pinto",
@@ -13,6 +51,25 @@
     "approver": "henrique.lacerda,luciana.brant,MA",
     "comments": "",
     "created": "2026-10-15T11:59:41.5751976",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1577,
+    "torid": 146426,
+    "createdBy": "jainara.araujo",
+    "title": "Edital nº 31/2026 - Contratação de Consultoria Individual para realizar estudo sobre alternativas organizacionais para assistência técnica a Estados e Municípios ",
+    "startDate": "2026-10-20T03:00:00",
+    "endDate": "2026-11-06T03:00:00",
+    "local": "Remoto",
+    "receivingEmail": "prodoc.mgi@gestao.gov.br",
+    "enabled": true,
+    "description": "Edital nº 31/2026 - Contratação de Consultoria Individual para realizar estudo sobre alternativas organizacionais para assistência técnica a Estados e Municípios ",
+    "approver": "henrique.lacerda,hgo,karen.barros,livia.nogueira,luciana.aguiar,luciana.brant,MA,mayra.almeida,thais.pires",
+    "comments": "",
+    "created": "2026-10-09T10:43:32.3999443",
     "canApprove": false,
     "statusDescription": "Aprovada",
     "fonte": "pnud",
@@ -54,6 +111,45 @@
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
     "tor_urls": [
       "https://apiroster.brasilia.unesco.org/api/public/download/d1d0e5c4-3010-4bea-858e-08df2e9222a4"
+    ]
+  },
+  {
+    "id": "oei:concorrencia-no-13320-2026-oei-seed-pr-tecnica-e-preco",
+    "title": "CONCORRÊNCIA Nº 13320/2026- OEI/SEED-PR TÉCNICA E PREÇO",
+    "description": "Contratação de pessoa jurídica especializada para o desenvolvimento e a implementação  de tri-lha formativa híbrida voltada aos diretores escolares, articuladores e equipes técnicas vinculadas ao Programa Parceiro da Escola da Secretaria de Estado da Educação do Paraná, com foco no fortalecimento de competências estratégicas, gerenciais e de liderança aplicadas ao contexto da gestão escolar contemporânea, visando apoiar a consolidação do modelo de governança do pro-grama, fortalecer a atuação institucional dos gestores escolares e potencializar os resultados educacionais das unidades participantes, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
+    "comments": "R$ 463.373,08",
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-15",
+    "local": "Estado do Paraná.",
+    "receivingEmail": "compras.bra@oei.int",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-10-20",
+    "torid": "oei:concorrencia-no-13320-2026-oei-seed-pr-tecnica-e-preco",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/SEED",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencia-no-13320-2026-oei-seed-pr-tecnica-e-preco/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/10/edital-concorrencia-no-13320-2026-oei-seed-pr.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/link-para-sala-virtual-13320-2026-oei-seed-pr.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13363",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO CAIS DAS ARTES/ES – TR13363",
+    "description": "Contratação de pessoa assistente de projeto para apoio em demandas diárias relacionadas ao cumprimento das metas e objetivos pactuados na gestão do Cais das Artes.",
+    "comments": "R$ 18.000,00",
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-25",
+    "local": "Vitória - ES",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-10-20",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13363",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13363/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-tr13363.pdf"
     ]
   },
   {
@@ -419,7 +515,8 @@
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
       "https://oei.int/wp-content/uploads/2026/10/edital-procedimento-simplificado-no-13340-2026-oei-secult-es.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/link-para-procedimento-simplificado-no-13340-2026-oei-secult-es.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/link-para-procedimento-simplificado-no-13340-2026-oei-secult-es.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-01-13340-2026-oei-secult-es.pdf"
     ]
   },
   {
