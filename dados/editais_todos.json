@@ -1,5 +1,121 @@
 [
   {
+    "id": 1586,
+    "torid": 146439,
+    "createdBy": "maria.nery.prestador",
+    "title": "Edital nº 08/2026 - Pesquisa e Sistematização Metodológica da Atuação da Ouvidoria Nacional de Direitos Humanos – 2023-2026",
+    "startDate": "2026-10-22T03:00:00",
+    "endDate": "2026-11-09T03:00:00",
+    "local": "Território Nacional",
+    "receivingEmail": "ouvidoria@mdh.gov.br",
+    "enabled": true,
+    "description": "Contratação de consultoria de pessoa física, na modalidade produto, para realização de pesquisa técnica destinada ao levantamento, análise e sistematização de dados, documentos, registros, fluxos, práticas e experiências desenvolvidas pela Ouvidoria Nacional de Direitos Humanos (ONDH) no período de 2023 a 2026, com vistas à consolidação de sua metodologia de atuação, à preservação e transferência do conhecimento institucional e ao aprimoramento contínuo dos mecanismos de ouvidoria em direitos humanos, mediante elaboração de documento técnico final com os resultados da pesquisa.",
+    "approver": "aline.santana,andrea.bolzon,brenda.felix,carolina.parisotto,kalyandra.leite,livia.nogueira,livia.silva,rosana.tomazini",
+    "comments": "Observações do(a) PA: O TR 146439 refletido na RC UNDP-BRA-1011961. O valor é R$ 19.500,00.  O TR foi analisado, previamente, pela gerente e pela assistente, e atende ao tempo de vigência do projeto.",
+    "created": "2026-10-15T12:01:19.4917868",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1587,
+    "torid": 146440,
+    "createdBy": "maria.nery.prestador",
+    "title": "Edital nº 09/2026 – Guia orientador para profissionais dos Centros POP",
+    "startDate": "2026-10-22T03:00:00",
+    "endDate": "2026-11-09T03:00:00",
+    "local": "Brasília/DF",
+    "receivingEmail": "rcn_cidadania@mdh.gov.br",
+    "enabled": true,
+    "description": "Contratação de consultoria pessoa física, na modalidade produto, para elaboração de material técnico para orientação de profissionais que atendem nos equipamentos do Cidadania Pop Rua.",
+    "approver": "aline.santana,andrea.bolzon,brenda.felix,carolina.parisotto,kalyandra.leite,livia.nogueira,livia.silva,rosana.tomazini",
+    "comments": "Observações do(a) PA: O TR 146440 refletido na RC UNDP-BRA-1011975. O valor é R$ 60.000,00.  O TR foi analisado, previamente, pela gerente e pela assistente, e atende ao tempo de vigência do projeto.",
+    "created": "2026-10-16T09:45:47.7541409",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1596,
+    "torid": 146450,
+    "createdBy": "thiago.medeiros",
+    "title": "Contratação de consultor(a) para a elaboração de plano metodológico de ativação da promoção comercial do Brasil e atração de investimentos por ocasião da Copa do Mundo de Futebol FIFA 2027 (feminina)",
+    "startDate": "2026-10-22T03:00:00",
+    "endDate": "2026-11-06T03:00:00",
+    "local": "Brasília - DF",
+    "receivingEmail": "dpg@itamaraty.gov.br",
+    "enabled": true,
+    "description": "Consultor(a) com experiência comprovada em projetos de ativação institucional, promoção comercial, atração de investimentos, imagem-país ou relacionamento empresarial realizados em contexto de eventos de grande porte; \r\n",
+    "approver": "carlos.moscardo,henrique.lacerda,kesia.braga,MA,mateus.caiado,mayra.almeida",
+    "comments": "De acordo",
+    "created": "2026-10-21T16:25:50.4340636",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "unesco:2d2ddee7-4f8a-450e-b90a-08df2de36002",
+    "title": "914BRZ1159 - Publicação Edital 43/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada em Políticas Educacionais para apoiar a SEB/MEC no desenvolvimento de estudos, análises e metodologias de gestão, avaliação e monitoramento na implementação do PNRA.",
+    "comments": "",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-10-27T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-22T00:00:00",
+    "torid": "unesco:2d2ddee7-4f8a-450e-b90a-08df2de36002",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/68b3f061-936a-4181-ec01-08df2dd83e01"
+    ]
+  },
+  {
+    "id": "unesco:22e78a51-d6d6-45ea-b90b-08df2de36002",
+    "title": "914BRZ4027 - Edital 60/2026 - Comunicação Social - Iphan-Sede",
+    "description": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
+    "comments": "",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-10-26T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-22T00:00:00",
+    "torid": "unesco:22e78a51-d6d6-45ea-b90b-08df2de36002",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/e3fb9fae-561e-41b7-ebf6-08df2dd83e01",
+      "https://apiroster.brasilia.unesco.org/api/public/download/e9c23dab-4971-452f-ebf8-08df2dd83e01"
+    ]
+  },
+  {
+    "id": "unesco:579f17c1-d8be-4531-b90c-08df2de36002",
+    "title": "914BRZ4027 - Edital 61/2026 - Arquitetura e Urbanismo - Iphan-Sede",
+    "description": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
+    "comments": "",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-10-26T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-22T00:00:00",
+    "torid": "unesco:579f17c1-d8be-4531-b90c-08df2de36002",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/8d715fb4-3811-4622-ebfb-08df2dd83e01",
+      "https://apiroster.brasilia.unesco.org/api/public/download/bb897618-c305-41e2-ebfd-08df2dd83e01"
+    ]
+  },
+  {
     "id": "unesco:883aa849-19ab-496a-2c7d-08df29fb4e16",
     "title": "914BRZ1155 - EDITAL Nº 58/2026 - 1 vaga - Consultor Individual ",
     "description": "Contratação de consultoria especializada para realizar estudos e análises técnicas sobre as desigualdades de aprendizagem na educação básica, produzindo evidências que subsidiem o monitoramento e o ap",
@@ -119,7 +235,7 @@
     "description": "Contratação de pessoa jurídica especializada para o desenvolvimento e a implementação  de tri-lha formativa híbrida voltada aos diretores escolares, articuladores e equipes técnicas vinculadas ao Programa Parceiro da Escola da Secretaria de Estado da Educação do Paraná, com foco no fortalecimento de competências estratégicas, gerenciais e de liderança aplicadas ao contexto da gestão escolar contemporânea, visando apoiar a consolidação do modelo de governança do pro-grama, fortalecer a atuação institucional dos gestores escolares e potencializar os resultados educacionais das unidades participantes, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
     "comments": "R$ 463.373,08",
     "startDate": "2026-10-20",
-    "endDate": "2026-10-15",
+    "endDate": "2026-12-15",
     "local": "Estado do Paraná.",
     "receivingEmail": "compras.bra@oei.int",
     "statusDescription": "En fase de apresentação",
@@ -711,11 +827,11 @@
   },
   {
     "id": "oei:contratacao-de-consultor-projeto-abdi-tr-13312",
-    "title": "Contratação de consultor PROJETO ABDI – TR 13312 REPUBLICADO",
+    "title": "Contratação de consultor PROJETO ABDI – TR 13312",
     "description": "Contratar consultoria técnica especializada, na modalidade individual, para apoiar a ABDI na estruturação, condução e execução de iniciativas estratégicas da agenda BIM e Construção Industrializada, com foco no acompanhamento técnico da Pesquisa de Maturidade BIM em Habitação de Interesse Social, realizada em parceria com o Ministério das Cidades, e no suporte às frentes do Projeto Construção 4.0.",
     "comments": "R$ 141.000,00",
     "startDate": "2026-10-08",
-    "endDate": "2026-10-16",
+    "endDate": "2026-10-12",
     "local": "Remoto",
     "receivingEmail": "selecao.bra@oei.int",
     "statusDescription": "En presentación",
@@ -726,9 +842,7 @@
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-abdi-tr-13312/",
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-13312.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-13312-1.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/errata-13312-2026.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-13312.pdf"
     ]
   },
   {
@@ -827,8 +941,7 @@
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
       "https://oei.int/wp-content/uploads/2026/10/edital-procedimento-simplificado-no-13307-2026-oei-secult-es.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/link-para-acesso-a-sala-virtual-13307-2026-oei-secult-es.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/ata-da-sessao-de-recebimento-da-documentacao-e-proposta-13307-2026-oei-secult-es.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/link-para-acesso-a-sala-virtual-13307-2026-oei-secult-es.pdf"
     ]
   },
   {
@@ -1023,11 +1136,11 @@
   },
   {
     "id": "oei:contratacao-de-consultor-projeto-abdi-tr-13260",
-    "title": "Contratação de consultor PROJETO ABDI – TR 13260 REPUBLICADO",
+    "title": "Contratação de consultor PROJETO ABDI – TR 13260",
     "description": "Contratação de consultoria técnica individual, especializada em engenharia de plataformas e infraestrutura de nuvem, para prestação de serviços técnicos de apoio à ABDI no âmbito do Projeto Nuvem Brasileira, compreendendo a sistematização da Escuta de Mercado, o diagnóstico da capacidade de oferta do ecossistema nacional, o aprimoramento metodológico do Gradiente de Soberania e a produção de subsídios técnicos para a modelagem da solução e do futuro instrumento convocatório.",
     "comments": "R$ 96.840,00",
     "startDate": "2026-09-29",
-    "endDate": "2026-10-16",
+    "endDate": "2026-10-02",
     "local": "Remota e/ou presencial em Brasília - DF",
     "receivingEmail": "selecao.bra@oei.int",
     "statusDescription": "En fase de apresentação",
@@ -1037,9 +1150,7 @@
     "orgao_parceiro": "OEI",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-abdi-tr-13260/",
     "tor_urls": [
-      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
-      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-13260-republicado.pdf",
-      "https://oei.int/wp-content/uploads/2026/09/errata-13260.pdf"
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf"
     ]
   },
   {
