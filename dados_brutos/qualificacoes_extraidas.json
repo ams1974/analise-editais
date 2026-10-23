@@ -10876,5 +10876,66 @@
     "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
     "local": "",
     "data_fim": "2026-10-26"
+  },
+  {
+    "torid": "unesco:2551e6c6-0d6f-4d2f-0608-08df2ea2a444",
+    "graduacao": [
+      "gestão pública",
+      "administração",
+      "economia",
+      "direito"
+    ],
+    "graduacao_desejavel": [],
+    "pos_graduacao": true,
+    "pos_graduacao_desejavel": false,
+    "mestrado": false,
+    "mestrado_desejavel": false,
+    "doutorado": false,
+    "doutorado_desejavel": false,
+    "experiencia_exigida": true,
+    "anos_experiencia": null,
+    "experiencia_outro_criterio": "no mínimo, 05 (cinco) anos em gestão de projetos do setor público ou em projetos que tenham usado",
+    "anos_experiencia_desejavel": null,
+    "ferramentas": [],
+    "ferramentas_desejaveis": [],
+    "idiomas": [],
+    "idiomas_desejaveis": [],
+    "certificacoes": [],
+    "certificacoes_desejaveis": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "os candidatos que não atenderem aos critérios mínimos obrigatórios de qualificação não serão considerados",
+      "elegíveis nas etapas subsequentes deste processo seletivo.",
+      "5.1.1 formação acadêmica",
+      "nível superior completo em administração, economia, direito, gestão pública, gestão empresarial",
+      "ou áreas afins devidamente reconhecido pelo mec.",
+      "título de pós-graduação em administração, economia, direito, gestão pública, gestão empresarial",
+      "5.1.2 experiência profissional comprovada (anos/período)",
+      "no mínimo, 05 (cinco) anos em gestão de projetos do setor público ou em projetos que tenham usado",
+      "recursos públicos em sua implementação, o que inclui gestão e/ou acompanhamento de execução",
+      "de projetos de cooperação técnica internacional."
+    ],
+    "requisitos_desejaveis": [
+      "os candidatos que atenderem aos critérios mínimos obrigatórios serão elegíveis para a avaliação do",
+      "atendimento aos critérios desejáveis.",
+      "embora não sejam eliminatórios, os critérios desejáveis serão importantes para contribuir para uma melhor",
+      "colocação do candidato no cômputo de pontuação no processo seletivo, conforme estabelecido no item 6, tabela",
+      "de critérios pontuáveis.",
+      "5.2.1. experiência profissional comprovada",
+      "no mínimo, 05 (cinco) em projetos de cooperação técnica internacional preferencialmente, na área",
+      "de cultura, patrimônio cultural e/ou economia criativa.",
+      "entre os critérios obrigatórios especificados acima, os critérios constantes no item 6, a seguir, são pontuáveis e",
+      "definirão a classificação do candidato no processo avaliativo."
+    ],
+    "entregaveis": [
+      "Documento Técnico 1.1. Examinar o Documento de contendo Relatório de avaliação da Projeto, suas revisões e os execução do segundo ano do instrumentos de planejamento e Projeto 914BRZ4027, com acompanhamento disponíveis, indicação das atividades realizadas, identificando a estrutura de consultorias contratadas, resultados, as metas pactuadas e as resultados produzidos, orçamento alterações ocorridas no período. investido e indicação dos 1",
+      "Levantar e sistematizar as percentuais de execução por atividades executadas, as consultorias objetivo e resultado. contratadas, os produtos previstos e entregues e os resultados documentados"
+    ],
+    "competencias": [],
+    "titulo": "914BRZ4027 - Edital 62/2026 - Gestão - Iphan-Sede",
+    "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
+    "local": "",
+    "data_fim": "2026-10-27"
   }
 ]

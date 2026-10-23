@@ -1,5 +1,44 @@
 [
   {
+    "id": "unesco:4e03075d-fa9c-444b-bf96-08df23ad085e",
+    "title": "570BRZ2005 - Edital 01/2026 - Consultor individual",
+    "description": "Profissional da área de Engenharia Elétrica",
+    "comments": "",
+    "startDate": "2026-10-23T00:00:00",
+    "endDate": "2026-10-28T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-23T00:00:00",
+    "torid": "unesco:4e03075d-fa9c-444b-bf96-08df23ad085e",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/e09b3995-d694-4cf1-967a-08df26197bef"
+    ]
+  },
+  {
+    "id": "unesco:2551e6c6-0d6f-4d2f-0608-08df2ea2a444",
+    "title": "914BRZ4027 - Edital 62/2026 - Gestão - Iphan-Sede",
+    "description": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
+    "comments": "",
+    "startDate": "2026-10-23T00:00:00",
+    "endDate": "2026-10-27T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-23T00:00:00",
+    "torid": "unesco:2551e6c6-0d6f-4d2f-0608-08df2ea2a444",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/a311d171-e174-4440-85b8-08df2e9222a4",
+      "https://apiroster.brasilia.unesco.org/api/public/download/158dcb81-bfe4-4024-85ba-08df2e9222a4"
+    ]
+  },
+  {
     "id": 1586,
     "torid": 146439,
     "createdBy": "maria.nery.prestador",
@@ -246,7 +285,8 @@
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/concorrencia-no-13320-2026-oei-seed-pr-tecnica-e-preco/",
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2026/10/edital-concorrencia-no-13320-2026-oei-seed-pr.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/link-para-sala-virtual-13320-2026-oei-seed-pr.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/link-para-sala-virtual-13320-2026-oei-seed-pr.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-01-13320-2026.pdf"
     ]
   },
   {
@@ -496,25 +536,6 @@
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
     "tor_urls": [
       "https://apiroster.brasilia.unesco.org/api/public/download/3bbc150c-79fb-42f0-c8fa-08df2906e90f"
-    ]
-  },
-  {
-    "id": "unesco:4e03075d-fa9c-444b-bf96-08df23ad085e",
-    "title": "570BRZ2005 - Edital 01/2026 - Consultor individual",
-    "description": "Profissional da área de Engenharia Elétrica",
-    "comments": "",
-    "startDate": "2026-10-15T00:00:00",
-    "endDate": "2026-10-20T00:00:00",
-    "local": "",
-    "receivingEmail": "",
-    "statusDescription": "Ongoing",
-    "created": "2026-10-15T00:00:00",
-    "torid": "unesco:4e03075d-fa9c-444b-bf96-08df23ad085e",
-    "fonte": "unesco",
-    "orgao_parceiro": "UNESCO",
-    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "tor_urls": [
-      "https://apiroster.brasilia.unesco.org/api/public/download/e09b3995-d694-4cf1-967a-08df26197bef"
     ]
   },
   {
