@@ -11025,5 +11025,102 @@
     "descricao": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
     "local": "São Paulo - SP",
     "data_fim": "2026-10-29"
+  },
+  {
+    "torid": "unesco:bafb5b38-137e-42cd-2c81-08df29fb4e16",
+    "graduacao": [],
+    "graduacao_desejavel": [],
+    "pos_graduacao": true,
+    "pos_graduacao_desejavel": false,
+    "mestrado": false,
+    "mestrado_desejavel": false,
+    "doutorado": false,
+    "doutorado_desejavel": false,
+    "experiencia_exigida": true,
+    "anos_experiencia": 5,
+    "experiencia_outro_criterio": null,
+    "anos_experiencia_desejavel": null,
+    "ferramentas": [],
+    "ferramentas_desejaveis": [],
+    "idiomas": [],
+    "idiomas_desejaveis": [],
+    "certificacoes": [],
+    "certificacoes_desejaveis": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "os candidatos que não atenderem aos critérios mínimos obrigatórios de qualificação não serão",
+      "considerados elegíveis nas etapas subsequentes deste processo seletivo.",
+      "5.1.1. formação acadêmica",
+      "• especialização lato sensu em áreas de relações internacionais e/ou ciências humanas e/ou",
+      "sociais aplicadas, com diploma reconhecido pelo mec.",
+      "5.1.2. experiência profissional comprovada (anos/período)",
+      "• experiência profissional mínima de 5 (cinco) anos em gestão de projetos sociais e/ou",
+      "• experiência profissional mínima de 3 (três) anos com articulação política."
+    ],
+    "requisitos_desejaveis": [
+      "5.2.1. critério desejável",
+      "• experiência com escrita de protocolos e/ou outros materiais de apoio sobre educação",
+      "5.3. habilidades e competências",
+      "• conhecimento em produção legislativa.",
+      "• conhecimento sobre políticas públicas.",
+      "• conhecimento em implementação e monitoramento de políticas públicas educacionais."
+    ],
+    "entregaveis": [
+      "Documento técnico Atividade 1.1: Realizar análise de contendo diagnóstico dos fluxos de bases de dados primárias e implementação, dos arranjos de secundárias no âmbito do Curso governança e das bases de dados Práticas em Equidade e da rede de relacionadas ao Curso Práticas em agentes PNEERQ; Equidade e à rede de Agentes"
+    ],
+    "competencias": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 59/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para apoiar o diagnóstico, apoiar o monitoramento e o aperfeiçoamento da implementação do Curso Práticas em Equidade e da rede de Agentes PNEERQ.",
+    "local": "",
+    "data_fim": "2026-11-02"
+  },
+  {
+    "torid": "oei:licitacao-no-13360-2026-oei-funai-aecid-tecnica-e-preco",
+    "graduacao": [
+      "ciências sociais",
+      "antropologia",
+      "ciências ambientais"
+    ],
+    "graduacao_desejavel": [],
+    "pos_graduacao": false,
+    "pos_graduacao_desejavel": false,
+    "mestrado": false,
+    "mestrado_desejavel": false,
+    "doutorado": false,
+    "doutorado_desejavel": false,
+    "experiencia_exigida": true,
+    "anos_experiencia": null,
+    "experiencia_outro_criterio": "experiência com, pelo menos, 1 (um) projeto cujo público-alvo seja po",
+    "anos_experiencia_desejavel": null,
+    "ferramentas": [],
+    "ferramentas_desejaveis": [],
+    "idiomas": [],
+    "idiomas_desejaveis": [],
+    "certificacoes": [],
+    "certificacoes_desejaveis": [],
+    "valor": "120.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "• formação superior em antropologia, ciências agrárias, ciências ambientais, ciências",
+      "sociais ou áreas afins;",
+      "• experiência comprovada em coordenação de, pelo menos, um projeto de formação em",
+      "políticas públicas e/ou agroecologia;",
+      "• experiência em políticas públicas socioambientais;",
+      "• experiência, de pelo menos um ano, em gestão de equipes multidisciplinares;",
+      "6.2.3. requisitos de experiência com, pelo menos, 1 (um) projeto cujo público-alvo seja po-",
+      "vos indígenas e suas organizações e/ou que tenha sido executado em terras indígenas;",
+      "6.2.4. a comprovação dos requisitos deverá ser realizada mediante apresentação de:",
+      "▪ currículo vitae contendo a descrição detalhada das experiências profissionais, com"
+    ],
+    "requisitos_desejaveis": [],
+    "entregaveis": [
+      "e 2), incluindo: (i) levan- tamento dos dados dos indígenas e gestores participantes dos cursos; (ii) apoio na definição dos roteiros de deslocamentos dos participantes; (iii) apoio para organização das hospedagens e deslocamentos internos; (iv) articulação e organização junto às instituições parceiras envol- vidas em cada etapa das formações; (v) acompanhamento nas atividades propostas; (vi) relato- ria e sistematização de cada etapa de formação"
+    ],
+    "competencias": [],
+    "titulo": "LICITAÇÃO Nº 13360/2026- OEI/FUNAI-AECID TÉCNICA E PREÇO",
+    "descricao": "Contratação de pessoa jurídica especializada para apoio técnico e operacional à FUNAI e à OEI no planejamento e no desenvolvimento dos três encontros formativos e do encontro nacional de intercâmbio, incluindo o levantamento de necessidades, apoio à seleção de participantes, elaboração de propostas de metodológicas, sistematização de informações, articulação com fornecedores e acompanhamento da execução dos serviços necessários à realização das atividades, sob orientação, supervisão da Funai e da OEI e validação da FUNAI, da OEI e da AECID, conforme especificações contidas no Termo de Referência, Anexo “A”, do Edital.",
+    "local": "Territórios Indígenas definidos, Brasília, híbrido",
+    "data_fim": "2026-11-17"
   }
 ]

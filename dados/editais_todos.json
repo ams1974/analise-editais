@@ -1,5 +1,45 @@
 [
   {
+    "id": "unesco:bafb5b38-137e-42cd-2c81-08df29fb4e16",
+    "title": "914BRZ1155 - EDITAL Nº 59/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada para apoiar o diagnóstico, apoiar o monitoramento e o aperfeiçoamento da implementação do Curso Práticas em Equidade e da rede de Agentes PNEERQ.",
+    "comments": "",
+    "startDate": "2026-10-26T00:00:00",
+    "endDate": "2026-11-02T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-26T00:00:00",
+    "torid": "unesco:bafb5b38-137e-42cd-2c81-08df29fb4e16",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/969ee380-0d56-4abb-7364-08df2f5f8ed4"
+    ]
+  },
+  {
+    "id": "oei:licitacao-no-13360-2026-oei-funai-aecid-tecnica-e-preco",
+    "title": "LICITAÇÃO Nº 13360/2026- OEI/FUNAI-AECID TÉCNICA E PREÇO",
+    "description": "Contratação de pessoa jurídica especializada para apoio técnico e operacional à FUNAI e à OEI no planejamento e no desenvolvimento dos três encontros formativos e do encontro nacional de intercâmbio, incluindo o levantamento de necessidades, apoio à seleção de participantes, elaboração de propostas de metodológicas, sistematização de informações, articulação com fornecedores e acompanhamento da execução dos serviços necessários à realização das atividades, sob orientação, supervisão da Funai e da OEI e validação da FUNAI, da OEI e da AECID, conforme especificações contidas no Termo de Referência, Anexo “A”, do Edital.",
+    "comments": "R$ 1.097.756,00",
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-17",
+    "local": "Territórios Indígenas definidos, Brasília, híbrido",
+    "receivingEmail": "compras.bra@oei.int",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-10-26",
+    "torid": "oei:licitacao-no-13360-2026-oei-funai-aecid-tecnica-e-preco",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/FUNAI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/licitacao-no-13360-2026-oei-funai-aecid-tecnica-e-preco/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/edital-licitacao-no-13360-2026-oei-funai-aecid-pdf-d4sign.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/link-para-licitacao-13360-2026-oei-funai-aecid.pdf"
+    ]
+  },
+  {
     "id": "unesco:4e03075d-fa9c-444b-bf96-08df23ad085e",
     "title": "570BRZ2005 - Edital 01/2026 - Consultor individual",
     "description": "Profissional da área de Engenharia Elétrica",
@@ -324,7 +364,8 @@
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2026/10/edital-concorrencia-no-13320-2026-oei-seed-pr.pdf",
       "https://oei.int/wp-content/uploads/2026/10/link-para-sala-virtual-13320-2026-oei-seed-pr.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-01-13320-2026.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-01-13320-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-02-13320-2026.pdf"
     ]
   },
   {
@@ -681,7 +722,7 @@
     "endDate": "2026-10-26",
     "local": "Vitória/ES.",
     "receivingEmail": "compras.bra@oei.int",
-    "statusDescription": "En fase de apresentação",
+    "statusDescription": "Desierta",
     "created": "2026-10-13",
     "torid": "oei:procedimento-simplificado-no-13340-2026-oei-secult-es-menor-preco",
     "fonte": "oei",
@@ -691,7 +732,8 @@
       "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
       "https://oei.int/wp-content/uploads/2026/10/edital-procedimento-simplificado-no-13340-2026-oei-secult-es.pdf",
       "https://oei.int/wp-content/uploads/2026/10/link-para-procedimento-simplificado-no-13340-2026-oei-secult-es.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-01-13340-2026-oei-secult-es.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-01-13340-2026-oei-secult-es.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/ata-recebimento-documentacao-administrativa-e-propostas-13340-2026-oeisecult-es.pdf"
     ]
   },
   {
