@@ -1,5 +1,26 @@
 [
   {
+    "id": "unesco:579f17c1-d8be-4531-b90c-08df2de36002",
+    "title": "914BRZ4027 - Edital 61/2026 - Arquitetura e Urbanismo - Iphan-Sede - PRORROGAÇÃO",
+    "description": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
+    "comments": "",
+    "startDate": "2026-10-29T00:00:00",
+    "endDate": "2026-11-02T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-29T00:00:00",
+    "torid": "unesco:579f17c1-d8be-4531-b90c-08df2de36002",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/8d715fb4-3811-4622-ebfb-08df2dd83e01",
+      "https://apiroster.brasilia.unesco.org/api/public/download/bb897618-c305-41e2-ebfd-08df2dd83e01",
+      "https://apiroster.brasilia.unesco.org/api/public/download/4672eda3-150b-46de-c041-08df34052823"
+    ]
+  },
+  {
     "id": 1589,
     "torid": 146442,
     "createdBy": "luis.vitagliano",
@@ -131,6 +152,45 @@
     "statusDescription": "Aprovada",
     "fonte": "pnud",
     "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr-13384",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO CAIS DAS ARTES/ES – TR 13384",
+    "description": "Contratação de Especialista em Infraestrutura e Operações, de nível gerencial, para planejar, coordenar e monitorar a infraestrutura e os serviços operacionais do Complexo Cultural Cais das Artes, com entregas técnicas mensais.",
+    "comments": "R$ 39.000,00",
+    "startDate": "2026-10-28",
+    "endDate": "2026-11-01",
+    "local": "Cais das Artes -Vitória ES",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-10-28",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr-13384",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr-13384/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-13348.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13221-2",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13221",
+    "description": "Consultoria técnica para elaboração de especificação funcional e definição de requisitos e critérios técnicos necessários à futura aplicação de soluções de automação inteligente e inteligência artificial às rotinas de gestão de contratos, convênios e procedimentos sancionatórios no âmbito da Diretoria de Contratos e Convênios DICON e de suas coordenadorias.",
+    "comments": "R$ 70.000,00",
+    "startDate": "2026-10-28",
+    "endDate": "2026-10-18",
+    "local": "São Paulo - SP",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-10-28",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13221-2",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13221-2/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-tr13221-1.pdf"
+    ]
   },
   {
     "id": 1598,
@@ -362,26 +422,6 @@
     "tor_urls": [
       "https://apiroster.brasilia.unesco.org/api/public/download/e3fb9fae-561e-41b7-ebf6-08df2dd83e01",
       "https://apiroster.brasilia.unesco.org/api/public/download/e9c23dab-4971-452f-ebf8-08df2dd83e01"
-    ]
-  },
-  {
-    "id": "unesco:579f17c1-d8be-4531-b90c-08df2de36002",
-    "title": "914BRZ4027 - Edital 61/2026 - Arquitetura e Urbanismo - Iphan-Sede",
-    "description": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
-    "comments": "",
-    "startDate": "2026-10-22T00:00:00",
-    "endDate": "2026-10-26T00:00:00",
-    "local": "",
-    "receivingEmail": "",
-    "statusDescription": "Ongoing",
-    "created": "2026-10-22T00:00:00",
-    "torid": "unesco:579f17c1-d8be-4531-b90c-08df2de36002",
-    "fonte": "unesco",
-    "orgao_parceiro": "UNESCO",
-    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "tor_urls": [
-      "https://apiroster.brasilia.unesco.org/api/public/download/8d715fb4-3811-4622-ebfb-08df2dd83e01",
-      "https://apiroster.brasilia.unesco.org/api/public/download/bb897618-c305-41e2-ebfd-08df2dd83e01"
     ]
   },
   {
@@ -4623,6 +4663,26 @@
     ]
   },
   {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-16-002-tr13096",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/16/002 – TR13096",
+    "description": "Contratação de consultoria de pessoa física por produto para subsidiar tecnicamente a atuação do Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda), mediante a realização de diagnóstico, análise e sistematização de proposições legislativas, normativas nacionais e instrumentos internacionais relacionados aos direitos de crianças e adolescentes, bem como a elaboração de subsídios técnicos, guia orientador e atividade formativa voltados ao fortalecimento da capacidade institucional do Conselho para o acompanhamento legislativo, a construção de posicionamentos temáticos e a produção de notas técnicas sobre assuntos prioritários.",
+    "comments": "R$ 100.000,00",
+    "startDate": "2026-07-20",
+    "endDate": "2026-08-04",
+    "local": "Brasília - DF",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "",
+    "created": "2026-07-20",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-16-002-tr13096",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-16-002-tr13096/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/07/termo-de-referencia-tr13096.pdf",
+      "https://oei.int/wp-content/uploads/2026/07/errata-083-2026.pdf"
+    ]
+  },
+  {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-002-tr-13098",
     "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/002 – TR 13098",
     "description": "Contratação de 1 (um) consultor especializado para realizar estudos, análises comparadas e sistematizações de referenciais teóricos, normativos e institucionais relacionados à educação corporativa, com foco no fortalecimento e modernização da Universidade Corporativa da CONAB (UNICONAB)",
@@ -4796,7 +4856,9 @@
       "https://oei.int/wp-content/uploads/2026/07/errata-a-pedido-de-esclarecimento-concorrencia-n-13046-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/07/ata-da-sessao-de-recebimento-das-prpostas-e-abertura-envelope-proposta-tecnica-13046-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/07/relatorio-de-avaliacao-propostas-tecnicas-13046-2026-oei-mdhc.pdf",
-      "https://oei.int/wp-content/uploads/2026/07/convocacao-abertura-proposta-de-preco-13046-2026-oei-mdhc.pdf"
+      "https://oei.int/wp-content/uploads/2026/07/convocacao-abertura-proposta-de-preco-13046-2026-oei-mdhc.pdf",
+      "https://oei.int/wp-content/uploads/2026/07/ata-da-sessao-de-abertura-das-propostas-de-preco-e-classificacao-final-13046-2026-oei-mdhc.pdf",
+      "https://oei.int/wp-content/uploads/2026/07/errata-i-13046-2026-oei-mdhcpdf.pdf"
     ]
   },
   {
