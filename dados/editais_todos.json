@@ -1,5 +1,62 @@
 [
   {
+    "id": 1597,
+    "torid": 146457,
+    "createdBy": "gabriella.almeida",
+    "title": "BRA/23/006 - CONSULTORIA TÉCNICA PARA ELABORAÇÃO DE PLANEJAMENTO ESTRATÉGICO PARA O BIÊNIO 2027–2028",
+    "startDate": "2026-10-30T03:00:00",
+    "endDate": "2026-11-08T09:00:00",
+    "local": "HOME OFFICE",
+    "receivingEmail": "curriculos@consorcionordeste.gov.br",
+    "enabled": true,
+    "description": "CONTRATAÇÃO DE CONSULTORIA TÉCNICA PARA ELABORAÇÃO DE PLANEJAMENTO ESTRATÉGICO PARA O BIÊNIO 2027–2028",
+    "approver": "aline.bacelar,daniel.furst,gabriela.silva,kassya.fernandes,leonel.neto,livia.karkow,MTF,thalita.holanda,ticiana.sousa,vanessa.jesus,yldson.serrao@undp.org",
+    "comments": "",
+    "created": "2026-10-27T13:08:39.0077203",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "unesco:c753ce2a-1954-4c23-a633-08df31054438",
+    "title": "914BRZ1162 - Edital 08/2026 - Consultor Individual",
+    "description": "Consultoria técnica especializada em planejamento e gestão de políticas educacionais para apoiar a coordenação na elaboração do novo Plano Municipal de Educação de Leme.",
+    "comments": "",
+    "startDate": "2026-10-30T00:00:00",
+    "endDate": "2026-11-05T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-30T00:00:00",
+    "torid": "unesco:c753ce2a-1954-4c23-a633-08df31054438",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/1cb1e91a-346a-48b4-1d18-08df3684d3e0"
+    ]
+  },
+  {
+    "id": "unesco:5f92b37f-baf0-48fe-a634-08df31054438",
+    "title": "914BRZ1162 - Edital 09/2026 - Consultor Individual",
+    "description": "Consultoria técnica especializada em planejamento educacional, gestão democrática e metodologias participativas, para desenvolver e aplicar abordagens metodológicas destinadas a orientar a coleta, org",
+    "comments": "",
+    "startDate": "2026-10-30T00:00:00",
+    "endDate": "2026-11-05T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-10-30T00:00:00",
+    "torid": "unesco:5f92b37f-baf0-48fe-a634-08df31054438",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/d6f6cf71-bf18-42a9-1d1e-08df3684d3e0"
+    ]
+  },
+  {
     "id": "unesco:579f17c1-d8be-4531-b90c-08df2de36002",
     "title": "914BRZ4027 - Edital 61/2026 - Arquitetura e Urbanismo - Iphan-Sede - PRORROGAÇÃO",
     "description": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
@@ -18,6 +75,45 @@
       "https://apiroster.brasilia.unesco.org/api/public/download/8d715fb4-3811-4622-ebfb-08df2dd83e01",
       "https://apiroster.brasilia.unesco.org/api/public/download/bb897618-c305-41e2-ebfd-08df2dd83e01",
       "https://apiroster.brasilia.unesco.org/api/public/download/4672eda3-150b-46de-c041-08df34052823"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-projeto-fpos-2-open-society-foundation-tr-13370",
+    "title": "Contratação de consultor PROJETO FPOS 2 – OPEN SOCIETY FOUNDATION – TR 13370",
+    "description": "O presente termo destina-se à contratação de pessoa física para a realização do monitoramento técnico, físicofinanceiro e territorial da implantação da Etapa 1 do Piloto de Convergência: Fortalecimento da Agricultura Familiar por meio de Energia Renovável e Armazenamento, no âmbito do PTE-NE, compreendendo a estruturação do sistema de monitoramento, a análise técnica dos produtos da pessoa jurídica executora, a verificação in loco das atividades nos territórios, a gestão de riscos e a avaliação final da Etapa, com vistas a subsidiar o Consórcio Nordeste (custeadas pelo projeto) e a OEI na validação das entregas e na preparação da Etapa 2",
+    "comments": "R$ 195.000,00",
+    "startDate": "2026-10-29",
+    "endDate": "2026-11-04",
+    "local": "Remoto com visitas de campo nos locais de implementação",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-10-29",
+    "torid": "oei:contratacao-de-consultor-projeto-fpos-2-open-society-foundation-tr-13370",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-fpos-2-open-society-foundation-tr-13370/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-13370.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-fpos-2-open-society-foundation-tr13370",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO FPOS 2 – OPEN SOCIETY FOUNDATION – TR13370",
+    "description": "O presente termo destina-se à contratação de pessoa física para a realização do monitoramento técnico, físicofinanceiro e territorial da implantação da Etapa 1 do Piloto de Convergência: Fortalecimento da Agricultura Familiar por meio de Energia Renovável e Armazenamento, no âmbito do PTE-NE, compreendendo a estruturação do sistema de monitoramento, a análise técnica dos produtos da pessoa jurídica executora, a verificação in loco das atividades nos territórios, a gestão de riscos e a avaliação final da Etapa, com vistas a subsidiar o Consórcio Nordeste (custeadas pelo projeto) e a OEI na validação das entregas e na preparação da Etapa 2.",
+    "comments": "R$ 195.000,00",
+    "startDate": "2026-10-29",
+    "endDate": "2026-11-04",
+    "local": "Remoto",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-10-29",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-fpos-2-open-society-foundation-tr13370",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-fpos-2-open-society-foundation-tr13370/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-tr13370.pdf"
     ]
   },
   {
@@ -292,11 +388,11 @@
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13375",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13375",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 13375",
     "description": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
     "comments": "R$ 70.000,00",
     "startDate": "2026-10-23",
-    "endDate": "2026-10-29",
+    "endDate": "2026-11-06",
     "local": "São Paulo - SP",
     "receivingEmail": "seleao.bra@oei.int",
     "statusDescription": "En evaluación",
@@ -311,11 +407,11 @@
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13375-2",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13375",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 13375",
     "description": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
     "comments": "R$ 70.000,00",
     "startDate": "2026-10-23",
-    "endDate": "2026-10-29",
+    "endDate": "2026-11-06",
     "local": "São Paulo - SP",
     "receivingEmail": "seleao.bra@oei.int",
     "statusDescription": "En evaluación",
