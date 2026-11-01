@@ -11872,5 +11872,63 @@
     "descricao": "O presente termo destina-se à contratação de pessoa física para a realização do monitoramento técnico, físicofinanceiro e territorial da implantação da Etapa 1 do Piloto de Convergência: Fortalecimento da Agricultura Familiar por meio de Energia Renovável e Armazenamento, no âmbito do PTE-NE, compreendendo a estruturação do sistema de monitoramento, a análise técnica dos produtos da pessoa jurídica executora, a verificação in loco das atividades nos territórios, a gestão de riscos e a avaliação final da Etapa, com vistas a subsidiar o Consórcio Nordeste (custeadas pelo projeto) e a OEI na validação das entregas e na preparação da Etapa 2.",
     "local": "Remoto",
     "data_fim": "2026-11-04"
+  },
+  {
+    "torid": "unesco:5e6a42e5-299c-46ca-b73c-08df2f6c6b33",
+    "graduacao": [],
+    "graduacao_desejavel": [],
+    "pos_graduacao": false,
+    "pos_graduacao_desejavel": true,
+    "mestrado": true,
+    "mestrado_desejavel": false,
+    "doutorado": false,
+    "doutorado_desejavel": false,
+    "experiencia_exigida": true,
+    "anos_experiencia": 5,
+    "experiencia_outro_criterio": null,
+    "anos_experiencia_desejavel": null,
+    "ferramentas": [],
+    "ferramentas_desejaveis": [],
+    "idiomas": [],
+    "idiomas_desejaveis": [],
+    "certificacoes": [],
+    "certificacoes_desejaveis": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "os candidatos que não atenderem aos critérios mínimos obrigatórios de qualificação não serão",
+      "considerados elegíveis nas etapas subsequentes deste processo seletivo.",
+      "a. formação acadêmica:",
+      "graduação nas áreas de ciências humanas ou ciências sociais aplicadas ou ciências da saúde,",
+      "segundo classificação da capes e curso reconhecido pelo mec; mestrado nas áreas de ciências",
+      "humanas ou ciências sociais aplicadas ou ciências da saúde",
+      "b. experiência profissional comprovada (anos/período):",
+      "experiência mínima de 5 (cinco) anos na elaboração e condução de estudos sobre a política de",
+      "assistência social; experiência profissional mínima de 5 (cinco) anos no assessoramento e",
+      "consultoria na área do sistema único de assistência social."
+    ],
+    "requisitos_desejaveis": [
+      "o candidato que atender aos critérios mínimos obrigatórios será elegível para a avaliação do",
+      "atendimento aos critérios desejáveis.",
+      "embora não sejam eliminatórios, os critérios desejáveis serão importantes para contribuir para uma",
+      "melhor colocação do candidato no cômputo de pontuação no processo seletivo, conforme",
+      "estabelecido no item 6, tabela de critérios pontuáveis.",
+      "a. pós-graduação na área de assistência social, ou em serviço social; possuir publicações",
+      "acadêmicas sobre o sistema único de assistência social.",
+      "b. experiência profissional ou acadêmica em diagnósticos e pesquisa social; experiência",
+      "profissional ou acadêmica em avaliação de políticas públicas na área social; atuação como membro",
+      "em instâncias de controle social; experiência profissional ou acadêmica com metodologias"
+    ],
+    "entregaveis": [
+      "DOCUMENTO Atividade 1: Alinhar com as equipes 84 dias contados a partir da data de TÉCNICO COM ANÁLISE DOS técnicas do Departamento de assinatura do contrato NORMATIVOS E DE SUA Condicionalidades e Departamento de ARTICULAÇÃO COM OS Operação os objetivos, a metodologia, as INSTRUMENTOS DE fontes de informação e o plano de PLANEJAMENTO trabalho. INTERSETORIAL Atividade 2: Levantar e analisar os principais normativos do Programa Bolsa Família e os instrumentos de planejamento da assistência social, da saúde e da educação, especialmente os Planos de Assistência Social e os Pactos de Aprimoramento do SUAS; os Planos de Saúde, as Programações Anuais de Saúde, os Relatórios Detalhados do Quadrimestre Anterior e os Relatórios Anuais de Gestão; e os Planos de Educação e os Planos de Ações Articuladas. Atividade 3: Mapear as competências e responsabilidades da União, dos estados, do Distrito Federal, dos municípios e das áreas envolvidas na gestão do Programa. Atividade 4: Analisar a articulação entre normativos, responsabilidades, indicadores, metas e instrumentos de planejamento, identificando lacunas e oportunidades de integração. Atividade 5: Elaborar matriz de competências, indicadores, metas e instrumentos de planejamento, bem como proposta de estrutura mínima para planos intersetoriais. Atividade 6: Apresentar a versão preliminar à SENARC, incorporar as contribuições recebidas e consolidar o produto",
+      "DOCUMENTO Atividade 1: Levantar e sistematizar 166 dias contados a partir da data de TÉCNICO COM BALANÇO DA referências, documentos, dados e assinatura do contrato RETOMADA DO PROGRAMA indicadores sobre a retomada e a BOLSA FAMÍLIA E ANÁLISE DOS evolução da gestão do Programa Bolsa INDICADORES DE GESTÃO Família, incluindo a gestão de benefícios, a gestão de condicionalidades, o TSFT e a gestão descentralizada. Atividade 2: Analisar a evolução dos indicadores e as diferenças entre regiões, estados, municípios, territórios, portes populacionais e públicos atendidos. Atividade 3: Identificar os principais avanços, desafios, desigualdades, lacunas e perspectivas para a gestão do Programa Bolsa Família nos próximos anos. Atividade 4: Apresentar a versão preliminar à SENARC, incorporar as contribuições recebidas e consolidar o produto, acompanhado de síntese executiva, fichas de indicadores, tabelas, gráficos e mapas",
+      "DOCUMENTO Atividade 1: Sistematizar os principais 240 dias contados a partir da data de TÉCNICO COM PROPOSTA DE resultados e desafios identificados nos assinatura do contrato Produto Atividades Data para entrega PARÂMETROS E DIRETRIZES Produtos 1 e 2. PARA O APRIMORAMENTO DA Atividade 2: Definir dimensões, GESTÃO DO PROGRAMA BOLSA parâmetros e diretrizes para o FAMÍLIA aprimoramento da gestão do Programa Bolsa Família nos níveis estadual, distrital e municipal. Atividade 3: Propor indicadores, metas e critérios para identificação de territórios e públicos prioritários. Atividade 4: Elaborar orientações para o planejamento intersetorial e o monitoramento da execução e dos resultados. Atividade 5: Apresentar a proposta à SENARC, incorporar as contribuições recebidas e consolidar o produto, acompanhado das matrizes de parâmetros, indicadores, metas e responsabilidades",
+      "CADERNO TÉCNICO Atividade 1: Definir a estrutura editorial 300 dias contados a partir da data de “APRIMORAMENTO DA GESTÃO do caderno e consolidar os resultados dos assinatura do contrato DO PROGRAMA BOLSA FAMÍLIA: Produtos 1, 2 e 3. INDICADORES, METAS, Atividade 2: Organizar o conteúdo sobre TERRITÓRIOS E PLANEJAMENTO a retomada do Programa, os indicadores INTERSETORIAL” de gestão, os normativos, os instrumentos de planejamento e os parâmetros de aprimoramento. Atividade 3: Elaborar instrumentos de aplicação prática, incluindo fichas de indicadores, matrizes de responsabilidades e metas, modelo de plano intersetorial e instrumento de monitoramento. Atividade 4: Produzir síntese executiva, tabelas, gráficos, mapas, infográficos e apresentação institucional para divulgação dos resultados. Atividade 5: Apresentar a versão preliminar à SENARC, incorporar as contribuições recebidas e entregar o caderno consolidado em formatos PDF e editável, adequado à publicação e ao lançamento institucional. CONSULTOR(A) 2 - Aprimoramento da gestão do Programa Bolsa Família DOCUMENTO Atividade 1: Alinhar com as equipes 79 dias contados a partir da data de TÉCNICO COM DIAGNÓSTICO DA técnicas do Departamento de assinatura do contrato EQUIPE RESPONSÁVEL PELA Condicionalidades e Departamento de GESTÃO E Operação os objetivos, a metodologia, as OPERACIONALIZAÇÃO DO fontes de informação e o plano de PROGRAMA BOLSA FAMÍLIA trabalho. Atividade 2: Levantar e sistematizar dados do Censo SUAS, do SigPBF e de outras fontes sobre as equipes estaduais, distrital e municipais do Programa Bolsa Família. Atividade 3: Analisar o quantitativo, os vínculos, a escolaridade, a formação, as funções e as condições de trabalho dos profissionais, considerando as diferenças territoriais e municipais. Atividade 4: Analisar a organização das equipes à luz da NOB-RH/SUAS e identificar lacunas de pessoal, formação, condições de trabalho e capacidade institucional. Atividade 5: Apresentar a versão preliminar à SENARC, incorporar as Produto Atividades Data para entrega contribuições recebidas e consolidar o produto, acompanhado de base organizada, síntese executiva, tabelas, gráficos e mapas. DOCUMENTO Atividade 1: Mapear as funções, 159 dias contados a partir da data de TÉCNICO COM MAPEAMENTO atividades e processos de trabalho assinatura do contrato DAS FUNÇÕES E DOS PROCESSOS relacionados à gestão de benefícios e DE TRABALHO DO PROGRAMA condicionalidades, à articulação e BOLSA FAMÍLIA integração dos serviços, ao TSFT no contexto das condicionalidades, bem como ao planejamento e ao monitoramento dessas ações. Atividade 2: Analisar o uso do Sicon, do SigPBF e dos demais sistemas utilizados na gestão do Programa Bolsa Família. Atividade 3: Identificar a distribuição de responsabilidades entre as equipes de gestão, os serviços socioassistenciais e as áreas de saúde e educação. Atividade 4: Cruzar as informações levantadas com estudos e produtos de consultorias anteriores desenvolvidos no âmbito do MDS, relacionar à gestão intersetorial e interfederativa do Programa Bolsa Família, identificando lacunas, sobreposições e necessidades de aprimoramento. Atividade 5: Apresentar a versão preliminar à SENARC, incorporar as contribuições recebidas e consolidar o produto, acompanhado de matriz de funções e responsabilidades e fluxogramas dos principais processos. DOCUMENTO Atividade 1: Sistematizar os principais 240 dias contados a partir da data de TÉCNICO COM PROPOSTA DE resultados e lacunas identificados nos assinatura do contrato MODELO DE EQUIPE DE Produtos 1 e 2. REFERÊNCIA PARA A GESTÃO DO Atividade 2: Definir as funções PROGRAMA BOLSA FAMÍLIA essenciais, os perfis profissionais e as competências necessárias à gestão do Programa Bolsa Família. Atividade 3: Propor parâmetros para composição e dimensionamento das equipes, considerando o porte municipal, o número de famílias atendidas, o volume de trabalho e as características territoriais. Atividade 4: Propor modelos de organização das equipes e orientações para sua integração com os serviços socioassistenciais e com as áreas de saúde e educação. Atividade 5: Apresentar a proposta à SENARC, incorporar as contribuições recebidas e consolidar o produto, acompanhado das matrizes de composição, dimensionamento, funções e competências. CADERNO TÉCNICO Atividade 1: Definir a estrutura editorial 300 dias contados a partir da data de “GESTÃO DO TRABALHO NO do caderno e consolidar os resultados dos assinatura do contrato PROGRAMA BOLSA FAMÍLIA” Produtos 1, 2 e 3. Atividade 2: Organizar o conteúdo sobre o perfil das equipes, os processos de trabalho e o modelo proposto para composição, dimensionamento e organização das equipes. Atividade 3: Elaborar instrumentos de aplicação prática, incluindo matriz de funções e competências, metodologia de dimensionamento, modelos de organização, fluxos de trabalho e instrumento de diagnóstico local. Produto Atividades Data para entrega Atividade 4: Produzir síntese executiva, tabelas, gráficos, mapas, fluxogramas, infográficos e apresentação institucional para divulgação dos resultados. Atividade 5: Apresentar a versão preliminar à SENARC, incorporar as contribuições recebidas e entregar o caderno consolidado em formatos PDF e editável, adequado à publicação e ao lançamento institucional"
+    ],
+    "competencias": [],
+    "titulo": "UNESCO 914BRZ3051 - EDITAL 23/2026",
+    "descricao": "Contratação de duas pessoas consultoras individuais para realizar estudos e instrumentos de indução para a articulação intersetorial e interfederativa do PBF nos níveis estadual e municipal",
+    "local": "",
+    "data_fim": "2026-11-08"
   }
 ]
