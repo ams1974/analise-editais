@@ -11930,5 +11930,62 @@
     "descricao": "Contratação de duas pessoas consultoras individuais para realizar estudos e instrumentos de indução para a articulação intersetorial e interfederativa do PBF nos níveis estadual e municipal",
     "local": "",
     "data_fim": "2026-11-08"
+  },
+  {
+    "torid": "unesco:23568958-aa17-4ecf-d7dc-08df30419bc1",
+    "graduacao": [],
+    "graduacao_desejavel": [],
+    "pos_graduacao": false,
+    "pos_graduacao_desejavel": false,
+    "mestrado": true,
+    "mestrado_desejavel": false,
+    "doutorado": false,
+    "doutorado_desejavel": false,
+    "experiencia_exigida": true,
+    "anos_experiencia": 3,
+    "experiencia_outro_criterio": null,
+    "anos_experiencia_desejavel": null,
+    "ferramentas": [],
+    "ferramentas_desejaveis": [
+      "power bi",
+      "excel"
+    ],
+    "idiomas": [],
+    "idiomas_desejaveis": [],
+    "certificacoes": [],
+    "certificacoes_desejaveis": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "os candidatos que não atenderem aos critérios mínimos obrigatórios de qualificação não serão",
+      "considerados elegíveis nas etapas subsequentes deste processo seletivo.",
+      "5.1.1. formação acadêmica",
+      "• graduação e mestrado nas áreas de psicologia, análise de dados, ciências humanas e/ou",
+      "sociais aplicadas, com diploma reconhecido pelo mec.",
+      "5.1.2. experiência profissional comprovada (anos/período)",
+      "a. experiência profissional mínima de 3 (três) anos em atividades de pesquisa, organização de",
+      "dados, monitoramento de indicadores e elaboração de relatórios.",
+      "b. experiência profissional mínima de 2 (dois) anos com elaboração de relatórios de dados e",
+      "ou manipulação de base de dados."
+    ],
+    "requisitos_desejaveis": [
+      "• experiência com cruzamento de dados quantitativos e qualitativos no setor público.",
+      "5.3. habilidades e competências (entrevista)",
+      "• conhecimento em análise e tratamento de dados e indicadores",
+      "• conhecimento em excel e power bi",
+      "• conhecimento sobre o contexto das políticas da secadi"
+    ],
+    "entregaveis": [
+      "Documento Atividade 1.1: Realizar levantamento e técnico contendo análise das bases de dados primárias elaboração e publicação de relacionadas aos Termos de Execução painel de monitoramento Direta da Secretaria, incluindo em Power BI para informações administrativas, financeiras e acompanhamento dos de monitoramento. Termos de Execução Direta (TEDs) da Secretaria, Atividade 1.2: Realizar levantamento e incluindo estruturação das análise das ferramentas tecnológicas e bases de dados, indicadores sistemas de informação disponíveis para de acompanhamento, integração, tratamento e visualização dos Aproximadamente 45 fontes de informação e dados. dias, contados a partir plano de atualização da data de assinatura periódica. Atividade 1.3: Estruturar proposta de do contrato organização e integração das bases de dados, visando garantir consistência, atualização periódica e acesso às informações estratégicas. Atividade 1.4: Elaborar proposta de indicadores de monitoramento e desenvolver painel analítico em Power BI para acompanhamento da execução dos TEDs, incluindo orientações para atualização e utilização",
+      "Documento Atividade 2.1: Realizar levantamento e técnico contendo proposta análise das bases de dados primárias de indicadores estratégicos relacionadas às dimensões de Avaliação e para monitoramento das Monitoramento na Escola, Projeto dimensões de Avaliação e Político-Pedagógico e Gestão Escolar. Monitoramento na Escola, Projeto Político-Pedagógico Atividade 2.2: Realizar levantamento das Aproximadamente 120 e Gestão Escolar, incluindo ferramentas tecnológicas, sistemas de dias, contados a partir contexto analítico, fontes informação e mecanismos de da data de assinatura de dados e possibilidades monitoramento disponíveis para do contrato de utilização na gestão acompanhamento dos indicadores. educacional. Atividade 2.3: Elaborar proposta de organização e sistematização dos dados, considerando a integração das informações e a viabilidade de atualização periódica. Atividade 2.4: Elaborar proposta de indicadores estratégicos, contendo definição conceitual, metodologia de cálculo, fontes de dados e potencial de utilização para monitoramento das políticas e programas",
+      "Documento Atividade 3.1: Realizar levantamento e técnico contendo proposta análise das bases de dados primárias de indicadores estratégicos relacionadas ao Diagnóstico e para monitoramento das Planejamento de Rede e à Educação dimensões de Diagnóstico e Escolar Indígena. Planejamento de Rede e Educação Escolar Indígena, Atividade 3.2: Realizar levantamento das incluindo contexto ferramentas tecnológicas e sistemas de analítico, fontes de dados e informação disponíveis para produção e possibilidades de utilização monitoramento dos indicadores. na gestão educacional. Aproximadamente 180 Atividade 3.3: Elaborar proposta de dias, contados a partir organização e integração das bases de da data de assinatura dados, considerando critérios de do contrato atualização, consistência e acessibilidade das informações. Atividade 3.4: Elaborar proposta de indicadores estratégicos para monitoramento das políticas e programas relacionados às temáticas contempladas no produto, incluindo definição metodológica e fontes de dados",
+      "Documento Atividade 4.1: Realizar levantamento e técnico contendo proposta análise das bases de dados primárias de indicadores estratégicos relacionadas à Educação Bilíngue de para monitoramento das Surdos e à Educação Escolar Quilombola. dimensões de Educação Aproximadamente 240 Bilíngue de Surdos e Atividade 4.2: Realizar levantamento das dias, contados a partir Educação Escolar ferramentas tecnológicas e sistemas de da data de assinatura Quilombola, incluindo informação disponíveis para do contrato contexto analítico, fontes acompanhamento das políticas e de dados e possibilidades programas relacionados às temáticas. de utilização na gestão educacional. Atividade 4.3: Elaborar proposta de organização e sistematização dos dados, considerando a integração das informações e a viabilidade de atualização periódica. Atividade 4.4: Elaborar proposta de indicadores estratégicos para monitoramento das políticas e programas relacionados à Educação Bilíngue de Surdos e à Educação Escolar Quilombola, incluindo definição metodológica, fontes de dados e parâmetros de acompanhamento",
+      "Documento Atividade 5.1: Realizar levantamento e técnico contendo modelo análise das bases de dados primárias elaborado para publicação relacionadas à oferta, participação, de painel de conclusão e certificação dos cursos de monitoramento em Power formação continuada da Secretaria. BI para acompanhamento dos cursos de formação Atividade 5.2: Realizar levantamento e continuada da Secretaria, análise das ferramentas tecnológicas e incluindo estruturação das sistemas de informação disponíveis para bases de dados, indicadores integração e monitoramento das ações de acompanhamento, formativas. Aproximadamente 315 fontes de informação e dias após assinatura plano de atualização Atividade 5.3: Estruturar proposta de do contrato. periódica. organização e integração das bases de dados, visando garantir atualização periódica, consistência e acessibilidade das informações. Atividade 5.4: Elaborar proposta de indicadores de monitoramento e desenvolver painel analítico em Power BI para acompanhamento dos cursos de formação continuada, incluindo orientações para atualização e utilização"
+    ],
+    "competencias": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 61/2026 - 1 vaga - Consultor Individual ",
+    "descricao": "Contratação de consultoria especializada para apoiar o desenvolvimento de instrumentos de monitoramento, análise e gestão de informações estratégicas relacionadas às políticas, programas e ações condu",
+    "local": "",
+    "data_fim": "2026-11-08"
   }
 ]
