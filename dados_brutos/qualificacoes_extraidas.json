@@ -11987,5 +11987,59 @@
     "descricao": "Contratação de consultoria especializada para apoiar o desenvolvimento de instrumentos de monitoramento, análise e gestão de informações estratégicas relacionadas às políticas, programas e ações condu",
     "local": "",
     "data_fim": "2026-11-08"
+  },
+  {
+    "torid": "unesco:896b11b8-0531-45d7-cf0b-08df35c1db12",
+    "graduacao": [],
+    "graduacao_desejavel": [],
+    "pos_graduacao": false,
+    "pos_graduacao_desejavel": false,
+    "mestrado": false,
+    "mestrado_desejavel": false,
+    "doutorado": false,
+    "doutorado_desejavel": false,
+    "experiencia_exigida": true,
+    "anos_experiencia": null,
+    "experiencia_outro_criterio": "experiência profissional",
+    "anos_experiencia_desejavel": null,
+    "ferramentas": [],
+    "ferramentas_desejaveis": [],
+    "idiomas": [],
+    "idiomas_desejaveis": [],
+    "certificacoes": [],
+    "certificacoes_desejaveis": [],
+    "valor": "218,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "os candidatos que não atenderem aos critérios mínimos obrigatórios de qualificação não serão considerados",
+      "elegíveis nas etapas subsequentes deste processo seletivo.",
+      "5.1.1. formação acadêmica – o profissional deverá possuir graduação de nível superior completa em",
+      "qualquer área do conhecimento, desde que o curso seja devidamente reconhecido pelo ministério",
+      "5.1.2. experiência profissional comprovada (anos/período) –",
+      "5.1.2.1. experiência consolidada (superior a 02 anos) em funções de direção, coordenação, liderança",
+      "institucional ou consultoria em políticas públicas no âmbito municipal e/ou estadual.",
+      "5.1.2.2. experiência comprovada, superior a 2 (dois) anos, em processos de articulação intersetorial nas",
+      "áreas de assistência social, saúde, educação, habitação ou trabalho, com atuação no desenvol-",
+      "vimento de estratégias territoriais integradas e na colaboração com instâncias de governança"
+    ],
+    "requisitos_desejaveis": [
+      "os critérios desejáveis serão analisados no momento da entrevista.",
+      "os candidatos que atenderem aos critérios mínimos obrigatórios serão elegíveis para a avaliação do",
+      "atendimento aos critérios desejáveis.",
+      "embora não sejam eliminatórios, os critérios desejáveis serão importantes para contribuir para uma melhor",
+      "colocação do candidato no cômputo de pontuação no processo seletivo, conforme estabelecido no item 6,",
+      "tabela de critérios pontuáveis.",
+      "* as comprovações das qualificações declaradas poderão ser solicitadas a qualquer momento do processo",
+      "entre os critérios obrigatórios e desejáveis especificados acima, os critérios constantes no item 6, a seguir, são",
+      "pontuáveis e definirão a classificação do candidato no processo avaliativo."
+    ],
+    "entregaveis": [
+      "Relatório técnico sobre os acompanhamentos e"
+    ],
+    "competencias": [],
+    "titulo": "914BRZ3061 - EDITAL Nº 17/2026 - 01 VAGA - CONSULTOR INDIVIDUAL",
+    "descricao": "Graduação de nível superior completa em qualquer área do conhecimento, desde que o curso seja devidamente reconhecido pelo Ministério da Educação (MEC).",
+    "local": "",
+    "data_fim": "2026-11-07"
   }
 ]
