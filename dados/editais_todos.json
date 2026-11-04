@@ -445,13 +445,13 @@
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13375",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 13375",
-    "description": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13375",
+    "description": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP).",
     "comments": "R$ 70.000,00",
     "startDate": "2026-10-23",
-    "endDate": "2026-11-06",
+    "endDate": "2026-10-23",
     "local": "São Paulo - SP",
-    "receivingEmail": "seleao.bra@oei.int",
+    "receivingEmail": "selecao.bra@oei.int",
     "statusDescription": "En evaluación",
     "created": "2026-10-23",
     "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13375",
@@ -1273,11 +1273,11 @@
   },
   {
     "id": "oei:contratacao-de-consultor-projeto-abdi-tr-13312",
-    "title": "Contratação de consultor PROJETO ABDI – TR 13312",
+    "title": "Contratação de consultor PROJETO ABDI – TR 13312 REPUBLICADO",
     "description": "Contratar consultoria técnica especializada, na modalidade individual, para apoiar a ABDI na estruturação, condução e execução de iniciativas estratégicas da agenda BIM e Construção Industrializada, com foco no acompanhamento técnico da Pesquisa de Maturidade BIM em Habitação de Interesse Social, realizada em parceria com o Ministério das Cidades, e no suporte às frentes do Projeto Construção 4.0.",
     "comments": "R$ 141.000,00",
     "startDate": "2026-10-08",
-    "endDate": "2026-10-12",
+    "endDate": "2026-10-16",
     "local": "Remoto",
     "receivingEmail": "selecao.bra@oei.int",
     "statusDescription": "En presentación",
@@ -1288,7 +1288,9 @@
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-abdi-tr-13312/",
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-13312.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-13312.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/termo-de-referencia-13312-1.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/errata-13312-2026.pdf"
     ]
   },
   {
@@ -1583,11 +1585,11 @@
   },
   {
     "id": "oei:contratacao-de-consultor-projeto-abdi-tr-13260",
-    "title": "Contratação de consultor PROJETO ABDI – TR 13260",
+    "title": "Contratação de consultor PROJETO ABDI – TR 13260 REPUBLICADO",
     "description": "Contratação de consultoria técnica individual, especializada em engenharia de plataformas e infraestrutura de nuvem, para prestação de serviços técnicos de apoio à ABDI no âmbito do Projeto Nuvem Brasileira, compreendendo a sistematização da Escuta de Mercado, o diagnóstico da capacidade de oferta do ecossistema nacional, o aprimoramento metodológico do Gradiente de Soberania e a produção de subsídios técnicos para a modelagem da solução e do futuro instrumento convocatório.",
     "comments": "R$ 96.840,00",
     "startDate": "2026-09-29",
-    "endDate": "2026-10-02",
+    "endDate": "2026-10-16",
     "local": "Remota e/ou presencial em Brasília - DF",
     "receivingEmail": "selecao.bra@oei.int",
     "statusDescription": "En fase de apresentação",
@@ -1597,7 +1599,9 @@
     "orgao_parceiro": "OEI",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-abdi-tr-13260/",
     "tor_urls": [
-      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf"
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-13260-republicado.pdf",
+      "https://oei.int/wp-content/uploads/2026/09/errata-13260.pdf"
     ]
   },
   {
