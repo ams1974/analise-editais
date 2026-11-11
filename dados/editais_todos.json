@@ -1,5 +1,81 @@
 [
   {
+    "id": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
+    "title": "914BRZ4027 - Edital 65/2026 - Arq ou Eng - Iphan-MG - Serro",
+    "description": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
+    "comments": "",
+    "startDate": "2026-11-11T00:00:00",
+    "endDate": "2026-11-20T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-11T00:00:00",
+    "torid": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/81cfd574-6563-4c46-da28-08df39989a49"
+    ]
+  },
+  {
+    "id": "unesco:7ab5fc1c-c3c4-46e1-1822-08df3e61959c",
+    "title": "570RLA4000 - Edital 07/2026 - Consultor Individual",
+    "description": "Consultoria individual especializada em arquitetura ",
+    "comments": "",
+    "startDate": "2026-11-11T00:00:00",
+    "endDate": "2026-11-17T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-11T00:00:00",
+    "torid": "unesco:7ab5fc1c-c3c4-46e1-1822-08df3e61959c",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/c81477af-949c-451a-af4f-08df3e51b662"
+    ]
+  },
+  {
+    "id": "unesco:d4784a3a-ac19-43bd-0638-08df3c4ba711",
+    "title": "914BRZ4027 - Edital 66/2026 - Arq ou Eng - Iphan-SE",
+    "description": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
+    "comments": "",
+    "startDate": "2026-11-11T00:00:00",
+    "endDate": "2026-11-20T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-11T00:00:00",
+    "torid": "unesco:d4784a3a-ac19-43bd-0638-08df3c4ba711",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/37115b5f-b220-42b6-9ac7-08df3bf3ca2a"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13409",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO ABDI – TR13409",
+    "description": "Contratar consultoria técnica especializada em gestão de projetos, na modalidade individual por produto, para apoiar a implementação do Projeto Destrava Brasil nas frentes Anvisa, ANM e INPI, por meio de suporte ao planejamento, à gestão, ao acompanhamento e ao monitoramento das ações e iniciativas. A contratação tem como finalidades: Estruturar o modelo de gestão e acompanhamento do projeto, com cronograma consolidado e instrumentos de controle de entregas, riscos, indicadores, pendências e planos de ação. Organizar a rotina de acompanhamento e reporte à gerência responsável. Consolidar periodicamente a execução das frentes, com análise de desvios, riscos e pendências e recomendações para a gestão. Manter atualizados os instrumentos de acompanhamento ao longo da vigência. Consolidar os resultados de gestão do período e as recomendações para a continuidade do projeto.",
+    "comments": "R$ 101.400,00",
+    "startDate": "2026-11-11",
+    "endDate": "2026-11-17",
+    "local": "Brasil Híbrido, com atividades presenciais em Brasília",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-11-11",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13409",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13409/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-tr13409.pdf"
+    ]
+  },
+  {
     "id": "unesco:7c6c777d-8895-444a-0f56-08df342c4c53",
     "title": "UNESCO 914BRZ3051 - EDITAL 24/2026",
     "description": "Elaborar caderno de orient técnicas dirigidas à gestão mun para realização de diag socioterritoriais em mun situados em áreas rurais, em sit de fronteira e com forte presença de povos e com tradic",
@@ -73,25 +149,6 @@
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
     "tor_urls": [
       "https://apiroster.brasilia.unesco.org/api/public/download/2a767f83-1dbd-4fd6-da24-08df39989a49"
-    ]
-  },
-  {
-    "id": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
-    "title": "914BRZ4027 - Edital 65/2026 - Arq ou Eng - Iphan-MG - Serro",
-    "description": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
-    "comments": "",
-    "startDate": "2026-11-06T00:00:00",
-    "endDate": "2026-11-15T00:00:00",
-    "local": "",
-    "receivingEmail": "",
-    "statusDescription": "Ongoing",
-    "created": "2026-11-06T00:00:00",
-    "torid": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
-    "fonte": "unesco",
-    "orgao_parceiro": "UNESCO",
-    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "tor_urls": [
-      "https://apiroster.brasilia.unesco.org/api/public/download/81cfd574-6563-4c46-da28-08df39989a49"
     ]
   },
   {
@@ -883,7 +940,8 @@
       "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-01-13320-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-02-13320-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-03-e-04-13320-2026-oei-seed-pr.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-05-a-08-13320-2026-oei-seed-pr.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-05-a-08-13320-2026-oei-seed-pr.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-09-13320-oei-seed-pr.pdf"
     ]
   },
   {
