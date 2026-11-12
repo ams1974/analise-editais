@@ -1,5 +1,43 @@
 [
   {
+    "id": "unesco:ff2147dc-c4fa-42ca-9a25-08df3f30f747",
+    "title": "914BRZ4027 - Edital 67/2026 - Gestão - Centro Vivo",
+    "description": "Consultor Individual - Bases para descentralização e gestão compartilhada do PAC Patrimônio Cultural",
+    "comments": "",
+    "startDate": "2026-11-12T00:00:00",
+    "endDate": "2026-11-16T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-12T00:00:00",
+    "torid": "unesco:ff2147dc-c4fa-42ca-9a25-08df3f30f747",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/4e71438a-bd8a-4cda-b5b2-08df3f21ab3b"
+    ]
+  },
+  {
+    "id": 1605,
+    "torid": 146487,
+    "createdBy": "hugo.jose@undp.org",
+    "title": "IC - Individual Consultant (IC) Assignment to Conduct a Digital Readiness Assessment (DRA) of Brazil’s Transport Sector",
+    "startDate": "2026-11-11T03:00:00",
+    "endDate": "2026-11-25T03:00:00",
+    "local": "Remoto",
+    "receivingEmail": "ic.procurement.br@undp.org",
+    "enabled": true,
+    "description": null,
+    "approver": "",
+    "comments": null,
+    "created": "2026-11-11T17:22:37.4706619",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
     "id": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
     "title": "914BRZ4027 - Edital 65/2026 - Arq ou Eng - Iphan-MG - Serro",
     "description": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
