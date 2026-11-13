@@ -1,5 +1,62 @@
 [
   {
+    "id": "unesco:7ed22d90-36bd-45d7-be2b-08df3b425e79",
+    "title": "914BRZ1155 - EDITAL Nº 64/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada para subsidiar a Secadi na produção, sistematização e análise de dados e informações gerenciais relacionadas à implementação da PNEERQ",
+    "comments": "",
+    "startDate": "2026-11-13T00:00:00",
+    "endDate": "2026-11-19T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-13T00:00:00",
+    "torid": "unesco:7ed22d90-36bd-45d7-be2b-08df3b425e79",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/1d5a4b87-dfd5-4aaf-af63-08df3e51b662"
+    ]
+  },
+  {
+    "id": "unesco:10a56ab6-52e5-4c24-be2e-08df3b425e79",
+    "title": "914BRZ1155 - EDITAL Nº 62/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada para desenvolvimento de estratégias de acompanhamento, monitoramento e avaliação de programas e mecanismos de incidência para apoio e financiamento das redes de educação para",
+    "comments": "",
+    "startDate": "2026-11-13T00:00:00",
+    "endDate": "2026-11-19T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-13T00:00:00",
+    "torid": "unesco:10a56ab6-52e5-4c24-be2e-08df3b425e79",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/1a2384fb-c659-4202-af5f-08df3e51b662"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr13401",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/22/003 – TR13401",
+    "description": "Contratar consultoria técnica especializada, de natureza temporária e por produto, para a elaboração de estudos, diagnósticos, metodologias e propostas de arquitetura de referência voltados ao aprimoramento da governança de segurança da informação e da interoperabilidade dos sistemas tecnológicos da Secretaria de Educação do Recife. A consultoria terá como finalidade o desenvolvimento e a transferência de conhecimentos técnicos especializados, a formulação de modelos de integração e a proposição de diretrizes institucionais que contribuam para o fortalecimento das capacidades técnicas da Secretaria, em consonância com os objetivos e resultados previstos no Projeto de Cooperação Técnica Internacional OEI/BRA/22/003.",
+    "comments": "R$ 168.000,00",
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-18",
+    "local": "Recife - PE",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-11-13",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr13401",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr13401/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-tr13401.pdf"
+    ]
+  },
+  {
     "id": "unesco:ff2147dc-c4fa-42ca-9a25-08df3f30f747",
     "title": "914BRZ4027 - Edital 67/2026 - Gestão - Centro Vivo",
     "description": "Consultor Individual - Bases para descentralização e gestão compartilhada do PAC Patrimônio Cultural",
