@@ -1,5 +1,43 @@
 [
   {
+    "id": "unesco:9fcfde7f-79f8-4408-9cfc-08df3a9c6c25",
+    "title": "Projeto 914BRZ3051 - EDITAL 26/2026",
+    "description": "Especialista em realizar mapeamento dos reflexos da gestão dos dados do Cadastro Único para Programas Sociais do Governo Federal (CadÚnico) na gestão de benefícios do Programa Bolsa Família",
+    "comments": "",
+    "startDate": "2026-11-15T00:00:00",
+    "endDate": "2026-11-22T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-15T00:00:00",
+    "torid": "unesco:9fcfde7f-79f8-4408-9cfc-08df3a9c6c25",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/f9a2c320-0d6e-4768-e2ec-08df3b2685cf"
+    ]
+  },
+  {
+    "id": "unesco:9211db00-690e-4889-9a23-08df3f30f747",
+    "title": "Projeto 914BRZ3051 - EDITAL 27/2026",
+    "description": "Especialista em desenvolver modelo de planejamento e material orientador para o apoio técnico dos Estados aos municípios no âmbito do Programa Bolsa Família",
+    "comments": "",
+    "startDate": "2026-11-15T00:00:00",
+    "endDate": "2026-11-22T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-15T00:00:00",
+    "torid": "unesco:9211db00-690e-4889-9a23-08df3f30f747",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/42d5730b-84ba-48fb-c9ef-08df3fd71ecc"
+    ]
+  },
+  {
     "id": "unesco:7ed22d90-36bd-45d7-be2b-08df3b425e79",
     "title": "914BRZ1155 - EDITAL Nº 64/2026 - 1 vaga - Consultor Individual",
     "description": "Consultoria especializada para subsidiar a Secadi na produção, sistematização e análise de dados e informações gerenciais relacionadas à implementação da PNEERQ",
