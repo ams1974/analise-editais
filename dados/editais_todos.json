@@ -1,5 +1,83 @@
 [
   {
+    "id": 1606,
+    "torid": 146486,
+    "createdBy": "marcio.freire",
+    "title": "Edital nº 012/2026 – Contratação de consultoria especializada (pessoa física) para desenvolvimento de estudo e análise sobre impactos macroeconômicos, distributivos e sociais, dos recursos mobilizados pelo FAT e pelo FGTS e à política de valorização do salário mínimo.",
+    "startDate": "2026-11-16T03:00:00",
+    "endDate": "2026-11-23T03:00:00",
+    "local": "Brasília - DF",
+    "receivingEmail": "selecao.spt@trabalho.gov.br",
+    "enabled": true,
+    "description": "Contratação de consultoria de pessoa física especializada para desenvolvimento de estudo de avaliação dos impactos macroeconômicos, distributivos e sociais das políticas e recursos vinculados ao Fundo de Amparo ao Trabalhador (FAT), ao Fundo de Garantia do Tempo de Serviço (FGTS) e à política de valorização do salário mínimo, mediante utilização de modelos de insumo-produto e matriz de contabilidade social, contemplando seus efeitos sobre o produto interno bruto, emprego, renda, consumo, distribuição de renda e demais indicadores econômicos relevantes.",
+    "approver": "aline.santana,andrea.bolzon,brenda.felix,carolina.parisotto,livia.nogueira,livia.silva,rosana.tomazini",
+    "comments": "Publicação analisada e encaminhada para aprovação da Gerente. Contrato refletido na RC  UNDP-BRA-1012185. O TR é o 146486, o valor R$ 24.000,00.",
+    "created": "2026-11-11T17:53:02.2712105",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-projeto-abdi-tr-13419-2",
+    "title": "Contratação de consultor PROJETO ABDI – TR 13419",
+    "description": "Contratar consultoria técnica especializada em ciência e análise de dados, na modalidade individual por produto, para estruturar, automatizar e analisar os dados que sustentam os produtos da UMA e do Observatório ABDI. A contratação tem como finalidades: Desenhar a arquitetura de dados das bases do Observatório. Automatizar as rotinas de coleta, tratamento e atualização das bases de dados. Revisar a metodologia e implementar computacionalmente o ISEI. Construir ou atualizar painéis de indicadores estruturais da indústria. Desenvolver modelo preditivo aplicado ao monitoramento ou às simulações de política industrial. Documentar as soluções e capacitar a equipe interna para operá-las e mantê-las",
+    "comments": "R$ 161.400,00",
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-22",
+    "local": "Brasília - DF",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-11-16",
+    "torid": "oei:contratacao-de-consultor-projeto-abdi-tr-13419-2",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-abdi-tr-13419-2/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-13419.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-projeto-abdi-13420",
+    "title": "Contratação de consultor PROJETO ABDI – 13420",
+    "description": "Contratar consultoria técnica especializada, na modalidade individual por produto, para apoiar a ABDI na incorporação de critérios de sustentabilidade ambiental, climática e territorial às frentes de industrialização de minerais críticos e estratégicos conduzidas pela Agência, e na produção de subsídios técnicos e normativos para a Plataforma de Inteligência Industrial, a carteira nacional de projetos e o suporte técnico ao CIMCE. A contratação tem como finalidades: Diagnosticar os requisitos ambientais, climáticos e de rastreabilidade incidentes sobre as cadeias de lítio/materiais para baterias e terras raras/ímãs permanentes. Propor matriz de critérios e indicadores de sustentabilidade, com abordagem de ACV, para a Plataforma de Inteligência Industrial e a triagem da carteira nacional de projetos. Elaborar protocolo de avaliação ambiental e de ciclo de vida aplicável aos projetos de refino de lítio e à cadeia de terras raras. Produzir notas técnicas de apoio ao CIMCE e à agenda regulatória do setor. Fornecer insumos de sustentabilidade para a estratégia de cooperação tecnológica internacional e acesso a mercados. Transferir conhecimento às equipes técnicas da ABDI.",
+    "comments": "R$ 96.840,00",
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-22",
+    "local": "Brasília - DF",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-11-16",
+    "torid": "oei:contratacao-de-consultor-projeto-abdi-13420",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-abdi-13420/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-13420.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13386",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO ABDI – TR13386",
+    "description": "Contratar consultoria técnica especializada, na modalidade individual por produto, para atuar no planejamento estratégico, no acompanhamento do portfólio de programas e projetos e na avaliação de políticas industriais vinculadas à Nova Indústria Brasil, no âmbito da DIEI, de modo a apoiar a tomada de decisão e o cumprimento das entregas. A contratação tem como finalidades: Mapear o portfólio de programas e projetos da DIEI e seu alinhamento às missões e objetivos da NIB. Analisar os indicadores de desempenho, as metas pactuadas e os critérios de mensuração dos resultados. Acompanhar a execução física e orçamentária e identificar riscos aos resultados previstos. Diagnosticar o desempenho do portfólio, com identificação de desvios e gargalos operacionais. Avaliar os resultados alcançados e a contribuição das iniciativas para a NIB, incluindo análises ex ante e ex post quando aplicável. Consolidar as análises em relatório gerencial integrado, com medidas de aprimoramento.",
+    "comments": "R$ 101.400,00",
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-22",
+    "local": "Híbrido com atividades presenciais na sede ABDI em Brasília",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-11-16",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13386",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13386/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-tr13386.pdf"
+    ]
+  },
+  {
     "id": "unesco:9fcfde7f-79f8-4408-9cfc-08df3a9c6c25",
     "title": "Projeto 914BRZ3051 - EDITAL 26/2026",
     "description": "Especialista em realizar mapeamento dos reflexos da gestão dos dados do Cadastro Único para Programas Sociais do Governo Federal (CadÚnico) na gestão de benefícios do Programa Bolsa Família",
@@ -1695,7 +1773,9 @@
       "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
       "https://oei.int/wp-content/uploads/2026/10/edital-licitacao-no-13292-2026-oei-fpos.pdf",
       "https://oei.int/wp-content/uploads/2026/10/link-para-sala-virtual-licitacao-13292-2026.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/ata-sessao-recebimento-documentacao-e-propostas-13292-2026-oei-fpos.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/ata-sessao-recebimento-documentacao-e-propostas-13292-2026-oei-fpos.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/relatorio-avaliacao-propostas-tecnicas-licitacao-no-13292-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/convocacao-sessao-abertura-proposta-de-preco-13292-2026.pdf"
     ]
   },
   {
