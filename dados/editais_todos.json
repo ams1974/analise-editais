@@ -1,5 +1,44 @@
 [
   {
+    "id": "unesco:ff2147dc-c4fa-42ca-9a25-08df3f30f747",
+    "title": "914BRZ4027 - Edital 67/2026 - Gestão - Centro Vivo",
+    "description": "Consultor Individual - Bases para descentralização e gestão compartilhada do PAC Patrimônio Cultural",
+    "comments": "",
+    "startDate": "2026-11-18T00:00:00",
+    "endDate": "2026-11-22T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-18T00:00:00",
+    "torid": "unesco:ff2147dc-c4fa-42ca-9a25-08df3f30f747",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/4e71438a-bd8a-4cda-b5b2-08df3f21ab3b",
+      "https://apiroster.brasilia.unesco.org/api/public/download/ee99a8cc-c249-4c87-ed7b-08df448cbf73"
+    ]
+  },
+  {
+    "id": "unesco:f4423d15-7f48-4013-c875-08df3fd4a652",
+    "title": "914BRZ1019 - Publicação - Edital 08/2026 - 01 Vaga - Consultor Individual",
+    "description": "Consultoria especializada para desenvolver estudos e análises sobre experiências e referências internacionais em  Educação Ambiental e Centros de Educação Ambiental.",
+    "comments": "",
+    "startDate": "2026-11-18T00:00:00",
+    "endDate": "2026-11-29T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-18T00:00:00",
+    "torid": "unesco:f4423d15-7f48-4013-c875-08df3fd4a652",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/a7a751f4-a35d-42f8-b150-08df43eff343"
+    ]
+  },
+  {
     "id": "unesco:074ee562-e379-4f4a-c877-08df3fd4a652",
     "title": "914BRZ2024 - Edital nº 03/2026 - 01 vaga",
     "description": "Consultor individual: profissional da área de avaliação de políticas públicas, programas e projetos de pesenvolvimento e Inovação.",
@@ -105,7 +144,7 @@
     "endDate": "2026-11-22",
     "local": "Híbrido com atividades presenciais na sede ABDI em Brasília",
     "receivingEmail": "selecao.bra@oei.int",
-    "statusDescription": "En evaluación",
+    "statusDescription": "En fase de apresentação",
     "created": "2026-11-16",
     "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13386",
     "fonte": "oei",
@@ -208,25 +247,6 @@
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr13401/",
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-tr13401.pdf"
-    ]
-  },
-  {
-    "id": "unesco:ff2147dc-c4fa-42ca-9a25-08df3f30f747",
-    "title": "914BRZ4027 - Edital 67/2026 - Gestão - Centro Vivo",
-    "description": "Consultor Individual - Bases para descentralização e gestão compartilhada do PAC Patrimônio Cultural",
-    "comments": "",
-    "startDate": "2026-11-12T00:00:00",
-    "endDate": "2026-11-16T00:00:00",
-    "local": "",
-    "receivingEmail": "",
-    "statusDescription": "Ongoing",
-    "created": "2026-11-12T00:00:00",
-    "torid": "unesco:ff2147dc-c4fa-42ca-9a25-08df3f30f747",
-    "fonte": "unesco",
-    "orgao_parceiro": "UNESCO",
-    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "tor_urls": [
-      "https://apiroster.brasilia.unesco.org/api/public/download/4e71438a-bd8a-4cda-b5b2-08df3f21ab3b"
     ]
   },
   {
@@ -1814,7 +1834,8 @@
       "https://oei.int/wp-content/uploads/2026/10/link-para-sala-virtual-licitacao-13292-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/10/ata-sessao-recebimento-documentacao-e-propostas-13292-2026-oei-fpos.pdf",
       "https://oei.int/wp-content/uploads/2026/10/relatorio-avaliacao-propostas-tecnicas-licitacao-no-13292-2026.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/convocacao-sessao-abertura-proposta-de-preco-13292-2026.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/convocacao-sessao-abertura-proposta-de-preco-13292-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/ata-da-sassao-de-abertura-proposta-de-preco-e-classificacao-final-13292-2026.pdf"
     ]
   },
   {

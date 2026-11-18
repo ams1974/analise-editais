@@ -13307,5 +13307,63 @@
     "descricao": "Graduação completa em Ciências Sociais, Ciência Política, Sociologia, Economia, Administração, Administração Pública, Políticas Públicas, Gestão Pública, Estatística, Demografia ou Serviço Social,",
     "local": "",
     "data_fim": "2026-11-22"
+  },
+  {
+    "torid": "unesco:f4423d15-7f48-4013-c875-08df3fd4a652",
+    "graduacao": [],
+    "graduacao_desejavel": [],
+    "pos_graduacao": true,
+    "pos_graduacao_desejavel": false,
+    "mestrado": false,
+    "mestrado_desejavel": false,
+    "doutorado": false,
+    "doutorado_desejavel": false,
+    "experiencia_exigida": true,
+    "anos_experiencia": 5,
+    "experiencia_outro_criterio": null,
+    "anos_experiencia_desejavel": null,
+    "ferramentas": [],
+    "ferramentas_desejaveis": [],
+    "idiomas": [],
+    "idiomas_desejaveis": [
+      "Inglês",
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "certificacoes_desejaveis": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "os candidatos que não atenderem aos critérios mínimos obrigatórios de qualificação não serão considerados",
+      "elegíveis nas etapas subsequentes deste processo seletivo.",
+      "5.1.1. formação acadêmica – é obrigatório que possua graduação na área de ciências humanas ou",
+      "ciências sociais e pós-graduação lato-sensu em educação ambiental, sustentabilidade, meio ambiente,",
+      "desenvolvimento sustentável ou áreas correlatas.",
+      "5.1.2. experiência profissional comprovada – é obrigatório que possua experiência mínima de 05 (cinco)",
+      "anos em educação ambiental, educação para o desenvolvimento sustentável, sustentabilidade, cidadania",
+      "ambiental ou temas correlatos.",
+      "5.1.3. habilidades e competências – não se aplica.",
+      "5.1.4. idiomas – não se aplica."
+    ],
+    "requisitos_desejaveis": [
+      "os candidatos que atenderem aos critérios mínimos obrigatórios serão elegíveis para a avaliação do atendimento",
+      "aos critérios desejáveis.",
+      "embora não sejam eliminatórios, os critérios desejáveis serão importantes para contribuir para uma melhor",
+      "colocação do candidato no cômputo de pontuação no processo seletivo, conforme estabelecido no item 6, tabela",
+      "de critérios pontuáveis.",
+      "5.2.1. é desejável que possua experiência de 02 (dois) anos em elaboração de estudos, pesquisas,",
+      "diagnósticos, relatórios técnicos, publicações ou materiais de referência sobre educação ambiental",
+      "5.2.2. é desejável que possua nível básico de proficiência em espanhol e/ou inglês, para consulta de",
+      "literatura e documentos internacionais.",
+      "* as comprovações das qualificações declaradas poderão ser solicitadas a qualquer momento do processo"
+    ],
+    "entregaveis": [
+      "Plano de Trabalho da levantamento documental e abordagem 30 dias, contados a consultoria para sistematização e difusão analítica a ser utilizada na consultoria l. partir da data de de referências internacionais em Atividade 1.2: Definir os eixos temáticos assinatura do educação ambiental e nos Centros de que orientarão o estudo e os produtos contrato Educação Ambiental. subsequentes, incluindo tendências internacionais em educação ambiental; educação para o desenvolvimento sustentável; cidadania global e participação social; centros, redes e equipamentos de educação ambiental; formação de educadores ambientais; cooperação socioambiental e atuação em rede. Atividade 1.3: Estabelecer critérios para seleção, sistematização e análise das experiências internacionais, considerando aspectos como políticas públicas, modelos institucionais, estratégias educativas, participação social, qualidade, governança e inovação. Atividade 1.4: Apresentar cronograma detalhado para elaboração dos Produtos 2,"
+    ],
+    "competencias": [],
+    "titulo": "914BRZ1019 - Publicação - Edital 08/2026 - 01 Vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para desenvolver estudos e análises sobre experiências e referências internacionais em  Educação Ambiental e Centros de Educação Ambiental.",
+    "local": "",
+    "data_fim": "2026-11-29"
   }
 ]
