@@ -1,5 +1,100 @@
 [
   {
+    "id": 1601,
+    "torid": 146475,
+    "createdBy": "luis.vitagliano",
+    "title": "PROJETO BRA 23/023 - TR 146/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA LEVANTAMENTO DE FONTES DE DADOS PARA A PRODUÇÃO DE INDICADORES RELACIONADOS AO ODS 18 - IGUALDADE ÉTNICO-RACIAL.",
+    "startDate": "2026-11-19T03:00:00",
+    "endDate": "2026-11-28T03:00:00",
+    "local": "Remoto",
+    "receivingEmail": "projetos.especiais@ibge.gov.br",
+    "enabled": true,
+    "description": "CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FISICA) PARA LEVANTAMENTO DE FONTES DE DADOS PARA A PRODUÇÃO DE INDICADORES RELACIONADOS AO ODS 18 - IGUALDADE ÉTNICO-RACIAL.",
+    "approver": "ACSBF,aline.santana,brenda.felix,kalyandra.leite,livia.nogueira,livia.silva,rosana.tomazini,thais.delarisse",
+    "comments": "Ao analisar a presente solicitação, informamos que o Termo de Referência foi previamente analisado pela equipe do PNUD e se encontra refletido no sistema Quantum por meio da RC UNDP-BRA-1011973, ToR no. 146/2026 (146475) e previsto no valor total de R$ 91.500,00. A RC se encontra com o RP do PNUD e devidamente aprovada no sistema Quantum.",
+    "created": "2026-11-10T10:26:32.143375",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1602,
+    "torid": 146476,
+    "createdBy": "luis.vitagliano",
+    "title": "PROJETO BRA 23/023 - TR 117/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA INCORPORAÇÃO DA DIMENSÃO URBANA NO ÍNDICE DE DESENVOLVIMENTO HUMANO (IDH).",
+    "startDate": "2026-11-19T03:00:00",
+    "endDate": "2026-11-28T03:00:00",
+    "local": "Remoto",
+    "receivingEmail": "projetos.especiais@ibge.gov.br",
+    "enabled": true,
+    "description": "CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA INCORPORAÇÃO DA DIMENSÃO URBANA NO ÍNDICE DE DESENVOLVIMENTO HUMANO (IDH).",
+    "approver": "ACSBF,aline.santana,brenda.felix,kalyandra.leite,livia.nogueira,livia.silva,rosana.tomazini,thais.delarisse",
+    "comments": "Ao analisar a presente solicitação, informamos que o Termo de Referência foi previamente analisado pela equipe do PNUD e se encontra refletido no sistema Quantum por meio da RC UNDP-BRA-1011642, ToR no. 117/2026 (146476) e previsto no valor total de R$ 93.500,00. A RC se encontra com o RP do PNUD e devidamente aprovada no sistema Quantum.",
+    "created": "2026-11-10T10:39:22.4324853",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1604,
+    "torid": 146479,
+    "createdBy": "luis.vitagliano",
+    "title": "PROJETO BRA 23/023 - TR 153/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA A REALIZAÇÃO DA REVISÃO TÉCNICA E ESTRUTURAL DOS CADERNOS TEMÁTICOS, COM FOCO EM TEMAS ESTRATÉGICOS PARA PESQUISAS ESTATÍSTICAS.",
+    "startDate": "2026-11-19T03:00:00",
+    "endDate": "2026-11-28T03:00:00",
+    "local": "Remoto",
+    "receivingEmail": "projetos.especiais@ibge.gov.br",
+    "enabled": true,
+    "description": "Contratação de consultoria especializada (Pessoa Física) para a realização da revisão técnica, textual e estrutural dos Cadernos Temáticos sobre temas estratégicos para as pesquisas estatísticas, de modo a assegurar maior coerência, clareza e qualidade dos conteúdos, bem como desenvolver versões em formato audible, adaptadas para comunicação oral e acessíveis a diferentes públicos.",
+    "approver": "ACSBF,aline.santana,brenda.felix,kalyandra.leite,livia.nogueira,livia.silva,rosana.tomazini,thais.delarisse",
+    "comments": "Ao analisar a presente solicitação, informamos que o Termo de Referência foi previamente analisado pela equipe do PNUD e se encontra refletido no sistema Quantum por meio da RC UNDP-BRA-1012098, ToR no. 153/2026 (146479) e previsto no valor total de R$ 126.500,00). A RC se encontra com o RP do PNUD e devidamente aprovada no sistema Quantum.",
+    "created": "2026-11-10T13:56:34.2443702",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "unesco:e5623a16-3cbb-4275-be2c-08df3b425e79",
+    "title": "914BRZ1155 - EDITAL Nº 63/2026 - 1 vaga - Consultor Individual",
+    "description": "Contratação de consultoria especializada para realizar estudos e análises sobre fatores associados às desigualdades educacionais e apoiar o fortalecimento da capacidade institucional do Ministério da ",
+    "comments": "",
+    "startDate": "2026-11-19T00:00:00",
+    "endDate": "2026-11-24T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-19T00:00:00",
+    "torid": "unesco:e5623a16-3cbb-4275-be2c-08df3b425e79",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/a44ae65a-0d1a-42fa-b136-08df43eff343"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR122879",
+    "description": "Consultoria técnica especializada em gestão de projetos aplicada a facilities e administração predial para apoiar a estruturação, o monitoramento, a governança e a consolidação da cultura de gestão de projetos no âmbito da Coordenadoria Geral de Suporte Administrativo (COGESPA), considerando os projetos estratégicos e complementares relacionados à administração predial, zeladoria, patrimônio e infraestrutura física das unidades da rede estadual de ensino",
+    "comments": "R$ 133.000,00",
+    "startDate": "2026-11-19",
+    "endDate": "2026-11-30",
+    "local": "São Paulo - SP",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-11-19",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-tr12879.pdf"
+    ]
+  },
+  {
     "id": "unesco:ff2147dc-c4fa-42ca-9a25-08df3f30f747",
     "title": "914BRZ4027 - Edital 67/2026 - Gestão - Centro Vivo",
     "description": "Consultor Individual - Bases para descentralização e gestão compartilhada do PAC Patrimônio Cultural",
@@ -151,7 +246,8 @@
     "orgao_parceiro": "OEI",
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13386/",
     "tor_urls": [
-      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-tr13386.pdf"
+      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-tr13386.pdf",
+      "https://oei.int/wp-content/uploads/2026/11/errata-tr-13386-edital-142-abdi-consultoria-individual.pdf"
     ]
   },
   {
@@ -1211,7 +1307,8 @@
       "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-02-13320-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-03-e-04-13320-2026-oei-seed-pr.pdf",
       "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-05-a-08-13320-2026-oei-seed-pr.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-09-13320-oei-seed-pr.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-09-13320-oei-seed-pr.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-10-13320-2026-oei-seed-pr.pdf"
     ]
   },
   {
@@ -1835,7 +1932,8 @@
       "https://oei.int/wp-content/uploads/2026/10/ata-sessao-recebimento-documentacao-e-propostas-13292-2026-oei-fpos.pdf",
       "https://oei.int/wp-content/uploads/2026/10/relatorio-avaliacao-propostas-tecnicas-licitacao-no-13292-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/10/convocacao-sessao-abertura-proposta-de-preco-13292-2026.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/ata-da-sassao-de-abertura-proposta-de-preco-e-classificacao-final-13292-2026.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/ata-da-sassao-de-abertura-proposta-de-preco-e-classificacao-final-13292-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/ata-de-adjudicacao-provisoria-13292-2026-oei-fpos.pdf"
     ]
   },
   {
@@ -4673,7 +4771,9 @@
       "https://oei.int/wp-content/uploads/2026/08/link-para-concorrencia-n-13125-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-01-13125-2025.pdf",
       "https://oei.int/wp-content/uploads/2026/08/resposta-pedido-de-esclarecimento-2-js-brasil-13125-2026.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/ata-de-recebimento-propostas-13125-2026.pdf"
+      "https://oei.int/wp-content/uploads/2026/08/ata-de-recebimento-propostas-13125-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/relatorio-de-avaliacao-propostas-tecnicas-13125-2026-oei-mdhc.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/informacao-sessao-abertura-propostas-de-preco-e-classificacao-final-13125-2026-oei-mdhc.pdf"
     ]
   },
   {
@@ -4699,7 +4799,9 @@
       "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-03-13126-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-04-13216-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/08/resposta-a-pedido-de-esclarecimento-05-13126-2026.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/ata-recebimento-das-propostas-13126-2026-oei-mdhc.pdf"
+      "https://oei.int/wp-content/uploads/2026/08/ata-recebimento-das-propostas-13126-2026-oei-mdhc.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/relatorio-de-avaliacao-propostas-tecnicas-13126-2026-oei-mdhc.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/informacao-sessao-abertura-proposta-de-preco-e-calssificacao-final-13126-2026-oei-mdhc.pdf"
     ]
   },
   {
