@@ -1,5 +1,64 @@
 [
   {
+    "id": "unesco:8d1f2012-89bf-45f0-09ca-08df418d3301",
+    "title": "914BRZ1166 - Edital nº 02/2026 - 01 vaga - Consultor Individual",
+    "description": "Especialista em Engenharia e Business Intelligence (BI) para desenvolvimento de metodologia, subsidiar o monitoramento da gestão educacional e qualificar os processos de acompanhamento da SME Campinas",
+    "comments": "",
+    "startDate": "2026-11-23T00:00:00",
+    "endDate": "2026-11-29T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-23T00:00:00",
+    "torid": "unesco:8d1f2012-89bf-45f0-09ca-08df418d3301",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/1857d872-7662-4d4d-2088-08df45fa92b4"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13450",
+    "title": "Contratação de consultor PROJETO ACORDO EXEC MUSEDUCA RS – TR 13450",
+    "description": "Contratação de consultoria especializada, na modalidade de Coordenação Pedagógica, justifica-se pela necessidade de estruturar, organizar e fortalecer a atuação do Núcleo Educativo do ACTI/MUSEDUCA e da SEDUC-RS durante a experiência de pré inauguração do MUSEDUCA. A atuação desse perfil será fundamental para assegurar a articulação entre as diretrizes conceituais do projeto, o planejamento pedagógico e a execução das práticas educativas, contribuindo para a implementação e a consolidação inicial do Núcleo Educativo. A consultoria terá caráter estratégico e colaborativo, com foco na concepção e no desenvolvimento de propostas artístico-pedagógicas, visitas mediadas, oficinas e recursos educativos destinados a diferentes públicos, bem como na organização, orientação e acompanhamento das pessoas educadoras/pesquisadoras e de suas práticas. Também será responsável por promover espaços de planejamento, acompanhar a rotina de trabalho da equipe e contribuir para sua formação continuada, em diálogo e articulação com a Pessoa Professora Residente do Projeto, integrando as dimensões pedagógica, acadêmica e investigativa. Sob a supervisão da Coordenação de Educação da OEI, sua atuação deverá assegurar uma experiência educativa fundamentada na dimensão pública da arte, nos direitos humanos, na diversidade, na igualdade, na inclusão e na acessibilidade. LOCAL DE ENTREGA/REALIZAÇÃO (Instituto de Educação General Flores da Cunha, RS) Modalidade híbrida com dedicação integral e disponibilidade para acompanhamento presencial das atividades educativas, reuniões de planejamento, ações formativas e atendimento aos públicos no MUSEDUCA, mediante organização prévia da agenda de trabalho.",
+    "comments": "Não informado",
+    "startDate": "2026-11-23",
+    "endDate": "2026-11-26",
+    "local": "Consultoria especializada: Coordenação Pedagógica Instituto de Educação General Flores da Cunha, RS",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-11-23",
+    "torid": "oei:contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13450",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13450/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-13450.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13454",
+    "title": "Contratação de consultor PROJETO ACORDO EXEC MUSEDUCA RS – TR 13454",
+    "description": "A contratação de consultoria especializada de Pessoa Professora Residente justifica-se pela necessidade de fortalecer a atuação do Núcleo Educativo do ACTI/MUSEDUCA e da SEDUC-RS, promovendo a articulação institucional com a Universidade Federal do Rio Grande do Sul (UFRGS), a ampliação de parcerias e intercâmbios acadêmicos e a aproximação do Museu com as redes universitárias de pesquisa e produção de conhecimento. A atuação terá caráter estratégico e colaborativo, contribuindo para a formação continuada das pessoas educadoras/pesquisadoras, a ampliação de seus repertórios teóricos e metodológicos e o desenvolvimento de processos investigativos vinculados às práticas educativas e às linhas de trabalho do MUSEDUCA. Em articulação com a Coordenação Pedagógica do Projeto e sob a supervisão da Coordenação de Educação da OEI, a pessoa profissional contribuirá para integrar prática, pesquisa e formação continuada, fortalecendo as ações educativas do Museu e promovendo a inclusão produtiva. LOCAL DE ENTREGA/REALIZAÇÃO: Instituto de Educação General Flores da Cunha, Rio Grande do Sul (RS). MODALIDADE DE EXECUÇÃO: Híbrida, com dedicação parcial e disponibilidade para participação em ações formativas e reuniões presenciais no MUSEDUCA, mediante agendamento prévio. Os interessados deverão cadastra",
+    "comments": "R$ 27.811,49",
+    "startDate": "2026-11-23",
+    "endDate": "2026-11-26",
+    "local": "Pessoa Professor (a) Residente Instituto de Educação General Flores da Cunha, RS",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-11-23",
+    "torid": "oei:contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13454",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13454/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-13454.pdf"
+    ]
+  },
+  {
     "id": 1601,
     "torid": 146475,
     "createdBy": "luis.vitagliano",
