@@ -1,5 +1,84 @@
 [
   {
+    "id": 1610,
+    "torid": 146478,
+    "createdBy": "luis.vitagliano",
+    "title": "PROJETO BRA 23/023 -  TR 152/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA DESENVOLVIMENTO DE PROPOSTA PARA DISSEMINAÇÃO DOS RESULTADOS DA AMOSTRA DO CENSO 2022 PARA FAVELAS E COMUNIDADES URBANAS.",
+    "startDate": "2026-11-24T03:00:00",
+    "endDate": "2026-12-01T03:00:00",
+    "local": null,
+    "receivingEmail": "projetos.especiais@ibge.gov.br",
+    "enabled": true,
+    "description": "Contratação de consultoria especializada (pessoa física) para análise e desenvolvimento de proposta para disseminação dos resultados da amostra do Censo Demográfico 2022 para Favelas e Comunidades Urbanas (FCU).",
+    "approver": "ACSBF,aline.santana,brenda.felix,kalyandra.leite,livia.nogueira,livia.silva,rosana.tomazini,thais.delarisse",
+    "comments": "Ao analisar a presente solicitação, informamos que o Termo de Referência foi previamente analisado pela equipe do PNUD e se encontra refletido no sistema Quantum por meio da RC UNDP-BRA-1011991, ToR no. 152/26 (146478) e previsto no valor total de R$ 86.800,00). A RC se encontra com o RP do PNUD e devidamente aprovada no sistema Quantum.",
+    "created": "2026-11-20T12:50:12.4270178",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "oei:contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13456",
+    "title": "Contratação de consultor PROJETO ACORDO EXEC MUSEDUCA RS – TR 13456",
+    "description": "Contratação de consultoria especializada, na modalidade de Assistência de Apoio Pedagógico, justifica-se pela necessidade de apoiar a organização, a estruturação e o funcionamento das atividades operacionais do Núcleo Educativo do ACTI/MUSEDUCA e da SEDUC-RS durante a experiência de pré-inauguração do MUSEDUCA. A atuação desse perfil será fundamental para organizar os fluxos de atendimento ao público, gerenciar os agendamentos de visitas e atividades educativas e promover a articulação com escolas, instituições parceiras e demais públicos, contribuindo para a implementação e a consolidação inicial do Núcleo Educativo. A consultoria terá caráter operacional e colaborativo, com foco no gerenciamento da agenda de visitas mediadas, grupos escolares e demais atividades, no recebimento, registro e encaminhamento de solicitações, na confirmação de agendamentos e na sistematização das informações relativas ao atendimento. Também compreenderá o apoio à organização das rotinas de trabalho da equipe educativa, o acompanhamento da programação das atividades, a atualização dos instrumentos de controle e a colaboração nos processos de comunicação com os diferentes públicos e instituições parceiras. Em articulação com a Coordenação Pedagógica e as pessoas educadoras/pesquisadoras, e sob a supervisão da Coordenação de Educação da OEI, sua atuação contribuirá para assegurar um atendimento organizado, qualificado e acessível, orientado pelos princípios da dimensão pública da arte, dos direitos humanos, da diversidade, da igualdade, da inclusão e da acessibilidade. LOCAL DE ENTREGA/REALIZAÇÃO:Instituto de Educação General Flores da Cunha, Rio Grande do Sul (RS). MODALIDADE DE EXECUÇÃO: Híbrida, com dedicação integral e disponibilidade para acompanhamento presencial das atividades educativas, participação em reuniões de planejamento, ações formativas e atendimento aos públicos no MUSEDUCA, mediante organização prévia da agenda de trabalho.",
+    "comments": "R$ 32.292,05",
+    "startDate": "2026-11-24",
+    "endDate": "2026-11-26",
+    "local": "Assistente de apoio pedagógico Instituto de Educação General Flores da Cunha, RS",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-11-24",
+    "torid": "oei:contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13456",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13456/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-13456.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13457",
+    "title": "Contratação de consultor PROJETO ACORDO EXEC MUSEDUCA RS – TR 13457",
+    "description": "A contratação de consultoria técnica especializada, por produto, justifica-se pela necessidade de apoiar a SEDUC-RS na integração e no acompanhamento das diferentes frentes de implantação e pré operação do Centro de Referência em Educação, contribuindo para o alinhamento das iniciativas, o planejamento de suas interfaces, o monitoramento de marcos e dependências e a articulação com os atores envolvidos. A atuação terá como foco o acompanhamento integrado das ações, a verificação documentada das condições de prontidão e a identificação de eventuais necessidades de alinhamento entre as frentes de trabalho, tendo como referência as diretrizes, os projetos e os modelos previamente aprovados pelas instâncias competentes. A consultoria deverá sistematizar e documentar, em cada produto, os insumos utilizados, as atividades desenvolvidas, os encaminhamentos realizados e as evidências produzidas no período, de modo a subsidiar o acompanhamento técnico da implantação, fortalecer a articulação institucional e contribuir para a organização e a consolidação das condições necessárias à pré-operação do Centro de Referência em Educação.",
+    "comments": "Não informado",
+    "startDate": "2026-11-24",
+    "endDate": "2026-11-26",
+    "local": "Remoto com disponibilidade para viagens",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-11-24",
+    "torid": "oei:contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13457",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13457/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-13457.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13431",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 13431",
+    "description": "Consultoria técnica especializada para desenvolver proposta, testar em caráter piloto, avaliar e documentar a metodologia de implantação e governança de bases de conhecimento e instrumentos de acompanhamento do desempenho e da qualidade dos conteúdos utilizados na alimentação dos agentes de Inteligência Artificial da Secretaria da Educação do Estado de São Paulo (SEDUC-SP) com foco nas áreas: DRECID, EFAPE, SUPLAN e SUPED.",
+    "comments": "Não informado",
+    "startDate": "2026-11-24",
+    "endDate": "2026-12-01",
+    "local": "São Paulo",
+    "receivingEmail": "ugp@educacao.sp.gov.br",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-11-24",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13431",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13431/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-13431.pdf"
+    ]
+  },
+  {
     "id": "unesco:8d1f2012-89bf-45f0-09ca-08df418d3301",
     "title": "914BRZ1166 - Edital nº 02/2026 - 01 vaga - Consultor Individual",
     "description": "Especialista em Engenharia e Business Intelligence (BI) para desenvolvimento de metodologia, subsidiar o monitoramento da gestão educacional e qualificar os processos de acompanhamento da SME Campinas",
@@ -22,7 +101,7 @@
     "id": "oei:contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13450",
     "title": "Contratação de consultor PROJETO ACORDO EXEC MUSEDUCA RS – TR 13450",
     "description": "Contratação de consultoria especializada, na modalidade de Coordenação Pedagógica, justifica-se pela necessidade de estruturar, organizar e fortalecer a atuação do Núcleo Educativo do ACTI/MUSEDUCA e da SEDUC-RS durante a experiência de pré inauguração do MUSEDUCA. A atuação desse perfil será fundamental para assegurar a articulação entre as diretrizes conceituais do projeto, o planejamento pedagógico e a execução das práticas educativas, contribuindo para a implementação e a consolidação inicial do Núcleo Educativo. A consultoria terá caráter estratégico e colaborativo, com foco na concepção e no desenvolvimento de propostas artístico-pedagógicas, visitas mediadas, oficinas e recursos educativos destinados a diferentes públicos, bem como na organização, orientação e acompanhamento das pessoas educadoras/pesquisadoras e de suas práticas. Também será responsável por promover espaços de planejamento, acompanhar a rotina de trabalho da equipe e contribuir para sua formação continuada, em diálogo e articulação com a Pessoa Professora Residente do Projeto, integrando as dimensões pedagógica, acadêmica e investigativa. Sob a supervisão da Coordenação de Educação da OEI, sua atuação deverá assegurar uma experiência educativa fundamentada na dimensão pública da arte, nos direitos humanos, na diversidade, na igualdade, na inclusão e na acessibilidade. LOCAL DE ENTREGA/REALIZAÇÃO (Instituto de Educação General Flores da Cunha, RS) Modalidade híbrida com dedicação integral e disponibilidade para acompanhamento presencial das atividades educativas, reuniões de planejamento, ações formativas e atendimento aos públicos no MUSEDUCA, mediante organização prévia da agenda de trabalho.",
-    "comments": "Não informado",
+    "comments": "R$ 43.946,35",
     "startDate": "2026-11-23",
     "endDate": "2026-11-26",
     "local": "Consultoria especializada: Coordenação Pedagógica Instituto de Educação General Flores da Cunha, RS",
@@ -35,7 +114,7 @@
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-acordo-exec-museduca-rs-tr-13450/",
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
-      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-13450.pdf"
+      "https://oei.int/wp-content/uploads/2026/11/termo-de-referencia-13450-1.pdf"
     ]
   },
   {
@@ -4832,7 +4911,8 @@
       "https://oei.int/wp-content/uploads/2026/08/resposta-pedido-de-esclarecimento-2-js-brasil-13125-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/08/ata-de-recebimento-propostas-13125-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/08/relatorio-de-avaliacao-propostas-tecnicas-13125-2026-oei-mdhc.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/informacao-sessao-abertura-propostas-de-preco-e-classificacao-final-13125-2026-oei-mdhc.pdf"
+      "https://oei.int/wp-content/uploads/2026/08/informacao-sessao-abertura-propostas-de-preco-e-classificacao-final-13125-2026-oei-mdhc.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/ata-de-abertura-dos-envelopes-proposnta-de-preco-e-classificacao-final-13125-2026-oei-mdhc.pdf"
     ]
   },
   {
