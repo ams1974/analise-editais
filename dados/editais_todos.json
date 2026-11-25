@@ -1,5 +1,24 @@
 [
   {
+    "id": "unesco:4b41410b-0b41-46f0-50f0-08df44a0ca8b",
+    "title": "914BRZ3061 - EDITAL Nº 19/2026 - 01 VAGA - CONSULTOR INDIVIDUAL",
+    "description": "Graduação de nível superior completa em qualquer área do conhecimento, desde que o curso seja devidamente reconhecido pelo Ministério da Educação (MEC).",
+    "comments": "",
+    "startDate": "2026-11-25T00:00:00",
+    "endDate": "2026-11-30T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-25T00:00:00",
+    "torid": "unesco:4b41410b-0b41-46f0-50f0-08df44a0ca8b",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/6a4d57fa-2cec-4ba2-ed76-08df448cbf73"
+    ]
+  },
+  {
     "id": 1610,
     "torid": 146478,
     "createdBy": "luis.vitagliano",
@@ -142,8 +161,8 @@
     "torid": 146475,
     "createdBy": "luis.vitagliano",
     "title": "PROJETO BRA 23/023 - TR 146/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA LEVANTAMENTO DE FONTES DE DADOS PARA A PRODUÇÃO DE INDICADORES RELACIONADOS AO ODS 18 - IGUALDADE ÉTNICO-RACIAL.",
-    "startDate": "2026-11-19T03:00:00",
-    "endDate": "2026-11-28T03:00:00",
+    "startDate": "2026-11-19T06:00:00",
+    "endDate": "2026-12-06T03:00:00",
     "local": "Remoto",
     "receivingEmail": "projetos.especiais@ibge.gov.br",
     "enabled": true,
@@ -215,13 +234,13 @@
   },
   {
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004",
-    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR122879",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 12879",
     "description": "Consultoria técnica especializada em gestão de projetos aplicada a facilities e administração predial para apoiar a estruturação, o monitoramento, a governança e a consolidação da cultura de gestão de projetos no âmbito da Coordenadoria Geral de Suporte Administrativo (COGESPA), considerando os projetos estratégicos e complementares relacionados à administração predial, zeladoria, patrimônio e infraestrutura física das unidades da rede estadual de ensino",
     "comments": "R$ 133.000,00",
     "startDate": "2026-11-19",
     "endDate": "2026-11-30",
     "local": "São Paulo - SP",
-    "receivingEmail": "selecao.bra@oei.int",
+    "receivingEmail": "ugp@educacao.sp.gov.br",
     "statusDescription": "En evaluación",
     "created": "2026-11-19",
     "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004",
@@ -1446,7 +1465,8 @@
       "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-03-e-04-13320-2026-oei-seed-pr.pdf",
       "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-05-a-08-13320-2026-oei-seed-pr.pdf",
       "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-09-13320-oei-seed-pr.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-10-13320-2026-oei-seed-pr.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-10-13320-2026-oei-seed-pr.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-11-e-12-13320-2026-oei-seed-pr.pdf"
     ]
   },
   {
@@ -4912,7 +4932,8 @@
       "https://oei.int/wp-content/uploads/2026/08/ata-de-recebimento-propostas-13125-2026.pdf",
       "https://oei.int/wp-content/uploads/2026/08/relatorio-de-avaliacao-propostas-tecnicas-13125-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/08/informacao-sessao-abertura-propostas-de-preco-e-classificacao-final-13125-2026-oei-mdhc.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/ata-de-abertura-dos-envelopes-proposnta-de-preco-e-classificacao-final-13125-2026-oei-mdhc.pdf"
+      "https://oei.int/wp-content/uploads/2026/08/ata-de-abertura-dos-envelopes-proposnta-de-preco-e-classificacao-final-13125-2026-oei-mdhc.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/jsbrasil-recurso-pontuacao-tecnica-concorrencia-13125-2026-oei-mdhc.pdf"
     ]
   },
   {

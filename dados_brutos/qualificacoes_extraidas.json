@@ -13886,5 +13886,60 @@
     "descricao": "Consultoria técnica especializada para desenvolver proposta, testar em caráter piloto, avaliar e documentar a metodologia de implantação e governança de bases de conhecimento e instrumentos de acompanhamento do desempenho e da qualidade dos conteúdos utilizados na alimentação dos agentes de Inteligência Artificial da Secretaria da Educação do Estado de São Paulo (SEDUC-SP) com foco nas áreas: DRECID, EFAPE, SUPLAN e SUPED.",
     "local": "São Paulo",
     "data_fim": "2026-12-01"
+  },
+  {
+    "torid": "unesco:4b41410b-0b41-46f0-50f0-08df44a0ca8b",
+    "graduacao": [],
+    "graduacao_desejavel": [],
+    "pos_graduacao": false,
+    "pos_graduacao_desejavel": false,
+    "mestrado": false,
+    "mestrado_desejavel": false,
+    "doutorado": false,
+    "doutorado_desejavel": false,
+    "experiencia_exigida": true,
+    "anos_experiencia": null,
+    "experiencia_outro_criterio": "experiência profissional",
+    "anos_experiencia_desejavel": null,
+    "ferramentas": [],
+    "ferramentas_desejaveis": [],
+    "idiomas": [],
+    "idiomas_desejaveis": [],
+    "certificacoes": [],
+    "certificacoes_desejaveis": [],
+    "valor": "218,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "os candidatos que não atenderem aos critérios mínimos obrigatórios de qualificação não serão considerados",
+      "elegíveis nas etapas subsequentes deste processo seletivo.",
+      "5.1.1. formação acadêmica – o profissional deverá possuir graduação de nível superior completa em",
+      "qualquer área do conhecimento, desde que o curso seja devidamente reconhecido pelo ministério",
+      "5.1.2. experiência profissional comprovada (anos/período) –",
+      "5.1.2.1. experiência consolidada (superior a 02 anos) em funções de direção, coordenação, liderança",
+      "institucional ou consultoria em políticas públicas no âmbito municipal e/ou estadual.",
+      "5.1.2.2. experiência comprovada, superior a 2 (dois) anos, em processos de articulação intersetorial nas",
+      "áreas de assistência social, saúde, educação, habitação ou trabalho, com atuação no desenvol-",
+      "vimento de estratégias territoriais integradas e na colaboração com instâncias de governança"
+    ],
+    "requisitos_desejaveis": [
+      "os critérios desejáveis serão analisados no momento da entrevista.",
+      "os candidatos que atenderem aos critérios mínimos obrigatórios serão elegíveis para a avaliação do",
+      "atendimento aos critérios desejáveis.",
+      "embora não sejam eliminatórios, os critérios desejáveis serão importantes para contribuir para uma melhor",
+      "colocação do candidato no cômputo de pontuação no processo seletivo, conforme estabelecido no item 6,",
+      "tabela de critérios pontuáveis.",
+      "* as comprovações das qualificações declaradas poderão ser solicitadas a qualquer momento do processo",
+      "entre os critérios obrigatórios e desejáveis especificados acima, os critérios constantes no item 6, a seguir, são",
+      "pontuáveis e definirão a classificação do candidato no processo avaliativo."
+    ],
+    "entregaveis": [
+      "Relatório técnico sobre os acompanhamentos e revisão de 1.1 Elaborar relatório dos acompanhamentos diagnósticos realizados feitos no território. 30 dias, contados a partir previamente, nos Comitês 1.2 Revisar diagnóstico das necessidades da data de assinatura do Intersetoriais Locais e Municipais formativas dos Comitês Locais e Municipais contrato integrantes do Grupo 7 - Vale do dos territórios visitados no primeiro mês. Taquari/Rio Pardo e Serra",
+      "Relatório técnico sobre as Capacitações Presenciais e/ou 2.1 Realizar oficinas de capacitação Virtuais previstas no Plano de municipais ou regionais (mínimo de uma vez). Capacitação, principalmente,"
+    ],
+    "competencias": [],
+    "titulo": "914BRZ3061 - EDITAL Nº 19/2026 - 01 VAGA - CONSULTOR INDIVIDUAL",
+    "descricao": "Graduação de nível superior completa em qualquer área do conhecimento, desde que o curso seja devidamente reconhecido pelo Ministério da Educação (MEC).",
+    "local": "",
+    "data_fim": "2026-11-30"
   }
 ]
