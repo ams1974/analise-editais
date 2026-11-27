@@ -1,5 +1,43 @@
 [
   {
+    "id": "unesco:2244fcc3-fbe4-4cd6-2333-08df4bcf4a2d",
+    "title": "570RLA4000 - Edital 08/2026 - Consultor Individual",
+    "description": "Consultoria individual especializada em arquitetura ou engenharia.",
+    "comments": "",
+    "startDate": "2026-11-27T00:00:00",
+    "endDate": "2026-12-03T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-27T00:00:00",
+    "torid": "unesco:2244fcc3-fbe4-4cd6-2333-08df4bcf4a2d",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/41dc6c54-a0bd-4a9e-465a-08df4bb5502b"
+    ]
+  },
+  {
+    "id": "unesco:1e5f6b5a-e658-4249-f9f6-08df2aad5b6b",
+    "title": "914BRZ1155 - EDITAL Nº 60/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada para realizar estudo sociológico e socioeducacional sobre o Cursinho Popular Fanadeiro – CPOP Minas Novas",
+    "comments": "",
+    "startDate": "2026-11-27T00:00:00",
+    "endDate": "2026-12-03T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-11-27T00:00:00",
+    "torid": "unesco:1e5f6b5a-e658-4249-f9f6-08df2aad5b6b",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/de5588ee-d8ef-4a48-b596-08df4a35db56"
+    ]
+  },
+  {
     "id": "oei:licitacao-no-13360-2026-oei-funai-aecid-republicacao-tecnica-e-preco",
     "title": "LICITAÇÃO Nº 13360/2026- OEI/FUNAI-AECID – REPUBLICAÇÃO  TÉCNICA E PREÇO",
     "description": "Contratação de pessoa jurídica especializada para apoio técnico e operacional à FUNAI e  à OEI no planejamento e no desenvolvimento dos três encontros formativos e do encontro  nacional de intercâmbio, incluindo o levantamento de necessidades, apoio à seleção de parti\u0002cipantes, elaboração de propostas de metodológicas, sistematização de informações, articula\u0002ção com fornecedores e acompanhamento da execução dos serviços necessários à realização  das atividades, sob orientação, supervisão da Funai e da OEI e validação da FUNAI, da OEI e  da AECID, conforme especificações contidas no Termo de Referência, Anexo “A”, deste Edital.",
@@ -16,7 +54,7 @@
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/licitacao-no-13360-2026-oei-funai-aecid-republicacao-tecnica-e-preco/",
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
-      "https://oei.int/wp-content/uploads/2026/11/edital-licitacao-no-13360-2026-oei-funai-aecid-republicacao.pdf",
+      "https://oei.int/wp-content/uploads/2026/11/edital-licitacao-no-13360-oei-funai-aecid-republicacao.pdf",
       "https://oei.int/wp-content/uploads/2026/11/link-para-licitacao-no-13360-2026-republicacao.pdf"
     ]
   },
